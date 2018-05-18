@@ -1,0 +1,1025 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema targetNamespace="http://schemas.microsoft.com/office/infopath/2003/myXSD/2018-05-07T13:30:50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2018-05-07T13:30:50" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="myFields">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:OrganizationID" minOccurs="0"/>
+				<xsd:element ref="my:DoYouAdministerAnActOrRegulation" minOccurs="0"/>
+				<xsd:element ref="my:RegSet" minOccurs="0"/>
+				<xsd:element ref="my:Signatures" minOccurs="0"/>
+			</xsd:sequence>
+			<xsd:anyAttribute processContents="lax" namespace="http://www.w3.org/XML/1998/namespace"/>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="OrganizationID" type="my:requiredString"/>
+	<xsd:element name="DoYouAdministerAnActOrRegulation" type="xsd:boolean"/>
+	<xsd:element name="RegSet">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:RegSetTitleAndDescription" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="RegSetTitleAndDescription">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:IndividualRegOrSet" minOccurs="0"/>
+				<xsd:element ref="my:TitleOfRegulationSetOrIndividualReg" minOccurs="0"/>
+				<xsd:element ref="my:SubjectMatterDomain" minOccurs="0"/>
+				<xsd:element ref="my:NAICSCode" minOccurs="0"/>
+				<xsd:element ref="my:Description" minOccurs="0"/>
+				<xsd:element ref="my:Rationale" minOccurs="0"/>
+				<xsd:element ref="my:Importance" minOccurs="0"/>
+				<xsd:element ref="my:CompositionOfRegulatuionSet" minOccurs="0"/>
+				<xsd:element ref="my:RegSetPolicyFeatures" minOccurs="0"/>
+				<xsd:element ref="my:RegSetManagement" minOccurs="0"/>
+				<xsd:element ref="my:RegSetFinancialInformation" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="IndividualRegOrSet" type="xsd:string"/>
+	<xsd:element name="TitleOfRegulationSetOrIndividualReg" type="xsd:string"/>
+	<xsd:element name="SubjectMatterDomain" type="xsd:string"/>
+	<xsd:element name="NAICSCode" type="xsd:string"/>
+	<xsd:element name="Description">
+		<xsd:complexType mixed="true">
+			<xsd:sequence>
+				<xsd:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/1999/xhtml" processContents="lax"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="Rationale">
+		<xsd:complexType mixed="true">
+			<xsd:sequence>
+				<xsd:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/1999/xhtml" processContents="lax"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="Importance" type="xsd:string"/>
+	<xsd:element name="CompositionOfRegulatuionSet">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:Acts" minOccurs="0" maxOccurs="unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="Acts">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:ActID" minOccurs="0"/>
+				<xsd:element ref="my:YearEnacted" minOccurs="0"/>
+				<xsd:element ref="my:ResponsibleMinister" minOccurs="0" maxOccurs="unbounded"/>
+				<xsd:element ref="my:ResponsibleDeputyHead" minOccurs="0" maxOccurs="unbounded"/>
+				<xsd:element ref="my:RegulationsUnderAct" minOccurs="0" maxOccurs="unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="ActID" type="xsd:string"/>
+	<xsd:element name="YearEnacted" type="xsd:string"/>
+	<xsd:element name="ResponsibleMinister">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:TitleOfMinister" minOccurs="0"/>
+				<xsd:element ref="my:LeadMinister" minOccurs="0"/>
+				<xsd:element ref="my:field1" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="TitleOfMinister" type="xsd:string"/>
+	<xsd:element name="LeadMinister" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="field1" type="xsd:string"/>
+	<xsd:element name="ResponsibleDeputyHead">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:NameOfDeputyHead" minOccurs="0"/>
+				<xsd:element ref="my:TitleOfDeputyHead" minOccurs="0"/>
+				<xsd:element ref="my:LeadDeputyHead" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="NameOfDeputyHead" type="xsd:string"/>
+	<xsd:element name="TitleOfDeputyHead" type="xsd:string"/>
+	<xsd:element name="LeadDeputyHead" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="RegulationsUnderAct">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:RegulationId" minOccurs="0"/>
+				<xsd:element ref="my:ProportionOfRegsetAttribution" minOccurs="0"/>
+				<xsd:element ref="my:AutomaticlegislativeOrRegulatoryReviewClause" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="RegulationId" type="xsd:string"/>
+	<xsd:element name="ProportionOfRegsetAttribution" nillable="true" type="xsd:integer"/>
+	<xsd:element name="AutomaticlegislativeOrRegulatoryReviewClause">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:AutomaticRegReviewCaluseIndicator" minOccurs="0"/>
+				<xsd:element ref="my:Frequency" minOccurs="0"/>
+				<xsd:element ref="my:StatutoryProvision" minOccurs="0"/>
+				<xsd:element ref="my:TitleOfStatutoryProvision" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="AutomaticRegReviewCaluseIndicator" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="Frequency" type="xsd:string"/>
+	<xsd:element name="StatutoryProvision" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="TitleOfStatutoryProvision" type="xsd:string"/>
+	<xsd:element name="RegSetPolicyFeatures">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:YearOfLastModification" minOccurs="0"/>
+				<xsd:element ref="my:YearOfLastComprehensiveReview" minOccurs="0"/>
+				<xsd:element ref="my:PerformanceEvaluation" minOccurs="0"/>
+				<xsd:element ref="my:RegulatoryModernization" minOccurs="0"/>
+				<xsd:element ref="my:DataHoldings" minOccurs="0"/>
+				<xsd:element ref="my:UpComingRegulatoryAgenda" minOccurs="0"/>
+				<xsd:element ref="my:OtherCommentsOnRegSetPolicyFeatures" minOccurs="0"/>
+				<xsd:element ref="my:RegSetContacts" minOccurs="0" maxOccurs="unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="YearOfLastModification">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:YearOfLastModificationYYYY" minOccurs="0"/>
+				<xsd:element ref="my:NatureOfModificationREFERENCE" minOccurs="0"/>
+				<xsd:element ref="my:LinkToCanadaGazette" minOccurs="0" maxOccurs="unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="YearOfLastModificationYYYY" nillable="true" type="xsd:integer"/>
+	<xsd:element name="NatureOfModificationREFERENCE" type="xsd:string"/>
+	<xsd:element name="LinkToCanadaGazette" type="xsd:anyURI"/>
+	<xsd:element name="YearOfLastComprehensiveReview">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:YearOfLAstComprehensiveReviewYYY" minOccurs="0"/>
+				<xsd:element ref="my:ObjectOfReview" minOccurs="0"/>
+				<xsd:element ref="my:PartOfStatutoryReview" minOccurs="0"/>
+				<xsd:element ref="my:OtherRegulationAndOrNonRegulationInstruments" minOccurs="0"/>
+				<xsd:element ref="my:Consultations" minOccurs="0"/>
+				<xsd:element ref="my:ResourcesForReview" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="YearOfLAstComprehensiveReviewYYY" nillable="true" type="xsd:integer"/>
+	<xsd:element name="ObjectOfReview">
+		<xsd:complexType mixed="true">
+			<xsd:sequence>
+				<xsd:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/1999/xhtml" processContents="lax"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="PartOfStatutoryReview" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="OtherRegulationAndOrNonRegulationInstruments">
+		<xsd:complexType mixed="true">
+			<xsd:sequence>
+				<xsd:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/1999/xhtml" processContents="lax"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="Consultations">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:TypeOfConsultations" minOccurs="0"/>
+				<xsd:element ref="my:MechanismOfConsultation" minOccurs="0"/>
+				<xsd:element ref="my:LinkToWhatWeHeardDocument" minOccurs="0" maxOccurs="unbounded"/>
+				<xsd:element ref="my:LinkToConsultationDocument" minOccurs="0" maxOccurs="unbounded"/>
+				<xsd:element ref="my:LengthOfTimeForConsultations" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="TypeOfConsultations">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:PublicConsultations" minOccurs="0"/>
+				<xsd:element ref="my:StakeholderConsultations" minOccurs="0"/>
+				<xsd:element ref="my:GovernmentConsultations" minOccurs="0"/>
+				<xsd:element ref="my:OtherConsultations" minOccurs="0"/>
+				<xsd:element ref="my:OtherConsultationsDescription" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="PublicConsultations" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="StakeholderConsultations" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="GovernmentConsultations" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="OtherConsultations" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="OtherConsultationsDescription" type="xsd:string"/>
+	<xsd:element name="MechanismOfConsultation">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:InPerson" minOccurs="0"/>
+				<xsd:element ref="my:Online" minOccurs="0"/>
+				<xsd:element ref="my:WrittenSubmission" minOccurs="0"/>
+				<xsd:element ref="my:OtherConsultationMechanism" minOccurs="0"/>
+				<xsd:element ref="my:OtherConsulatationMechanismDescription" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="InPerson" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="Online" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="WrittenSubmission" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="OtherConsultationMechanism" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="OtherConsulatationMechanismDescription" type="xsd:string"/>
+	<xsd:element name="LinkToWhatWeHeardDocument" type="xsd:anyURI"/>
+	<xsd:element name="LinkToConsultationDocument" type="xsd:anyURI"/>
+	<xsd:element name="LengthOfTimeForConsultations" type="xsd:string"/>
+	<xsd:element name="ResourcesForReview">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:LengthOfTImeForComprehensiveChanges" minOccurs="0"/>
+				<xsd:element ref="my:LengthOfTImeForSpecificChanges" minOccurs="0"/>
+				<xsd:element ref="my:LengthOfTImeForTechnicalChanges" minOccurs="0"/>
+				<xsd:element ref="my:NumberOfFTEYears" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="LengthOfTImeForComprehensiveChanges" type="xsd:string"/>
+	<xsd:element name="LengthOfTImeForSpecificChanges" type="xsd:string"/>
+	<xsd:element name="LengthOfTImeForTechnicalChanges" type="xsd:string"/>
+	<xsd:element name="NumberOfFTEYears" type="xsd:string"/>
+	<xsd:element name="PerformanceEvaluation">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:IndicatorsForEvaluationRegulatoryPerformance" minOccurs="0"/>
+				<xsd:element ref="my:LinkToEvaluationPlan" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="IndicatorsForEvaluationRegulatoryPerformance">
+		<xsd:complexType mixed="true">
+			<xsd:sequence>
+				<xsd:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/1999/xhtml" processContents="lax"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="LinkToEvaluationPlan" type="xsd:anyURI"/>
+	<xsd:element name="RegulatoryModernization">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:StatementOfRegulatoryBestPractice" minOccurs="0"/>
+				<xsd:element ref="my:LinkToStatementOfRegulatoryBestPractice" minOccurs="0"/>
+				<xsd:element ref="my:IncorporationByReference" minOccurs="0"/>
+				<xsd:element ref="my:CurrentUsageOfMethods" minOccurs="0"/>
+				<xsd:element ref="my:PlannedUsageOfMethods" minOccurs="0"/>
+				<xsd:element ref="my:RepealedRegulation" minOccurs="0"/>
+				<xsd:element ref="my:DescriptionOfBestPracticesSupportingSMEs" minOccurs="0"/>
+				<xsd:element ref="my:DescriptionOfAnyOtherBestPracticesSupportingInnovation" minOccurs="0"/>
+				<xsd:element ref="my:DescriptionOfChallengesOrConstraintsToRegulatoryModernization" minOccurs="0"/>
+				<xsd:element ref="my:DescribeHowAlignmentToConsiderationWIthOtherJurisdictionsAreUndertakenWhenDevelopingRegulations" minOccurs="0"/>
+				<xsd:element ref="my:OtherModernizationConsiderations" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="StatementOfRegulatoryBestPractice" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="LinkToStatementOfRegulatoryBestPractice" type="xsd:anyURI"/>
+	<xsd:element name="IncorporationByReference">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:IncorporatedReferenceUsedIndicator" minOccurs="0"/>
+				<xsd:element ref="my:TypeOfIncorporatedReferenceUsed" minOccurs="0"/>
+				<xsd:element ref="my:DescribeTheExtentToWhichIncorporationOfStandardsOrDocumentsAreNotAccredited" minOccurs="0"/>
+				<xsd:element ref="my:ListOfIncorporatedDocuments" minOccurs="0" maxOccurs="unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="IncorporatedReferenceUsedIndicator" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="TypeOfIncorporatedReferenceUsed" type="xsd:string"/>
+	<xsd:element name="DescribeTheExtentToWhichIncorporationOfStandardsOrDocumentsAreNotAccredited">
+		<xsd:complexType mixed="true">
+			<xsd:sequence>
+				<xsd:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/1999/xhtml" processContents="lax"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="ListOfIncorporatedDocuments">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:ResponsibleOfficialName" minOccurs="0"/>
+				<xsd:element ref="my:ResponsibleOfficialEmail" minOccurs="0"/>
+				<xsd:element ref="my:IncorporatedDocumentLink" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="ResponsibleOfficialName" type="xsd:string"/>
+	<xsd:element name="ResponsibleOfficialEmail" type="xsd:string"/>
+	<xsd:element name="IncorporatedDocumentLink" type="xsd:anyURI"/>
+	<xsd:element name="CurrentUsageOfMethods">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:IncorporationByReferenceUsed" minOccurs="0"/>
+				<xsd:element ref="my:SystemsBasedUsed" minOccurs="0"/>
+				<xsd:element ref="my:PerformanceBasedUsed" minOccurs="0"/>
+				<xsd:element ref="my:RecognitionOfThirdPartyPrivateStandardsInRegulationsUsed" minOccurs="0"/>
+				<xsd:element ref="my:InternationalRegulatoryCooperationIntegratedInRegulationsUsed" minOccurs="0"/>
+				<xsd:element ref="my:ProvincialTerritorialRegulatoryCooperationIntegratedInRegulationsUsed" minOccurs="0"/>
+				<xsd:element ref="my:RegulatorySandboxUsed" minOccurs="0"/>
+				<xsd:element ref="my:DescribeCurrentUsesOfRegulatorySandboxUsed" minOccurs="0"/>
+				<xsd:element ref="my:OtherMethodsUsed" minOccurs="0"/>
+				<xsd:element ref="my:DescripbeOtherMethodsUsed" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="IncorporationByReferenceUsed" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="SystemsBasedUsed" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="PerformanceBasedUsed" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="RecognitionOfThirdPartyPrivateStandardsInRegulationsUsed" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="InternationalRegulatoryCooperationIntegratedInRegulationsUsed" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="ProvincialTerritorialRegulatoryCooperationIntegratedInRegulationsUsed" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="RegulatorySandboxUsed" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="DescribeCurrentUsesOfRegulatorySandboxUsed">
+		<xsd:complexType mixed="true">
+			<xsd:sequence>
+				<xsd:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/1999/xhtml" processContents="lax"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="OtherMethodsUsed" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="DescripbeOtherMethodsUsed">
+		<xsd:complexType mixed="true">
+			<xsd:sequence>
+				<xsd:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/1999/xhtml" processContents="lax"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="PlannedUsageOfMethods">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:IncorporationByReferencePlanned" minOccurs="0"/>
+				<xsd:element ref="my:SystemsBasedPlanned" minOccurs="0"/>
+				<xsd:element ref="my:PerformanceBasedPlanned" minOccurs="0"/>
+				<xsd:element ref="my:RecognitionOfThirdPartyPrivateStandardsInRegulationsPlanned" minOccurs="0"/>
+				<xsd:element ref="my:InternationalRegulatoryCooperationIntegratedInRegulationsPlanned" minOccurs="0"/>
+				<xsd:element ref="my:ProvincialTerritorialRegulatoryCooperationIntegratedInRegulationsPlanned" minOccurs="0"/>
+				<xsd:element ref="my:RegulatorySandboxPlanned" minOccurs="0"/>
+				<xsd:element ref="my:DesccribeRegulatorySandboxPlanned" minOccurs="0"/>
+				<xsd:element ref="my:OtherMethodsPlanned" minOccurs="0"/>
+				<xsd:element ref="my:DesccribeOtherRegulatoryMethodsPlanned" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="IncorporationByReferencePlanned" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="SystemsBasedPlanned" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="PerformanceBasedPlanned" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="RecognitionOfThirdPartyPrivateStandardsInRegulationsPlanned" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="InternationalRegulatoryCooperationIntegratedInRegulationsPlanned" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="ProvincialTerritorialRegulatoryCooperationIntegratedInRegulationsPlanned" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="RegulatorySandboxPlanned" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="DesccribeRegulatorySandboxPlanned">
+		<xsd:complexType mixed="true">
+			<xsd:sequence>
+				<xsd:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/1999/xhtml" processContents="lax"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="OtherMethodsPlanned" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="DesccribeOtherRegulatoryMethodsPlanned">
+		<xsd:complexType mixed="true">
+			<xsd:sequence>
+				<xsd:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/1999/xhtml" processContents="lax"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="RepealedRegulation">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:RegulationHasBeenRepealedAndNotReplaced" minOccurs="0"/>
+				<xsd:element ref="my:RepealedNotReplacedRationale" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="RegulationHasBeenRepealedAndNotReplaced" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="RepealedNotReplacedRationale">
+		<xsd:complexType mixed="true">
+			<xsd:sequence>
+				<xsd:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/1999/xhtml" processContents="lax"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="DescriptionOfBestPracticesSupportingSMEs">
+		<xsd:complexType mixed="true">
+			<xsd:sequence>
+				<xsd:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/1999/xhtml" processContents="lax"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="DescriptionOfAnyOtherBestPracticesSupportingInnovation">
+		<xsd:complexType mixed="true">
+			<xsd:sequence>
+				<xsd:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/1999/xhtml" processContents="lax"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="DescriptionOfChallengesOrConstraintsToRegulatoryModernization">
+		<xsd:complexType mixed="true">
+			<xsd:sequence>
+				<xsd:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/1999/xhtml" processContents="lax"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="DescribeHowAlignmentToConsiderationWIthOtherJurisdictionsAreUndertakenWhenDevelopingRegulations">
+		<xsd:complexType mixed="true">
+			<xsd:sequence>
+				<xsd:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/1999/xhtml" processContents="lax"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="OtherModernizationConsiderations">
+		<xsd:complexType mixed="true">
+			<xsd:sequence>
+				<xsd:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/1999/xhtml" processContents="lax"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="DataHoldings">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:DatabaseOnRegulatedParties" minOccurs="0" maxOccurs="unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="DatabaseOnRegulatedParties">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:NameOfDatabase" minOccurs="0"/>
+				<xsd:element ref="my:DescriptionOfDatabase" minOccurs="0"/>
+				<xsd:element ref="my:NameOfDatabaseOfficial" minOccurs="0"/>
+				<xsd:element ref="my:TitleOfDatabaseOfficial" minOccurs="0"/>
+				<xsd:element ref="my:EmailOfDatabaseOfficial" minOccurs="0"/>
+				<xsd:element ref="my:PurposeOfDatabase" minOccurs="0"/>
+				<xsd:element ref="my:DBRelatedToBusiness" minOccurs="0"/>
+				<xsd:element ref="my:DBHoldsInformationRelatedToIndividuals" minOccurs="0"/>
+				<xsd:element ref="my:Infosource" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="NameOfDatabase" type="xsd:string"/>
+	<xsd:element name="DescriptionOfDatabase">
+		<xsd:complexType mixed="true">
+			<xsd:sequence>
+				<xsd:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/1999/xhtml" processContents="lax"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="NameOfDatabaseOfficial" type="xsd:string"/>
+	<xsd:element name="TitleOfDatabaseOfficial" type="xsd:string"/>
+	<xsd:element name="EmailOfDatabaseOfficial" type="xsd:string"/>
+	<xsd:element name="PurposeOfDatabase">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:DBForRiskAssessment" minOccurs="0"/>
+				<xsd:element ref="my:DBForPermissions" minOccurs="0"/>
+				<xsd:element ref="my:DBForComplianceVerification" minOccurs="0"/>
+				<xsd:element ref="my:DBForEnforcement" minOccurs="0"/>
+				<xsd:element ref="my:DBForPublicReporting" minOccurs="0"/>
+				<xsd:element ref="my:DBForOtherPurposes" minOccurs="0"/>
+				<xsd:element ref="my:DBOtherPurposeDescription" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="DBForRiskAssessment" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="DBForPermissions" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="DBForComplianceVerification" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="DBForEnforcement" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="DBForPublicReporting" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="DBForOtherPurposes" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="DBOtherPurposeDescription">
+		<xsd:complexType mixed="true">
+			<xsd:sequence>
+				<xsd:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/1999/xhtml" processContents="lax"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="DBRelatedToBusiness">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:DBHoldsInformationRelatedToBusiness" minOccurs="0"/>
+				<xsd:element ref="my:DBUsesBusinessRegistrationNumbers" minOccurs="0"/>
+				<xsd:element ref="my:DBUsesNAICSCodes" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="DBHoldsInformationRelatedToBusiness" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="DBUsesBusinessRegistrationNumbers" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="DBUsesNAICSCodes" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="DBHoldsInformationRelatedToIndividuals" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="Infosource">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:InfosourceIndicator" minOccurs="0"/>
+				<xsd:element ref="my:InfosourceLink" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="InfosourceIndicator" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="InfosourceLink" type="xsd:anyURI"/>
+	<xsd:element name="UpComingRegulatoryAgenda">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:TopPrioritiesForRegulatoryModernization" minOccurs="0"/>
+				<xsd:element ref="my:DescribeAnyCurrentAndOrForeseeableResourcePressuresOnTheOrganizationToDeliverOnTopPrioritiesPlansAndOrForRegulatoryMod" minOccurs="0"/>
+				<xsd:element ref="my:DescribePlansForRegulatoryModernizationIfUnconstrainedByTimeaaResourcesOrProcesses" minOccurs="0"/>
+				<xsd:element ref="my:Fall2018OmnibusSubmissionForRegulatoryChange" minOccurs="0"/>
+				<xsd:element ref="my:OtherCommentsOnUpcomingRegluatoryAgenda" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="TopPrioritiesForRegulatoryModernization">
+		<xsd:complexType mixed="true">
+			<xsd:sequence>
+				<xsd:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/1999/xhtml" processContents="lax"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="DescribeAnyCurrentAndOrForeseeableResourcePressuresOnTheOrganizationToDeliverOnTopPrioritiesPlansAndOrForRegulatoryMod">
+		<xsd:complexType mixed="true">
+			<xsd:sequence>
+				<xsd:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/1999/xhtml" processContents="lax"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="DescribePlansForRegulatoryModernizationIfUnconstrainedByTimeaaResourcesOrProcesses">
+		<xsd:complexType mixed="true">
+			<xsd:sequence>
+				<xsd:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/1999/xhtml" processContents="lax"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="Fall2018OmnibusSubmissionForRegulatoryChange">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:InterestedInFall2018OmnibusSubmission" minOccurs="0"/>
+				<xsd:element ref="my:DescriptionOfNatureOfChangeIncludingSystemAndOrTechnicalChanges" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="InterestedInFall2018OmnibusSubmission" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="DescriptionOfNatureOfChangeIncludingSystemAndOrTechnicalChanges">
+		<xsd:complexType mixed="true">
+			<xsd:sequence>
+				<xsd:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/1999/xhtml" processContents="lax"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="OtherCommentsOnUpcomingRegluatoryAgenda">
+		<xsd:complexType mixed="true">
+			<xsd:sequence>
+				<xsd:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/1999/xhtml" processContents="lax"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="OtherCommentsOnRegSetPolicyFeatures">
+		<xsd:complexType mixed="true">
+			<xsd:sequence>
+				<xsd:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/1999/xhtml" processContents="lax"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="RegSetContacts">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:Name" minOccurs="0"/>
+				<xsd:element ref="my:Title" minOccurs="0"/>
+				<xsd:element ref="my:Email" minOccurs="0"/>
+				<xsd:element ref="my:Role" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="Name" type="xsd:string"/>
+	<xsd:element name="Title" type="xsd:string"/>
+	<xsd:element name="Email" type="xsd:string"/>
+	<xsd:element name="Role" type="xsd:string"/>
+	<xsd:element name="RegSetManagement">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:RiskAssessmentFunction" minOccurs="0"/>
+				<xsd:element ref="my:RiskManagementFunction" minOccurs="0"/>
+				<xsd:element ref="my:PermissionFunction" minOccurs="0"/>
+				<xsd:element ref="my:CompliancePromotionFunction" minOccurs="0"/>
+				<xsd:element ref="my:ComplianceVerificationFunction" minOccurs="0"/>
+				<xsd:element ref="my:EnforcementFunction" minOccurs="0"/>
+				<xsd:element ref="my:AppealsFunction" minOccurs="0"/>
+				<xsd:element ref="my:RegSetManDataAnalytics" minOccurs="0"/>
+				<xsd:element ref="my:RegSetManagementOtherComments" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="RiskAssessmentFunction">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:FormalRiskAssessmantFunction" minOccurs="0"/>
+				<xsd:element ref="my:FormalRiskAssessmentProcess" minOccurs="0"/>
+				<xsd:element ref="my:NatureOfTheRiskAssessment" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="FormalRiskAssessmantFunction" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="FormalRiskAssessmentProcess" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="NatureOfTheRiskAssessment">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:InternalRiskAssessment" minOccurs="0"/>
+				<xsd:element ref="my:QuantitativeMeasure" minOccurs="0"/>
+				<xsd:element ref="my:InformedByExternalRiskManagementExperts" minOccurs="0"/>
+				<xsd:element ref="my:PeerReviewedByRegulatoryCommunity" minOccurs="0"/>
+				<xsd:element ref="my:OtherRiskAssessmentFeature" minOccurs="0"/>
+				<xsd:element ref="my:OtherRiskAssessmentDescription" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="InternalRiskAssessment" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="QuantitativeMeasure" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="InformedByExternalRiskManagementExperts" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="PeerReviewedByRegulatoryCommunity" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="OtherRiskAssessmentFeature" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="OtherRiskAssessmentDescription">
+		<xsd:complexType mixed="true">
+			<xsd:sequence>
+				<xsd:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/1999/xhtml" processContents="lax"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="RiskManagementFunction">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:ThereIsAnExplicitRiskManagmentFunction" minOccurs="0"/>
+				<xsd:element ref="my:TheRiskManagmentFunctionIsSeparateFromOtherFunctions" minOccurs="0"/>
+				<xsd:element ref="my:DescribePrimaryRiskManagementTools" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="ThereIsAnExplicitRiskManagmentFunction" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="TheRiskManagmentFunctionIsSeparateFromOtherFunctions" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="DescribePrimaryRiskManagementTools">
+		<xsd:complexType mixed="true">
+			<xsd:sequence>
+				<xsd:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/1999/xhtml" processContents="lax"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="PermissionFunction">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:ThereIsAPermissionsFunction" minOccurs="0"/>
+				<xsd:element ref="my:AnnualVolumeOfPermissions" minOccurs="0"/>
+				<xsd:element ref="my:ExAntePermissionsFunction" minOccurs="0"/>
+				<xsd:element ref="my:Describethelevelofconfidanceinthepermissionsfunctioninservingthepopulationsubjecttotheregulation" minOccurs="0"/>
+				<xsd:element ref="my:OtherPermissionsFunctionsComments" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="ThereIsAPermissionsFunction" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="AnnualVolumeOfPermissions" type="xsd:string"/>
+	<xsd:element name="ExAntePermissionsFunction" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="Describethelevelofconfidanceinthepermissionsfunctioninservingthepopulationsubjecttotheregulation">
+		<xsd:complexType mixed="true">
+			<xsd:sequence>
+				<xsd:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/1999/xhtml" processContents="lax"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="OtherPermissionsFunctionsComments">
+		<xsd:complexType mixed="true">
+			<xsd:sequence>
+				<xsd:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/1999/xhtml" processContents="lax"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="CompliancePromotionFunction">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:CompliancePromotionFunctionIndicator" minOccurs="0"/>
+				<xsd:element ref="my:CompliancePromotionActivities" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="CompliancePromotionFunctionIndicator" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="CompliancePromotionActivities">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:ComplianceInformation" minOccurs="0"/>
+				<xsd:element ref="my:ComplianceGuidance" minOccurs="0"/>
+				<xsd:element ref="my:ComplianceOnlineServiceTools" minOccurs="0"/>
+				<xsd:element ref="my:ComplianceOnlineOrInPersonAssistance" minOccurs="0"/>
+				<xsd:element ref="my:ComplianceOtherTools" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="ComplianceInformation">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:ComplianceInformationIndicator" minOccurs="0"/>
+				<xsd:element ref="my:ComplianceInformationURL" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="ComplianceInformationIndicator" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="ComplianceInformationURL" type="xsd:anyURI"/>
+	<xsd:element name="ComplianceGuidance">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:ComplianceGuidanceIndicator" minOccurs="0"/>
+				<xsd:element ref="my:ComplianceGuidanceURL" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="ComplianceGuidanceIndicator" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="ComplianceGuidanceURL" type="xsd:anyURI"/>
+	<xsd:element name="ComplianceOnlineServiceTools">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:ComplianceOnlineServiceToolsIndicator" minOccurs="0"/>
+				<xsd:element ref="my:ComplianceOnlineServiceToolsURL" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="ComplianceOnlineServiceToolsIndicator" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="ComplianceOnlineServiceToolsURL" type="xsd:anyURI"/>
+	<xsd:element name="ComplianceOnlineOrInPersonAssistance">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:ComplianceOnlineOrInPersonAssistanceIndicator" minOccurs="0"/>
+				<xsd:element ref="my:ComplianceOnlineOrInPersonAssistanceURL" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="ComplianceOnlineOrInPersonAssistanceIndicator" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="ComplianceOnlineOrInPersonAssistanceURL" type="xsd:anyURI"/>
+	<xsd:element name="ComplianceOtherTools">
+		<xsd:complexType mixed="true">
+			<xsd:sequence>
+				<xsd:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/1999/xhtml" processContents="lax"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="ComplianceVerificationFunction">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:ComplianceVerificationIndicator" minOccurs="0"/>
+				<xsd:element ref="my:ComplianceVerificationNameOfAdministrativeOrganization" minOccurs="0"/>
+				<xsd:element ref="my:ComplianceVerificationNameOfOfficial" minOccurs="0"/>
+				<xsd:element ref="my:ComplianceVerificationEmailOfOfficial" minOccurs="0"/>
+				<xsd:element ref="my:ComplianceVerificationLevelOfDelegation" minOccurs="0"/>
+				<xsd:element ref="my:ComplianceVerificationCrossDesignation" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="ComplianceVerificationIndicator" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="ComplianceVerificationNameOfAdministrativeOrganization" type="xsd:string"/>
+	<xsd:element name="ComplianceVerificationNameOfOfficial" type="xsd:string"/>
+	<xsd:element name="ComplianceVerificationEmailOfOfficial" type="xsd:string"/>
+	<xsd:element name="ComplianceVerificationLevelOfDelegation" type="xsd:string"/>
+	<xsd:element name="ComplianceVerificationCrossDesignation">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:ComplianceVerificationCrossDesignationIndicator" minOccurs="0"/>
+				<xsd:element ref="my:ComplianceVerificationCrossDesignationOrganizationType" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="ComplianceVerificationCrossDesignationIndicator" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="ComplianceVerificationCrossDesignationOrganizationType" type="xsd:string"/>
+	<xsd:element name="EnforcementFunction">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:EnforcementFunctionIndicator" minOccurs="0"/>
+				<xsd:element ref="my:EnforcementFunctionDisclosure" minOccurs="0"/>
+				<xsd:element ref="my:EnforcementFunctionAdminMonetaryPenalty" minOccurs="0"/>
+				<xsd:element ref="my:EnforcementFunctionCriminalProsecution" minOccurs="0"/>
+				<xsd:element ref="my:EnforcementFunctionOther" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="EnforcementFunctionIndicator" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="EnforcementFunctionDisclosure">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:EnforcementFunctionDisclosureIndicator" minOccurs="0"/>
+				<xsd:element ref="my:EnforcementFunctionDisclosureFrequencyOfUse" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="EnforcementFunctionDisclosureIndicator" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="EnforcementFunctionDisclosureFrequencyOfUse" type="xsd:string"/>
+	<xsd:element name="EnforcementFunctionAdminMonetaryPenalty">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:EnforcementFunctionAdminMonetaryPenaltyIndicator" minOccurs="0"/>
+				<xsd:element ref="my:EnforcementFunctionAdminMonetaryPenaltyFrequencyOfUse" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="EnforcementFunctionAdminMonetaryPenaltyIndicator" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="EnforcementFunctionAdminMonetaryPenaltyFrequencyOfUse" type="xsd:string"/>
+	<xsd:element name="EnforcementFunctionCriminalProsecution">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:EnforcementFunctionCriminalProsecutionIndicator" minOccurs="0"/>
+				<xsd:element ref="my:EnforcementFunctionCriminalProsecutionFrequencyOfUse" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="EnforcementFunctionCriminalProsecutionIndicator" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="EnforcementFunctionCriminalProsecutionFrequencyOfUse" type="xsd:string"/>
+	<xsd:element name="EnforcementFunctionOther">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:EnforcementFunctionOtherIndicator" minOccurs="0"/>
+				<xsd:element ref="my:EnforcementFunctionOtherDescription" minOccurs="0"/>
+				<xsd:element ref="my:EnforcementFunctionOtherFrequencyOfUse" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="EnforcementFunctionOtherIndicator" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="EnforcementFunctionOtherDescription" type="xsd:string"/>
+	<xsd:element name="EnforcementFunctionOtherFrequencyOfUse" type="xsd:string"/>
+	<xsd:element name="AppealsFunction">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:AppealsFunctionIndicator" minOccurs="0"/>
+				<xsd:element ref="my:AppealsFunctionFreequencyOfUse" minOccurs="0"/>
+				<xsd:element ref="my:AppealsFunctionOfficialName" minOccurs="0"/>
+				<xsd:element ref="my:AppealsFunctionOfficialTitle" minOccurs="0"/>
+				<xsd:element ref="my:AppealsFunctionOfficialEmail" minOccurs="0"/>
+				<xsd:element ref="my:AppealsFunctionNatureOfAppeals" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="AppealsFunctionIndicator" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="AppealsFunctionFreequencyOfUse" type="xsd:string"/>
+	<xsd:element name="AppealsFunctionOfficialName" type="xsd:string"/>
+	<xsd:element name="AppealsFunctionOfficialTitle" type="xsd:string"/>
+	<xsd:element name="AppealsFunctionOfficialEmail" type="xsd:string"/>
+	<xsd:element name="AppealsFunctionNatureOfAppeals">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:AppealsFunctionNatureOfAppealsBinding" minOccurs="0"/>
+				<xsd:element ref="my:AppealsFunctionNatureOfAppealsNonBinding" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="AppealsFunctionNatureOfAppealsBinding" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="AppealsFunctionNatureOfAppealsNonBinding" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="RegSetManDataAnalytics">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:RegSetManDataAnalyticsIndicator" minOccurs="0"/>
+				<xsd:element ref="my:RegSetManDataAnalyticsDescription" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="RegSetManDataAnalyticsIndicator" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="RegSetManDataAnalyticsDescription">
+		<xsd:complexType mixed="true">
+			<xsd:sequence>
+				<xsd:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/1999/xhtml" processContents="lax"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="RegSetManagementOtherComments">
+		<xsd:complexType mixed="true">
+			<xsd:sequence>
+				<xsd:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/1999/xhtml" processContents="lax"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="RegSetFinancialInformation">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:TotalOrganizationalExpenditures5Years" minOccurs="0"/>
+				<xsd:element ref="my:TotalOrganizationalFTEs" minOccurs="0"/>
+				<xsd:element ref="my:TotalExpendituresOnEachRegulatoryFunction5Years" minOccurs="0"/>
+				<xsd:element ref="my:TotalFTEsByRegFunction" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="TotalOrganizationalExpenditures5Years">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:ByAuthorityType" minOccurs="0" maxOccurs="unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="ByAuthorityType">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:AuthorityType" minOccurs="0"/>
+				<xsd:element ref="my:Dollars201213" minOccurs="0"/>
+				<xsd:element ref="my:Dollars201314" minOccurs="0"/>
+				<xsd:element ref="my:Dollars201415" minOccurs="0"/>
+				<xsd:element ref="my:Dollars201516" minOccurs="0"/>
+				<xsd:element ref="my:Dollars201617" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="AuthorityType" type="xsd:string"/>
+	<xsd:element name="Dollars201213" nillable="true" type="xsd:double"/>
+	<xsd:element name="Dollars201314" nillable="true" type="xsd:double"/>
+	<xsd:element name="Dollars201415" nillable="true" type="xsd:double"/>
+	<xsd:element name="Dollars201516" nillable="true" type="xsd:double"/>
+	<xsd:element name="Dollars201617" nillable="true" type="xsd:double"/>
+	<xsd:element name="TotalOrganizationalFTEs">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:FTE201213" minOccurs="0"/>
+				<xsd:element ref="my:FTE201314" minOccurs="0"/>
+				<xsd:element ref="my:FTE201415" minOccurs="0"/>
+				<xsd:element ref="my:FTE201516" minOccurs="0"/>
+				<xsd:element ref="my:FTE201617" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="FTE201213" nillable="true" type="xsd:double"/>
+	<xsd:element name="FTE201314" nillable="true" type="xsd:double"/>
+	<xsd:element name="FTE201415" nillable="true" type="xsd:double"/>
+	<xsd:element name="FTE201516" nillable="true" type="xsd:double"/>
+	<xsd:element name="FTE201617" nillable="true" type="xsd:double"/>
+	<xsd:element name="TotalExpendituresOnEachRegulatoryFunction5Years">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:ByRegulatoryFunction" minOccurs="0" maxOccurs="unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="ByRegulatoryFunction">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:RegulatoryFunction" minOccurs="0"/>
+				<xsd:element ref="my:RegFunDollars201213" minOccurs="0"/>
+				<xsd:element ref="my:RegFunDollars201314" minOccurs="0"/>
+				<xsd:element ref="my:RegFunDollars201415" minOccurs="0"/>
+				<xsd:element ref="my:RegFunDollars201516" minOccurs="0"/>
+				<xsd:element ref="my:RegFunDollars201617" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="RegulatoryFunction" type="xsd:string"/>
+	<xsd:element name="RegFunDollars201213" nillable="true" type="xsd:integer"/>
+	<xsd:element name="RegFunDollars201314" nillable="true" type="xsd:integer"/>
+	<xsd:element name="RegFunDollars201415" nillable="true" type="xsd:integer"/>
+	<xsd:element name="RegFunDollars201516" nillable="true" type="xsd:integer"/>
+	<xsd:element name="RegFunDollars201617" nillable="true" type="xsd:integer"/>
+	<xsd:element name="TotalFTEsByRegFunction">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:ByRegFunctionBreakdown" minOccurs="0" maxOccurs="unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="ByRegFunctionBreakdown">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:RegFunFTEGroup" minOccurs="0"/>
+				<xsd:element ref="my:RegFunFTE201213" minOccurs="0"/>
+				<xsd:element ref="my:RegFunFTE201314" minOccurs="0"/>
+				<xsd:element ref="my:RegFunFTE201415" minOccurs="0"/>
+				<xsd:element ref="my:RegFunFTE201516" minOccurs="0"/>
+				<xsd:element ref="my:RegFunFTE201617" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="RegFunFTEGroup" type="xsd:string"/>
+	<xsd:element name="RegFunFTE201213" nillable="true" type="xsd:integer"/>
+	<xsd:element name="RegFunFTE201314" nillable="true" type="xsd:integer"/>
+	<xsd:element name="RegFunFTE201415" nillable="true" type="xsd:integer"/>
+	<xsd:element name="RegFunFTE201516" nillable="true" type="xsd:integer"/>
+	<xsd:element name="RegFunFTE201617" nillable="true" type="xsd:integer"/>
+	<xsd:element name="Signatures">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:CFOAttestationIndicator" minOccurs="0"/>
+				<xsd:element ref="my:CFOAttestationName" minOccurs="0"/>
+				<xsd:element ref="my:CFOAttestationTitle" minOccurs="0"/>
+				<xsd:element ref="my:CFOAttestationDate" minOccurs="0"/>
+				<xsd:element ref="my:ExecutiveAttestationindicator" minOccurs="0"/>
+				<xsd:element ref="my:ExecutiveAttestationName" minOccurs="0"/>
+				<xsd:element ref="my:ExecutiveAttestationTitle" minOccurs="0"/>
+				<xsd:element ref="my:ExecutiveAttestationDate" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="CFOAttestationIndicator" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="CFOAttestationName" type="xsd:string"/>
+	<xsd:element name="CFOAttestationTitle" type="xsd:string"/>
+	<xsd:element name="CFOAttestationDate" nillable="true" type="xsd:date"/>
+	<xsd:element name="ExecutiveAttestationindicator" nillable="true" type="xsd:boolean"/>
+	<xsd:element name="ExecutiveAttestationName" type="xsd:string"/>
+	<xsd:element name="ExecutiveAttestationTitle" type="xsd:string"/>
+	<xsd:element name="ExecutiveAttestationDate" nillable="true" type="xsd:date"/>
+	<xsd:simpleType name="requiredString">
+		<xsd:restriction base="xsd:string">
+			<xsd:minLength value="1"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="requiredAnyURI">
+		<xsd:restriction base="xsd:anyURI">
+			<xsd:minLength value="1"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="requiredBase64Binary">
+		<xsd:restriction base="xsd:base64Binary">
+			<xsd:minLength value="1"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+</xsd:schema>

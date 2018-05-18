@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\DocxTest1",
+    "\\DocxTest1\\bin",
+    "\\DocxTest1\\bin\\Debug",
+    "\\packages\\Saxon-HE.9.8.0.12",
+    "\\packages\\Saxon-HE.9.8.0.12\\lib",
+    "\\packages\\Saxon-HE.9.8.0.12\\lib\\net40"
+  ],
+  "SelectedNode": "\\DocxTest1\\bin\\Debug\\mydoc.xml",
+  "PreviewInSolutionExplorer": false
+}

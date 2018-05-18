@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<xsd:element name="OrgAppliedNameFra" type="xsd:string"></xsd:element>
+	<xsd:element name="OrgLegalNameEng" type="xsd:string"></xsd:element>
+	<xsd:element name="Organization">
+		<xsd:complexType>
+			<xsd:all>
+				<xsd:element ref="ID" minOccurs="0" maxOccurs="1"></xsd:element>
+				<xsd:element ref="OrgLegalNameEng" minOccurs="0" maxOccurs="1"></xsd:element>
+				<xsd:element ref="OrgLegalNameFra" minOccurs="0" maxOccurs="1"></xsd:element>
+				<xsd:element ref="OrgAppliedNameEng" minOccurs="0" maxOccurs="1"></xsd:element>
+				<xsd:element ref="OrgAppliedNameFra" minOccurs="0" maxOccurs="1"></xsd:element>
+			</xsd:all>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="OrgNameData">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="Organization" minOccurs="0" maxOccurs="unbounded"></xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="OrgLegalNameFra" type="xsd:string"></xsd:element>
+	<xsd:element name="ID" type="xsd:string"></xsd:element>
+	<xsd:element name="OrgAppliedNameEng" type="xsd:string"></xsd:element>
+</xsd:schema>

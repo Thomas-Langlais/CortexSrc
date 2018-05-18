@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:od="urn:schemas-microsoft-com:officedata">
+	<xsd:element name="tblActs">
+		<xsd:complexType>
+			<xsd:all>
+				<xsd:element ref="ActUID" minOccurs="0" maxOccurs="1"></xsd:element>
+				<xsd:element ref="UniqueId" minOccurs="0" maxOccurs="1"></xsd:element>
+				<xsd:element ref="TitleEng" minOccurs="0" maxOccurs="1"></xsd:element>
+				<xsd:element ref="TitleFra" minOccurs="0" maxOccurs="1"></xsd:element>
+				<xsd:element ref="LinkToXMLEng" minOccurs="0" maxOccurs="1"></xsd:element>
+				<xsd:element ref="LinkToHTMLToCEng" minOccurs="0" maxOccurs="1"></xsd:element>
+				<xsd:element ref="LinkToXMLFra" minOccurs="0" maxOccurs="1"></xsd:element>
+				<xsd:element ref="LinkToHTMLToCFra" minOccurs="0" maxOccurs="1"></xsd:element>
+				<xsd:element ref="CurrentToDate" minOccurs="0" maxOccurs="1"></xsd:element>
+			</xsd:all>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="dataroot">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="tblActs" minOccurs="0" maxOccurs="unbounded"></xsd:element>
+			</xsd:sequence>
+			<xsd:attribute ref="generated"></xsd:attribute>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="LinkToXMLFra" type="xsd:string"></xsd:element>
+	<xsd:element name="LinkToHTMLToCEng" type="xsd:string"></xsd:element>
+	<xsd:element name="TitleEng" type="xsd:string"></xsd:element>
+	<xsd:element name="UniqueId" type="xsd:string"></xsd:element>
+	<xsd:element name="ActUID" type="xsd:string"></xsd:element>
+	<xsd:element name="LinkToXMLEng" type="xsd:string"></xsd:element>
+	<xsd:element name="LinkToHTMLToCFra" type="xsd:string"></xsd:element>
+	<xsd:element name="TitleFra" type="xsd:string"></xsd:element>
+	<xsd:element name="CurrentToDate" type="xsd:string"></xsd:element>
+	<xsd:attribute name="generated" type="xsd:string"></xsd:attribute>
+</xsd:schema>

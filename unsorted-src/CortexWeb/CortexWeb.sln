@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CortexWeb", "CortexWeb\CortexWeb.csproj", "{002EF549-F330-4ADB-A808-BB6E37254042}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CortexWeb.Tests", "CortexWeb.Tests\CortexWeb.Tests.csproj", "{190766B3-7259-4413-AC44-FE496A2C0517}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{002EF549-F330-4ADB-A808-BB6E37254042}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{002EF549-F330-4ADB-A808-BB6E37254042}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{002EF549-F330-4ADB-A808-BB6E37254042}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{002EF549-F330-4ADB-A808-BB6E37254042}.Release|Any CPU.Build.0 = Release|Any CPU
+		{190766B3-7259-4413-AC44-FE496A2C0517}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{190766B3-7259-4413-AC44-FE496A2C0517}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{190766B3-7259-4413-AC44-FE496A2C0517}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{190766B3-7259-4413-AC44-FE496A2C0517}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D7FB127-0E2B-4566-AA72-C1D0ABCBFFBD}
+	EndGlobalSection
+EndGlobal

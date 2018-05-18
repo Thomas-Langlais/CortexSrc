@@ -1,0 +1,1078 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<OrgNameData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Organization>
+		<ID>1</ID>
+		<OrgLegalNameEng>Administrative Tribunals Support Service of Canada</OrgLegalNameEng>
+		<OrgLegalNameFra>Service canadien d'appui aux tribunaux administratifs</OrgLegalNameFra>
+		<OrgAppliedNameEng>Administrative Tribunals Support Service of Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Service canadien d'appui aux tribunaux administratifs</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>2</ID>
+		<OrgLegalNameEng>Atlantic Canada Opportunities Agency</OrgLegalNameEng>
+		<OrgLegalNameFra>Agence de promotion économique du Canada atlantique</OrgLegalNameFra>
+		<OrgAppliedNameEng>Atlantic Canada Opportunities Agency</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Agence de promotion économique du Canada atlantique</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>3</ID>
+		<OrgLegalNameEng>Atlantic Pilotage Authority Canada</OrgLegalNameEng>
+		<OrgLegalNameFra>Administration de pilotage de l'Atlantique Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>Atlantic Pilotage Authority Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Administration de pilotage de l'Atlantique Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>4</ID>
+		<OrgLegalNameEng>Atomic Energy of Canada Limited</OrgLegalNameEng>
+		<OrgLegalNameFra>Énergie atomique du Canada limitée</OrgLegalNameFra>
+		<OrgAppliedNameEng>Atomic Energy of Canada Limited</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Énergie atomique du Canada limitée</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>5</ID>
+		<OrgLegalNameEng>Business Development Bank of Canada</OrgLegalNameEng>
+		<OrgLegalNameFra>Banque de développement du Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>Business Development Bank of Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Banque de développement du Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>6</ID>
+		<OrgLegalNameEng>Canada Border Services Agency</OrgLegalNameEng>
+		<OrgLegalNameFra>Agence des services frontaliers du Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>Canada Border Services Agency</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Agence des services frontaliers du Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>7</ID>
+		<OrgLegalNameEng>Canada Border Services Agency—(Administered Activities)</OrgLegalNameEng>
+	</Organization>
+	<Organization>
+		<ID>8</ID>
+		<OrgLegalNameEng>Canada Council for the Arts</OrgLegalNameEng>
+		<OrgLegalNameFra>Conseil des Arts du Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>Canada Council for the Arts</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Conseil des Arts du Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>9</ID>
+		<OrgLegalNameEng>Canada Deposit Insurance Corporation</OrgLegalNameEng>
+		<OrgLegalNameFra>Société d'assurance-dépôts du Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>Canada Deposit Insurance Corporation</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Société d'assurance-dépôts du Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>10</ID>
+		<OrgLegalNameEng>Canada Development Investment Corporation</OrgLegalNameEng>
+		<OrgLegalNameFra>Corporation de développement des investissements du Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>Canada Development Investment Corporation</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Corporation de développement des investissements du Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>11</ID>
+		<OrgLegalNameEng>Canada Economic Development for Quebec Regions</OrgLegalNameEng>
+		<OrgLegalNameFra>Développement économique Canada pour les régions du Québec</OrgLegalNameFra>
+		<OrgAppliedNameEng>Canada Economic Development for Quebec Regions</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Développement économique Canada pour les régions du Québec</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>12</ID>
+		<OrgLegalNameEng>Canada Employment Insurance Commission</OrgLegalNameEng>
+		<OrgLegalNameFra>Commission de l'assurance-emploi du Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>Canada Employment Insurance Commission</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Commission de l'assurance-emploi du Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>13</ID>
+		<OrgLegalNameEng>Canada Industrial Relations Board</OrgLegalNameEng>
+		<OrgLegalNameFra>Conseil canadien des relations industrielles</OrgLegalNameFra>
+		<OrgAppliedNameEng>Canada Industrial Relations Board</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Conseil canadien des relations industrielles</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>14</ID>
+		<OrgLegalNameEng>Canada Lands Company Limited</OrgLegalNameEng>
+		<OrgLegalNameFra> Société immobilière du Canada Limitée </OrgLegalNameFra>
+		<OrgAppliedNameEng>Canada Lands Company Limited</OrgAppliedNameEng>
+		<OrgAppliedNameFra> Société immobilière du Canada Limitée </OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>15</ID>
+		<OrgLegalNameEng>Canada Mortgage and Housing Corporation</OrgLegalNameEng>
+		<OrgLegalNameFra>Société canadienne d'hypothèques et de logement</OrgLegalNameFra>
+		<OrgAppliedNameEng>Canada Mortgage and Housing Corporation</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Société canadienne d'hypothèques et de logement</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>16</ID>
+		<OrgLegalNameEng>Canada Post Corporation</OrgLegalNameEng>
+		<OrgLegalNameFra>Société canadienne des postes</OrgLegalNameFra>
+		<OrgAppliedNameEng>Canada Post</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Postes Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>17</ID>
+		<OrgLegalNameEng>Canada Revenue Agency</OrgLegalNameEng>
+		<OrgLegalNameFra>Agence du revenu du Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>Canada Revenue Agency</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Agence du revenu du Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>18</ID>
+		<OrgLegalNameEng>Canada Revenue Agency—(Administered Activities)</OrgLegalNameEng>
+	</Organization>
+	<Organization>
+		<ID>19</ID>
+		<OrgLegalNameEng>Canada School of Public Service</OrgLegalNameEng>
+		<OrgLegalNameFra>École de la fonction publique du Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>Canada School of Public Service</OrgAppliedNameEng>
+		<OrgAppliedNameFra>École de la fonction publique du Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>20</ID>
+		<OrgLegalNameEng>Canada Science and Technology Museum</OrgLegalNameEng>
+		<OrgLegalNameFra>Musée des sciences et de la technologie du Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>Canada Science and Technology Museum</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Musée des sciences et de la technologie du Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>21</ID>
+		<OrgLegalNameEng>Canadian Air Transport Security Authority</OrgLegalNameEng>
+		<OrgLegalNameFra>Administration canadienne de la sûreté du transport aérien</OrgLegalNameFra>
+		<OrgAppliedNameEng>Canadian Air Transport Security Authority</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Administration canadienne de la sûreté du transport aérien</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>22</ID>
+		<OrgLegalNameEng>Canadian Broadcasting Corporation</OrgLegalNameEng>
+		<OrgLegalNameFra>Société Radio-Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>Canadian Broadcasting Corporation</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Société Radio-Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>23</ID>
+		<OrgLegalNameEng>Canadian Centre for Occupational Health and Safety</OrgLegalNameEng>
+		<OrgLegalNameFra>Centre canadien d’hygiène et de sécurité au travail</OrgLegalNameFra>
+		<OrgAppliedNameEng>Canadian Centre for Occupational Health and Safety</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Centre canadien d’hygiène et de sécurité au travail</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>24</ID>
+		<OrgLegalNameEng>Canadian Commercial Corporation</OrgLegalNameEng>
+		<OrgLegalNameFra>Corporation commerciale canadienne</OrgLegalNameFra>
+		<OrgAppliedNameEng>Canadian Commercial Corporation</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Corporation commerciale canadienne</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>25</ID>
+		<OrgLegalNameEng>Canadian Dairy Commission</OrgLegalNameEng>
+		<OrgLegalNameFra>Commission canadienne du lait</OrgLegalNameFra>
+		<OrgAppliedNameEng>Canadian Dairy Commission</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Commission canadienne du lait</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>26</ID>
+		<OrgLegalNameEng>Canadian Environmental Assessment Agency</OrgLegalNameEng>
+		<OrgLegalNameFra>Agence canadienne d'évaluation environnementale</OrgLegalNameFra>
+		<OrgAppliedNameEng>Canadian Environmental Assessment Agency</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Agence canadienne d'évaluation environnementale</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>27</ID>
+		<OrgLegalNameEng>Canadian Food Inspection Agency</OrgLegalNameEng>
+		<OrgLegalNameFra>Agence canadienne d'inspection des aliments</OrgLegalNameFra>
+		<OrgAppliedNameEng>Canadian Food Inspection Agency</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Agence canadienne d'inspection des aliments</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>28</ID>
+		<OrgLegalNameEng>Canadian Grain Commission</OrgLegalNameEng>
+		<OrgLegalNameFra>Commission canadienne des grains</OrgLegalNameFra>
+		<OrgAppliedNameEng>Canadian Grain Commission</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Commission canadienne des grains</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>29</ID>
+		<OrgLegalNameEng>Canadian High Arctic Research Station</OrgLegalNameEng>
+		<OrgLegalNameFra>Station canadienne de recherche dans l’Extrême-Arctique</OrgLegalNameFra>
+		<OrgAppliedNameEng>Polar Knowledge Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Savoir polaire Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>30</ID>
+		<OrgLegalNameEng>Canadian Human Rights Commission</OrgLegalNameEng>
+		<OrgLegalNameFra>Commission canadienne des droits de la personne</OrgLegalNameFra>
+		<OrgAppliedNameEng>Canadian Human Rights Commission</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Commission canadienne des droits de la personne</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>31</ID>
+		<OrgLegalNameEng>Canadian Human Rights Tribunal</OrgLegalNameEng>
+		<OrgLegalNameFra>Tribunal canadien des droits de la personne</OrgLegalNameFra>
+		<OrgAppliedNameEng>Canadian Human Rights Tribunal</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Tribunal canadien des droits de la personne</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>32</ID>
+		<OrgLegalNameEng>Canadian Institutes of Health Research</OrgLegalNameEng>
+		<OrgLegalNameFra>Instituts de recherche en santé du Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>Canadian Institutes of Health Research</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Instituts de recherche en santé du Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>33</ID>
+		<OrgLegalNameEng>Canadian International Trade Tribunal</OrgLegalNameEng>
+		<OrgLegalNameFra>Tribunal canadien du commerce extérieur</OrgLegalNameFra>
+		<OrgAppliedNameEng>Canadian International Trade Tribunal</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Tribunal canadien du commerce extérieur</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>34</ID>
+		<OrgLegalNameEng>Canadian Museum for Human Rights</OrgLegalNameEng>
+		<OrgLegalNameFra>Musée canadien pour les droits de la personne</OrgLegalNameFra>
+		<OrgAppliedNameEng>Canadian Museum for Human Rights</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Musée canadien pour les droits de la personne</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>35</ID>
+		<OrgLegalNameEng>Canadian Museum of History</OrgLegalNameEng>
+		<OrgLegalNameFra>Musée canadien de l'histoire</OrgLegalNameFra>
+		<OrgAppliedNameEng>Canadian Museum of History</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Musée canadien de l'histoire</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>36</ID>
+		<OrgLegalNameEng>Canadian Museum of Immigration at Pier 21</OrgLegalNameEng>
+		<OrgLegalNameFra>Musée canadien de l'immigration du Quai 21</OrgLegalNameFra>
+		<OrgAppliedNameEng>Canadian Museum of Immigration at Pier 21</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Musée canadien de l'immigration du Quai 21</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>37</ID>
+		<OrgLegalNameEng>Canadian Museum of Nature</OrgLegalNameEng>
+		<OrgLegalNameFra>Musée canadien de la nature</OrgLegalNameFra>
+		<OrgAppliedNameEng>Canadian Museum of Nature</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Musée canadien de la nature</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>38</ID>
+		<OrgLegalNameEng>Canadian Northern Economic Development Agency</OrgLegalNameEng>
+		<OrgLegalNameFra>Agence canadienne de développement économique du Nord</OrgLegalNameFra>
+		<OrgAppliedNameEng>Canadian Northern Economic Development Agency</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Agence canadienne de développement économique du Nord</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>39</ID>
+		<OrgLegalNameEng>Canadian Nuclear Safety Commission</OrgLegalNameEng>
+		<OrgLegalNameFra>Commission canadienne de sûreté nucléaire</OrgLegalNameFra>
+		<OrgAppliedNameEng>Canadian Nuclear Safety Commission</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Commission canadienne de sûreté nucléaire</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>40</ID>
+		<OrgLegalNameEng>Canadian Polar Commission</OrgLegalNameEng>
+		<OrgLegalNameFra>Commission canadienne des affaires polaires</OrgLegalNameFra>
+		<OrgAppliedNameEng>Canadian Polar Commission</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Commission canadienne des affaires polaires</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>41</ID>
+		<OrgLegalNameEng>Canadian Radio-television and Telecommunications Commission</OrgLegalNameEng>
+		<OrgLegalNameFra>Conseil de la radiodiffusion et des télécommunications canadiennes</OrgLegalNameFra>
+		<OrgAppliedNameEng>Canadian Radio-television and Telecommunications Commission</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Conseil de la radiodiffusion et des télécommunications canadiennes</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>42</ID>
+		<OrgLegalNameEng>Canadian Security Intelligence Service</OrgLegalNameEng>
+		<OrgLegalNameFra>Service canadien du renseignement de sécurité</OrgLegalNameFra>
+		<OrgAppliedNameEng>Canadian Security Intelligence Service</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Service canadien du renseignement de sécurité</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>43</ID>
+		<OrgLegalNameEng>Canadian Space Agency</OrgLegalNameEng>
+		<OrgLegalNameFra>Agence spatiale canadienne</OrgLegalNameFra>
+		<OrgAppliedNameEng>Canadian Space Agency</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Agence spatiale canadienne</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>44</ID>
+		<OrgLegalNameEng>Canadian Tourism Commission</OrgLegalNameEng>
+		<OrgLegalNameFra>Commission canadienne du tourisme</OrgLegalNameFra>
+		<OrgAppliedNameEng>Destination Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Destination Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>45</ID>
+		<OrgLegalNameEng>Canadian Transportation Accident Investigation and Safety Board</OrgLegalNameEng>
+		<OrgLegalNameFra>Bureau canadien d’enquête sur les accidents de transport et de la sécurité des transports</OrgLegalNameFra>
+		<OrgAppliedNameEng>Canadian Transportation Accident Investigation and Safety Board</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Bureau canadien d’enquête sur les accidents de transport et de la sécurité des transports</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>46</ID>
+		<OrgLegalNameEng>Canadian Transportation Agency</OrgLegalNameEng>
+		<OrgLegalNameFra>Office des transports du Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>Canadian Transportation Agency</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Office des transports du Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>47</ID>
+		<OrgLegalNameEng>Centre for Immigrant and Community Services</OrgLegalNameEng>
+		<OrgLegalNameFra>Centre des services aux immigrants et aux collectivités</OrgLegalNameFra>
+		<OrgAppliedNameEng>Centre for Immigrant and Community Services</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Centre des services aux immigrants et aux collectivités</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>48</ID>
+		<OrgLegalNameEng>Civilian Review and Complaints Commission for the RCMP</OrgLegalNameEng>
+		<OrgLegalNameFra>Commission civile d’examen et de traitement des plaintes relatives à la GRC</OrgLegalNameFra>
+		<OrgAppliedNameEng>Civilian Review and Complaints Commission for the RCMP</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Commission civile d’examen et de traitement des plaintes relatives à la GRC</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>49</ID>
+		<OrgLegalNameEng>Communications Security Establishment Canada</OrgLegalNameEng>
+		<OrgLegalNameFra>Centre de la sécurité des télécommunications Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>Communications Security Establishment Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Centre de la sécurité des télécommunications Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>50</ID>
+		<OrgLegalNameEng>Copyright Board Canada</OrgLegalNameEng>
+		<OrgLegalNameFra>Commission du droit d'auteur Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>Copyright Board Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Commission du droit d'auteur Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>51</ID>
+		<OrgLegalNameEng>Correctional Service Canada</OrgLegalNameEng>
+		<OrgLegalNameFra>Service correctionnel Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>Correctional Service Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Service correctionnel Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>52</ID>
+		<OrgLegalNameEng>Courts Administration Service</OrgLegalNameEng>
+		<OrgLegalNameFra>Service administratif des tribunaux judiciaires</OrgLegalNameFra>
+		<OrgAppliedNameEng>Courts Administration Service</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Service administratif des tribunaux judiciaires</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>53</ID>
+		<OrgLegalNameEng>Defence Construction Canada</OrgLegalNameEng>
+		<OrgLegalNameFra>Construction de Défense Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>Defence Construction Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Construction de Défense Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>54</ID>
+		<OrgLegalNameEng>Department of Agriculture and Agri-Food</OrgLegalNameEng>
+		<OrgLegalNameFra>Ministère de l’Agriculture et de l’Agroalimentaire</OrgLegalNameFra>
+		<OrgAppliedNameEng>Agriculture and Agri-Food Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Agriculture et Agroalimentaire Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>55</ID>
+		<OrgLegalNameEng>Department of Canadian Heritage</OrgLegalNameEng>
+		<OrgLegalNameFra>Patrimoine canadien</OrgLegalNameFra>
+		<OrgAppliedNameEng>Canadian Heritage</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Patrimoine canadien</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>56</ID>
+		<OrgLegalNameEng>Department of Citizenship and Immigration Canada</OrgLegalNameEng>
+		<OrgLegalNameFra>Ministère de Citoyenneté et immigration Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>Immigration, Refugees and Citizenship Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Immigration, Réfugiés et Citoyenneté Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>57</ID>
+		<OrgLegalNameEng>Department of Employment and Social Development Canada</OrgLegalNameEng>
+		<OrgLegalNameFra>Ministère de Emploi et Développement social Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>Employment and Social Development Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Emploi et Développement social Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>58</ID>
+		<OrgLegalNameEng>Department of Finance</OrgLegalNameEng>
+		<OrgLegalNameFra>Ministère des Finances</OrgLegalNameFra>
+		<OrgAppliedNameEng>Finance Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Finances Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>59</ID>
+		<OrgLegalNameEng>Department of Fisheries and Oceans Canada</OrgLegalNameEng>
+		<OrgLegalNameFra>Ministère de Pêches et Océans Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>Fisheries and Oceans Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Pêches et Océans Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>60</ID>
+		<OrgLegalNameEng>Department of Foreign Affairs, Trade and Development</OrgLegalNameEng>
+		<OrgLegalNameFra>Ministère des Affaires étrangères, du Commerce et du Développement</OrgLegalNameFra>
+		<OrgAppliedNameEng>Global Affairs Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Affaires mondiales Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>61</ID>
+		<OrgLegalNameEng>Department of Health</OrgLegalNameEng>
+		<OrgLegalNameFra>Ministère de Santé </OrgLegalNameFra>
+		<OrgAppliedNameEng>Health Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Santé Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>62</ID>
+		<OrgLegalNameEng>Department of Indigenous and Northern Affairs Canada</OrgLegalNameEng>
+		<OrgLegalNameFra>Ministère des Affaires autochtones et du Nord Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>Indigenous and Northern Affairs Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Affaires autochtones et du Nord Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>63</ID>
+		<OrgLegalNameEng>Department of Justice Canada</OrgLegalNameEng>
+		<OrgLegalNameFra>Ministère de la Justice Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>Justice Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Justice Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>64</ID>
+		<OrgLegalNameEng>Department of Natural Resources Canada</OrgLegalNameEng>
+		<OrgLegalNameFra>Ministère des Ressources naturelles Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>Natural Resources Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Ressources naturelles Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>65</ID>
+		<OrgLegalNameEng>Department of Public Safety and Emergency Preparedness </OrgLegalNameEng>
+		<OrgLegalNameFra>Ministère de Sécurité publique et de la Protection civile</OrgLegalNameFra>
+		<OrgAppliedNameEng>Public Safety Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Sécurité publique Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>66</ID>
+		<OrgLegalNameEng>Department of Public Works and Government Services</OrgLegalNameEng>
+		<OrgLegalNameFra>Ministère des Travaux publics et des Services gouvernementaux</OrgLegalNameFra>
+		<OrgAppliedNameEng>Public Works Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Travaux Publics Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>67</ID>
+		<OrgLegalNameEng>Department of the Environment</OrgLegalNameEng>
+		<OrgLegalNameFra>Ministère de l’Environnement</OrgLegalNameFra>
+		<OrgAppliedNameEng>Environment and Climate Change Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Environnement et Changement climatique Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>68</ID>
+		<OrgLegalNameEng>Department of Veterans Affairs Canada</OrgLegalNameEng>
+		<OrgLegalNameFra>Ministère des Anciens Combattants Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>Veterans Affairs Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Anciens Combattants Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>69</ID>
+		<OrgLegalNameEng>Department of Western Economic Diversification Canada</OrgLegalNameEng>
+		<OrgLegalNameFra>Ministère de la Diversification de l'économie de l'Ouest Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>Western Economic Diversification Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Diversification de l'économie de l'Ouest Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>70</ID>
+		<OrgLegalNameEng>Destination Canada</OrgLegalNameEng>
+		<OrgLegalNameFra>Destination Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>Destination Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Destination Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>71</ID>
+		<OrgLegalNameEng>Enterprise Cape Breton Corporation</OrgLegalNameEng>
+		<OrgLegalNameFra>Société d’expansion du Cap-Breton</OrgLegalNameFra>
+	</Organization>
+	<Organization>
+		<ID>72</ID>
+		<OrgLegalNameEng>Export Development Canada</OrgLegalNameEng>
+		<OrgLegalNameFra>Exportation et développement Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>Export Development Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Exportation et développement Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>73</ID>
+		<OrgLegalNameEng>Farm Credit Canada</OrgLegalNameEng>
+		<OrgLegalNameFra>Financement agricole Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>Farm Credit Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Financement agricole Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>74</ID>
+		<OrgLegalNameEng>Farm Products Council of Canada</OrgLegalNameEng>
+		<OrgLegalNameFra>Conseil des produits agricoles du Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>National Farm Products Council</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Conseil national des produits agricoles </OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>75</ID>
+		<OrgLegalNameEng>Federal Bridge Corporation</OrgLegalNameEng>
+		<OrgLegalNameFra>Société des ponts fédéraux</OrgLegalNameFra>
+		<OrgAppliedNameEng>Federal Bridge Corporation</OrgAppliedNameEng>
+		<OrgAppliedNameFra>z</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>76</ID>
+		<OrgLegalNameEng>Federal Economic Development Agency for Southern Ontario</OrgLegalNameEng>
+		<OrgLegalNameFra>Agence fédérale de développement économique pour le Sud de l'Ontario</OrgLegalNameFra>
+		<OrgAppliedNameEng>Federal Economic Development Agency for Southern Ontario</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Agence fédérale de développement économique pour le Sud de l'Ontario</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>77</ID>
+		<OrgLegalNameEng>Financial Consumer Agency of Canada</OrgLegalNameEng>
+		<OrgLegalNameFra>Agence de la consommation en matière financière du Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>Financial Consumer Agency of Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Agence de la consommation en matière financière du Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>78</ID>
+		<OrgLegalNameEng>Financial Transactions and Reports Analysis Centre of Canada</OrgLegalNameEng>
+		<OrgLegalNameFra>Centre d'analyse des opérations et déclarations financières du Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>Financial Transactions and Reports Analysis Centre of Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Centre d'analyse des opérations et déclarations financières du Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>79</ID>
+		<OrgLegalNameEng>Freshwater Fish Marketing Corporation</OrgLegalNameEng>
+		<OrgLegalNameFra>Office de commercialisation du poisson d'eau douce</OrgLegalNameFra>
+		<OrgAppliedNameEng>Freshwater Fish Marketing Corporation</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Office de commercialisation du poisson d'eau douce</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>80</ID>
+		<OrgLegalNameEng>Great Lakes Pilotage Authority Canada</OrgLegalNameEng>
+		<OrgLegalNameFra>Administration de pilotage des Grands Lacs Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>Great Lakes Pilotage Authority Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Administration de pilotage des Grands Lacs Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>81</ID>
+		<OrgLegalNameEng>Hazardous Materials Information Review Commission</OrgLegalNameEng>
+		<OrgLegalNameFra>Conseil de contrôle des renseignements relatifs aux matières dangereuses</OrgLegalNameFra>
+		<OrgAppliedNameEng>Hazardous Materials Information Review Commission</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Conseil de contrôle des renseignements relatifs aux matières dangereuses</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>82</ID>
+		<OrgLegalNameEng>House of Commons</OrgLegalNameEng>
+		<OrgLegalNameFra>Chambre des communes</OrgLegalNameFra>
+		<OrgAppliedNameEng>House of Commons</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Chambre des communes</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>83</ID>
+		<OrgLegalNameEng>Immigration and Refugee Board of Canada</OrgLegalNameEng>
+		<OrgLegalNameFra>Commission de l'immigration et du statut de réfugié du Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>Immigration and Refugee Board of Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Commission de l'immigration et du statut de réfugié du Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>84</ID>
+		<OrgLegalNameEng>Indian Residential Schools Truth and Reconciliation Commission</OrgLegalNameEng>
+		<OrgLegalNameFra>Commission de vérité et de réconciliation relative aux pensionnats indiens</OrgLegalNameFra>
+		<OrgAppliedNameEng>Indian Residential Schools Truth and Reconciliation Commission</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Commission de vérité et de réconciliation relative aux pensionnats indiens</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>85</ID>
+		<OrgLegalNameEng>Industry Canada</OrgLegalNameEng>
+		<OrgLegalNameFra>Industrie canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>Innovation, Science and Economic Development Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Innovation, Science and Economic Development Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>86</ID>
+		<OrgLegalNameEng>Infrastructure Canada</OrgLegalNameEng>
+		<OrgLegalNameFra>Infrastructure Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>Office of Infrastructure of Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Bureau de l’infrastructure du Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>87</ID>
+		<OrgLegalNameEng>International Development Research Centre</OrgLegalNameEng>
+		<OrgLegalNameFra>Centre de recherches pour le développement international</OrgLegalNameFra>
+		<OrgAppliedNameEng>International Development Research Centre</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Centre de recherches pour le développement international</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>88</ID>
+		<OrgLegalNameEng>International Joint Commission (Canadian Section)</OrgLegalNameEng>
+		<OrgLegalNameFra>Commission mixte internationale (section canadienne)</OrgLegalNameFra>
+		<OrgAppliedNameEng>International Joint Commission (Canadian Section)</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Commission mixte internationale (section canadienne)</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>89</ID>
+		<OrgLegalNameEng>Laurentian Pilotage Authority Canada</OrgLegalNameEng>
+		<OrgLegalNameFra>Administration de pilotage des Laurentides Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>Laurentian Pilotage Authority Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Administration de pilotage des Laurentides Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>90</ID>
+		<OrgLegalNameEng>Law Commission of Canada</OrgLegalNameEng>
+		<OrgLegalNameFra>Commission du droit du Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>Law Commission of Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Commission du droit du Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>91</ID>
+		<OrgLegalNameEng>Library and Archives of Canada</OrgLegalNameEng>
+		<OrgLegalNameFra>Bibliothèque et Archives Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>Library and Archives of Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Bibliothèque et Archives Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>92</ID>
+		<OrgLegalNameEng>Library of Parliament</OrgLegalNameEng>
+		<OrgLegalNameFra>Bibliothèque du Parlement</OrgLegalNameFra>
+		<OrgAppliedNameEng>Library of Parliament</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Bibliothèque du Parlement</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>93</ID>
+		<OrgLegalNameEng>Marine Atlantic</OrgLegalNameEng>
+		<OrgLegalNameFra>Marine Atlantique</OrgLegalNameFra>
+		<OrgAppliedNameEng>Marine Atlantic</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Marine Atlantique</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>94</ID>
+		<OrgLegalNameEng>Military Grievances External Review Committee</OrgLegalNameEng>
+		<OrgLegalNameFra>Comité externe d'examen des griefs militaires</OrgLegalNameFra>
+		<OrgAppliedNameEng>Canadian Forces Grievance Board</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Comité des griefs des Forces canadiennes</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>95</ID>
+		<OrgLegalNameEng>Military Police Complaints Commission of Canada</OrgLegalNameEng>
+		<OrgLegalNameFra>Commission d'examen des plaintes concernant la police militaire du Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>Military Police Complaints Commission of Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Commission d'examen des plaintes concernant la police militaire du Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>96</ID>
+		<OrgLegalNameEng>National Arts Centre Corporation</OrgLegalNameEng>
+		<OrgLegalNameFra>Société du Centre national des Arts</OrgLegalNameFra>
+		<OrgAppliedNameEng>National Arts Centre Corporation</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Société du Centre national des Arts</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>97</ID>
+		<OrgLegalNameEng>National Capital Commission</OrgLegalNameEng>
+		<OrgLegalNameFra>Commission de la capitale nationale</OrgLegalNameFra>
+		<OrgAppliedNameEng>National Capital Commission</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Commission de la capitale nationale</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>98</ID>
+		<OrgLegalNameEng>National Defence</OrgLegalNameEng>
+		<OrgLegalNameFra>Défense nationale</OrgLegalNameFra>
+		<OrgAppliedNameEng>National Defence</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Défense nationale</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>99</ID>
+		<OrgLegalNameEng>National Energy Board</OrgLegalNameEng>
+		<OrgLegalNameFra>Office national de l'énergie</OrgLegalNameFra>
+		<OrgAppliedNameEng>National Energy Board</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Office national de l'énergie</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>100</ID>
+		<OrgLegalNameEng>National Film Board</OrgLegalNameEng>
+		<OrgLegalNameFra>Office national du film</OrgLegalNameFra>
+		<OrgAppliedNameEng>National Film Board</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Office national du film</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>101</ID>
+		<OrgLegalNameEng>National Gallery of Canada</OrgLegalNameEng>
+		<OrgLegalNameFra>Musée des beaux-arts du Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>National Gallery of Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Musée des beaux-arts du Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>102</ID>
+		<OrgLegalNameEng>National Research Council of Canada</OrgLegalNameEng>
+		<OrgLegalNameFra>Conseil national de recherches du Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>National Research Council Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Conseil national de recherches Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>103</ID>
+		<OrgLegalNameEng>Northern Pipeline Agency Canada</OrgLegalNameEng>
+		<OrgLegalNameFra>Administration du pipe-line du Nord Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>Northern Pipeline Agency Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Administration du pipe-line du Nord Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>104</ID>
+		<OrgLegalNameEng>Office of the Auditor General</OrgLegalNameEng>
+		<OrgLegalNameFra>Bureau du vérificateur général</OrgLegalNameFra>
+		<OrgAppliedNameEng>Office of the Auditor General of Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Bureau du vérificateur général du Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>105</ID>
+		<OrgLegalNameEng>Office of the Chief Electoral Officer</OrgLegalNameEng>
+		<OrgLegalNameFra>Bureau du Directeur général des élections</OrgLegalNameFra>
+		<OrgAppliedNameEng>Elections Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Élections Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>106</ID>
+		<OrgLegalNameEng>Office of the Commissioner for Federal Judicial Affairs Canada</OrgLegalNameEng>
+		<OrgLegalNameFra>Commissariat à la magistrature fédérale Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>Office of the Commissioner for Federal Judicial Affairs Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Commissariat à la magistrature fédérale Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>107</ID>
+		<OrgLegalNameEng>Office of the Commissioner of Lobbying of Canada</OrgLegalNameEng>
+		<OrgLegalNameFra>Commissariat au lobbying du Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>Office of the Commissioner of Lobbying of Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Commissariat au lobbying du Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>108</ID>
+		<OrgLegalNameEng>Office of the Commissioner of Official Languages</OrgLegalNameEng>
+		<OrgLegalNameFra>Commissariat aux langues officielles</OrgLegalNameFra>
+		<OrgAppliedNameEng>Office of the Commissioner of Official Languages</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Commissariat aux langues officielles</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>109</ID>
+		<OrgLegalNameEng>Office of the Communications Security Establishment Commissioner</OrgLegalNameEng>
+		<OrgLegalNameFra>Bureau du commissaire du Centre de la sécurité des télécommunications</OrgLegalNameFra>
+		<OrgAppliedNameEng>Office of the Communications Security Establishment Commissioner</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Bureau du commissaire du Centre de la sécurité des télécommunications</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>110</ID>
+		<OrgLegalNameEng>Office of the Conflict of Interest and Ethics Commissioner</OrgLegalNameEng>
+		<OrgLegalNameFra>Commissariat aux conflits d’intérêts et à l’éthique</OrgLegalNameFra>
+		<OrgAppliedNameEng>Office of the Conflict of Interest and Ethics Commissioner</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Commissariat aux conflits d’intérêts et à l’éthique</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>111</ID>
+		<OrgLegalNameEng>Office of the Co-ordinator Status of Women</OrgLegalNameEng>
+		<OrgLegalNameFra>Bureau de la coordonnatrice de la situation de la femme</OrgLegalNameFra>
+		<OrgAppliedNameEng>Status of Women Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Condition féminine Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>112</ID>
+		<OrgLegalNameEng>Office of the Co-ordinator, Status of Women</OrgLegalNameEng>
+		<OrgLegalNameFra>Bureau de la coordonnatrice de la situation de la femme</OrgLegalNameFra>
+		<OrgAppliedNameEng>Office of the Co-ordinator, Status of Women</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Bureau de la coordonnatrice de la situation de la femme</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>113</ID>
+		<OrgLegalNameEng>Office of the Governor General’s Secretary</OrgLegalNameEng>
+		<OrgLegalNameFra>Bureau du secrétaire du gouverneur général</OrgLegalNameFra>
+		<OrgAppliedNameEng>Office of the Secretary to the Governor General</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Bureau du secrétaire du gouverneur général</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>114</ID>
+		<OrgLegalNameEng>Office of the Public Sector Integrity Commissioner of Canada</OrgLegalNameEng>
+		<OrgLegalNameFra>Commissariat à l'intégrité du secteur public du Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>Office of the Public Sector Integrity Commissioner of Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Commissariat à l'intégrité du secteur public du Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>115</ID>
+		<OrgLegalNameEng>Office of the Superintendent of Financial Institutions</OrgLegalNameEng>
+		<OrgLegalNameFra>Bureau du surintendant des institutions financières Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>Office of the Superintendent of Financial Institutions</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Bureau du surintendant des institutions financières Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>116</ID>
+		<OrgLegalNameEng>Offices of the Information and Privacy Commissioners of Canada</OrgLegalNameEng>
+		<OrgLegalNameFra>Commissariat à la protection de la vie privée du Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>Offices of the Information and Privacy Commissioners of Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Commissariat à la protection de la vie privée du Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>117</ID>
+		<OrgLegalNameEng>Old Port of Montreal Corporation Inc.</OrgLegalNameEng>
+		<OrgLegalNameFra>Société du Vieux-Port de Montréal Inc.</OrgLegalNameFra>
+		<OrgAppliedNameEng>Old Port of Montreal Corporation Inc.</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Société du Vieux-Port de Montréal Inc.</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>118</ID>
+		<OrgLegalNameEng>Pacific Pilotage Authority Canada</OrgLegalNameEng>
+		<OrgLegalNameFra>Administration de pilotage du Pacifique Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>Pacific Pilotage Authority Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Administration de pilotage du Pacifique Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>119</ID>
+		<OrgLegalNameEng>Parks Canada</OrgLegalNameEng>
+		<OrgLegalNameFra>Parcs Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>Parks Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Parcs Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>120</ID>
+		<OrgLegalNameEng>Parliamentary Protective Service</OrgLegalNameEng>
+		<OrgLegalNameFra>Service de protection parlementaire</OrgLegalNameFra>
+		<OrgAppliedNameEng>Parliamentary Protective Service</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Service de protection parlementaire</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>121</ID>
+		<OrgLegalNameEng>Parole Board of Canada</OrgLegalNameEng>
+		<OrgLegalNameFra>Commission des libérations conditionnelles du Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>National Parole Board</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Commission nationale des libérations conditionnelles</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>122</ID>
+		<OrgLegalNameEng>Patented Medicine Prices Review Board Canada</OrgLegalNameEng>
+		<OrgLegalNameFra>Conseil d'examen du prix des médicaments brevetés Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>Patented Medicine Prices Review Board Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Conseil d'examen du prix des médicaments brevetés Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>123</ID>
+		<OrgLegalNameEng>PPP Canada Inc.</OrgLegalNameEng>
+		<OrgLegalNameFra>PPP Canada Inc.</OrgLegalNameFra>
+		<OrgAppliedNameEng>PPP Canada Inc.</OrgAppliedNameEng>
+		<OrgAppliedNameFra>PPP Canada Inc.</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>124</ID>
+		<OrgLegalNameEng>Privy Council Office </OrgLegalNameEng>
+		<OrgLegalNameFra>Bureau du Conseil privé </OrgLegalNameFra>
+		<OrgAppliedNameEng>Privy Council Office </OrgAppliedNameEng>
+		<OrgAppliedNameFra>Bureau du Conseil privé </OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>125</ID>
+		<OrgLegalNameEng>Public Health Agency of Canada</OrgLegalNameEng>
+		<OrgLegalNameFra>Agence de la santé publique du Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>Public Health Agency of Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Agence de la santé publique du Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>126</ID>
+		<OrgLegalNameEng>Public Prosecution Service of Canada</OrgLegalNameEng>
+		<OrgLegalNameFra>Service des poursuites pénales du Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>Public Prosecution Service of Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Service des poursuites pénales du Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>127</ID>
+		<OrgLegalNameEng>Public Service Commission</OrgLegalNameEng>
+		<OrgLegalNameFra>Commission de la fonction publique</OrgLegalNameFra>
+		<OrgAppliedNameEng>Public Service Commission of Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Commission de la fonction publique du Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>128</ID>
+		<OrgLegalNameEng>Public Service Labour Relations Board</OrgLegalNameEng>
+		<OrgLegalNameFra>Commission des relations de travail dans la fonction publique</OrgLegalNameFra>
+		<OrgAppliedNameEng>Public Service Labour Relations Board</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Commission des relations de travail dans la fonction publique</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>129</ID>
+		<OrgLegalNameEng>Public Service Staffing Tribunal</OrgLegalNameEng>
+		<OrgLegalNameFra>Tribunal de la dotation de la fonction publique</OrgLegalNameFra>
+		<OrgAppliedNameEng>Public Service Staffing Tribunal</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Tribunal de la dotation de la fonction publique</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>130</ID>
+		<OrgLegalNameEng>Public Services and Procurement Canada</OrgLegalNameEng>
+		<OrgLegalNameFra>Services publics et Approvisionnement Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>Public Services and Procurement Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Services publics et Approvisionnement Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>131</ID>
+		<OrgLegalNameEng>RCMP External Review Committee</OrgLegalNameEng>
+		<OrgLegalNameFra>Comité externe d'examen de la GRC</OrgLegalNameFra>
+		<OrgAppliedNameEng>RCMP External Review Committee</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Comité externe d'examen de la GRC</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>132</ID>
+		<OrgLegalNameEng>Registrar of the Supreme Court of Canada and that portion of the federal public administration appointed under subsection 12(2) of the Supreme Court Act</OrgLegalNameEng>
+		<OrgLegalNameFra>Registraire de la Cour suprême du Canada et le secteur de l’administration publique fédérale nommé en vertu du paragraphe 12(2) de la Loi sur la Cour suprême</OrgLegalNameFra>
+	</Organization>
+	<Organization>
+		<ID>133</ID>
+		<OrgLegalNameEng>Registry of the Competition Tribunal</OrgLegalNameEng>
+		<OrgLegalNameFra>Greffe du Tribunal de la concurrence</OrgLegalNameFra>
+		<OrgAppliedNameEng>Registry of the Competition Tribunal</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Greffe du Tribunal de la concurrence</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>134</ID>
+		<OrgLegalNameEng>Registry of the Public Servants Disclosure Protection Tribunal</OrgLegalNameEng>
+		<OrgLegalNameFra>Greffe du Tribunal de la protection des fonctionnaires divulgateurs d’actes répréhensibles</OrgLegalNameFra>
+		<OrgAppliedNameEng>Registry of the Public Servants Disclosure Protection Tribunal</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Greffe du Tribunal de la protection des fonctionnaires divulgateurs d’actes répréhensibles</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>135</ID>
+		<OrgLegalNameEng>Registry of the Specific Claims Tribunal</OrgLegalNameEng>
+		<OrgLegalNameFra>Greffe du Tribunal des revendications particulières</OrgLegalNameFra>
+		<OrgAppliedNameEng>Registry of the Specific Claims Tribunal</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Greffe du Tribunal des revendications particulières</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>136</ID>
+		<OrgLegalNameEng>Royal Canadian Mint</OrgLegalNameEng>
+		<OrgLegalNameFra> Monnaie royale canadienne </OrgLegalNameFra>
+		<OrgAppliedNameEng>Royal Canadian Mint</OrgAppliedNameEng>
+		<OrgAppliedNameFra> Monnaie royale canadienne </OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>137</ID>
+		<OrgLegalNameEng>Royal Canadian Mounted Police</OrgLegalNameEng>
+		<OrgLegalNameFra>Gendarmerie royale du Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>Royal Canadian Mounted Police</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Gendarmerie royale du Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>138</ID>
+		<OrgLegalNameEng>Science and Engineering Research Canada</OrgLegalNameEng>
+		<OrgLegalNameFra>Recherches en sciences et en génie Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>Science and Engineering Research Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Recherches en sciences et en génie Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>139</ID>
+		<OrgLegalNameEng>Security Intelligence Review Committee</OrgLegalNameEng>
+		<OrgLegalNameFra>Comité de surveillance des activités de renseignement de sécurité</OrgLegalNameFra>
+		<OrgAppliedNameEng>Security Intelligence Review Committee</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Comité de surveillance des activités de renseignement de sécurité</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>140</ID>
+		<OrgLegalNameEng>Senate Ethics Officer</OrgLegalNameEng>
+		<OrgLegalNameFra>Conseiller sénatorial en éthique</OrgLegalNameFra>
+		<OrgAppliedNameEng>Senate Ethics Officer</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Conseiller sénatorial en éthique</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>141</ID>
+		<OrgLegalNameEng>Shared Services Canada</OrgLegalNameEng>
+		<OrgLegalNameFra>Services partagés Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>Shared Services Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Services partagés Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>142</ID>
+		<OrgLegalNameEng>Social Sciences and Humanities Research Council of Canada</OrgLegalNameEng>
+		<OrgLegalNameFra>Conseil de recherches en sciences humaines du Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>Social Sciences and Humanities Research Council of Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Conseil de recherches en sciences humaines du Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>143</ID>
+		<OrgLegalNameEng>Standards Council of Canada</OrgLegalNameEng>
+		<OrgLegalNameFra>Conseil canadien des normes</OrgLegalNameFra>
+		<OrgAppliedNameEng>Standards Council of Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Conseil canadien des normes</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>144</ID>
+		<OrgLegalNameEng>Statistics Canada</OrgLegalNameEng>
+		<OrgLegalNameFra>Statistique Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>Statistics Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Statistique Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>145</ID>
+		<OrgLegalNameEng>Telefilm Canada</OrgLegalNameEng>
+		<OrgLegalNameFra>Téléfilm Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>Telefilm Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Téléfilm Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>146</ID>
+		<OrgLegalNameEng>The Correctional Investigator Canada</OrgLegalNameEng>
+		<OrgLegalNameFra>L'Enquêteur correctionnel Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>The Correctional Investigator Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>L'Enquêteur correctionnel Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>147</ID>
+		<OrgLegalNameEng>The Jacques-Cartier and Champlain Bridges Inc.</OrgLegalNameEng>
+		<OrgLegalNameFra>Ponts Jacques Cartier et Champlain</OrgLegalNameFra>
+		<OrgAppliedNameEng>The Jacques-Cartier and Champlain Bridges Inc.</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Ponts Jacques Cartier et Champlain</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>148</ID>
+		<OrgLegalNameEng>The National Battlefields Commission</OrgLegalNameEng>
+		<OrgLegalNameFra>Commission des champs de bataille nationaux </OrgLegalNameFra>
+		<OrgAppliedNameEng>The National Battlefields Commission</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Commission des champs de bataille nationaux </OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>149</ID>
+		<OrgLegalNameEng>The Senate</OrgLegalNameEng>
+		<OrgLegalNameFra>Sénat</OrgLegalNameFra>
+		<OrgAppliedNameEng>The Senate</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Sénat</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>150</ID>
+		<OrgLegalNameEng>Transport Canada</OrgLegalNameEng>
+		<OrgLegalNameFra>Transports Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>Transport Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Transports Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>151</ID>
+		<OrgLegalNameEng>Transportation Safety Board of Canada</OrgLegalNameEng>
+		<OrgLegalNameFra>Bureau de la sécurité des transports du Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>Transportation Safety Board of Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Bureau de la sécurité des transports du Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>152</ID>
+		<OrgLegalNameEng>Treasury Board of Canada Secretariat</OrgLegalNameEng>
+		<OrgLegalNameFra>Secrétariat du Conseil du Trésor du Canada</OrgLegalNameFra>
+		<OrgAppliedNameEng>Treasury Board of Canada Secretariat</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Secrétariat du Conseil du Trésor du Canada</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>153</ID>
+		<OrgLegalNameEng>Veterans Review and Appeal Board Canada</OrgLegalNameEng>
+		<OrgLegalNameFra>Tribunal des anciens combattants (révision et appel)</OrgLegalNameFra>
+		<OrgAppliedNameEng>Veterans Review and Appeal Board Canada</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Tribunal des anciens combattants (révision et appel)</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>154</ID>
+		<OrgLegalNameEng>VIA Rail Canada Inc.</OrgLegalNameEng>
+		<OrgLegalNameFra>VIA Rail Canada Inc.</OrgLegalNameFra>
+		<OrgAppliedNameEng>VIA Rail</OrgAppliedNameEng>
+		<OrgAppliedNameFra>VIA Rail</OrgAppliedNameFra>
+	</Organization>
+	<Organization>
+		<ID>155</ID>
+		<OrgLegalNameEng>Windsor-Detroit Bridge Authority</OrgLegalNameEng>
+		<OrgLegalNameFra>Autorité du pont Windsor-Détroit</OrgLegalNameFra>
+		<OrgAppliedNameEng>Windsor-Detroit Bridge Authority</OrgAppliedNameEng>
+		<OrgAppliedNameFra>Autorité du pont Windsor-Détroit</OrgAppliedNameFra>
+	</Organization>
+</OrgNameData>

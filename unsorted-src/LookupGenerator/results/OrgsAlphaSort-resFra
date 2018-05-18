@@ -1,0 +1,155 @@
+<w:listItem w:displayText="Service canadien d'appui aux tribunaux administratifs" w:value="1"/>
+<w:listItem w:displayText="Agence de promotion économique du Canada atlantique" w:value="2"/>
+<w:listItem w:displayText="Administration de pilotage de l'Atlantique Canada" w:value="3"/>
+<w:listItem w:displayText="Énergie atomique du Canada limitée" w:value="4"/>
+<w:listItem w:displayText="Banque de développement du Canada" w:value="5"/>
+<w:listItem w:displayText="Agence des services frontaliers du Canada" w:value="6"/>
+<w:listItem w:displayText="undefined" w:value="7"/>
+<w:listItem w:displayText="Conseil des Arts du Canada" w:value="8"/>
+<w:listItem w:displayText="Société d'assurance-dépôts du Canada" w:value="9"/>
+<w:listItem w:displayText="Corporation de développement des investissements du Canada" w:value="10"/>
+<w:listItem w:displayText="Développement économique Canada pour les régions du Québec" w:value="11"/>
+<w:listItem w:displayText="Commission de l'assurance-emploi du Canada" w:value="12"/>
+<w:listItem w:displayText="Conseil canadien des relations industrielles" w:value="13"/>
+<w:listItem w:displayText=" Société immobilière du Canada Limitée " w:value="14"/>
+<w:listItem w:displayText="Société canadienne d'hypothèques et de logement" w:value="15"/>
+<w:listItem w:displayText="Société canadienne des postes" w:value="16"/>
+<w:listItem w:displayText="Agence du revenu du Canada" w:value="17"/>
+<w:listItem w:displayText="undefined" w:value="18"/>
+<w:listItem w:displayText="École de la fonction publique du Canada" w:value="19"/>
+<w:listItem w:displayText="Musée des sciences et de la technologie du Canada" w:value="20"/>
+<w:listItem w:displayText="Administration canadienne de la sûreté du transport aérien" w:value="21"/>
+<w:listItem w:displayText="Société Radio-Canada" w:value="22"/>
+<w:listItem w:displayText="Centre canadien d’hygiène et de sécurité au travail" w:value="23"/>
+<w:listItem w:displayText="Corporation commerciale canadienne" w:value="24"/>
+<w:listItem w:displayText="Commission canadienne du lait" w:value="25"/>
+<w:listItem w:displayText="Agence canadienne d'évaluation environnementale" w:value="26"/>
+<w:listItem w:displayText="Agence canadienne d'inspection des aliments" w:value="27"/>
+<w:listItem w:displayText="Commission canadienne des grains" w:value="28"/>
+<w:listItem w:displayText="Station canadienne de recherche dans l’Extrême-Arctique" w:value="29"/>
+<w:listItem w:displayText="Commission canadienne des droits de la personne" w:value="30"/>
+<w:listItem w:displayText="Tribunal canadien des droits de la personne" w:value="31"/>
+<w:listItem w:displayText="Instituts de recherche en santé du Canada" w:value="32"/>
+<w:listItem w:displayText="Tribunal canadien du commerce extérieur" w:value="33"/>
+<w:listItem w:displayText="Musée canadien pour les droits de la personne" w:value="34"/>
+<w:listItem w:displayText="Musée canadien de l'histoire" w:value="35"/>
+<w:listItem w:displayText="Musée canadien de l'immigration du Quai 21" w:value="36"/>
+<w:listItem w:displayText="Musée canadien de la nature" w:value="37"/>
+<w:listItem w:displayText="Agence canadienne de développement économique du Nord" w:value="38"/>
+<w:listItem w:displayText="Commission canadienne de sûreté nucléaire" w:value="39"/>
+<w:listItem w:displayText="Commission canadienne des affaires polaires" w:value="40"/>
+<w:listItem w:displayText="Conseil de la radiodiffusion et des télécommunications canadiennes" w:value="41"/>
+<w:listItem w:displayText="Service canadien du renseignement de sécurité" w:value="42"/>
+<w:listItem w:displayText="Agence spatiale canadienne" w:value="43"/>
+<w:listItem w:displayText="Commission canadienne du tourisme" w:value="44"/>
+<w:listItem w:displayText="Bureau canadien d’enquête sur les accidents de transport et de la sécurité des transports" w:value="45"/>
+<w:listItem w:displayText="Office des transports du Canada" w:value="46"/>
+<w:listItem w:displayText="Centre des services aux immigrants et aux collectivités" w:value="47"/>
+<w:listItem w:displayText="Commission civile d’examen et de traitement des plaintes relatives à la GRC" w:value="48"/>
+<w:listItem w:displayText="Centre de la sécurité des télécommunications Canada" w:value="49"/>
+<w:listItem w:displayText="Commission du droit d'auteur Canada" w:value="50"/>
+<w:listItem w:displayText="Service correctionnel Canada" w:value="51"/>
+<w:listItem w:displayText="Service administratif des tribunaux judiciaires" w:value="52"/>
+<w:listItem w:displayText="Construction de Défense Canada" w:value="53"/>
+<w:listItem w:displayText="Ministère de l’Agriculture et de l’Agroalimentaire" w:value="54"/>
+<w:listItem w:displayText="Patrimoine canadien" w:value="55"/>
+<w:listItem w:displayText="Ministère de Citoyenneté et immigration Canada" w:value="56"/>
+<w:listItem w:displayText="Ministère de Emploi et Développement social Canada" w:value="57"/>
+<w:listItem w:displayText="Ministère des Finances" w:value="58"/>
+<w:listItem w:displayText="Ministère de Pêches et Océans Canada" w:value="59"/>
+<w:listItem w:displayText="Ministère des Affaires étrangères, du Commerce et du Développement" w:value="60"/>
+<w:listItem w:displayText="Ministère de Santé " w:value="61"/>
+<w:listItem w:displayText="Ministère des Affaires autochtones et du Nord Canada" w:value="62"/>
+<w:listItem w:displayText="Ministère de la Justice Canada" w:value="63"/>
+<w:listItem w:displayText="Ministère des Ressources naturelles Canada" w:value="64"/>
+<w:listItem w:displayText="Ministère de Sécurité publique et de la Protection civile" w:value="65"/>
+<w:listItem w:displayText="Ministère des Travaux publics et des Services gouvernementaux" w:value="66"/>
+<w:listItem w:displayText="Ministère de l’Environnement" w:value="67"/>
+<w:listItem w:displayText="Ministère des Anciens Combattants Canada" w:value="68"/>
+<w:listItem w:displayText="Ministère de la Diversification de l'économie de l'Ouest Canada" w:value="69"/>
+<w:listItem w:displayText="Destination Canada" w:value="70"/>
+<w:listItem w:displayText="Société d’expansion du Cap-Breton" w:value="71"/>
+<w:listItem w:displayText="Exportation et développement Canada" w:value="72"/>
+<w:listItem w:displayText="Financement agricole Canada" w:value="73"/>
+<w:listItem w:displayText="Conseil des produits agricoles du Canada" w:value="74"/>
+<w:listItem w:displayText="Société des ponts fédéraux" w:value="75"/>
+<w:listItem w:displayText="Agence fédérale de développement économique pour le Sud de l'Ontario" w:value="76"/>
+<w:listItem w:displayText="Agence de la consommation en matière financière du Canada" w:value="77"/>
+<w:listItem w:displayText="Centre d'analyse des opérations et déclarations financières du Canada" w:value="78"/>
+<w:listItem w:displayText="Office de commercialisation du poisson d'eau douce" w:value="79"/>
+<w:listItem w:displayText="Administration de pilotage des Grands Lacs Canada" w:value="80"/>
+<w:listItem w:displayText="Conseil de contrôle des renseignements relatifs aux matières dangereuses" w:value="81"/>
+<w:listItem w:displayText="Chambre des communes" w:value="82"/>
+<w:listItem w:displayText="Commission de l'immigration et du statut de réfugié du Canada" w:value="83"/>
+<w:listItem w:displayText="Commission de vérité et de réconciliation relative aux pensionnats indiens" w:value="84"/>
+<w:listItem w:displayText="Industrie canada" w:value="85"/>
+<w:listItem w:displayText="Infrastructure Canada" w:value="86"/>
+<w:listItem w:displayText="Centre de recherches pour le développement international" w:value="87"/>
+<w:listItem w:displayText="Commission mixte internationale (section canadienne)" w:value="88"/>
+<w:listItem w:displayText="Administration de pilotage des Laurentides Canada" w:value="89"/>
+<w:listItem w:displayText="Commission du droit du Canada" w:value="90"/>
+<w:listItem w:displayText="Bibliothèque et Archives Canada" w:value="91"/>
+<w:listItem w:displayText="Bibliothèque du Parlement" w:value="92"/>
+<w:listItem w:displayText="Marine Atlantique" w:value="93"/>
+<w:listItem w:displayText="Comité externe d'examen des griefs militaires" w:value="94"/>
+<w:listItem w:displayText="Commission d'examen des plaintes concernant la police militaire du Canada" w:value="95"/>
+<w:listItem w:displayText="Société du Centre national des Arts" w:value="96"/>
+<w:listItem w:displayText="Commission de la capitale nationale" w:value="97"/>
+<w:listItem w:displayText="Défense nationale" w:value="98"/>
+<w:listItem w:displayText="Office national de l'énergie" w:value="99"/>
+<w:listItem w:displayText="Office national du film" w:value="100"/>
+<w:listItem w:displayText="Musée des beaux-arts du Canada" w:value="101"/>
+<w:listItem w:displayText="Conseil national de recherches du Canada" w:value="102"/>
+<w:listItem w:displayText="Administration du pipe-line du Nord Canada" w:value="103"/>
+<w:listItem w:displayText="Bureau du vérificateur général" w:value="104"/>
+<w:listItem w:displayText="Bureau du Directeur général des élections" w:value="105"/>
+<w:listItem w:displayText="Commissariat à la magistrature fédérale Canada" w:value="106"/>
+<w:listItem w:displayText="Commissariat au lobbying du Canada" w:value="107"/>
+<w:listItem w:displayText="Commissariat aux langues officielles" w:value="108"/>
+<w:listItem w:displayText="Bureau du commissaire du Centre de la sécurité des télécommunications" w:value="109"/>
+<w:listItem w:displayText="Commissariat aux conflits d’intérêts et à l’éthique" w:value="110"/>
+<w:listItem w:displayText="Bureau de la coordonnatrice de la situation de la femme" w:value="111"/>
+<w:listItem w:displayText="Bureau de la coordonnatrice de la situation de la femme" w:value="112"/>
+<w:listItem w:displayText="Bureau du secrétaire du gouverneur général" w:value="113"/>
+<w:listItem w:displayText="Commissariat à l'intégrité du secteur public du Canada" w:value="114"/>
+<w:listItem w:displayText="Bureau du surintendant des institutions financières Canada" w:value="115"/>
+<w:listItem w:displayText="Commissariat à la protection de la vie privée du Canada" w:value="116"/>
+<w:listItem w:displayText="Société du Vieux-Port de Montréal Inc." w:value="117"/>
+<w:listItem w:displayText="Administration de pilotage du Pacifique Canada" w:value="118"/>
+<w:listItem w:displayText="Parcs Canada" w:value="119"/>
+<w:listItem w:displayText="Service de protection parlementaire" w:value="120"/>
+<w:listItem w:displayText="Commission des libérations conditionnelles du Canada" w:value="121"/>
+<w:listItem w:displayText="Conseil d'examen du prix des médicaments brevetés Canada" w:value="122"/>
+<w:listItem w:displayText="PPP Canada Inc." w:value="123"/>
+<w:listItem w:displayText="Bureau du Conseil privé " w:value="124"/>
+<w:listItem w:displayText="Agence de la santé publique du Canada" w:value="125"/>
+<w:listItem w:displayText="Service des poursuites pénales du Canada" w:value="126"/>
+<w:listItem w:displayText="Commission de la fonction publique" w:value="127"/>
+<w:listItem w:displayText="Commission des relations de travail dans la fonction publique" w:value="128"/>
+<w:listItem w:displayText="Tribunal de la dotation de la fonction publique" w:value="129"/>
+<w:listItem w:displayText="Services publics et Approvisionnement Canada" w:value="130"/>
+<w:listItem w:displayText="Comité externe d'examen de la GRC" w:value="131"/>
+<w:listItem w:displayText="Registraire de la Cour suprême du Canada et le secteur de l’administration publique fédérale nommé en vertu du paragraphe 12(2) de la Loi sur la Cour suprême" w:value="132"/>
+<w:listItem w:displayText="Greffe du Tribunal de la concurrence" w:value="133"/>
+<w:listItem w:displayText="Greffe du Tribunal de la protection des fonctionnaires divulgateurs d’actes répréhensibles" w:value="134"/>
+<w:listItem w:displayText="Greffe du Tribunal des revendications particulières" w:value="135"/>
+<w:listItem w:displayText=" Monnaie royale canadienne " w:value="136"/>
+<w:listItem w:displayText="Gendarmerie royale du Canada" w:value="137"/>
+<w:listItem w:displayText="Recherches en sciences et en génie Canada" w:value="138"/>
+<w:listItem w:displayText="Comité de surveillance des activités de renseignement de sécurité" w:value="139"/>
+<w:listItem w:displayText="Conseiller sénatorial en éthique" w:value="140"/>
+<w:listItem w:displayText="Services partagés Canada" w:value="141"/>
+<w:listItem w:displayText="Conseil de recherches en sciences humaines du Canada" w:value="142"/>
+<w:listItem w:displayText="Conseil canadien des normes" w:value="143"/>
+<w:listItem w:displayText="Statistique Canada" w:value="144"/>
+<w:listItem w:displayText="Téléfilm Canada" w:value="145"/>
+<w:listItem w:displayText="L'Enquêteur correctionnel Canada" w:value="146"/>
+<w:listItem w:displayText="Ponts Jacques Cartier et Champlain" w:value="147"/>
+<w:listItem w:displayText="Commission des champs de bataille nationaux " w:value="148"/>
+<w:listItem w:displayText="Sénat" w:value="149"/>
+<w:listItem w:displayText="Transports Canada" w:value="150"/>
+<w:listItem w:displayText="Bureau de la sécurité des transports du Canada" w:value="151"/>
+<w:listItem w:displayText="Secrétariat du Conseil du Trésor du Canada" w:value="152"/>
+<w:listItem w:displayText="Tribunal des anciens combattants (révision et appel)" w:value="153"/>
+<w:listItem w:displayText="VIA Rail Canada Inc." w:value="154"/>
+<w:listItem w:displayText="Autorité du pont Windsor-Détroit" w:value="155"/>

@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:od="urn:schemas-microsoft-com:officedata">
+	<xsd:element name="NAICSSCIANCode" type="xsd:string"></xsd:element>
+	<xsd:element name="dataroot">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="lkpNAICS-SCIAN" minOccurs="0" maxOccurs="unbounded"></xsd:element>
+			</xsd:sequence>
+			<xsd:attribute ref="generated"></xsd:attribute>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="Superscript" type="xsd:string"></xsd:element>
+	<xsd:element name="ClassDefinition" type="xsd:string"></xsd:element>
+	<xsd:element name="ClassTitle" type="xsd:string"></xsd:element>
+	<xsd:element name="Level" type="xsd:string"></xsd:element>
+	<xsd:element name="lkpNAICS-SCIAN">
+		<xsd:complexType>
+			<xsd:all>
+				<xsd:element ref="NAICSSCIANCode" minOccurs="0" maxOccurs="1"></xsd:element>
+				<xsd:element ref="ID" minOccurs="0" maxOccurs="1"></xsd:element>
+				<xsd:element ref="Superscript" minOccurs="0" maxOccurs="1"></xsd:element>
+				<xsd:element ref="ClassDefinition" minOccurs="0" maxOccurs="1"></xsd:element>
+				<xsd:element ref="ClassTitle" minOccurs="0" maxOccurs="1"></xsd:element>
+				<xsd:element ref="Level" minOccurs="0" maxOccurs="1"></xsd:element>
+				<xsd:element ref="HierarchicalStructure" minOccurs="0" maxOccurs="1"></xsd:element>
+				<xsd:element ref="StructureHierarchique" minOccurs="0" maxOccurs="1"></xsd:element>
+				<xsd:element ref="TitresDeClasses" minOccurs="0" maxOccurs="1"></xsd:element>
+				<xsd:element ref="DéfinitionsDeLaClasse" minOccurs="0" maxOccurs="1"></xsd:element>
+				<xsd:element ref="Superieurs" minOccurs="0" maxOccurs="1"></xsd:element>
+			</xsd:all>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="StructureHierarchique" type="xsd:string"></xsd:element>
+	<xsd:element name="TitresDeClasses" type="xsd:string"></xsd:element>
+	<xsd:element name="ID" type="xsd:string"></xsd:element>
+	<xsd:element name="HierarchicalStructure" type="xsd:string"></xsd:element>
+	<xsd:element name="DéfinitionsDeLaClasse" type="xsd:string"></xsd:element>
+	<xsd:element name="Superieurs" type="xsd:string"></xsd:element>
+	<xsd:attribute name="generated" type="xsd:string"></xsd:attribute>
+</xsd:schema>

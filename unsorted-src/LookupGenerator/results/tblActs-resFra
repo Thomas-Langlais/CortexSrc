@@ -1,0 +1,849 @@
+<w:listItem w:displayText="Loi sur l’accès à l’information" w:value="1"/>
+<w:listItem w:displayText="Loi sur le Service canadien d’appui aux tribunaux administratifs" w:value="2"/>
+<w:listItem w:displayText="Loi sur le paiement anticipé des récoltes" w:value="3"/>
+<w:listItem w:displayText="Loi sur l’aéronautique" w:value="4"/>
+<w:listItem w:displayText="Loi de mise en oeuvre de l’Accord sur le commerce intérieur" w:value="5"/>
+<w:listItem w:displayText="Accords et conventions" w:value="6"/>
+<w:listItem w:displayText="Loi sur l’aménagement rural et le développement agricole (ARDA)" w:value="7"/>
+<w:listItem w:displayText="Loi sur les programmes de commercialisation agricole" w:value="8"/>
+<w:listItem w:displayText="Loi sur la vente coopérative des produits agricoles" w:value="9"/>
+<w:listItem w:displayText="Loi sur la commercialisation des produits agricoles" w:value="10"/>
+<w:listItem w:displayText="Loi sur les sanctions administratives pécuniaires en matière d’agriculture et d’agroalimentaire" w:value="11"/>
+<w:listItem w:displayText="Loi sur la participation publique au capital d’Air Canada" w:value="12"/>
+<w:listItem w:displayText="Loi sur le droit pour la sécurité des passagers du transport aérien" w:value="13"/>
+<w:listItem w:displayText="Loi relative aux cessions d’aéroports" w:value="14"/>
+<w:listItem w:displayText="Loi des ressources naturelles de l’Alberta" w:value="15"/>
+<w:listItem w:displayText="Loi sur les carburants de remplacement" w:value="16"/>
+<w:listItem w:displayText="Loi concernant un décret pris au titre de la Loi d’aide au développement international (institutions financières)" w:value="17"/>
+<w:listItem w:displayText="Loi ayant pour objet de régler certaines questions entre les gouvernements du Canada et de l’Ontario concernant les terres des réserves des sauvages" w:value="18"/>
+<w:listItem w:displayText="Loi concernant certaines dispositions du tarif postal" w:value="19"/>
+<w:listItem w:displayText="Acte concernant certains travaux sur la rivière Ottawa" w:value="20"/>
+<w:listItem w:displayText="Loi concernant des paiements à une fiducie établie en vue de fournir du financement à des provinces et à des territoires pour le développement des collectivités" w:value="21"/>
+<w:listItem w:displayText="Loi concernant les règlements établis en application de l’article 4 de la Loi sur l’aéronautique" w:value="22"/>
+<w:listItem w:displayText="Loi concernant le terrain de l’Hôtel du gouvernement, Toronto" w:value="23"/>
+<w:listItem w:displayText="Loi concernant la déclaration obligatoire de la pornographie juvénile sur Internet par les personnes qui fournissent des services Internet" w:value="24"/>
+<w:listItem w:displayText="Loi concernant l’octroi d’une aide financière à l’égard d’équipements diagnostiques et médicaux" w:value="25"/>
+<w:listItem w:displayText="Acte à l’effet d’amender et refondre les actes concernant l’emploi de gardien de port pour le havre de Montréal" w:value="26"/>
+<w:listItem w:displayText="Loi visant la modification de la Loi sur les produits dangereux et du Code canadien du travail, l’édiction de la Loi sur le contrôle des renseignements relatifs aux matières dangereuses et la modification d’autres lois en conséquence" w:value="27"/>
+<w:listItem w:displayText="Loi autorisant à accorder une pension à jouissance immédiate à Monsieur le juge Donald Raymond Morand" w:value="28"/>
+<w:listItem w:displayText="Loi confirmant le pouvoir d’acquisition de la Commission du district fédéral sur certains immeubles" w:value="29"/>
+<w:listItem w:displayText="Loi sur l’accès aux documents du Comité spécial sur les Règlements de la défense du Canada" w:value="30"/>
+<w:listItem w:displayText="Loi constituant en corporation la Banque Continentale du Canada" w:value="31"/>
+<w:listItem w:displayText="Loi sur la Fondation Jules et Paul-Émile Léger" w:value="32"/>
+<w:listItem w:displayText="Loi visant à promouvoir l’efficacité et la capacité d’adaptation de l’économie canadienne par la réglementation de certaines pratiques qui découragent l’exercice des activités commerciales par voie électronique et modifiant" w:value="33"/>
+<w:listItem w:displayText="Loi abrogeant la Loi constituant en corporation The western Canada Telephone Company" w:value="34"/>
+<w:listItem w:displayText="Loi sur la généalogie des animaux" w:value="35"/>
+<w:listItem w:displayText="Loi sur l’accord en matière d’éducation conclu avec la Nation des Anishinabes" w:value="36"/>
+<w:listItem w:displayText="Loi sur l’annulation du mariage (Ontario)" w:value="37"/>
+<w:listItem w:displayText="Loi sur la protection de l’environnement en Antarctique" w:value="38"/>
+<w:listItem w:displayText="Loi de mise en oeuvre de la Convention sur les mines antipersonnel" w:value="39"/>
+<w:listItem w:displayText="Loi antiterroriste" w:value="40"/>
+<w:listItem w:displayText="Loi sur les prêts aux apprentis" w:value="41"/>
+<w:listItem w:displayText="Lois de crédits" w:value="42"/>
+<w:listItem w:displayText="Loi sur la prévention de la pollution des eaux arctiques" w:value="43"/>
+<w:listItem w:displayText="Loi sur l’accord concernant la Banque asiatique d’investissement dans les infrastructures" w:value="44"/>
+<w:listItem w:displayText="Loi sur la Fondation Asie-Pacifique du Canada" w:value="45"/>
+<w:listItem w:displayText="Loi sur la procréation assistée" w:value="46"/>
+<w:listItem w:displayText="Loi sur l’Agence de promotion économique du Canada atlantique" w:value="47"/>
+<w:listItem w:displayText="Loi sur la restructuration du secteur des pêches de l’Atlantique" w:value="48"/>
+<w:listItem w:displayText="Loi sur le vérificateur général" w:value="49"/>
+<w:listItem w:displayText="Loi sur l’indemnisation de l’industrie aérienne" w:value="50"/>
+<w:listItem w:displayText="Loi sur les banques" w:value="51"/>
+<w:listItem w:displayText="Loi sur l’immunité de la Banque des règlements internationaux" w:value="52"/>
+<w:listItem w:displayText="Loi sur la poursuite des activités de la Banque de la Colombie-Britannique" w:value="53"/>
+<w:listItem w:displayText="Loi sur la Banque du Canada" w:value="54"/>
+<w:listItem w:displayText="Loi sur la faillite et l’insolvabilité" w:value="55"/>
+<w:listItem w:displayText="Loi sur l’entreprise de force motrice de Beechwood" w:value="56"/>
+<w:listItem w:displayText="Loi sur Bell Canada" w:value="57"/>
+<w:listItem w:displayText="Loi sur les lettres de change" w:value="58"/>
+<w:listItem w:displayText="Loi sur les connaissements" w:value="59"/>
+<w:listItem w:displayText="Loi de mise en oeuvre de la convention sur les armes biologiques ou à toxines" w:value="60"/>
+<w:listItem w:displayText="Loi sur l’Administration du pont Blue Water" w:value="61"/>
+<w:listItem w:displayText="Loi sur les chambres de commerce" w:value="62"/>
+<w:listItem w:displayText="Loi autorisant certains emprunts" w:value="63"/>
+<w:listItem w:displayText="Loi sur le pont et le tunnel des Iles Boucherville" w:value="64"/>
+<w:listItem w:displayText="Loi sur les accords de Bretton Woods et des accords connexes" w:value="65"/>
+<w:listItem w:displayText="Loi concernant un pont destiné à favoriser le commerce" w:value="66"/>
+<w:listItem w:displayText="Loi sur les ponts" w:value="67"/>
+<w:listItem w:displayText="Loi sur la manutention des grains en Colombie-Britannique" w:value="68"/>
+<w:listItem w:displayText="Loi sur le règlement des revendications relatives aux terres retranchées des réserves des Indiens de la Colombie-Britannique" w:value="69"/>
+<w:listItem w:displayText="Loi sur les ressources minérales des réserves indiennes de la Colombie-Britannique" w:value="70"/>
+<w:listItem w:displayText="Loi sur la Commission des traités de la Colombie-Britannique" w:value="71"/>
+<w:listItem w:displayText="Loi sur la radiodiffusion" w:value="72"/>
+<w:listItem w:displayText="Loi d’exécution du budget et de l’énoncé économique de 2007" w:value="73"/>
+<w:listItem w:displayText="Loi d’exécution du budget 1995" w:value="74"/>
+<w:listItem w:displayText="Loi d’exécution du budget de 1997" w:value="75"/>
+<w:listItem w:displayText="Loi d’exécution du budget de 1998" w:value="76"/>
+<w:listItem w:displayText="Loi d’exécution du budget de 1999" w:value="77"/>
+<w:listItem w:displayText="Loi d’exécution du budget de 2000" w:value="78"/>
+<w:listItem w:displayText="Loi d’exécution du budget de 2001" w:value="79"/>
+<w:listItem w:displayText="Loi d’exécution du budget de 2003" w:value="80"/>
+<w:listItem w:displayText="Loi d’exécution du budget de 2004" w:value="81"/>
+<w:listItem w:displayText="Loi no 2 d’exécution du budget de 2004" w:value="82"/>
+<w:listItem w:displayText="Loi d’exécution du budget de 2005" w:value="83"/>
+<w:listItem w:displayText="Loi d’exécution du budget de 2006" w:value="84"/>
+<w:listItem w:displayText="Loi d’exécution du budget de 2007" w:value="85"/>
+<w:listItem w:displayText="Loi d’exécution du budget de 2008" w:value="86"/>
+<w:listItem w:displayText="Loi d’exécution du budget de 2009" w:value="87"/>
+<w:listItem w:displayText="Loi no 1 d’exécution du budget de 2017" w:value="88"/>
+<w:listItem w:displayText="Loi no 2 d’exécution du budget de 2017" w:value="89"/>
+<w:listItem w:displayText="Loi concernant la « Buffalo and Fort Erie Public Bridge Company »" w:value="90"/>
+<w:listItem w:displayText="Loi sur la Banque de développement du Canada" w:value="91"/>
+<w:listItem w:displayText="Loi relative au pont de Campobello à Lubec" w:value="92"/>
+<w:listItem w:displayText="Loi sur les produits agricoles au Canada" w:value="93"/>
+<w:listItem w:displayText="Loi de 2016 sur l’arrangement fiscal relatif aux territoires du Canada et de Taiwan" w:value="94"/>
+<w:listItem w:displayText="Loi sur l’Agence des services frontaliers du Canada" w:value="95"/>
+<w:listItem w:displayText="Loi canadienne sur les sociétés par actions" w:value="96"/>
+<w:listItem w:displayText="Loi canadienne sur la sécurité des produits de consommation" w:value="97"/>
+<w:listItem w:displayText="Loi canadienne sur les coopératives" w:value="98"/>
+<w:listItem w:displayText="Loi sur les corporations canadiennes" w:value="99"/>
+<w:listItem w:displayText="Loi sur le Conseil des Arts du Canada" w:value="100"/>
+<w:listItem w:displayText="Loi sur la Société d’assurance-dépôts du Canada" w:value="101"/>
+<w:listItem w:displayText="Loi sur la réorganisation de la Corporation de développement du Canada" w:value="102"/>
+<w:listItem w:displayText="Loi canadienne sur l’épargne-invalidité" w:value="103"/>
+<w:listItem w:displayText="Loi canadienne sur l’épargne-études" w:value="104"/>
+<w:listItem w:displayText="Loi électorale du Canada" w:value="105"/>
+<w:listItem w:displayText="Loi sur l’Agence canadienne pour l’incitation à la réduction des émissions" w:value="106"/>
+<w:listItem w:displayText="Loi sur l’Office de financement de l’assurance-emploi du Canada" w:value="107"/>
+<w:listItem w:displayText="Loi sur la preuve au Canada" w:value="108"/>
+<w:listItem w:displayText="Loi sur la Fondation du Canada pour l’appui technologique au développement durable" w:value="109"/>
+<w:listItem w:displayText="Loi sur le Fonds canadien pour l’Afrique" w:value="110"/>
+<w:listItem w:displayText="Loi sur les grains du Canada" w:value="111"/>
+<w:listItem w:displayText="Loi canadienne sur la santé" w:value="112"/>
+<w:listItem w:displayText="Loi sur le financement des soins de santé ainsi que du développement de la petite enfance et d’autres services sociaux au Canada" w:value="113"/>
+<w:listItem w:displayText="Loi sur la Banque de l’infrastructure du Canada" w:value="114"/>
+<w:listItem w:displayText="Code canadien du travail" w:value="115"/>
+<w:listItem w:displayText="Loi sur les arpenteurs des terres du Canada" w:value="116"/>
+<w:listItem w:displayText="Loi sur l’arpentage des terres du Canada" w:value="117"/>
+<w:listItem w:displayText="Loi maritime du Canada" w:value="118"/>
+<w:listItem w:displayText="Loi sur la Société canadienne d’hypothèques et de logement" w:value="119"/>
+<w:listItem w:displayText="Loi sur les aires marines nationales de conservation du Canada" w:value="120"/>
+<w:listItem w:displayText="Loi sur les parcs nationaux du Canada" w:value="121"/>
+<w:listItem w:displayText="Loi canadienne sur les organisations à but non lucratif" w:value="122"/>
+<w:listItem w:displayText="Loi sur les opérations pétrolières au Canada" w:value="123"/>
+<w:listItem w:displayText="Régime de pensions du Canada" w:value="124"/>
+<w:listItem w:displayText="Loi sur l’Office d’investissement du régime de pensions du Canada" w:value="125"/>
+<w:listItem w:displayText="Loi fédérale sur les hydrocarbures" w:value="126"/>
+<w:listItem w:displayText="Loi sur la Société canadienne des postes" w:value="127"/>
+<w:listItem w:displayText="Loi canadienne sur les prises" w:value="128"/>
+<w:listItem w:displayText="Loi sur l’Agence du revenu du Canada" w:value="129"/>
+<w:listItem w:displayText="Loi sur l’École de la fonction publique du Canada" w:value="130"/>
+<w:listItem w:displayText="Loi sur la marine marchande du Canada" w:value="131"/>
+<w:listItem w:displayText="Loi de 2001 sur la marine marchande du Canada" w:value="132"/>
+<w:listItem w:displayText="Loi sur le financement des petites entreprises du Canada" w:value="133"/>
+<w:listItem w:displayText="Loi sur le Fonds canadien sur l’infrastructure stratégique" w:value="134"/>
+<w:listItem w:displayText="Loi fédérale sur l’aide financière aux étudiants" w:value="135"/>
+<w:listItem w:displayText="Loi fédérale sur les prêts aux étudiants" w:value="136"/>
+<w:listItem w:displayText="Loi sur les transports au Canada" w:value="137"/>
+<w:listItem w:displayText="Loi sur l’indemnisation au Canada en matière d’expositions itinérantes" w:value="138"/>
+<w:listItem w:displayText="Loi sur les ressources en eau du Canada" w:value="139"/>
+<w:listItem w:displayText="Loi sur les espèces sauvages du Canada" w:value="140"/>
+<w:listItem w:displayText="Loi de 1994 sur la Convention Canada-Argentine en matière d’impôts sur le revenu" w:value="141"/>
+<w:listItem w:displayText="Loi de 2004 sur la convention fiscale Canada–Arménie" w:value="142"/>
+<w:listItem w:displayText="Loi de 2004 sur la convention fiscale Canada–Azerbaïdjan" w:value="143"/>
+<w:listItem w:displayText="Loi sur la Convention Canada-Belgique en matière d’impôt sur le revenu (1976)" w:value="144"/>
+<w:listItem w:displayText="Loi de 1984 sur la Convention Canada-Brésil en matière d’impôts sur le revenu" w:value="145"/>
+<w:listItem w:displayText="Loi de mise en oeuvre de l’Accord de libre-échange Canada–Chili" w:value="146"/>
+<w:listItem w:displayText="Loi de mise en oeuvre de l’Accord de libre-échange Canada-Colombie" w:value="147"/>
+<w:listItem w:displayText="Loi de 2010 sur la convention fiscale Canada-Colombie" w:value="148"/>
+<w:listItem w:displayText="Loi de mise en oeuvre de l’Accord de libre-échange Canada–Costa Rica" w:value="149"/>
+<w:listItem w:displayText="Loi de mise en oeuvre de l’Accord de libre-échange Canada–AELÉ" w:value="150"/>
+<w:listItem w:displayText="Loi de mise en oeuvre de l’Accord économique et commercial global entre le Canada et l’Union européenne" w:value="151"/>
+<w:listItem w:displayText="Loi de 2006 sur la convention fiscale Canada–Finlande" w:value="152"/>
+<w:listItem w:displayText="Loi de 2004 sur la convention fiscale Canada–Gabon" w:value="153"/>
+<w:listItem w:displayText="Loi de 1982 sur l’Accord Canada-Allemagne en matière d’impôts" w:value="154"/>
+<w:listItem w:displayText="Loi de 2010 sur la convention fiscale Canada-Grèce" w:value="155"/>
+<w:listItem w:displayText="Loi sur la croissance économique et la prospérité—Canada-Honduras" w:value="156"/>
+<w:listItem w:displayText="Loi de 2013 sur l’accord fiscal Canada-Hong Kong" w:value="157"/>
+<w:listItem w:displayText="Loi autorisant l’aliénation de Canadair Limitée" w:value="158"/>
+<w:listItem w:displayText="Loi de 2004 sur la convention fiscale Canada–Irlande" w:value="159"/>
+<w:listItem w:displayText="Loi de mise en oeuvre de l’Accord de libre-échange Canada–Israël" w:value="160"/>
+<w:listItem w:displayText="Loi de 2016 sur la convention fiscale Canada-Israël" w:value="161"/>
+<w:listItem w:displayText="Loi sur la croissance économique et la prospérité — Canada-Jordanie" w:value="162"/>
+<w:listItem w:displayText="Loi sur la croissance économique et la prospérité — Canada-Corée" w:value="163"/>
+<w:listItem w:displayText="Loi de 1980 sur la Convention Canada–Corée en matière d’impôt sur le revenu" w:value="164"/>
+<w:listItem w:displayText="Loi de 2002 sur l’accord fiscal Canada–Koweït" w:value="165"/>
+<w:listItem w:displayText="Loi de 2006 sur la convention fiscale Canada–Mexique" w:value="166"/>
+<w:listItem w:displayText="Loi de 1991 sur la Convention Canada-Mexique sur l’échange de renseignements fiscaux" w:value="167"/>
+<w:listItem w:displayText="Loi de 2002 sur la convention fiscale Canada–Moldova" w:value="168"/>
+<w:listItem w:displayText="Loi de 2002 sur la convention fiscale Canada–Mongolie" w:value="169"/>
+<w:listItem w:displayText="Loi de 2013 sur la convention fiscale Canada-Namibie" w:value="170"/>
+<w:listItem w:displayText="Loi de mise en oeuvre de l’Accord atlantique Canada — Terre-Neuve-et-Labrador" w:value="171"/>
+<w:listItem w:displayText="Loi de 2002 sur la convention fiscale Canada–Norvège" w:value="172"/>
+<w:listItem w:displayText="Loi de mise en oeuvre de l’Accord Canada — Nouvelle-Écosse sur les hydrocarbures extracôtiers" w:value="173"/>
+<w:listItem w:displayText="Loi de 2004 sur l’accord fiscal Canada–Oman" w:value="174"/>
+<w:listItem w:displayText="Loi sur la croissance économique et la prospérité — Canada-Panama" w:value="175"/>
+<w:listItem w:displayText="Loi de mise en oeuvre de l’Accord de libre-échange Canada-Pérou" w:value="176"/>
+<w:listItem w:displayText="Loi de 2013 sur la convention fiscale Canada-Pologne" w:value="177"/>
+<w:listItem w:displayText="Loi de 2013 sur la convention fiscale Canada-Serbie" w:value="178"/>
+<w:listItem w:displayText="Loi de 2010 sur la convention fiscale Canada-Turquie" w:value="179"/>
+<w:listItem w:displayText="Loi de mise en oeuvre de l’Accord de libre-échange Canada–Ukraine" w:value="180"/>
+<w:listItem w:displayText="Loi de 2002 sur la convention fiscale Canada–Émirats Arabes Unis" w:value="181"/>
+<w:listItem w:displayText="Loi sur la Convention Canada-Royaume-Uni relative aux jugements en matière civile et commerciale" w:value="182"/>
+<w:listItem w:displayText="Loi de mise en oeuvre de l’Accord Canada–États-Unis pour un meilleur échange de renseignements fiscaux" w:value="183"/>
+<w:listItem w:displayText="Loi de mise en oeuvre de l’Accord de libre-échange Canada — États-Unis" w:value="184"/>
+<w:listItem w:displayText="Loi de 1984 sur la Convention Canada-États-Unis en matière d’impôts" w:value="185"/>
+<w:listItem w:displayText="Loi de mise en oeuvre de l’Accord Canada–Yukon sur le pétrole et le gaz" w:value="186"/>
+<w:listItem w:displayText="Loi canadienne sur les prêts agricoles" w:value="187"/>
+<w:listItem w:displayText="Loi sur l’Administration canadienne de la sûreté du transport aérien" w:value="188"/>
+<w:listItem w:displayText="Loi autorisant l’aliénation de la société Les Arsenaux canadiens Limitée" w:value="189"/>
+<w:listItem w:displayText="Loi sur l’Association canadienne des ex-parlementaires" w:value="190"/>
+<w:listItem w:displayText="Déclaration canadienne des droits" w:value="191"/>
+<w:listItem w:displayText="Loi sur le Centre canadien d’hygiène et de sécurité au travail" w:value="192"/>
+<w:listItem w:displayText="Loi sur le Centre canadien de lutte contre les toxicomanies" w:value="193"/>
+<w:listItem w:displayText="Loi sur l’aide financière à la Banque Commerciale du Canada" w:value="194"/>
+<w:listItem w:displayText="Loi sur la Corporation commerciale canadienne" w:value="195"/>
+<w:listItem w:displayText="Loi sur la Commission canadienne du lait" w:value="196"/>
+<w:listItem w:displayText="Loi sur la semaine canadienne de l’environnement" w:value="197"/>
+<w:listItem w:displayText="Loi canadienne sur l’évaluation environnementale" w:value="198"/>
+<w:listItem w:displayText="Loi canadienne sur l’évaluation environnementale (2012)" w:value="199"/>
+<w:listItem w:displayText="Loi canadienne sur la protection de l’environnement (1999)" w:value="200"/>
+<w:listItem w:displayText="Loi sur l’Agence canadienne d’inspection des aliments" w:value="201"/>
+<w:listItem w:displayText="Loi de 1950 sur les forces canadiennes" w:value="202"/>
+<w:listItem w:displayText="Loi sur les mesures de réinsertion et d’indemnisation des militaires et vétérans des Forces canadiennes" w:value="203"/>
+<w:listItem w:displayText="Loi sur la pension de retraite des Forces canadiennes" w:value="204"/>
+<w:listItem w:displayText="Loi de mise en oeuvre de l’Accord de libre-échange canadien" w:value="205"/>
+<w:listItem w:displayText="Loi sur l’Institut canadien des langues patrimoniales" w:value="206"/>
+<w:listItem w:displayText="Loi sur la Station canadienne de recherche dans l’Extrême-Arctique" w:value="207"/>
+<w:listItem w:displayText="Loi canadienne sur les droits de la personne" w:value="208"/>
+<w:listItem w:displayText="Loi sur les Instituts de recherche en santé du Canada" w:value="209"/>
+<w:listItem w:displayText="Loi sur le Tribunal canadien du commerce extérieur" w:value="210"/>
+<w:listItem w:displayText="Loi sur le multiculturalisme canadien" w:value="211"/>
+<w:listItem w:displayText="Loi des terminus nationaux canadiens à Montréal, 1929" w:value="212"/>
+<w:listItem w:displayText="Loi sur la détermination de la participation et du contrôle canadiens" w:value="213"/>
+<w:listItem w:displayText="Loi canadienne sur les paiements" w:value="214"/>
+<w:listItem w:displayText="Loi sur la médaille canadienne du maintien de la paix" w:value="215"/>
+<w:listItem w:displayText="Loi sur la Commission canadienne des affaires polaires" w:value="216"/>
+<w:listItem w:displayText="Loi sur la Fondation canadienne des relations raciales" w:value="217"/>
+<w:listItem w:displayText="Loi sur le Conseil de la radiodiffusion et des télécommunications canadiennes" w:value="218"/>
+<w:listItem w:displayText="Loi sur La Société canadienne de la Croix-Rouge" w:value="219"/>
+<w:listItem w:displayText="Loi sur le Bureau de transition vers un régime canadien de réglementation des valeurs mobilières" w:value="220"/>
+<w:listItem w:displayText="Loi sur le Service canadien du renseignement de sécurité" w:value="221"/>
+<w:listItem w:displayText="Loi sur l’Agence spatiale canadienne" w:value="222"/>
+<w:listItem w:displayText="Loi sur la Commission canadienne du tourisme" w:value="223"/>
+<w:listItem w:displayText="Loi sur le Bureau canadien d’enquête sur les accidents de transport et de la sécurité des transports" w:value="224"/>
+<w:listItem w:displayText="Charte canadienne des droits des victimes" w:value="225"/>
+<w:listItem w:displayText="Loi sur la Commission canadienne du blé (activités en période intérimaire)" w:value="226"/>
+<w:listItem w:displayText="Loi sur la Commission canadienne du blé" w:value="227"/>
+<w:listItem w:displayText="Loi sur la société de développement du Cap-Breton" w:value="228"/>
+<w:listItem w:displayText="Loi autorisant la Société de développement du Cap-Breton à aliéner ses biens et prévoyant la dissolution de celle-ci" w:value="229"/>
+<w:listItem w:displayText="Loi sur le transport aérien" w:value="230"/>
+<w:listItem w:displayText="Loi concernant la réserve de Caughnawaga" w:value="231"/>
+<w:listItem w:displayText="Loi célébrant les aînés du Canada" w:value="232"/>
+<w:listItem w:displayText="Loi sur la bourse de recherches de la flamme du centenaire" w:value="233"/>
+<w:listItem w:displayText="Loi sur l’enregistrement des organismes de bienfaisance (renseignements de sécurité)" w:value="234"/>
+<w:listItem w:displayText="Loi de mise en oeuvre de la Convention sur les armes chimiques" w:value="235"/>
+<w:listItem w:displayText="Loi sur la journée de l’enfant" w:value="236"/>
+<w:listItem w:displayText="Loi sur l’aide en matière d’éducation aux enfants des anciens combattants décédés" w:value="237"/>
+<w:listItem w:displayText="Loi sur les allocations spéciales pour enfants" w:value="238"/>
+<w:listItem w:displayText="Loi sur les allocations spéciales pour enfants" w:value="239"/>
+<w:listItem w:displayText="Loi sur la citoyenneté" w:value="240"/>
+<w:listItem w:displayText="Loi sur la commercialisation des services de navigation aérienne civile" w:value="241"/>
+<w:listItem w:displayText="Loi de mise en oeuvre de l’Accord sur la Station spatiale internationale civile" w:value="242"/>
+<w:listItem w:displayText="Loi sur le mariage civil" w:value="243"/>
+<w:listItem w:displayText="Loi sur l’assurance du service civil" w:value="244"/>
+<w:listItem w:displayText="Loi sur les prestations de guerre pour les civils" w:value="245"/>
+<w:listItem w:displayText="Loi sur la mise en oeuvre de mesures concernant le règlement de revendications (Alberta et Saskatchewan)" w:value="246"/>
+<w:listItem w:displayText="Loi de clarification" w:value="247"/>
+<w:listItem w:displayText="Loi sur la commercialisation du CN" w:value="248"/>
+<w:listItem w:displayText="Loi sur la protection des pêches côtières" w:value="249"/>
+<w:listItem w:displayText="Loi sur le cabotage" w:value="250"/>
+<w:listItem w:displayText="Loi sur l’arbitrage commercial" w:value="251"/>
+<w:listItem w:displayText="Loi sur les arrangements avec les créanciers des compagnies" w:value="252"/>
+<w:listItem w:displayText="Loi sur la concurrence" w:value="253"/>
+<w:listItem w:displayText="Loi sur le Tribunal de la concurrence" w:value="254"/>
+<w:listItem w:displayText="Loi de mise en oeuvre du Traité d’interdiction complète des essais nucléaires" w:value="255"/>
+<w:listItem w:displayText="Loi de validation des ordonnances sur la copropriété" w:value="256"/>
+<w:listItem w:displayText="Loi sur les conflits d’intérêts" w:value="257"/>
+<w:listItem w:displayText="Modifications constitutionnelles" w:value="258"/>
+<w:listItem w:displayText="Loi sur l’emballage et l’étiquetage des produits de consommation" w:value="259"/>
+<w:listItem w:displayText="Loi sur les contraventions" w:value="260"/>
+<w:listItem w:displayText="Loi réglementant certaines drogues et autres substances" w:value="261"/>
+<w:listItem w:displayText="Loi sur les associations coopératives de crédit" w:value="262"/>
+<w:listItem w:displayText="Loi sur les coopératives de l’énergie" w:value="263"/>
+<w:listItem w:displayText="Loi sur le droit d’auteur" w:value="264"/>
+<w:listItem w:displayText="Loi sur les déclarations des personnes morales" w:value="265"/>
+<w:listItem w:displayText="Loi sur le système correctionnel et la mise en liberté sous condition" w:value="266"/>
+<w:listItem w:displayText="Loi sur la corruption d’agents publics étrangers" w:value="267"/>
+<w:listItem w:displayText="Loi sur le Service administratif des tribunaux judiciaires" w:value="268"/>
+<w:listItem w:displayText="Loi sur les Cris et les Naskapis du Québec" w:value="269"/>
+<w:listItem w:displayText="Loi sur les crimes contre l’humanité et les crimes de guerre" w:value="270"/>
+<w:listItem w:displayText="Code criminel" w:value="271"/>
+<w:listItem w:displayText="Loi sur le casier judiciaire" w:value="272"/>
+<w:listItem w:displayText="Loi sur la dissolution ou la cession de sociétés d’État" w:value="273"/>
+<w:listItem w:displayText="Loi sur la responsabilité civile de l’État et le contentieux administratif" w:value="274"/>
+<w:listItem w:displayText="Loi sur l’exportation et l’importation de biens culturels" w:value="275"/>
+<w:listItem w:displayText="Loi sur la monnaie" w:value="276"/>
+<w:listItem w:displayText="Loi sur les douanes" w:value="277"/>
+<w:listItem w:displayText="Loi sur la compétence extracôtière du Canada pour les douanes et l’accise" w:value="278"/>
+<w:listItem w:displayText="Tarif des douanes" w:value="279"/>
+<w:listItem w:displayText="Loi sur le compte de service et de réduction de la dette" w:value="280"/>
+<w:listItem w:displayText="Loi sur la production de défense" w:value="281"/>
+<w:listItem w:displayText="Loi sur la continuation de la pension des services de défense" w:value="282"/>
+<w:listItem w:displayText="Loi sur l’accord définitif sur l’autonomie gouvernementale de Deline" w:value="283"/>
+<w:listItem w:displayText="Loi sur le ministère de l’Agriculture et de l’Agroalimentaire" w:value="284"/>
+<w:listItem w:displayText="Loi sur le ministère du Patrimoine canadien" w:value="285"/>
+<w:listItem w:displayText="Loi sur le ministère de la Citoyenneté et de l’Immigration" w:value="286"/>
+<w:listItem w:displayText="Loi sur le ministère de l’Emploi et du Développement social" w:value="287"/>
+<w:listItem w:displayText="Loi sur le ministère des Pêches et des Océans" w:value="288"/>
+<w:listItem w:displayText="Loi sur le ministère des Affaires étrangères et du Commerce international" w:value="289"/>
+<w:listItem w:displayText="Loi sur le ministère des Affaires étrangères, du Commerce et du Développement" w:value="290"/>
+<w:listItem w:displayText="Loi sur le ministère de la Santé" w:value="291"/>
+<w:listItem w:displayText="Loi sur le ministère du Développement des ressources humaines" w:value="292"/>
+<w:listItem w:displayText="Loi sur le ministère des Affaires indiennes et du Nord canadien" w:value="293"/>
+<w:listItem w:displayText="Loi sur le ministère de l’Industrie" w:value="294"/>
+<w:listItem w:displayText="Loi sur le ministère de la Justice" w:value="295"/>
+<w:listItem w:displayText="Loi sur le ministère des Ressources naturelles" w:value="296"/>
+<w:listItem w:displayText="Loi sur le ministère de la Sécurité publique et de la Protection civile" w:value="297"/>
+<w:listItem w:displayText="Loi sur le ministère des Travaux publics et des Services gouvernementaux" w:value="298"/>
+<w:listItem w:displayText="Loi sur le ministère du Développement social" w:value="299"/>
+<w:listItem w:displayText="Loi sur le ministère de l’Environnement" w:value="300"/>
+<w:listItem w:displayText="Loi sur le ministère du Solliciteur général" w:value="301"/>
+<w:listItem w:displayText="Loi sur le ministère des Transports" w:value="302"/>
+<w:listItem w:displayText="Loi sur le ministère des Anciens Combattants" w:value="303"/>
+<w:listItem w:displayText="Loi sur les lettres et billets de dépôt" w:value="304"/>
+<w:listItem w:displayText="Loi sur la pension spéciale du service diplomatique" w:value="305"/>
+<w:listItem w:displayText="Loi sur le directeur des poursuites pénales" w:value="306"/>
+<w:listItem w:displayText="Loi sur les restrictions applicables aux promoteurs du crédit d’impôt pour personnes handicapées" w:value="307"/>
+<w:listItem w:displayText="Loi sur le divorce" w:value="308"/>
+<w:listItem w:displayText="Loi sur l’identification par les empreintes génétiques" w:value="309"/>
+<w:listItem w:displayText="Loi fédérale sur les droits successoraux" w:value="310"/>
+<w:listItem w:displayText="Loi sur les forces hydrauliques du Canada" w:value="311"/>
+<w:listItem w:displayText="Loi sur les possibilités de la mise en valeur de la réserve de charbon Donkin" w:value="312"/>
+<w:listItem w:displayText="Loi sur les subventions aux bassins de radoub" w:value="313"/>
+<w:listItem w:displayText="Loi no 1 sur le plan d’action économique de 2013" w:value="314"/>
+<w:listItem w:displayText="Loi no 2 sur le plan d’action économique de 2013" w:value="315"/>
+<w:listItem w:displayText="Loi no 1 sur le plan d’action économique de 2014" w:value="316"/>
+<w:listItem w:displayText="Loi no 1 sur le plan d’action économique de 2015" w:value="317"/>
+<w:listItem w:displayText="Loi sur l’Agence de développement économique du Canada pour les régions du Québec" w:value="318"/>
+<w:listItem w:displayText="Loi sur la reprise économique (mesures incitatives)" w:value="319"/>
+<w:listItem w:displayText="Loi sur l’accord sur les revendications territoriales concernant la région marine d’Eeyou" w:value="320"/>
+<w:listItem w:displayText="Loi sur la réorganisation et l’aliénation de Eldorado Nucléaire Limitée" w:value="321"/>
+<w:listItem w:displayText="Loi sur la révision des limites des circonscriptions électorales" w:value="322"/>
+<w:listItem w:displayText="Loi de 1994 sur la suspension de la révision des limites des circonscriptions électorales" w:value="323"/>
+<w:listItem w:displayText="Loi sur l’inspection de l’électricité et du gaz" w:value="324"/>
+<w:listItem w:displayText="Loi sur les mesures d’urgence" w:value="325"/>
+<w:listItem w:displayText="Loi sur la gestion des urgences" w:value="326"/>
+<w:listItem w:displayText="Loi sur la protection civile" w:value="327"/>
+<w:listItem w:displayText="Loi sur l’équité en matière d’emploi" w:value="328"/>
+<w:listItem w:displayText="Loi sur l’assurance-emploi" w:value="329"/>
+<w:listItem w:displayText="Loi de soutien de l’emploi" w:value="330"/>
+<w:listItem w:displayText="Loi sur l’administration de l’énergie" w:value="331"/>
+<w:listItem w:displayText="Loi sur les mesures d’aide liées au coût de l’énergie" w:value="332"/>
+<w:listItem w:displayText="Loi sur l’efficacité énergétique" w:value="333"/>
+<w:listItem w:displayText="Loi sur la surveillance du secteur énergétique" w:value="334"/>
+<w:listItem w:displayText="Loi d’urgence sur les approvisionnements d’énergie" w:value="335"/>
+<w:listItem w:displayText="Loi sur la Société d’expansion du Cap-Breton" w:value="336"/>
+<w:listItem w:displayText="Loi sur les pénalités administratives en matière d’environnement" w:value="337"/>
+<w:listItem w:displayText="Loi sur les biens en déshérence" w:value="338"/>
+<w:listItem w:displayText="Loi sur l’Accord portant création de la Banque européenne pour la reconstruction et le développement" w:value="339"/>
+<w:listItem w:displayText="Loi sur la Cour de l’Échiquier" w:value="340"/>
+<w:listItem w:displayText="Loi sur l’accise" w:value="341"/>
+<w:listItem w:displayText="Loi de 2001 sur l’accise" w:value="342"/>
+<w:listItem w:displayText="Loi sur la taxe d’accise" w:value="343"/>
+<w:listItem w:displayText="Loi sur le contrôle des dépenses" w:value="344"/>
+<w:listItem w:displayText="Loi sur les stations agronomiques" w:value="345"/>
+<w:listItem w:displayText="Loi sur les explosifs" w:value="346"/>
+<w:listItem w:displayText="Loi sur les exportations" w:value="347"/>
+<w:listItem w:displayText="Loi sur l’exportation et l’importation des diamants bruts" w:value="348"/>
+<w:listItem w:displayText="Loi sur les licences d’exportation et d’importation" w:value="349"/>
+<w:listItem w:displayText="Loi sur le développement des exportations" w:value="350"/>
+<w:listItem w:displayText="Loi sur l’expropriation" w:value="351"/>
+<w:listItem w:displayText="Loi sur les mesures de transparence dans le secteur extractif" w:value="352"/>
+<w:listItem w:displayText="Loi sur l’extradition" w:value="353"/>
+<w:listItem w:displayText="Loi sur les justes salaires et les heures de travail" w:value="354"/>
+<w:listItem w:displayText="Loi sur les foyers familiaux situés dans les réserves et les droits ou intérêts matrimoniaux" w:value="355"/>
+<w:listItem w:displayText="Loi d’aide à l’exécution des ordonnances et des ententes familiales" w:value="356"/>
+<w:listItem w:displayText="Loi sur Financement agricole Canada" w:value="357"/>
+<w:listItem w:displayText="Loi sur la médiation en matière d’endettement agricole" w:value="358"/>
+<w:listItem w:displayText="Loi sur les prêts destinés aux améliorations agricoles" w:value="359"/>
+<w:listItem w:displayText="Loi sur la protection du revenu agricole" w:value="360"/>
+<w:listItem w:displayText="Loi sur les offices des produits agricoles" w:value="361"/>
+<w:listItem w:displayText="Loi fédérale sur la responsabilité" w:value="362"/>
+<w:listItem w:displayText="Loi fédérale sur l’équilibre budgétaire" w:value="363"/>
+<w:listItem w:displayText="Loi sur les Cours fédérales" w:value="364"/>
+<w:listItem w:displayText="Loi sur le cadre fédéral de prévention du suicide" w:value="365"/>
+<w:listItem w:displayText="Loi sur le cadre fédéral relatif à la maladie de Lyme" w:value="366"/>
+<w:listItem w:displayText="Loi d’harmonisation no1 du droit fédéral avec le droit civil" w:value="367"/>
+<w:listItem w:displayText="Loi sur les relations de travail dans le secteur public fédéral" w:value="368"/>
+<w:listItem w:displayText="Loi sur la Commission des relations de travail et de l’emploi dans le secteur public fédéral" w:value="369"/>
+<w:listItem w:displayText="Loi sur les immeubles fédéraux et les biens réels fédéraux" w:value="370"/>
+<w:listItem w:displayText="Loi fédérale sur le développement durable" w:value="371"/>
+<w:listItem w:displayText="Loi sur les arrangements fiscaux entre le gouvernement fédéral et les provinces" w:value="372"/>
+<w:listItem w:displayText="Loi sur les arrangements fiscaux entre le gouvernement fédéral et les provinces" w:value="373"/>
+<w:listItem w:displayText="Loi de 1972 sur les arrangements fiscaux entre le gouvernement fédéral et les provinces" w:value="374"/>
+<w:listItem w:displayText="Loi relative aux aliments du bétail" w:value="375"/>
+<w:listItem w:displayText="Loi sur les engrais" w:value="376"/>
+<w:listItem w:displayText="Loi sur la gestion des finances publiques" w:value="377"/>
+<w:listItem w:displayText="Loi sur l’Agence de la consommation en matière financière du Canada" w:value="378"/>
+<w:listItem w:displayText="Institutions financières" w:value="379"/>
+<w:listItem w:displayText="Loi sur les institutions financières et modifiant le système d’assurance-dépôts" w:value="380"/>
+<w:listItem w:displayText="Loi sur l’indemnité aux déposants de certaines institutions financières" w:value="381"/>
+<w:listItem w:displayText="Loi sur les armes à feu" w:value="382"/>
+<w:listItem w:displayText="Loi sur le développement commercial et industriel des premières nations" w:value="383"/>
+<w:listItem w:displayText="Loi sur les élections au sein de premières nations" w:value="384"/>
+<w:listItem w:displayText="Loi sur la transparence financière des Premières Nations" w:value="385"/>
+<w:listItem w:displayText="Loi sur la gestion financière des premières nations" w:value="386"/>
+<w:listItem w:displayText="Loi sur la taxe sur les produits et services des premières nations" w:value="387"/>
+<w:listItem w:displayText="Loi sur la compétence des premières nations en matière d’éducation en Colombie-Britannique," w:value="388"/>
+<w:listItem w:displayText="Loi sur la gestion des terres des premières nations" w:value="389"/>
+<w:listItem w:displayText="Loi sur la gestion du pétrole et du gaz et des fonds des Premières Nations" w:value="390"/>
+<w:listItem w:displayText="Loi sur l’inspection du poisson" w:value="391"/>
+<w:listItem w:displayText="Loi sur les pêches" w:value="392"/>
+<w:listItem w:displayText="Loi sur le développement de la pêche" w:value="393"/>
+<w:listItem w:displayText="Loi sur les prêts aux entreprises de pêche" w:value="394"/>
+<w:listItem w:displayText="Loi sur les ports de pêche et de plaisance" w:value="395"/>
+<w:listItem w:displayText="Loi sur la condition physique et le sport amateur" w:value="396"/>
+<w:listItem w:displayText="Loi sur l’Organisation des Nations Unies pour l’alimentation et l’agriculture" w:value="397"/>
+<w:listItem w:displayText="Loi sur les aliments et drogues" w:value="398"/>
+<w:listItem w:displayText="Loi sur l’enrôlement à l’étranger" w:value="399"/>
+<w:listItem w:displayText="Loi sur les mesures extraterritoriales étrangères" w:value="400"/>
+<w:listItem w:displayText="Loi sur les missions étrangères et les organisations internationales" w:value="401"/>
+<w:listItem w:displayText="Loi sur les services publicitaires fournis par des éditeurs étrangers" w:value="402"/>
+<w:listItem w:displayText="Loi sur les forêts" w:value="403"/>
+<w:listItem w:displayText="Loi sur la remise de certaines dettes liées à l’aide publique au développement" w:value="404"/>
+<w:listItem w:displayText="Loi sur la remise de dettes (Afrique subsaharienne)" w:value="405"/>
+<w:listItem w:displayText="Loi sur le partage des revenus miniers de la réserve indienne de Fort Nelson" w:value="406"/>
+<w:listItem w:displayText="Loi sur l’Administration du pont Fort-Falls" w:value="407"/>
+<w:listItem w:displayText="Loi relative au cadre sur les soins palliatifs au Canada" w:value="408"/>
+<w:listItem w:displayText="Loi sur le blocage des biens de dirigeants étrangers corrompus" w:value="409"/>
+<w:listItem w:displayText="Loi sur la commercialisation du poisson d’eau douce" w:value="410"/>
+<w:listItem w:displayText="Loi validant des ordonnances tarifaires sur les fruits et légumes" w:value="411"/>
+<w:listItem w:displayText="Loi sur la saisie-arrêt et la distraction de pensions" w:value="412"/>
+<w:listItem w:displayText="Loi sur la non-discrimination génétique" w:value="413"/>
+<w:listItem w:displayText="Loi sur les conventions de Genève" w:value="414"/>
+<w:listItem w:displayText="Loi relative aux rentes sur l’État" w:value="415"/>
+<w:listItem w:displayText="Loi sur l’augmentation du rendement des rentes sur l’État" w:value="416"/>
+<w:listItem w:displayText="Loi sur le fonctionnement des sociétés du secteur public" w:value="417"/>
+<w:listItem w:displayText="Loi sur l’indemnisation des agents de l’État" w:value="418"/>
+<w:listItem w:displayText="Loi organique de 1987 sur le Canada atlantique" w:value="419"/>
+<w:listItem w:displayText="Loi relative à la circulation sur les terrains de l’État" w:value="420"/>
+<w:listItem w:displayText="Loi de 1999 sur les services gouvernementaux" w:value="421"/>
+<w:listItem w:displayText="Loi sur la reprise des services gouvernementaux" w:value="422"/>
+<w:listItem w:displayText="Loi sur le gouverneur général" w:value="423"/>
+<w:listItem w:displayText="Loi sur le règlement des revendications des bandes indiennes de Grassy Narrows et d’Islington (pollution par le mercure)" w:value="424"/>
+<w:listItem w:displayText="Loi sur la convention en matière de pêche dans les Grands Lacs" w:value="425"/>
+<w:listItem w:displayText="Loi sur le Fonds d’investissement technologique pour la lutte aux gaz à effet de serre" w:value="426"/>
+<w:listItem w:displayText="Loi sur le règlement de la revendication territoriale des Gwich’in" w:value="427"/>
+<w:listItem w:displayText="Loi sur la prise en charge des prestations de la Commission de secours d’Halifax" w:value="428"/>
+<w:listItem w:displayText="Loi sur les commissions portuaires" w:value="429"/>
+<w:listItem w:displayText="Loi sur le contrôle des renseignements relatifs aux matières dangereuses" w:value="430"/>
+<w:listItem w:displayText="Loi sur les produits dangereux" w:value="431"/>
+<w:listItem w:displayText="Loi sur la santé des animaux" w:value="432"/>
+<w:listItem w:displayText="Loi sur la protection des phares patrimoniaux" w:value="433"/>
+<w:listItem w:displayText="Loi sur la protection des gares ferroviaires patrimoniales" w:value="434"/>
+<w:listItem w:displayText="Loi sur l’exploitation du champ Hibernia" w:value="435"/>
+<w:listItem w:displayText="Loi sur la banque de données concernant les délinquants sexuels à risque élevé (infractions sexuelles visant les enfants)" w:value="436"/>
+<w:listItem w:displayText="Loi sur les ponts nécessaires au parachèvement de l’autoroute 30" w:value="437"/>
+<w:listItem w:displayText="Loi sur les lieux et monuments historiques" w:value="438"/>
+<w:listItem w:displayText="Loi instituant des jours de fête légale" w:value="439"/>
+<w:listItem w:displayText="Loi sur le Jour commémoratif de l’Holocauste" w:value="440"/>
+<w:listItem w:displayText="Loi concernant l’Hudson Bay Mining and Smelting Co., Limited" w:value="441"/>
+<w:listItem w:displayText="Loi sur les agents pathogènes humains et les toxines" w:value="442"/>
+<w:listItem w:displayText="Loi sur l’identification des criminels" w:value="443"/>
+<w:listItem w:displayText="Loi sur l’immigration et la protection des réfugiés" w:value="444"/>
+<w:listItem w:displayText="Loi sur l’importation des boissons enivrantes" w:value="445"/>
+<w:listItem w:displayText="Loi de l’impôt sur le revenu" w:value="446"/>
+<w:listItem w:displayText="Règles concernant l’application de l’impôt sur le revenu" w:value="447"/>
+<w:listItem w:displayText="Loi de 1995 pour la mise en oeuvre de conventions fiscales" w:value="448"/>
+<w:listItem w:displayText="Loi de 1996 pour la mise en oeuvre de conventions fiscales" w:value="449"/>
+<w:listItem w:displayText="Loi de 1997 pour la mise en oeuvre de conventions fiscales" w:value="450"/>
+<w:listItem w:displayText="Loi de 1998 pour la mise en oeuvre de conventions fiscales" w:value="451"/>
+<w:listItem w:displayText="Loi de 1999 pour la mise en oeuvre de conventions fiscales" w:value="452"/>
+<w:listItem w:displayText="Loi de 2001 pour la mise en oeuvre de conventions fiscales" w:value="453"/>
+<w:listItem w:displayText="Loi sur l’interprétation des conventions en matière d’impôts sur le revenu" w:value="454"/>
+<w:listItem w:displayText="Loi sur les Indiens (Établissement de soldats)" w:value="455"/>
+<w:listItem w:displayText="Loi sur les Indiens" w:value="456"/>
+<w:listItem w:displayText="Loi sur la modification et le remplacement de la Loi sur les Indiens" w:value="457"/>
+<w:listItem w:displayText="Loi sur l’accord de 1986 concernant les terres indiennes" w:value="458"/>
+<w:listItem w:displayText="Loi sur le pétrole et le gaz des terres indiennes" w:value="459"/>
+<w:listItem w:displayText="Loi sur les réserves indiennes de la Nouvelle-Écosse" w:value="460"/>
+<w:listItem w:displayText="Loi sur le développement industriel et régional" w:value="461"/>
+<w:listItem w:displayText="Loi sur les dessins industriels" w:value="462"/>
+<w:listItem w:displayText="Loi d’indemnisation des militaires ayant subi des blessures" w:value="463"/>
+<w:listItem w:displayText="Loi sur les enquêtes" w:value="464"/>
+<w:listItem w:displayText="Loi sur les sociétés d’assurances" w:value="465"/>
+<w:listItem w:displayText="Loi sur les topographies de circuits intégrés" w:value="466"/>
+<w:listItem w:displayText="Loi sur les opérations transfrontalières intégrées de contrôle d’application de la loi" w:value="467"/>
+<w:listItem w:displayText="Loi sur l’intérêt" w:value="468"/>
+<w:listItem w:displayText="Loi sur la Commission frontalière" w:value="469"/>
+<w:listItem w:displayText="Loi du traité des eaux limitrophes internationales" w:value="470"/>
+<w:listItem w:displayText="Loi sur les ponts et tunnels internationaux" w:value="471"/>
+<w:listItem w:displayText="Loi sur le Centre international des droits de la personne et du développement démocratique" w:value="472"/>
+<w:listItem w:displayText="Loi d’aide au développement international (institutions financières)" w:value="473"/>
+<w:listItem w:displayText="Loi sur le Centre de recherches pour le développement international" w:value="474"/>
+<w:listItem w:displayText="Loi sur les garanties internationales portant sur des matériels d’équipement mobiles (matériels d’équipement aéronautiques)" w:value="475"/>
+<w:listItem w:displayText="Loi sur l’aménagement de l’énergie des rapides internationaux" w:value="476"/>
+<w:listItem w:displayText="Loi sur les ouvrages destinés à l’amélioration des cours d’eau internationaux" w:value="477"/>
+<w:listItem w:displayText="Loi sur la Convention relative aux contrats de vente internationale de marchandises" w:value="478"/>
+<w:listItem w:displayText="Loi sur le transfèrement international des délinquants" w:value="479"/>
+<w:listItem w:displayText="Loi portant reconnaissance de l’internement de personnes d’origine ukrainienne" w:value="480"/>
+<w:listItem w:displayText="Loi d’interprétation" w:value="481"/>
+<w:listItem w:displayText="Loi sur Investir au Canada" w:value="482"/>
+<w:listItem w:displayText="Loi sur Investissement Canada" w:value="483"/>
+<w:listItem w:displayText="Loi sur le règlement des revendications des autochtones de la Baie James et du Nord québécois" w:value="484"/>
+<w:listItem w:displayText="Loi sur l’emploi et la croissance économique" w:value="485"/>
+<w:listItem w:displayText="Loi sur l’emploi, la croissance et la prospérité durable" w:value="486"/>
+<w:listItem w:displayText="Loi sur la Journée du Parcours vers la liberté" w:value="487"/>
+<w:listItem w:displayText="Loi sur les juges" w:value="488"/>
+<w:listItem w:displayText="Loi sur la justice pour les victimes de dirigeants étrangers corrompus (loi de Sergueï Magnitski)" w:value="489"/>
+<w:listItem w:displayText="Loi sur la justice pour les victimes d’actes de terrorisme" w:value="490"/>
+<w:listItem w:displayText="Loi sur le gouvernement du territoire provisoire de Kanesatake" w:value="491"/>
+<w:listItem w:displayText="Loi de mise en oeuvre de l’Accord de Kelowna" w:value="492"/>
+<w:listItem w:displayText="Loi sur le parc de Kingsmere" w:value="493"/>
+<w:listItem w:displayText="Loi sur la Journée des anciens combattants de la guerre de Corée" w:value="494"/>
+<w:listItem w:displayText="Loi de mise en oeuvre du Protocole de Kyoto" w:value="495"/>
+<w:listItem w:displayText="Loi sur les prestations d’adaptation pour les travailleurs" w:value="496"/>
+<w:listItem w:displayText="Loi sur l’Accord sur les revendications territoriales des Inuit du Labrador" w:value="497"/>
+<w:listItem w:displayText="Loi d’abrogation de la Loi sur les titres de biens-fonds" w:value="498"/>
+<w:listItem w:displayText="Loi sur les compétences linguistiques" w:value="499"/>
+<w:listItem w:displayText="Loi sur la maison Laurier (Laurier House)" w:value="500"/>
+<w:listItem w:displayText="Loi sur la Commission du droit du Canada" w:value="501"/>
+<w:listItem w:displayText="Loi sur la révision et la codification des textes législatifs" w:value="502"/>
+<w:listItem w:displayText="Loi sur la réédiction de textes législatifs" w:value="503"/>
+<w:listItem w:displayText="Loi sur la Bibliothèque et les Archives du Canada" w:value="504"/>
+<w:listItem w:displayText="Loi sur la pension de retraite des lieutenants-gouverneurs" w:value="505"/>
+<w:listItem w:displayText="Loi sur la Journée Lincoln Alexander" w:value="506"/>
+<w:listItem w:displayText="Loi sur l’aide à l’alimentation des animaux de ferme" w:value="507"/>
+<w:listItem w:displayText="Loi sur le lobbying" w:value="508"/>
+<w:listItem w:displayText="Loi sur l’accord définitif concernant les premières nations maanulthes" w:value="509"/>
+<w:listItem w:displayText="Loi relative aux répercussions du projet gazier Mackenzie" w:value="510"/>
+<w:listItem w:displayText="Loi sur le Fonds relatif aux répercussions du projet gazier Mackenzie" w:value="511"/>
+<w:listItem w:displayText="Loi sur la gestion des ressources de la vallée du Mackenzie" w:value="512"/>
+<w:listItem w:displayText="Loi sur le point de service principal du gouvernement du Canada en cas de décès" w:value="513"/>
+<w:listItem w:displayText="Loi de 1986 sur les opérations portuaires" w:value="514"/>
+<w:listItem w:displayText="Loi de 1995 sur le maintien des services ferroviaires" w:value="515"/>
+<w:listItem w:displayText="Loi sur les additifs à base de manganèse" w:value="516"/>
+<w:listItem w:displayText="Loi sur la mise en oeuvre de mesures concernant le règlement de revendications au Manitoba" w:value="517"/>
+<w:listItem w:displayText="Loi des dispositions supplémentaires du Manitoba" w:value="518"/>
+<w:listItem w:displayText="Loi autorisant l’acquisition de Marine Atlantique S.C.C." w:value="519"/>
+<w:listItem w:displayText="Loi sur l’assurance maritime" w:value="520"/>
+<w:listItem w:displayText="Loi sur la responsabilité en matière maritime" w:value="521"/>
+<w:listItem w:displayText="Loi sur la sûreté du transport maritime" w:value="522"/>
+<w:listItem w:displayText="Loi sur les risques de guerre en matière d’assurance maritime" w:value="523"/>
+<w:listItem w:displayText="Loi sur le libre choix des producteurs de grains en matière de commercialisation" w:value="524"/>
+<w:listItem w:displayText="Loi sur le mariage (degrés prohibés)" w:value="525"/>
+<w:listItem w:displayText="Loi sur l’inspection des viandes" w:value="526"/>
+<w:listItem w:displayText="Loi sur les allocations de retraite des parlementaires" w:value="527"/>
+<w:listItem w:displayText="Loi sur la Journée des anciens combattants de la marine marchande" w:value="528"/>
+<w:listItem w:displayText="Loi sur l’indemnisation des marins marchands" w:value="529"/>
+<w:listItem w:displayText="Loi sur l’éducation des Mi’kmaq" w:value="530"/>
+<w:listItem w:displayText="Loi de 1994 sur la convention concernant les oiseaux migrateurs" w:value="531"/>
+<w:listItem w:displayText="Loi sur les départements et ministres d’État" w:value="532"/>
+<w:listItem w:displayText="Loi corrective de 1991" w:value="533"/>
+<w:listItem w:displayText="Loi sur la modernisation de certains régimes d’avantages et d’obligations" w:value="534"/>
+<w:listItem w:displayText="Loi sur les normes de consommation de carburant des véhicules automobiles" w:value="535"/>
+<w:listItem w:displayText="Loi sur la sécurité automobile" w:value="536"/>
+<w:listItem w:displayText="Loi sur les transports routiers" w:value="537"/>
+<w:listItem w:displayText="Loi sur les musées" w:value="538"/>
+<w:listItem w:displayText="Loi sur l’entraide juridique en matière criminelle" w:value="539"/>
+<w:listItem w:displayText="Loi sur la Journée de la fête nationale des Acadiens et des Acadiennes" w:value="540"/>
+<w:listItem w:displayText="Loi sur l’hymne national" w:value="541"/>
+<w:listItem w:displayText="Loi sur les Archives nationales du Canada" w:value="542"/>
+<w:listItem w:displayText="Loi sur le Centre national des Arts" w:value="543"/>
+<w:listItem w:displayText="Loi concernant les champs de bataille nationaux de Québec" w:value="544"/>
+<w:listItem w:displayText="Loi sur la Semaine nationale du don de sang" w:value="545"/>
+<w:listItem w:displayText="Loi sur la capitale nationale" w:value="546"/>
+<w:listItem w:displayText="Loi sur le cimetière national du Canada" w:value="547"/>
+<w:listItem w:displayText="Loi sur une journée nationale de commémoration" w:value="548"/>
+<w:listItem w:displayText="Loi sur la défense nationale" w:value="549"/>
+<w:listItem w:displayText="Loi sur l’Office national de l’énergie" w:value="550"/>
+<w:listItem w:displayText="Loi sur la Journée nationale du violon traditionnel" w:value="551"/>
+<w:listItem w:displayText="Loi sur le cinéma" w:value="552"/>
+<w:listItem w:displayText="Loi sur le drapeau national du Canada" w:value="553"/>
+<w:listItem w:displayText="Loi sur les normes de fabrication du drapeau national du Canada" w:value="554"/>
+<w:listItem w:displayText="Loi sur la Journée nationale de la santé et de la condition physique" w:value="555"/>
+<w:listItem w:displayText="Loi sur le Monument national de l’Holocauste" w:value="556"/>
+<w:listItem w:displayText="Loi sur le cheval national du Canada" w:value="557"/>
+<w:listItem w:displayText="Loi nationale sur l’habitation" w:value="558"/>
+<w:listItem w:displayText="Loi sur la Journée du patrimoine national en matière de chasse, de piégeage et de pêche" w:value="559"/>
+<w:listItem w:displayText="Loi sur la Bibliothèque nationale" w:value="560"/>
+<w:listItem w:displayText="Loi sur la semaine nationale des dons d’organes" w:value="561"/>
+<w:listItem w:displayText="Loi sur la Journée nationale des Gardiens de la paix (Casques bleus)" w:value="562"/>
+<w:listItem w:displayText="Loi sur la Journée nationale de la philanthropie" w:value="563"/>
+<w:listItem w:displayText="Loi sur la semaine nationale de la fonction publique : pour un meilleur service aux Canadiens" w:value="564"/>
+<w:listItem w:displayText="Loi sur le Conseil national de recherches" w:value="565"/>
+<w:listItem w:displayText="Réacteur national de recherche universel situé à Chalk River, Loi permettant de reprendre et de continuer l’exploitation du" w:value="566"/>
+<w:listItem w:displayText="Loi sur la Table ronde nationale sur l’environnement et l’économie" w:value="567"/>
+<w:listItem w:displayText="Loi sur la Journée nationale des produits du phoque" w:value="568"/>
+<w:listItem w:displayText="Loi sur le Comité des parlementaires sur la sécurité nationale et le renseignement" w:value="569"/>
+<w:listItem w:displayText="Loi sur la Journée nationale de la sensibilisation à la drépanocytose" w:value="570"/>
+<w:listItem w:displayText="Loi sur les sports nationaux du Canada" w:value="571"/>
+<w:listItem w:displayText="Loi relative à une stratégie nationale sur la maladie d’Alzheimer et d’autres démences" w:value="572"/>
+<w:listItem w:displayText="Loi relative à la stratégie nationale sur l’élimination sûre et écologique des lampes contenant du mercure" w:value="573"/>
+<w:listItem w:displayText="Loi instituant un symbole national" w:value="574"/>
+<w:listItem w:displayText="Loi sur la semaine de la protection de la faune" w:value="575"/>
+<w:listItem w:displayText="Loi modificatrice de 1961 sur le transfert des ressources naturelles (Terres d’écoles)" w:value="576"/>
+<w:listItem w:displayText="Loi sur le Conseil de recherches en sciences naturelles et en génie" w:value="577"/>
+<w:listItem w:displayText="Loi sur la protection de la navigation" w:value="578"/>
+<w:listItem w:displayText="Loi concernant la première nation de Nelson House relativement à la submersion de terres" w:value="579"/>
+<w:listItem w:displayText="Loi visant le nouveau pont pour le Saint-Laurent" w:value="580"/>
+<w:listItem w:displayText="Loi sur les réserves indiennes du Nouveau-Brunswick" w:value="581"/>
+<w:listItem w:displayText="Loi relative au supplément d’aide financière à Terre-Neuve-et-Labrador" w:value="582"/>
+<w:listItem w:displayText="Loi sur l’Accord définitif nisga’a" w:value="583"/>
+<w:listItem w:displayText="Loi sur la santé des non-fumeurs" w:value="584"/>
+<w:listItem w:displayText="Loi autorisant l’aliénation de Nordion et de Theratronics" w:value="585"/>
+<w:listItem w:displayText="Loi de mise en oeuvre de l’Accord de libre-échange nord-américain" w:value="586"/>
+<w:listItem w:displayText="Loi autorisant l’émission et la vente des actions de la Commission d’énergie du Nord canadien" w:value="587"/>
+<w:listItem w:displayText="Loi autorisant l’aliénation de biens de la Commission d’énergie du Nord canadien situés au Yukon" w:value="588"/>
+<w:listItem w:displayText="Loi sur le pipe-line du Nord" w:value="589"/>
+<w:listItem w:displayText="Loi autorisant l’aliénation de La Société des transports du nord Limitée" w:value="590"/>
+<w:listItem w:displayText="Loi sur l’ouvrage de franchissement du détroit de Northumberland" w:value="591"/>
+<w:listItem w:displayText="Loi sur les Territoires du Nord-Ouest" w:value="592"/>
+<w:listItem w:displayText="Loi sur les Territoires du Nord-Ouest" w:value="593"/>
+<w:listItem w:displayText="Loi sur l’Office des droits de surface des Territoires du Nord-Ouest" w:value="594"/>
+<w:listItem w:displayText="Loi sur les eaux des Territoires du Nord-Ouest" w:value="595"/>
+<w:listItem w:displayText="Loi sur les paiements de péréquation compensatoires supplémentaires à la Nouvelle-Écosse et à Terre-Neuve-et-Labrador" w:value="596"/>
+<w:listItem w:displayText="Loi sur l’énergie nucléaire" w:value="597"/>
+<w:listItem w:displayText="Loi sur les déchets de combustible nucléaire" w:value="598"/>
+<w:listItem w:displayText="Loi sur la responsabilité nucléaire" w:value="599"/>
+<w:listItem w:displayText="Loi sur la responsabilité et l’indemnisation en matière nucléaire" w:value="600"/>
+<w:listItem w:displayText="Loi sur la sûreté et la réglementation nucléaires" w:value="601"/>
+<w:listItem w:displayText="Loi concernant l’accord sur les revendications territoriales des Inuits du Nunavik" w:value="602"/>
+<w:listItem w:displayText="Loi sur le Nunavut" w:value="603"/>
+<w:listItem w:displayText="Loi concernant l’Accord sur les revendications territoriales du Nunavut" w:value="604"/>
+<w:listItem w:displayText="Loi sur l’aménagement du territoire et l’évaluation des projets au Nunavut" w:value="605"/>
+<w:listItem w:displayText="Loi sur les eaux du Nunavut et le Tribunal des droits de surface du Nunavut" w:value="606"/>
+<w:listItem w:displayText="Loi sur les serments d’allégeance" w:value="607"/>
+<w:listItem w:displayText="Loi sur les océans" w:value="608"/>
+<w:listItem w:displayText="Loi sur le Bureau du surintendant des institutions financières" w:value="609"/>
+<w:listItem w:displayText="Loi sur la responsabilité en matière d’aide au développement officielle" w:value="610"/>
+<w:listItem w:displayText="Loi sur les langues officielles" w:value="611"/>
+<w:listItem w:displayText="Loi sur les résidences officielles" w:value="612"/>
+<w:listItem w:displayText="Loi sur l’économie de pétrole et le remplacement du mazout" w:value="613"/>
+<w:listItem w:displayText="Loi sur la sécurité de la vieillesse" w:value="614"/>
+<w:listItem w:displayText="Loi sur les Jeux olympiques de 1976" w:value="615"/>
+<w:listItem w:displayText="Loi sur les marques olympiques et paralympiques" w:value="616"/>
+<w:listItem w:displayText="Loi sur l’Agence Parcs Canada" w:value="617"/>
+<w:listItem w:displayText="Loi sur le Parlement du Canada" w:value="618"/>
+<w:listItem w:displayText="Loi sur les relations de travail au Parlement" w:value="619"/>
+<w:listItem w:displayText="Loi sur les brevets" w:value="620"/>
+<w:listItem w:displayText="Loi sur les réseaux de cartes de paiement" w:value="621"/>
+<w:listItem w:displayText="Loi sur la compensation et le règlement des paiements" w:value="622"/>
+<w:listItem w:displayText="Loi sur les paiements versés en remplacement d’impôts" w:value="623"/>
+<w:listItem w:displayText="Loi sur les pensions" w:value="624"/>
+<w:listItem w:displayText="Loi sur le partage des prestations de retraite" w:value="625"/>
+<w:listItem w:displayText="Loi de 1985 sur les normes de prestation de pension" w:value="626"/>
+<w:listItem w:displayText="Loi sur les sociétés de caisse de retraite" w:value="627"/>
+<w:listItem w:displayText="Loi sur la quasi-élimination du sulfonate de perfluorooctane" w:value="628"/>
+<w:listItem w:displayText="Loi sur la protection des renseignements personnels et les documents électroniques" w:value="629"/>
+<w:listItem w:displayText="Loi sur les produits antiparasitaires" w:value="630"/>
+<w:listItem w:displayText="Loi sur les produits antiparasitaires" w:value="631"/>
+<w:listItem w:displayText="Loi sur l’indemnisation du dommage causé par des pesticides" w:value="632"/>
+<w:listItem w:displayText="Loi sur la participation publique au capital de Petro-Canada" w:value="633"/>
+<w:listItem w:displayText="Loi de l’impôt sur les revenus pétroliers" w:value="634"/>
+<w:listItem w:displayText="Loi sur l’activité physique et le sport" w:value="635"/>
+<w:listItem w:displayText="Loi sur l’accord concernant la bande indienne de Pictou Landing" w:value="636"/>
+<w:listItem w:displayText="Loi sur le pilotage" w:value="637"/>
+<w:listItem w:displayText="Loi sur la continuation des paiements de Pioneer Trust" w:value="638"/>
+<w:listItem w:displayText="Loi sur la protection des obtentions végétales" w:value="639"/>
+<w:listItem w:displayText="Loi sur la protection des végétaux" w:value="640"/>
+<w:listItem w:displayText="Loi sur les régimes de pension agréés collectifs" w:value="641"/>
+<w:listItem w:displayText="Loi sur la Journée du pape Jean-Paul II" w:value="642"/>
+<w:listItem w:displayText="Loi de 1987 sur le maintien des services postaux" w:value="643"/>
+<w:listItem w:displayText="Loi de 1991 sur le maintien des services postaux" w:value="644"/>
+<w:listItem w:displayText="Loi de 1997 sur le maintien des services postaux" w:value="645"/>
+<w:listItem w:displayText="Loi de réparation consécutive à une interruption des services postaux" w:value="646"/>
+<w:listItem w:displayText="Loi sur le rétablissement agricole des Prairies" w:value="647"/>
+<w:listItem w:displayText="Loi sur les paiements anticipés pour le grain des Prairies" w:value="648"/>
+<w:listItem w:displayText="Loi sur le poinçonnage des métaux précieux" w:value="649"/>
+<w:listItem w:displayText="Loi sur le précontrôle" w:value="650"/>
+<w:listItem w:displayText="Loi sur le précontrôle (2016)" w:value="651"/>
+<w:listItem w:displayText="Loi sur la prévention des voyages de terroristes" w:value="652"/>
+<w:listItem w:displayText="Loi sur la manutention des grains à Prince Rupert" w:value="653"/>
+<w:listItem w:displayText="Loi sur les prisons et les maisons de correction" w:value="654"/>
+<w:listItem w:displayText="Loi sur la protection des renseignements personnels" w:value="655"/>
+<w:listItem w:displayText="Loi sur les privilèges et immunités de l’Organisation du Traité de l’Atlantique Nord" w:value="656"/>
+<w:listItem w:displayText="Loi sur le recyclage des produits de la criminalité et le financement des activités terroristes" w:value="657"/>
+<w:listItem w:displayText="Loi interdisant les armes à sous-munitions" w:value="658"/>
+<w:listItem w:displayText="Loi sur l’interdiction de services aériens internationaux" w:value="659"/>
+<w:listItem w:displayText="Loi sur la protection des services aériens" w:value="660"/>
+<w:listItem w:displayText="Loi sur la protection de l’assurance hypothécaire résidentielle" w:value="661"/>
+<w:listItem w:displayText="Loi sur les subventions aux provinces" w:value="662"/>
+<w:listItem w:displayText="Loi sur les documents publics" w:value="663"/>
+<w:listItem w:displayText="Loi sur l’Agence de la santé publique du Canada" w:value="664"/>
+<w:listItem w:displayText="Loi sur les fonctionnaires publics" w:value="665"/>
+<w:listItem w:displayText="Loi sur les rapports relatifs aux pensions publiques" w:value="666"/>
+<w:listItem w:displayText="Loi de 2002 sur la sécurité publique" w:value="667"/>
+<w:listItem w:displayText="Loi sur la rémunération du secteur public" w:value="668"/>
+<w:listItem w:displayText="Loi sur l’équité dans la rémunération du secteur public" w:value="669"/>
+<w:listItem w:displayText="Loi sur l’Office d’investissement des régimes de pensions du secteur public" w:value="670"/>
+<w:listItem w:displayText="Réforme de la pension du secteur public" w:value="671"/>
+<w:listItem w:displayText="Loi sur la protection des fonctionnaires divulgateurs d’actes répréhensibles" w:value="672"/>
+<w:listItem w:displayText="Loi sur les inventions des fonctionnaires" w:value="673"/>
+<w:listItem w:displayText="Loi sur l’emploi dans la fonction publique" w:value="674"/>
+<w:listItem w:displayText="Loi sur l’emploi dans la fonction publique" w:value="675"/>
+<w:listItem w:displayText="Loi sur la modernisation de la fonction publique" w:value="676"/>
+<w:listItem w:displayText="Loi sur la mise au point des pensions du service public" w:value="677"/>
+<w:listItem w:displayText="Loi sur les restructurations et les transferts d’attributions dans l’administration publique" w:value="678"/>
+<w:listItem w:displayText="Loi sur les relations de travail dans la fonction publique" w:value="679"/>
+<w:listItem w:displayText="Loi sur la pension de la fonction publique" w:value="680"/>
+<w:listItem w:displayText="Loi sur la publication des lois" w:value="681"/>
+<w:listItem w:displayText="Loi sur la Journée lavande" w:value="682"/>
+<w:listItem w:displayText="Loi concernant la Première Nation micmaque Qalipu" w:value="683"/>
+<w:listItem w:displayText="Loi sur la quarantaine" w:value="684"/>
+<w:listItem w:displayText="Loi sur la mise en quarantaine" w:value="685"/>
+<w:listItem w:displayText="Acte pour pourvoir à la nomination d’un gardien de port pour le Havre de Québec" w:value="686"/>
+<w:listItem w:displayText="Loi sur le Fonds canadien de recherches de la reine Elizabeth II" w:value="687"/>
+<w:listItem w:displayText="Loi sur les dispositifs émettant des radiations" w:value="688"/>
+<w:listItem w:displayText="Loi sur la radiocommunication" w:value="689"/>
+<w:listItem w:displayText="Loi de la zone de chemin de fer" w:value="690"/>
+<w:listItem w:displayText="Loi des eaux de la zone du chemin de fer" w:value="691"/>
+<w:listItem w:displayText="Loi de 2007 sur le maintien des services ferroviaires" w:value="692"/>
+<w:listItem w:displayText="Loi sur le déplacement des lignes de chemin de fer et les croisements de chemin de fer" w:value="693"/>
+<w:listItem w:displayText="Loi sur la sécurité ferroviaire" w:value="694"/>
+<w:listItem w:displayText="Loi reconnaissant Charlottetown comme le berceau de la Confédération" w:value="695"/>
+<w:listItem w:displayText="Loi sur la réduction de la paperasse" w:value="696"/>
+<w:listItem w:displayText="Loi référendaire" w:value="697"/>
+<w:listItem w:displayText="Loi sur les subventions au développement régional" w:value="698"/>
+<w:listItem w:displayText="Loi sur les systèmes de télédétection spatiale" w:value="699"/>
+<w:listItem w:displayText="Loi sur la représentation (1974)" w:value="700"/>
+<w:listItem w:displayText="Loi de 1985 sur la représentation électorale" w:value="701"/>
+<w:listItem w:displayText="Loi sur les levés et l’inventaire des ressources naturelles" w:value="702"/>
+<w:listItem w:displayText="Loi sur le rétablissement de la livraison du courrier aux Canadiens" w:value="703"/>
+<w:listItem w:displayText="Loi sur la reprise des services ferroviaires" w:value="704"/>
+<w:listItem w:displayText="Loi de l’assurance des soldats de retour" w:value="705"/>
+<w:listItem w:displayText="Loi sur les Lois révisées du Canada (1985)" w:value="706"/>
+<w:listItem w:displayText="Loi sur les fonds renouvelables" w:value="707"/>
+<w:listItem w:displayText="Loi de 2014 sur les changements de noms de circonscriptions" w:value="708"/>
+<w:listItem w:displayText="Loi sur la Commission du parc international Roosevelt de Campobello" w:value="709"/>
+<w:listItem w:displayText="Loi sur le parc urbain national de la Rouge" w:value="710"/>
+<w:listItem w:displayText="Loi sur la sanction royale" w:value="711"/>
+<w:listItem w:displayText="Loi sur la Monnaie royale canadienne" w:value="712"/>
+<w:listItem w:displayText="Loi sur la Gendarmerie royale du Canada" w:value="713"/>
+<w:listItem w:displayText="Loi sur la continuation des pensions de la Gendarmerie royale du Canada" w:value="714"/>
+<w:listItem w:displayText="Loi sur la pension de retraite de la Gendarmerie royale du Canada" w:value="715"/>
+<w:listItem w:displayText="Loi sur les titres royaux" w:value="716"/>
+<w:listItem w:displayText="Loi de la convention sur la sécurité des conteneurs" w:value="717"/>
+<w:listItem w:displayText="Loi sur la salubrité de l’eau potable des Premières Nations" w:value="718"/>
+<w:listItem w:displayText="Loi sur la salubrité des aliments au Canada" w:value="719"/>
+<w:listItem w:displayText="Loi sur le parc marin du Saguenay - Saint-Laurent" w:value="720"/>
+<w:listItem w:displayText="Loi sur le règlement de la revendication territoriale des Dénés et Métis du Sahtu" w:value="721"/>
+<w:listItem w:displayText="Loi sur les traitements" w:value="722"/>
+<w:listItem w:displayText="Loi sur les droits fonciers issus de traités en Saskatchewan" w:value="723"/>
+<w:listItem w:displayText="Loi sur les sceaux" w:value="724"/>
+<w:listItem w:displayText="Loi sur l’autonomie gouvernementale de la bande indienne sechelte" w:value="725"/>
+<w:listItem w:displayText="Loi sur la sûreté des déplacements aériens" w:value="726"/>
+<w:listItem w:displayText="Loi sur la communication d’information ayant trait à la sécurité du Canada" w:value="727"/>
+<w:listItem w:displayText="Loi sur la protection de l’information" w:value="728"/>
+<w:listItem w:displayText="Loi sur les infractions en matière de sécurité" w:value="729"/>
+<w:listItem w:displayText="Loi sur les semences" w:value="730"/>
+<w:listItem w:displayText="Loi sur l’administration des biens saisis" w:value="731"/>
+<w:listItem w:displayText="Loi sur les frais de service" w:value="732"/>
+<w:listItem w:displayText="Loi sur le règlement des différends internationaux relatifs aux investissements" w:value="733"/>
+<w:listItem w:displayText="Loi sur l’enregistrement de renseignements sur les délinquants sexuels" w:value="734"/>
+<w:listItem w:displayText="Loi sur Services partagés Canada" w:value="735"/>
+<w:listItem w:displayText="Loi dérogatoire de 1987 sur les conférences maritimes" w:value="736"/>
+<w:listItem w:displayText="Loi sur la gouvernance de la nation dakota de Sioux Valley" w:value="737"/>
+<w:listItem w:displayText="Loi sur la Journée Sir John A. Macdonald et la Journée Sir Wilfrid Laurier" w:value="738"/>
+<w:listItem w:displayText="Loi sur la bonification d’intérêts au profit des petites entreprises" w:value="739"/>
+<w:listItem w:displayText="Loi sur le Conseil de recherches en sciences humaines" w:value="740"/>
+<w:listItem w:displayText="Loi de 2006 sur les droits d’exportation de produits de bois d’oeuvre" w:value="741"/>
+<w:listItem w:displayText="Loi d’établissement de soldats" w:value="742"/>
+<w:listItem w:displayText="Loi concernant la réserve des Sauvages Songhees" w:value="743"/>
+<w:listItem w:displayText="Loi sur les zones spéciales" w:value="744"/>
+<w:listItem w:displayText="Loi sur les mesures économiques spéciales" w:value="745"/>
+<w:listItem w:displayText="Loi sur les mesures spéciales d’importation" w:value="746"/>
+<w:listItem w:displayText="Loi sur les régimes de retraite particuliers" w:value="747"/>
+<w:listItem w:displayText="Loi sur les espèces en péril" w:value="748"/>
+<w:listItem w:displayText="Loi sur le règlement des revendications particulières" w:value="749"/>
+<w:listItem w:displayText="Loi sur le Tribunal des revendications particulières" w:value="750"/>
+<w:listItem w:displayText="Loi limitant les dépenses publiques" w:value="751"/>
+<w:listItem w:displayText="Loi sur le commerce des spiritueux" w:value="752"/>
+<w:listItem w:displayText="Loi concernant la première nation crie de Split Lake relativement à la submersion de terres" w:value="753"/>
+<w:listItem w:displayText="Loi liquidant Sport Sélect et Loto Canada" w:value="754"/>
+<w:listItem w:displayText="Loi de la réserve de St. Peter" w:value="755"/>
+<w:listItem w:displayText="Loi des îles St-Régis" w:value="756"/>
+<w:listItem w:displayText="Loi sur le Conseil canadien des normes" w:value="757"/>
+<w:listItem w:displayText="Loi sur l’immunité des États" w:value="758"/>
+<w:listItem w:displayText="Loi sur la statistique" w:value="759"/>
+<w:listItem w:displayText="Loi sur le statut de l’artiste" w:value="760"/>
+<w:listItem w:displayText="Loi sur l’abrogation des lois" w:value="761"/>
+<w:listItem w:displayText="Loi sur les textes réglementaires" w:value="762"/>
+<w:listItem w:displayText="Loi de 2013 sur la succession au trône" w:value="763"/>
+<w:listItem w:displayText="Loi sur les paiements de péréquation supplémentaires (1982-1987)" w:value="764"/>
+<w:listItem w:displayText="Loi sur les prestations de retraite supplémentaires" w:value="765"/>
+<w:listItem w:displayText="Loi visant le soutien aux aînés vulnérables et le renforcement de l’économie canadienne" w:value="766"/>
+<w:listItem w:displayText="Loi sur la Cour suprême" w:value="767"/>
+<w:listItem w:displayText="Loi sur les biens de surplus de la Couronne" w:value="768"/>
+<w:listItem w:displayText="Loi de 2002 pour la mise en oeuvre de conventions fiscales" w:value="769"/>
+<w:listItem w:displayText="Loi de 2004 pour la mise en oeuvre de conventions fiscales" w:value="770"/>
+<w:listItem w:displayText="Loi de 2013 pour la mise en oeuvre de conventions fiscales" w:value="771"/>
+<w:listItem w:displayText="Loi sur la Cour canadienne de l’impôt" w:value="772"/>
+<w:listItem w:displayText="Loi sur la cession du droit au remboursement en matière d’impôt" w:value="773"/>
+<w:listItem w:displayText="Loi sur les allégements fiscaux garantis" w:value="774"/>
+<w:listItem w:displayText="Loi sur les télécommunications" w:value="775"/>
+<w:listItem w:displayText="Loi sur Téléfilm Canada" w:value="776"/>
+<w:listItem w:displayText="Loi sur la réorganisation et l’aliénation de Téléglobe Canada" w:value="777"/>
+<w:listItem w:displayText="Loi sur la réorganisation et l’aliénation de Télésat Canada" w:value="778"/>
+<w:listItem w:displayText="Loi sur les terres territoriales" w:value="779"/>
+<w:listItem w:displayText="Loi sur l’étiquetage des textiles" w:value="780"/>
+<w:listItem w:displayText="Loi du règlement relatif aux terres des sauvages de la Colombie-Britannique" w:value="781"/>
+<w:listItem w:displayText="Loi sur L’Association des conseillers en finances du Canada" w:value="782"/>
+<w:listItem w:displayText="Loi de 1921 pour le contrôle du lac des Bois" w:value="783"/>
+<w:listItem w:displayText="Loi sur l’emprunt, 1936" w:value="784"/>
+<w:listItem w:displayText="Loi des ressources naturelles du Manitoba" w:value="785"/>
+<w:listItem w:displayText="Loi de la Zone du chemin de fer et du Bloc de la rivière La Paix" w:value="786"/>
+<w:listItem w:displayText="Loi des ressources naturelles de la Saskatchewan" w:value="787"/>
+<w:listItem w:displayText="Lois des ressources naturelles de la Saskatchewan" w:value="788"/>
+<w:listItem w:displayText="Loi sur la manutention des grains à Thunder Bay" w:value="789"/>
+<w:listItem w:displayText="Loi sur le marquage des bois" w:value="790"/>
+<w:listItem w:displayText="Loi sur l’accord définitif concernant les Tlaamins" w:value="791"/>
+<w:listItem w:displayText="Loi sur les revendications territoriales et l’autonomie gouvernementale du peuple tlicho" w:value="792"/>
+<w:listItem w:displayText="Loi sur le tabac" w:value="793"/>
+<w:listItem w:displayText="Loi sur les syndicats ouvriers" w:value="794"/>
+<w:listItem w:displayText="Loi sur les marques de commerce" w:value="795"/>
+<w:listItem w:displayText="Loi sur le transfèrement des délinquants" w:value="796"/>
+<w:listItem w:displayText="Loi sur le Bureau de la traduction" w:value="797"/>
+<w:listItem w:displayText="Loi sur le Tribunal d’appel des transports du Canada" w:value="798"/>
+<w:listItem w:displayText="Loi de 1992 sur le transport des marchandises dangereuses" w:value="799"/>
+<w:listItem w:displayText="Loi de 1948 sur les traités de paix (Italie, Roumanie, Hongrie et Finlande)" w:value="800"/>
+<w:listItem w:displayText="Loi sur les sociétés de fiducie et de prêt" w:value="801"/>
+<w:listItem w:displayText="Loi sur l’accord définitif concernant la Première Nation de Tsawwassen" w:value="802"/>
+<w:listItem w:displayText="Loi sur le Jour commémoratif de la famine et du génocide ukrainiens (« l’Holodomor »)" w:value="803"/>
+<w:listItem w:displayText="Loi sur l’assistance-chômage" w:value="804"/>
+<w:listItem w:displayText="Loi sur le réexamen de l’admissibilité aux prestations d’assurance-chômage (pension)" w:value="805"/>
+<w:listItem w:displayText="Loi sur les Nations Unies" w:value="806"/>
+<w:listItem w:displayText="Loi sur la Convention des Nations Unies concernant les sentences arbitrales étrangères" w:value="807"/>
+<w:listItem w:displayText="Loi sur les bateaux sauveteurs des États-Unis" w:value="808"/>
+<w:listItem w:displayText="Loi sur la prestation universelle pour la garde d’enfants" w:value="809"/>
+<w:listItem w:displayText="Loi sur les frais d’utilisation" w:value="810"/>
+<w:listItem w:displayText="Loi sur les avantages destinés aux anciens combattants" w:value="811"/>
+<w:listItem w:displayText="Loi sur l’assurance des anciens combattants" w:value="812"/>
+<w:listItem w:displayText="Loi sur le Tribunal des anciens combattants (révision et appel)" w:value="813"/>
+<w:listItem w:displayText="Loi sur les terres destinées aux anciens combattants" w:value="814"/>
+<w:listItem w:displayText="Loi sur le Jour de la bataille de Vimy" w:value="815"/>
+<w:listItem w:displayText="Loi sur les forces étrangères présentes au Canada" w:value="816"/>
+<w:listItem w:displayText="Loi sur la réadaptation professionnelle des personnes handicapées" w:value="817"/>
+<w:listItem w:displayText="Loi sur le Programme de protection des salariés" w:value="818"/>
+<w:listItem w:displayText="Loi sur la responsabilité des salaires" w:value="819"/>
+<w:listItem w:displayText="Loi sur les indemnités de service de guerre" w:value="820"/>
+<w:listItem w:displayText="Loi sur les allocations aux anciens combattants" w:value="821"/>
+<w:listItem w:displayText="Loi sur les renseignements en matière de modification du temps" w:value="822"/>
+<w:listItem w:displayText="Loi sur les poids et mesures" w:value="823"/>
+<w:listItem w:displayText="Loi de 1994 sur les opérations portuaires de la côte ouest" w:value="824"/>
+<w:listItem w:displayText="Loi de 1995 sur les opérations portuaires de la côte ouest" w:value="825"/>
+<w:listItem w:displayText="Loi sur l’autonomie gouvernementale de la première nation de Westbank" w:value="826"/>
+<w:listItem w:displayText="Loi sur le règlement des revendications des Inuvialuit de la région ouest de l’Arctique" w:value="827"/>
+<w:listItem w:displayText="Loi sur la diversification de l’économie de l’Ouest canadien" w:value="828"/>
+<w:listItem w:displayText="Loi sur les paiements de transition du grain de l’Ouest" w:value="829"/>
+<w:listItem w:displayText="Loi sur la protection d’espèces animales ou végétales sauvages et la réglementation de leur commerce international et interprovincial" w:value="830"/>
+<w:listItem w:displayText="Loi sur les liquidations et les restructurations" w:value="831"/>
+<w:listItem w:displayText="Loi sur le programme de protection des témoins" w:value="832"/>
+<w:listItem w:displayText="Loi sur le Corps féminin de la Marine royale et le South African Military Nursing Service (Service sud-africain d’infirmières militaires) [Prestations]" w:value="833"/>
+<w:listItem w:displayText="Loi sur le jour de compassion pour les travailleurs" w:value="834"/>
+<w:listItem w:displayText="Loi sur la Journée mondiale de sensibilisation à l’autisme" w:value="835"/>
+<w:listItem w:displayText="Loi de mise en oeuvre de l’Accord sur l’Organisation mondiale du commerce" w:value="836"/>
+<w:listItem w:displayText="Loi sur l’accord définitif concernant la Première Nation de Yale" w:value="837"/>
+<w:listItem w:displayText="Loi concernant la première nation de York Factory relativement à la submersion de terres" w:value="838"/>
+<w:listItem w:displayText="Loi sur les jeunes contrevenants" w:value="839"/>
+<w:listItem w:displayText="Loi sur le système de justice pénale pour les adolescents" w:value="840"/>
+<w:listItem w:displayText="Loi sur le Yukon" w:value="841"/>
+<w:listItem w:displayText="Loi sur le Yukon" w:value="842"/>
+<w:listItem w:displayText="Loi sur l’évaluation environnementale et socioéconomique au Yukon" w:value="843"/>
+<w:listItem w:displayText="Loi sur le règlement des revendications territoriales des premières nations du Yukon" w:value="844"/>
+<w:listItem w:displayText="Loi sur l’autonomie gouvernementale des premières nations du Yukon" w:value="845"/>
+<w:listItem w:displayText="Loi sur l’extraction de l’or dans le Yukon" w:value="846"/>
+<w:listItem w:displayText="Loi sur l’extraction du quartz dans le Yukon" w:value="847"/>
+<w:listItem w:displayText="Loi sur l’Office des droits de surface du Yukon" w:value="848"/>
+<w:listItem w:displayText="Loi sur les eaux du Yukon" w:value="849"/>

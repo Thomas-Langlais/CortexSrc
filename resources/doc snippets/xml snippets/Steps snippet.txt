@@ -1,0 +1,185 @@
+repeating part
+
+<w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="0" w:type="auto"/>
+                                    <w:tcBorders>
+                                        <w:top w:val="nil"/>
+                                        <w:left w:val="nil"/>
+                                        <w:bottom w:val="nil"/>
+                                        <w:right w:val="nil"/>
+                                    </w:tcBorders>
+                                    <w:tcMar>
+                                        <w:top w:w="60" w:type="dxa"/>
+                                        <w:left w:w="75" w:type="dxa"/>
+                                        <w:bottom w:w="60" w:type="dxa"/>
+                                        <w:right w:w="330" w:type="dxa"/>
+                                    </w:tcMar>
+                                    <w:hideMark/>
+                                </w:tcPr>
+                                <w:p w:rsidR="00E705E8" w:rsidRPr="00E705E8" w:rsidRDefault="00E705E8" w:rsidP="00E705E8">
+                                    <w:pPr>
+                                        <w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="Calibri" w:eastAsia="Times New Roman" w:hAnsi="Calibri" w:cs="Calibri"/>
+                                            <w:color w:val="000000"/>
+                                            <w:sz w:val="20"/>
+                                            <w:szCs w:val="20"/>
+                                            <w:lang w:eastAsia="en-CA"/>
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r w:rsidRPr="00E705E8">
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="Calibri" w:eastAsia="Times New Roman" w:hAnsi="Calibri" w:cs="Calibri"/>
+                                            <w:b/>
+                                            <w:bCs/>
+                                            <w:color w:val="000000"/>
+                                            <w:sz w:val="20"/>
+                                            <w:szCs w:val="20"/>
+                                            <w:lang w:eastAsia="en-CA"/>
+                                        </w:rPr>
+                                        <w:t xml:space="preserve">Step 1. </w:t>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+                            <w:tc>
+                                <w:tcPr>
+                                    <w:tcW w:w="0" w:type="auto"/>
+                                    <w:tcBorders>
+                                        <w:top w:val="nil"/>
+                                        <w:left w:val="nil"/>
+                                        <w:bottom w:val="nil"/>
+                                        <w:right w:val="nil"/>
+                                    </w:tcBorders>
+                                    <w:tcMar>
+                                        <w:top w:w="60" w:type="dxa"/>
+                                        <w:left w:w="75" w:type="dxa"/>
+                                        <w:bottom w:w="60" w:type="dxa"/>
+                                        <w:right w:w="330" w:type="dxa"/>
+                                    </w:tcMar>
+                                    <w:hideMark/>
+                                </w:tcPr>
+                                <w:p w:rsidR="00E705E8" w:rsidRPr="00E705E8" w:rsidRDefault="00E705E8" w:rsidP="00E705E8">
+                                    <w:pPr>
+                                        <w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="Calibri" w:eastAsia="Times New Roman" w:hAnsi="Calibri" w:cs="Calibri"/>
+                                            <w:color w:val="000000"/>
+                                            <w:sz w:val="20"/>
+                                            <w:szCs w:val="20"/>
+                                            <w:lang w:eastAsia="en-CA"/>
+                                        </w:rPr>
+                                    </w:pPr>
+                                    <w:r w:rsidRPr="00E705E8">
+                                        <w:rPr>
+                                            <w:rFonts w:ascii="Calibri" w:eastAsia="Times New Roman" w:hAnsi="Calibri" w:cs="Calibri"/>
+                                            <w:color w:val="000000"/>
+                                            <w:sz w:val="20"/>
+                                            <w:szCs w:val="20"/>
+                                            <w:lang w:eastAsia="en-CA"/>
+                                        </w:rPr>
+                                        <w:t>Complete the Departmental Profile first.</w:t>
+                                    </w:r>
+                                </w:p>
+                            </w:tc>
+
+actual table struct
+<w:tbl>
+            <w:tblPr>
+                <w:tblW w:w="9360" w:type="dxa"/>
+                <w:tblCellMar>
+                    <w:top w:w="15" w:type="dxa"/>
+                    <w:left w:w="15" w:type="dxa"/>
+                    <w:bottom w:w="15" w:type="dxa"/>
+                    <w:right w:w="15" w:type="dxa"/>
+                </w:tblCellMar>
+                <w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1"/>
+            </w:tblPr>
+            <w:tblGrid>
+                <w:gridCol w:w="8949"/>
+                <w:gridCol w:w="411"/>
+            </w:tblGrid>
+            <w:tr w:rsidR="00E705E8" w:rsidRPr="00E705E8" w:rsidTr="00E705E8">
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="0" w:type="auto"/>
+                        <w:tcBorders>
+                            <w:top w:val="nil"/>
+                            <w:left w:val="nil"/>
+                            <w:bottom w:val="nil"/>
+                            <w:right w:val="nil"/>
+                        </w:tcBorders>
+                        <w:tcMar>
+                            <w:top w:w="60" w:type="dxa"/>
+                            <w:left w:w="75" w:type="dxa"/>
+                            <w:bottom w:w="60" w:type="dxa"/>
+                            <w:right w:w="330" w:type="dxa"/>
+                        </w:tcMar>
+                    </w:tcPr>
+                    <w:tbl>
+                        <w:tblPr>
+                            <w:tblW w:w="9045" w:type="dxa"/>
+                            <w:tblCellMar>
+                                <w:top w:w="15" w:type="dxa"/>
+                                <w:left w:w="15" w:type="dxa"/>
+                                <w:bottom w:w="15" w:type="dxa"/>
+                                <w:right w:w="15" w:type="dxa"/>
+                            </w:tblCellMar>
+                            <w:tblLook w:val="04A0" w:firstRow="1" w:lastRow="0" w:firstColumn="1" w:lastColumn="0" w:noHBand="0" w:noVBand="1"/>
+                        </w:tblPr>
+                        <w:tblGrid>
+                            <w:gridCol w:w="1896"/>
+                            <w:gridCol w:w="7149"/>
+                        </w:tblGrid>
+                        <w:tr w:rsidR="00E705E8" w:rsidRPr="00E705E8">
+                            
+
+				ENTER THE REPEATING SHIT HERE
+
+
+                        </w:tr>
+                    </w:tbl>
+                    <w:p w:rsidR="00E705E8" w:rsidRPr="00E705E8" w:rsidRDefault="00E705E8" w:rsidP="00E705E8">
+                        <w:pPr>
+                            <w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="Times New Roman" w:hAnsi="Calibri" w:cs="Calibri"/>
+                                <w:color w:val="000000"/>
+                                <w:sz w:val="20"/>
+                                <w:szCs w:val="20"/>
+                                <w:lang w:eastAsia="en-CA"/>
+                            </w:rPr>
+                        </w:pPr>
+                    </w:p>
+                </w:tc>
+                <w:tc>
+                    <w:tcPr>
+                        <w:tcW w:w="0" w:type="auto"/>
+                        <w:tcBorders>
+                            <w:top w:val="nil"/>
+                            <w:left w:val="nil"/>
+                            <w:bottom w:val="nil"/>
+                            <w:right w:val="nil"/>
+                        </w:tcBorders>
+                        <w:tcMar>
+                            <w:top w:w="60" w:type="dxa"/>
+                            <w:left w:w="75" w:type="dxa"/>
+                            <w:bottom w:w="60" w:type="dxa"/>
+                            <w:right w:w="330" w:type="dxa"/>
+                        </w:tcMar>
+                    </w:tcPr>
+                    <w:p w:rsidR="00E705E8" w:rsidRPr="00E705E8" w:rsidRDefault="00E705E8" w:rsidP="00E705E8">
+                        <w:pPr>
+                            <w:spacing w:after="0" w:line="240" w:lineRule="auto"/>
+                            <w:rPr>
+                                <w:rFonts w:ascii="Calibri" w:eastAsia="Times New Roman" w:hAnsi="Calibri" w:cs="Calibri"/>
+                                <w:color w:val="000000"/>
+                                <w:sz w:val="20"/>
+                                <w:szCs w:val="20"/>
+                                <w:lang w:eastAsia="en-CA"/>
+                            </w:rPr>
+                        </w:pPr>
+                    </w:p>
+                </w:tc>
+            </w:tr>
+        </w:tbl>

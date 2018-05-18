@@ -1,0 +1,935 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+This file is automatically created and modified by Microsoft InfoPath.
+Changes made to the file outside of InfoPath might be lost if the form template is modified in InfoPath.
+-->
+<xsf:xDocumentClass trustSetting="automatic" solutionFormatVersion="15.0.0.0" solutionVersion="1.0.0.77" productVersion="15.0.0" publishUrl="C:\Users\Duncan\Desktop\Working\RegShema\20180510\manifest.xsf" name="urn:schemas-microsoft-com:office:infopath:20180510:-myXSD-2018-05-07T13-30-50" xmlns:xsf="http://schemas.microsoft.com/office/infopath/2003/solutionDefinition" xmlns:xsf2="http://schemas.microsoft.com/office/infopath/2006/solutionDefinition/extensions" xmlns:xsf3="http://schemas.microsoft.com/office/infopath/2009/solutionDefinition/extensions" xmlns:msxsl="urn:schemas-microsoft-com:xslt" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xdUtil="http://schemas.microsoft.com/office/infopath/2003/xslt/Util" xmlns:xdXDocument="http://schemas.microsoft.com/office/infopath/2003/xslt/xDocument" xmlns:xdMath="http://schemas.microsoft.com/office/infopath/2003/xslt/Math" xmlns:xdDate="http://schemas.microsoft.com/office/infopath/2003/xslt/Date" xmlns:xdExtension="http://schemas.microsoft.com/office/infopath/2003/xslt/extension" xmlns:xdEnvironment="http://schemas.microsoft.com/office/infopath/2006/xslt/environment" xmlns:xdUser="http://schemas.microsoft.com/office/infopath/2006/xslt/User" xmlns:xdServerInfo="http://schemas.microsoft.com/office/infopath/2009/xslt/ServerInfo" xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2018-05-07T13:30:50" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:od="urn:schemas-microsoft-com:officedata">
+	<xsf:package>
+		<xsf:files>
+			<xsf:file name="myschema.xsd">
+				<xsf:fileProperties>
+					<xsf:property name="namespace" type="string" value="http://schemas.microsoft.com/office/infopath/2003/myXSD/2018-05-07T13:30:50"></xsf:property>
+					<xsf:property name="editability" type="string" value="full"></xsf:property>
+					<xsf:property name="rootElement" type="string" value="myFields"></xsf:property>
+					<xsf:property name="useOnDemandAlgorithm" type="string" value="yes"></xsf:property>
+				</xsf:fileProperties>
+			</xsf:file>
+			<xsf:file name="template.xml"></xsf:file>
+			<xsf:file name="sampledata.xml">
+				<xsf:fileProperties>
+					<xsf:property name="fileType" type="string" value="sampleData"></xsf:property>
+				</xsf:fileProperties>
+			</xsf:file>
+			<xsf:file name="view1.xsl">
+				<xsf:fileProperties>
+					<xsf:property name="lang" type="string" value="4105"></xsf:property>
+					<xsf:property name="componentId" type="string" value="491"></xsf:property>
+					<xsf:property name="xmlToEditName" type="string" value="1000"></xsf:property>
+					<xsf:property name="mode" type="string" value="71"></xsf:property>
+				</xsf:fileProperties>
+			</xsf:file>
+			<xsf:file name="6F69EF15.gif">
+				<xsf:fileProperties>
+					<xsf:property name="fileType" type="string" value="viewComponent"></xsf:property>
+				</xsf:fileProperties>
+			</xsf:file>
+			<xsf:file name="36442B31.png">
+				<xsf:fileProperties>
+					<xsf:property name="fileType" type="string" value="viewComponent"></xsf:property>
+				</xsf:fileProperties>
+			</xsf:file>
+			<xsf:file name="upgrade.xsl"></xsf:file>
+			<xsf:file name="OrgsAlphaSort.xsd">
+				<xsf:fileProperties>
+					<xsf:property name="dataObject" type="string" value="OrgsAlphaSort"></xsf:property>
+					<xsf:property name="rootElement" type="string" value="OrgNameData"></xsf:property>
+					<xsf:property name="useOnDemandAlgorithm" type="string" value="yes"></xsf:property>
+				</xsf:fileProperties>
+			</xsf:file>
+			<xsf:file name="OrgsAlphaSort">
+				<xsf:fileProperties>
+					<xsf:property name="fileType" type="string" value="resource"></xsf:property>
+				</xsf:fileProperties>
+			</xsf:file>
+			<xsf:file name="lkpNAICS-SCIAN.xsd">
+				<xsf:fileProperties>
+					<xsf:property name="dataObject" type="string" value="lkpNAICS-SCIAN"></xsf:property>
+					<xsf:property name="rootElement" type="string" value="dataroot"></xsf:property>
+					<xsf:property name="useOnDemandAlgorithm" type="string" value="yes"></xsf:property>
+				</xsf:fileProperties>
+			</xsf:file>
+			<xsf:file name="lkpNAICS-SCIAN">
+				<xsf:fileProperties>
+					<xsf:property name="fileType" type="string" value="resource"></xsf:property>
+				</xsf:fileProperties>
+			</xsf:file>
+			<xsf:file name="tblActs.xsd">
+				<xsf:fileProperties>
+					<xsf:property name="dataObject" type="string" value="tblActs"></xsf:property>
+					<xsf:property name="rootElement" type="string" value="dataroot"></xsf:property>
+					<xsf:property name="useOnDemandAlgorithm" type="string" value="yes"></xsf:property>
+				</xsf:fileProperties>
+			</xsf:file>
+			<xsf:file name="tblActs">
+				<xsf:fileProperties>
+					<xsf:property name="fileType" type="string" value="resource"></xsf:property>
+				</xsf:fileProperties>
+			</xsf:file>
+			<xsf:file name="Regs.xsd">
+				<xsf:fileProperties>
+					<xsf:property name="dataObject" type="string" value="Regs"></xsf:property>
+					<xsf:property name="rootElement" type="string" value="Regulations"></xsf:property>
+					<xsf:property name="useOnDemandAlgorithm" type="string" value="yes"></xsf:property>
+				</xsf:fileProperties>
+			</xsf:file>
+			<xsf:file name="Regs">
+				<xsf:fileProperties>
+					<xsf:property name="fileType" type="string" value="resource"></xsf:property>
+				</xsf:fileProperties>
+			</xsf:file>
+		</xsf:files>
+	</xsf:package>
+	<xsf:importParameters enabled="yes"></xsf:importParameters>
+	<xsf:documentVersionUpgrade>
+		<xsf:useTransform transform="upgrade.xsl" minVersionToUpgrade="0.0.0.0" maxVersionToUpgrade="1.0.0.75"></xsf:useTransform>
+	</xsf:documentVersionUpgrade>
+	<xsf:extensions>
+		<xsf:extension name="SolutionDefinitionExtensions">
+			<xsf2:solutionDefinition runtimeCompatibility="client server" allowClientOnlyCode="no">
+				<xsf2:offline openIfQueryFails="yes" cacheQueries="yes"></xsf2:offline>
+				<xsf2:server formLocale="en-CA" isPreSubmitPostBackEnabled="no" isMobileEnabled="no"></xsf2:server>
+				<xsf2:viewsExtension>
+					<xsf2:viewExtension ref="View 1" designMode="normal" clientOnly="no">
+						<xsf2:xmlToEditExtension ref="Rationale_76" allowLinkedImages="yes" excludeEmbeddedImages="yes"></xsf2:xmlToEditExtension>
+						<xsf2:xmlToEditExtension ref="Description_75" allowLinkedImages="yes" excludeEmbeddedImages="yes"></xsf2:xmlToEditExtension>
+						<xsf2:xmlToEditExtension ref="RepealedNotReplacedRationale_140" allowLinkedImages="yes" excludeEmbeddedImages="yes"></xsf2:xmlToEditExtension>
+						<xsf2:xmlToEditExtension ref="DescribeAnyCurrentAndOrForeseeableResourcePressuresOnTheOrganizationToDeliverOnTopPrioritiesPlansAndOrForRegulatoryMod_148" allowLinkedImages="yes" excludeEmbeddedImages="yes"></xsf2:xmlToEditExtension>
+						<xsf2:xmlToEditExtension ref="DescriptionOfAnyOtherBestPracticesSupportingInnovation_142" allowLinkedImages="yes" excludeEmbeddedImages="yes"></xsf2:xmlToEditExtension>
+						<xsf2:xmlToEditExtension ref="DescribePlansForRegulatoryModernizationIfUnconstrainedByTimeaaResourcesOrProcesses_149" allowLinkedImages="yes" excludeEmbeddedImages="yes"></xsf2:xmlToEditExtension>
+						<xsf2:xmlToEditExtension ref="ObjectOfReview_133" allowLinkedImages="yes" excludeEmbeddedImages="yes"></xsf2:xmlToEditExtension>
+						<xsf2:xmlToEditExtension ref="OtherModernizationConsiderations_145" allowLinkedImages="yes" excludeEmbeddedImages="yes"></xsf2:xmlToEditExtension>
+						<xsf2:xmlToEditExtension ref="DesccribeOtherRegulatoryMethodsPlanned_139" allowLinkedImages="yes" excludeEmbeddedImages="yes"></xsf2:xmlToEditExtension>
+						<xsf2:xmlToEditExtension ref="DescribeHowAlignmentToConsiderationWIthOtherJurisdictionsAreUndertakenWhenDevelopingRegulations_144" allowLinkedImages="yes" excludeEmbeddedImages="yes"></xsf2:xmlToEditExtension>
+						<xsf2:xmlToEditExtension ref="DescribeTheExtentToWhichIncorporationOfStandardsOrDocumentsAreNotAccredited_135" allowLinkedImages="yes" excludeEmbeddedImages="yes"></xsf2:xmlToEditExtension>
+						<xsf2:xmlToEditExtension ref="OtherCommentsOnUpcomingRegluatoryAgenda_151" allowLinkedImages="yes" excludeEmbeddedImages="yes"></xsf2:xmlToEditExtension>
+						<xsf2:xmlToEditExtension ref="DescriptionOfBestPracticesSupportingSMEs_141" allowLinkedImages="yes" excludeEmbeddedImages="yes"></xsf2:xmlToEditExtension>
+						<xsf2:xmlToEditExtension ref="OtherRegulationAndOrNonRegulationInstruments_134" allowLinkedImages="yes" excludeEmbeddedImages="yes"></xsf2:xmlToEditExtension>
+						<xsf2:xmlToEditExtension ref="DescribeCurrentUsesOfRegulatorySandboxUsed_136" allowLinkedImages="yes" excludeEmbeddedImages="yes"></xsf2:xmlToEditExtension>
+						<xsf2:xmlToEditExtension ref="DescriptionOfNatureOfChangeIncludingSystemAndOrTechnicalChanges_150" allowLinkedImages="yes" excludeEmbeddedImages="yes"></xsf2:xmlToEditExtension>
+						<xsf2:xmlToEditExtension ref="DesccribeRegulatorySandboxPlanned_138" allowLinkedImages="yes" excludeEmbeddedImages="yes"></xsf2:xmlToEditExtension>
+						<xsf2:xmlToEditExtension ref="DescriptionOfChallengesOrConstraintsToRegulatoryModernization_143" allowLinkedImages="yes" excludeEmbeddedImages="yes"></xsf2:xmlToEditExtension>
+						<xsf2:xmlToEditExtension ref="DescripbeOtherMethodsUsed_137" allowLinkedImages="yes" excludeEmbeddedImages="yes"></xsf2:xmlToEditExtension>
+						<xsf2:xmlToEditExtension ref="TopPrioritiesForRegulatoryModernization_147" allowLinkedImages="yes" excludeEmbeddedImages="yes"></xsf2:xmlToEditExtension>
+						<xsf2:xmlToEditExtension ref="IndicatorsForEvaluationRegulatoryPerformance_245" allowLinkedImages="yes" excludeEmbeddedImages="yes"></xsf2:xmlToEditExtension>
+						<xsf2:xmlToEditExtension ref="OtherCommentsOnRegSetPolicyFeatures_248" allowLinkedImages="yes" excludeEmbeddedImages="yes"></xsf2:xmlToEditExtension>
+						<xsf2:xmlToEditExtension ref="ComplianceOtherTools_258" allowLinkedImages="yes" excludeEmbeddedImages="yes"></xsf2:xmlToEditExtension>
+						<xsf2:xmlToEditExtension ref="DescribePrimaryRiskManagementTools_253" allowLinkedImages="yes" excludeEmbeddedImages="yes"></xsf2:xmlToEditExtension>
+						<xsf2:xmlToEditExtension ref="Describethelevelofconfidanceinthepermissionsfunctioninservingthepopulationsubjecttotheregulation_255" allowLinkedImages="yes" excludeEmbeddedImages="yes"></xsf2:xmlToEditExtension>
+						<xsf2:xmlToEditExtension ref="OtherPermissionsFunctionsComments_256" allowLinkedImages="yes" excludeEmbeddedImages="yes"></xsf2:xmlToEditExtension>
+						<xsf2:xmlToEditExtension ref="OtherRiskAssessmentDescription_251" allowLinkedImages="yes" excludeEmbeddedImages="yes"></xsf2:xmlToEditExtension>
+						<xsf2:xmlToEditExtension ref="RegSetManDataAnalyticsDescription_263" allowLinkedImages="yes" excludeEmbeddedImages="yes"></xsf2:xmlToEditExtension>
+						<xsf2:xmlToEditExtension ref="DescriptionOfDatabase_991" allowLinkedImages="yes" excludeEmbeddedImages="yes"></xsf2:xmlToEditExtension>
+						<xsf2:xmlToEditExtension ref="DBOtherPurposeDescription_983" allowLinkedImages="yes" excludeEmbeddedImages="yes"></xsf2:xmlToEditExtension>
+					</xsf2:viewExtension>
+				</xsf2:viewsExtension>
+			</xsf2:solutionDefinition>
+		</xsf:extension>
+	</xsf:extensions>
+	<xsf:views default="View 1">
+		<xsf:view name="View 1" caption="View 1">
+			<xsf:mainpane transform="view1.xsl"></xsf:mainpane>
+			<xsf:unboundControls>
+				<xsf:button name="CTRL1_5"></xsf:button>
+				<xsf:button name="CTRL2"></xsf:button>
+			</xsf:unboundControls>
+			<xsf:editing>
+				<xsf:xmlToEdit name="ByAuthorityType_45" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetFinancialInformation/my:TotalOrganizationalExpenditures5Years/my:ByAuthorityType" container="/my:myFields">
+					<xsf:editWith caption="ByAuthorityType" xd:autogeneration="template" component="xCollection">
+						<xsf:fragmentToInsert>
+							<xsf:chooseFragment innerFragment="my:RegSet/my:RegSetTitleAndDescription/my:RegSetFinancialInformation/my:TotalOrganizationalExpenditures5Years/my:ByAuthorityType">
+								<my:RegSet>
+									<my:RegSetTitleAndDescription>
+										<my:RegSetFinancialInformation>
+											<my:TotalOrganizationalExpenditures5Years>
+												<my:ByAuthorityType>
+													<my:AuthorityType></my:AuthorityType>
+													<my:Dollars201213 xsi:nil="true"></my:Dollars201213>
+													<my:Dollars201314 xsi:nil="true"></my:Dollars201314>
+													<my:Dollars201415 xsi:nil="true"></my:Dollars201415>
+													<my:Dollars201516 xsi:nil="true"></my:Dollars201516>
+													<my:Dollars201617 xsi:nil="true"></my:Dollars201617>
+												</my:ByAuthorityType>
+											</my:TotalOrganizationalExpenditures5Years>
+										</my:RegSetFinancialInformation>
+									</my:RegSetTitleAndDescription>
+								</my:RegSet>
+							</xsf:chooseFragment>
+						</xsf:fragmentToInsert>
+					</xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="ByRegulatoryFunction_53" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetFinancialInformation/my:TotalExpendituresOnEachRegulatoryFunction5Years/my:ByRegulatoryFunction" container="/my:myFields">
+					<xsf:editWith caption="ByRegulatoryFunction" xd:autogeneration="template" component="xCollection">
+						<xsf:fragmentToInsert>
+							<xsf:chooseFragment innerFragment="my:RegSet/my:RegSetTitleAndDescription/my:RegSetFinancialInformation/my:TotalExpendituresOnEachRegulatoryFunction5Years/my:ByRegulatoryFunction">
+								<my:RegSet>
+									<my:RegSetTitleAndDescription>
+										<my:RegSetFinancialInformation>
+											<my:TotalExpendituresOnEachRegulatoryFunction5Years>
+												<my:ByRegulatoryFunction>
+													<my:RegulatoryFunction></my:RegulatoryFunction>
+													<my:RegFunDollars201213 xsi:nil="true"></my:RegFunDollars201213>
+													<my:RegFunDollars201314 xsi:nil="true"></my:RegFunDollars201314>
+													<my:RegFunDollars201415 xsi:nil="true"></my:RegFunDollars201415>
+													<my:RegFunDollars201516 xsi:nil="true"></my:RegFunDollars201516>
+													<my:RegFunDollars201617 xsi:nil="true"></my:RegFunDollars201617>
+												</my:ByRegulatoryFunction>
+											</my:TotalExpendituresOnEachRegulatoryFunction5Years>
+										</my:RegSetFinancialInformation>
+									</my:RegSetTitleAndDescription>
+								</my:RegSet>
+							</xsf:chooseFragment>
+						</xsf:fragmentToInsert>
+					</xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="ExecutiveAttestationDate_67" item="/my:myFields/my:Signatures/my:ExecutiveAttestationDate">
+					<xsf:editWith proofing="no" autoComplete="no" component="xField"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="CFOAttestationDate_63" item="/my:myFields/my:Signatures/my:CFOAttestationDate">
+					<xsf:editWith proofing="no" autoComplete="no" component="xField"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="ByRegFunctionBreakdown_68" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetFinancialInformation/my:TotalFTEsByRegFunction/my:ByRegFunctionBreakdown" container="/my:myFields">
+					<xsf:editWith caption="ByRegFunctionBreakdown" xd:autogeneration="template" component="xCollection">
+						<xsf:fragmentToInsert>
+							<xsf:chooseFragment innerFragment="my:RegSet/my:RegSetTitleAndDescription/my:RegSetFinancialInformation/my:TotalFTEsByRegFunction/my:ByRegFunctionBreakdown">
+								<my:RegSet>
+									<my:RegSetTitleAndDescription>
+										<my:RegSetFinancialInformation>
+											<my:TotalFTEsByRegFunction>
+												<my:ByRegFunctionBreakdown>
+													<my:RegFunFTEGroup></my:RegFunFTEGroup>
+													<my:RegFunFTE201213 xsi:nil="true"></my:RegFunFTE201213>
+													<my:RegFunFTE201314 xsi:nil="true"></my:RegFunFTE201314>
+													<my:RegFunFTE201415 xsi:nil="true"></my:RegFunFTE201415>
+													<my:RegFunFTE201516 xsi:nil="true"></my:RegFunFTE201516>
+													<my:RegFunFTE201617 xsi:nil="true"></my:RegFunFTE201617>
+												</my:ByRegFunctionBreakdown>
+											</my:TotalFTEsByRegFunction>
+										</my:RegSetFinancialInformation>
+									</my:RegSetTitleAndDescription>
+								</my:RegSet>
+							</xsf:chooseFragment>
+						</xsf:fragmentToInsert>
+					</xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="Rationale_76" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:Rationale">
+					<xsf:editWith type="rich" maxLength="1" component="xField"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="Description_75" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:Description">
+					<xsf:editWith type="rich" maxLength="1" component="xField"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="Acts_83" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:CompositionOfRegulatuionSet/my:Acts" container="/my:myFields">
+					<xsf:editWith caption="Acts" xd:autogeneration="template" component="xCollection">
+						<xsf:fragmentToInsert>
+							<xsf:chooseFragment innerFragment="my:RegSet/my:RegSetTitleAndDescription/my:CompositionOfRegulatuionSet/my:Acts">
+								<my:RegSet>
+									<my:RegSetTitleAndDescription>
+										<my:CompositionOfRegulatuionSet>
+											<my:Acts>
+												<my:ActID></my:ActID>
+												<my:YearEnacted></my:YearEnacted>
+												<my:ResponsibleMinister>
+													<my:TitleOfMinister></my:TitleOfMinister>
+													<my:LeadMinister>true</my:LeadMinister>
+													<my:field1></my:field1>
+												</my:ResponsibleMinister>
+												<my:ResponsibleDeputyHead>
+													<my:NameOfDeputyHead></my:NameOfDeputyHead>
+													<my:TitleOfDeputyHead></my:TitleOfDeputyHead>
+													<my:LeadDeputyHead>true</my:LeadDeputyHead>
+												</my:ResponsibleDeputyHead>
+												<my:RegulationsUnderAct>
+													<my:RegulationId></my:RegulationId>
+													<my:ProportionOfRegsetAttribution>100</my:ProportionOfRegsetAttribution>
+													<my:AutomaticlegislativeOrRegulatoryReviewClause>
+														<my:AutomaticRegReviewCaluseIndicator>false</my:AutomaticRegReviewCaluseIndicator>
+														<my:Frequency></my:Frequency>
+														<my:StatutoryProvision>false</my:StatutoryProvision>
+														<my:TitleOfStatutoryProvision></my:TitleOfStatutoryProvision>
+													</my:AutomaticlegislativeOrRegulatoryReviewClause>
+												</my:RegulationsUnderAct>
+											</my:Acts>
+										</my:CompositionOfRegulatuionSet>
+									</my:RegSetTitleAndDescription>
+								</my:RegSet>
+							</xsf:chooseFragment>
+						</xsf:fragmentToInsert>
+					</xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="ResponsibleMinister_84" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:CompositionOfRegulatuionSet/my:Acts/my:ResponsibleMinister" container="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:CompositionOfRegulatuionSet/my:Acts">
+					<xsf:editWith caption="ResponsibleMinister" xd:autogeneration="template" component="xCollection">
+						<xsf:fragmentToInsert>
+							<xsf:chooseFragment innerFragment="my:ResponsibleMinister">
+								<my:ResponsibleMinister>
+									<my:TitleOfMinister></my:TitleOfMinister>
+									<my:LeadMinister>true</my:LeadMinister>
+									<my:field1></my:field1>
+								</my:ResponsibleMinister>
+							</xsf:chooseFragment>
+						</xsf:fragmentToInsert>
+					</xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="ResponsibleDeputyHead_90" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:CompositionOfRegulatuionSet/my:Acts/my:ResponsibleDeputyHead" container="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:CompositionOfRegulatuionSet/my:Acts">
+					<xsf:editWith caption="ResponsibleDeputyHead" xd:autogeneration="template" component="xCollection">
+						<xsf:fragmentToInsert>
+							<xsf:chooseFragment innerFragment="my:ResponsibleDeputyHead">
+								<my:ResponsibleDeputyHead>
+									<my:NameOfDeputyHead></my:NameOfDeputyHead>
+									<my:TitleOfDeputyHead></my:TitleOfDeputyHead>
+									<my:LeadDeputyHead>true</my:LeadDeputyHead>
+								</my:ResponsibleDeputyHead>
+							</xsf:chooseFragment>
+						</xsf:fragmentToInsert>
+					</xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="RegulationsUnderAct_103" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:CompositionOfRegulatuionSet/my:Acts/my:RegulationsUnderAct" container="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:CompositionOfRegulatuionSet/my:Acts">
+					<xsf:editWith caption="RegulationsUnderAct" xd:autogeneration="template" component="xCollection">
+						<xsf:fragmentToInsert>
+							<xsf:chooseFragment innerFragment="my:RegulationsUnderAct">
+								<my:RegulationsUnderAct>
+									<my:RegulationId></my:RegulationId>
+									<my:ProportionOfRegsetAttribution>100</my:ProportionOfRegsetAttribution>
+									<my:AutomaticlegislativeOrRegulatoryReviewClause>
+										<my:AutomaticRegReviewCaluseIndicator>false</my:AutomaticRegReviewCaluseIndicator>
+										<my:Frequency></my:Frequency>
+										<my:StatutoryProvision>false</my:StatutoryProvision>
+										<my:TitleOfStatutoryProvision></my:TitleOfStatutoryProvision>
+									</my:AutomaticlegislativeOrRegulatoryReviewClause>
+								</my:RegulationsUnderAct>
+							</xsf:chooseFragment>
+						</xsf:fragmentToInsert>
+					</xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="RepealedRegulation_198" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures/my:RegulatoryModernization/my:RepealedRegulation" container="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures/my:RegulatoryModernization">
+					<xsf:editWith caption="RepealedRegulation" xd:autogeneration="template" component="xOptional">
+						<xsf:fragmentToInsert>
+							<xsf:chooseFragment innerFragment="my:RepealedRegulation">
+								<my:RepealedRegulation>
+									<my:RegulationHasBeenRepealedAndNotReplaced>false</my:RegulationHasBeenRepealedAndNotReplaced>
+									<my:RepealedNotReplacedRationale></my:RepealedNotReplacedRationale>
+								</my:RepealedRegulation>
+							</xsf:chooseFragment>
+						</xsf:fragmentToInsert>
+					</xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="RepealedNotReplacedRationale_140" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures/my:RegulatoryModernization/my:RepealedRegulation/my:RepealedNotReplacedRationale">
+					<xsf:editWith type="rich" maxLength="1" component="xField"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="DescribeAnyCurrentAndOrForeseeableResourcePressuresOnTheOrganizationToDeliverOnTopPrioritiesPlansAndOrForRegulatoryMod_148" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures/my:UpComingRegulatoryAgenda/my:DescribeAnyCurrentAndOrForeseeableResourcePressuresOnTheOrganizationToDeliverOnTopPrioritiesPlansAndOrForRegulatoryMod">
+					<xsf:editWith type="rich" maxLength="1" component="xField"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="RegulatoryModernization_156" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures/my:RegulatoryModernization" container="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures">
+					<xsf:editWith caption="RegulatoryModernization" xd:autogeneration="template" component="xOptional">
+						<xsf:fragmentToInsert>
+							<xsf:chooseFragment innerFragment="my:RegulatoryModernization">
+								<my:RegulatoryModernization>
+									<my:StatementOfRegulatoryBestPractice>false</my:StatementOfRegulatoryBestPractice>
+									<my:LinkToStatementOfRegulatoryBestPractice></my:LinkToStatementOfRegulatoryBestPractice>
+									<my:IncorporationByReference>
+										<my:IncorporatedReferenceUsedIndicator>false</my:IncorporatedReferenceUsedIndicator>
+										<my:TypeOfIncorporatedReferenceUsed></my:TypeOfIncorporatedReferenceUsed>
+										<my:DescribeTheExtentToWhichIncorporationOfStandardsOrDocumentsAreNotAccredited></my:DescribeTheExtentToWhichIncorporationOfStandardsOrDocumentsAreNotAccredited>
+										<my:ListOfIncorporatedDocuments>
+											<my:ResponsibleOfficialName></my:ResponsibleOfficialName>
+											<my:ResponsibleOfficialEmail></my:ResponsibleOfficialEmail>
+											<my:IncorporatedDocumentLink></my:IncorporatedDocumentLink>
+										</my:ListOfIncorporatedDocuments>
+									</my:IncorporationByReference>
+									<my:CurrentUsageOfMethods>
+										<my:IncorporationByReferenceUsed>false</my:IncorporationByReferenceUsed>
+										<my:SystemsBasedUsed>false</my:SystemsBasedUsed>
+										<my:PerformanceBasedUsed>false</my:PerformanceBasedUsed>
+										<my:RecognitionOfThirdPartyPrivateStandardsInRegulationsUsed>false</my:RecognitionOfThirdPartyPrivateStandardsInRegulationsUsed>
+										<my:InternationalRegulatoryCooperationIntegratedInRegulationsUsed>false</my:InternationalRegulatoryCooperationIntegratedInRegulationsUsed>
+										<my:ProvincialTerritorialRegulatoryCooperationIntegratedInRegulationsUsed>false</my:ProvincialTerritorialRegulatoryCooperationIntegratedInRegulationsUsed>
+										<my:RegulatorySandboxUsed>false</my:RegulatorySandboxUsed>
+										<my:DescribeCurrentUsesOfRegulatorySandboxUsed></my:DescribeCurrentUsesOfRegulatorySandboxUsed>
+										<my:OtherMethodsUsed>false</my:OtherMethodsUsed>
+										<my:DescripbeOtherMethodsUsed></my:DescripbeOtherMethodsUsed>
+									</my:CurrentUsageOfMethods>
+									<my:PlannedUsageOfMethods>
+										<my:IncorporationByReferencePlanned>false</my:IncorporationByReferencePlanned>
+										<my:SystemsBasedPlanned>false</my:SystemsBasedPlanned>
+										<my:PerformanceBasedPlanned>false</my:PerformanceBasedPlanned>
+										<my:RecognitionOfThirdPartyPrivateStandardsInRegulationsPlanned>false</my:RecognitionOfThirdPartyPrivateStandardsInRegulationsPlanned>
+										<my:InternationalRegulatoryCooperationIntegratedInRegulationsPlanned>false</my:InternationalRegulatoryCooperationIntegratedInRegulationsPlanned>
+										<my:ProvincialTerritorialRegulatoryCooperationIntegratedInRegulationsPlanned>false</my:ProvincialTerritorialRegulatoryCooperationIntegratedInRegulationsPlanned>
+										<my:RegulatorySandboxPlanned>false</my:RegulatorySandboxPlanned>
+										<my:DesccribeRegulatorySandboxPlanned></my:DesccribeRegulatorySandboxPlanned>
+										<my:OtherMethodsPlanned>false</my:OtherMethodsPlanned>
+										<my:DesccribeOtherRegulatoryMethodsPlanned></my:DesccribeOtherRegulatoryMethodsPlanned>
+									</my:PlannedUsageOfMethods>
+									<my:RepealedRegulation>
+										<my:RegulationHasBeenRepealedAndNotReplaced>false</my:RegulationHasBeenRepealedAndNotReplaced>
+										<my:RepealedNotReplacedRationale></my:RepealedNotReplacedRationale>
+									</my:RepealedRegulation>
+									<my:DescriptionOfBestPracticesSupportingSMEs></my:DescriptionOfBestPracticesSupportingSMEs>
+									<my:DescriptionOfAnyOtherBestPracticesSupportingInnovation></my:DescriptionOfAnyOtherBestPracticesSupportingInnovation>
+									<my:DescriptionOfChallengesOrConstraintsToRegulatoryModernization></my:DescriptionOfChallengesOrConstraintsToRegulatoryModernization>
+									<my:DescribeHowAlignmentToConsiderationWIthOtherJurisdictionsAreUndertakenWhenDevelopingRegulations></my:DescribeHowAlignmentToConsiderationWIthOtherJurisdictionsAreUndertakenWhenDevelopingRegulations>
+									<my:OtherModernizationConsiderations></my:OtherModernizationConsiderations>
+								</my:RegulatoryModernization>
+							</xsf:chooseFragment>
+						</xsf:fragmentToInsert>
+					</xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="DescriptionOfAnyOtherBestPracticesSupportingInnovation_142" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures/my:RegulatoryModernization/my:DescriptionOfAnyOtherBestPracticesSupportingInnovation">
+					<xsf:editWith type="rich" maxLength="1" component="xField"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="DescribePlansForRegulatoryModernizationIfUnconstrainedByTimeaaResourcesOrProcesses_149" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures/my:UpComingRegulatoryAgenda/my:DescribePlansForRegulatoryModernizationIfUnconstrainedByTimeaaResourcesOrProcesses">
+					<xsf:editWith type="rich" maxLength="1" component="xField"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="DataHoldings_157" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures/my:DataHoldings" container="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures">
+					<xsf:editWith caption="DataHoldings" xd:autogeneration="template" component="xOptional">
+						<xsf:fragmentToInsert>
+							<xsf:chooseFragment innerFragment="my:DataHoldings">
+								<my:DataHoldings>
+									<my:DatabaseOnRegulatedParties>
+										<my:NameOfDatabase></my:NameOfDatabase>
+										<my:DescriptionOfDatabase></my:DescriptionOfDatabase>
+										<my:NameOfDatabaseOfficial></my:NameOfDatabaseOfficial>
+										<my:TitleOfDatabaseOfficial></my:TitleOfDatabaseOfficial>
+										<my:EmailOfDatabaseOfficial></my:EmailOfDatabaseOfficial>
+										<my:PurposeOfDatabase>
+											<my:DBForRiskAssessment>false</my:DBForRiskAssessment>
+											<my:DBForPermissions>false</my:DBForPermissions>
+											<my:DBForComplianceVerification>false</my:DBForComplianceVerification>
+											<my:DBForEnforcement>false</my:DBForEnforcement>
+											<my:DBForPublicReporting>false</my:DBForPublicReporting>
+											<my:DBForOtherPurposes>false</my:DBForOtherPurposes>
+											<my:DBOtherPurposeDescription></my:DBOtherPurposeDescription>
+										</my:PurposeOfDatabase>
+										<my:DBRelatedToBusiness>
+											<my:DBHoldsInformationRelatedToBusiness>false</my:DBHoldsInformationRelatedToBusiness>
+											<my:DBUsesBusinessRegistrationNumbers>false</my:DBUsesBusinessRegistrationNumbers>
+											<my:DBUsesNAICSCodes>false</my:DBUsesNAICSCodes>
+										</my:DBRelatedToBusiness>
+										<my:DBHoldsInformationRelatedToIndividuals>false</my:DBHoldsInformationRelatedToIndividuals>
+										<my:Infosource>
+											<my:InfosourceIndicator>false</my:InfosourceIndicator>
+											<my:InfosourceLink></my:InfosourceLink>
+										</my:Infosource>
+									</my:DatabaseOnRegulatedParties>
+								</my:DataHoldings>
+							</xsf:chooseFragment>
+						</xsf:fragmentToInsert>
+					</xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="ListOfIncorporatedDocuments_200" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures/my:RegulatoryModernization/my:IncorporationByReference/my:ListOfIncorporatedDocuments" container="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures/my:RegulatoryModernization">
+					<xsf:editWith caption="ListOfIncorporatedDocuments" xd:autogeneration="template" component="xCollection">
+						<xsf:fragmentToInsert>
+							<xsf:chooseFragment innerFragment="my:IncorporationByReference/my:ListOfIncorporatedDocuments">
+								<my:IncorporationByReference>
+									<my:ListOfIncorporatedDocuments>
+										<my:ResponsibleOfficialName></my:ResponsibleOfficialName>
+										<my:ResponsibleOfficialEmail></my:ResponsibleOfficialEmail>
+										<my:IncorporatedDocumentLink></my:IncorporatedDocumentLink>
+									</my:ListOfIncorporatedDocuments>
+								</my:IncorporationByReference>
+							</xsf:chooseFragment>
+						</xsf:fragmentToInsert>
+					</xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="TypeOfConsultations_172" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures/my:YearOfLastComprehensiveReview/my:Consultations/my:TypeOfConsultations" container="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures/my:YearOfLastComprehensiveReview/my:Consultations">
+					<xsf:editWith caption="TypeOfConsultations" xd:autogeneration="template" component="xOptional">
+						<xsf:fragmentToInsert>
+							<xsf:chooseFragment innerFragment="my:TypeOfConsultations">
+								<my:TypeOfConsultations>
+									<my:PublicConsultations>false</my:PublicConsultations>
+									<my:StakeholderConsultations>false</my:StakeholderConsultations>
+									<my:GovernmentConsultations>false</my:GovernmentConsultations>
+									<my:OtherConsultations>false</my:OtherConsultations>
+									<my:OtherConsultationsDescription></my:OtherConsultationsDescription>
+								</my:TypeOfConsultations>
+							</xsf:chooseFragment>
+						</xsf:fragmentToInsert>
+					</xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="ObjectOfReview_133" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures/my:YearOfLastComprehensiveReview/my:ObjectOfReview">
+					<xsf:editWith type="rich" maxLength="1" component="xField"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="UpComingRegulatoryAgenda_158" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures/my:UpComingRegulatoryAgenda" container="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures">
+					<xsf:editWith caption="UpComingRegulatoryAgenda" xd:autogeneration="template" component="xOptional">
+						<xsf:fragmentToInsert>
+							<xsf:chooseFragment innerFragment="my:UpComingRegulatoryAgenda">
+								<my:UpComingRegulatoryAgenda>
+									<my:TopPrioritiesForRegulatoryModernization></my:TopPrioritiesForRegulatoryModernization>
+									<my:DescribeAnyCurrentAndOrForeseeableResourcePressuresOnTheOrganizationToDeliverOnTopPrioritiesPlansAndOrForRegulatoryMod></my:DescribeAnyCurrentAndOrForeseeableResourcePressuresOnTheOrganizationToDeliverOnTopPrioritiesPlansAndOrForRegulatoryMod>
+									<my:DescribePlansForRegulatoryModernizationIfUnconstrainedByTimeaaResourcesOrProcesses></my:DescribePlansForRegulatoryModernizationIfUnconstrainedByTimeaaResourcesOrProcesses>
+									<my:Fall2018OmnibusSubmissionForRegulatoryChange>
+										<my:InterestedInFall2018OmnibusSubmission>false</my:InterestedInFall2018OmnibusSubmission>
+										<my:DescriptionOfNatureOfChangeIncludingSystemAndOrTechnicalChanges></my:DescriptionOfNatureOfChangeIncludingSystemAndOrTechnicalChanges>
+									</my:Fall2018OmnibusSubmissionForRegulatoryChange>
+									<my:OtherCommentsOnUpcomingRegluatoryAgenda></my:OtherCommentsOnUpcomingRegluatoryAgenda>
+								</my:UpComingRegulatoryAgenda>
+							</xsf:chooseFragment>
+						</xsf:fragmentToInsert>
+					</xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="YearOfLastModification_153" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures/my:YearOfLastModification" container="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures">
+					<xsf:editWith caption="YearOfLastModification" xd:autogeneration="template" component="xOptional">
+						<xsf:fragmentToInsert>
+							<xsf:chooseFragment innerFragment="my:YearOfLastModification">
+								<my:YearOfLastModification>
+									<my:YearOfLastModificationYYYY xsi:nil="true"></my:YearOfLastModificationYYYY>
+									<my:NatureOfModificationREFERENCE></my:NatureOfModificationREFERENCE>
+									<my:LinkToCanadaGazette></my:LinkToCanadaGazette>
+								</my:YearOfLastModification>
+							</xsf:chooseFragment>
+						</xsf:fragmentToInsert>
+					</xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="PlannedUsageOfMethods_197" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures/my:RegulatoryModernization/my:PlannedUsageOfMethods" container="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures/my:RegulatoryModernization">
+					<xsf:editWith caption="PlannedUsageOfMethods" xd:autogeneration="template" component="xOptional">
+						<xsf:fragmentToInsert>
+							<xsf:chooseFragment innerFragment="my:PlannedUsageOfMethods">
+								<my:PlannedUsageOfMethods>
+									<my:IncorporationByReferencePlanned>false</my:IncorporationByReferencePlanned>
+									<my:SystemsBasedPlanned>false</my:SystemsBasedPlanned>
+									<my:PerformanceBasedPlanned>false</my:PerformanceBasedPlanned>
+									<my:RecognitionOfThirdPartyPrivateStandardsInRegulationsPlanned>false</my:RecognitionOfThirdPartyPrivateStandardsInRegulationsPlanned>
+									<my:InternationalRegulatoryCooperationIntegratedInRegulationsPlanned>false</my:InternationalRegulatoryCooperationIntegratedInRegulationsPlanned>
+									<my:ProvincialTerritorialRegulatoryCooperationIntegratedInRegulationsPlanned>false</my:ProvincialTerritorialRegulatoryCooperationIntegratedInRegulationsPlanned>
+									<my:RegulatorySandboxPlanned>false</my:RegulatorySandboxPlanned>
+									<my:DesccribeRegulatorySandboxPlanned></my:DesccribeRegulatorySandboxPlanned>
+									<my:OtherMethodsPlanned>false</my:OtherMethodsPlanned>
+									<my:DesccribeOtherRegulatoryMethodsPlanned></my:DesccribeOtherRegulatoryMethodsPlanned>
+								</my:PlannedUsageOfMethods>
+							</xsf:chooseFragment>
+						</xsf:fragmentToInsert>
+					</xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="DatabaseOnRegulatedParties_152" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures/my:DataHoldings/my:DatabaseOnRegulatedParties" container="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures/my:DataHoldings">
+					<xsf:editWith caption="DatabaseOnRegulatedParties" xd:autogeneration="template" component="xCollection">
+						<xsf:fragmentToInsert>
+							<xsf:chooseFragment innerFragment="my:DatabaseOnRegulatedParties">
+								<my:DatabaseOnRegulatedParties>
+									<my:NameOfDatabase></my:NameOfDatabase>
+									<my:DescriptionOfDatabase></my:DescriptionOfDatabase>
+									<my:NameOfDatabaseOfficial></my:NameOfDatabaseOfficial>
+									<my:TitleOfDatabaseOfficial></my:TitleOfDatabaseOfficial>
+									<my:EmailOfDatabaseOfficial></my:EmailOfDatabaseOfficial>
+									<my:PurposeOfDatabase>
+										<my:DBForRiskAssessment>false</my:DBForRiskAssessment>
+										<my:DBForPermissions>false</my:DBForPermissions>
+										<my:DBForComplianceVerification>false</my:DBForComplianceVerification>
+										<my:DBForEnforcement>false</my:DBForEnforcement>
+										<my:DBForPublicReporting>false</my:DBForPublicReporting>
+										<my:DBForOtherPurposes>false</my:DBForOtherPurposes>
+										<my:DBOtherPurposeDescription></my:DBOtherPurposeDescription>
+									</my:PurposeOfDatabase>
+									<my:DBRelatedToBusiness>
+										<my:DBHoldsInformationRelatedToBusiness>false</my:DBHoldsInformationRelatedToBusiness>
+										<my:DBUsesBusinessRegistrationNumbers>false</my:DBUsesBusinessRegistrationNumbers>
+										<my:DBUsesNAICSCodes>false</my:DBUsesNAICSCodes>
+									</my:DBRelatedToBusiness>
+									<my:DBHoldsInformationRelatedToIndividuals>false</my:DBHoldsInformationRelatedToIndividuals>
+									<my:Infosource>
+										<my:InfosourceIndicator>false</my:InfosourceIndicator>
+										<my:InfosourceLink></my:InfosourceLink>
+									</my:Infosource>
+								</my:DatabaseOnRegulatedParties>
+							</xsf:chooseFragment>
+						</xsf:fragmentToInsert>
+					</xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="PerformanceEvaluation_155" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures/my:PerformanceEvaluation" container="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures">
+					<xsf:editWith caption="PerformanceEvaluation" xd:autogeneration="template" component="xOptional">
+						<xsf:fragmentToInsert>
+							<xsf:chooseFragment innerFragment="my:PerformanceEvaluation">
+								<my:PerformanceEvaluation>
+									<my:IndicatorsForEvaluationRegulatoryPerformance></my:IndicatorsForEvaluationRegulatoryPerformance>
+									<my:LinkToEvaluationPlan></my:LinkToEvaluationPlan>
+								</my:PerformanceEvaluation>
+							</xsf:chooseFragment>
+						</xsf:fragmentToInsert>
+					</xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="OtherModernizationConsiderations_145" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures/my:RegulatoryModernization/my:OtherModernizationConsiderations">
+					<xsf:editWith type="rich" maxLength="1" component="xField"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="IncorporatedDocumentLink_203" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures/my:RegulatoryModernization/my:IncorporationByReference/my:ListOfIncorporatedDocuments/my:IncorporatedDocumentLink">
+					<xsf:editWith component="xImage"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="LinkToEvaluationPlan_192" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures/my:PerformanceEvaluation/my:LinkToEvaluationPlan">
+					<xsf:editWith component="xImage"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="MechanismOfConsultation_173" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures/my:YearOfLastComprehensiveReview/my:Consultations/my:MechanismOfConsultation" container="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures/my:YearOfLastComprehensiveReview/my:Consultations">
+					<xsf:editWith caption="MechanismOfConsultation" xd:autogeneration="template" component="xOptional">
+						<xsf:fragmentToInsert>
+							<xsf:chooseFragment innerFragment="my:MechanismOfConsultation">
+								<my:MechanismOfConsultation>
+									<my:InPerson>false</my:InPerson>
+									<my:Online>false</my:Online>
+									<my:WrittenSubmission>false</my:WrittenSubmission>
+									<my:OtherConsultationMechanism>false</my:OtherConsultationMechanism>
+									<my:OtherConsulatationMechanismDescription></my:OtherConsulatationMechanismDescription>
+								</my:MechanismOfConsultation>
+							</xsf:chooseFragment>
+						</xsf:fragmentToInsert>
+					</xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="DesccribeOtherRegulatoryMethodsPlanned_139" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures/my:RegulatoryModernization/my:PlannedUsageOfMethods/my:DesccribeOtherRegulatoryMethodsPlanned">
+					<xsf:editWith type="rich" maxLength="1" component="xField"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="YearOfLastComprehensiveReview_154" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures/my:YearOfLastComprehensiveReview" container="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures">
+					<xsf:editWith caption="YearOfLastComprehensiveReview" xd:autogeneration="template" component="xOptional">
+						<xsf:fragmentToInsert>
+							<xsf:chooseFragment innerFragment="my:YearOfLastComprehensiveReview">
+								<my:YearOfLastComprehensiveReview>
+									<my:YearOfLAstComprehensiveReviewYYY xsi:nil="true"></my:YearOfLAstComprehensiveReviewYYY>
+									<my:ObjectOfReview></my:ObjectOfReview>
+									<my:PartOfStatutoryReview>false</my:PartOfStatutoryReview>
+									<my:OtherRegulationAndOrNonRegulationInstruments></my:OtherRegulationAndOrNonRegulationInstruments>
+									<my:Consultations>
+										<my:TypeOfConsultations>
+											<my:PublicConsultations>false</my:PublicConsultations>
+											<my:StakeholderConsultations>false</my:StakeholderConsultations>
+											<my:GovernmentConsultations>false</my:GovernmentConsultations>
+											<my:OtherConsultations>false</my:OtherConsultations>
+											<my:OtherConsultationsDescription></my:OtherConsultationsDescription>
+										</my:TypeOfConsultations>
+										<my:MechanismOfConsultation>
+											<my:InPerson>false</my:InPerson>
+											<my:Online>false</my:Online>
+											<my:WrittenSubmission>false</my:WrittenSubmission>
+											<my:OtherConsultationMechanism>false</my:OtherConsultationMechanism>
+											<my:OtherConsulatationMechanismDescription></my:OtherConsulatationMechanismDescription>
+										</my:MechanismOfConsultation>
+										<my:LinkToWhatWeHeardDocument></my:LinkToWhatWeHeardDocument>
+										<my:LinkToConsultationDocument></my:LinkToConsultationDocument>
+										<my:LengthOfTimeForConsultations></my:LengthOfTimeForConsultations>
+									</my:Consultations>
+									<my:ResourcesForReview>
+										<my:LengthOfTImeForComprehensiveChanges></my:LengthOfTImeForComprehensiveChanges>
+										<my:LengthOfTImeForSpecificChanges></my:LengthOfTImeForSpecificChanges>
+										<my:LengthOfTImeForTechnicalChanges></my:LengthOfTImeForTechnicalChanges>
+										<my:NumberOfFTEYears></my:NumberOfFTEYears>
+									</my:ResourcesForReview>
+								</my:YearOfLastComprehensiveReview>
+							</xsf:chooseFragment>
+						</xsf:fragmentToInsert>
+					</xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="DescribeHowAlignmentToConsiderationWIthOtherJurisdictionsAreUndertakenWhenDevelopingRegulations_144" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures/my:RegulatoryModernization/my:DescribeHowAlignmentToConsiderationWIthOtherJurisdictionsAreUndertakenWhenDevelopingRegulations">
+					<xsf:editWith type="rich" maxLength="1" component="xField"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="ResourcesForReview_171" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures/my:YearOfLastComprehensiveReview/my:ResourcesForReview" container="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures/my:YearOfLastComprehensiveReview">
+					<xsf:editWith caption="ResourcesForReview" xd:autogeneration="template" component="xOptional">
+						<xsf:fragmentToInsert>
+							<xsf:chooseFragment innerFragment="my:ResourcesForReview">
+								<my:ResourcesForReview>
+									<my:LengthOfTImeForComprehensiveChanges></my:LengthOfTImeForComprehensiveChanges>
+									<my:LengthOfTImeForSpecificChanges></my:LengthOfTImeForSpecificChanges>
+									<my:LengthOfTImeForTechnicalChanges></my:LengthOfTImeForTechnicalChanges>
+									<my:NumberOfFTEYears></my:NumberOfFTEYears>
+								</my:ResourcesForReview>
+							</xsf:chooseFragment>
+						</xsf:fragmentToInsert>
+					</xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="DescribeTheExtentToWhichIncorporationOfStandardsOrDocumentsAreNotAccredited_135" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures/my:RegulatoryModernization/my:IncorporationByReference/my:DescribeTheExtentToWhichIncorporationOfStandardsOrDocumentsAreNotAccredited">
+					<xsf:editWith type="rich" maxLength="1" component="xField"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="LinkToWhatWeHeardDocument_174" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures/my:YearOfLastComprehensiveReview/my:Consultations/my:LinkToWhatWeHeardDocument" container="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures/my:YearOfLastComprehensiveReview/my:Consultations">
+					<xsf:editWith caption="LinkToWhatWeHeardDocument" xd:autogeneration="template" component="xCollection">
+						<xsf:fragmentToInsert>
+							<xsf:chooseFragment innerFragment="my:LinkToWhatWeHeardDocument">
+								<my:LinkToWhatWeHeardDocument></my:LinkToWhatWeHeardDocument>
+							</xsf:chooseFragment>
+						</xsf:fragmentToInsert>
+					</xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="OtherCommentsOnUpcomingRegluatoryAgenda_151" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures/my:UpComingRegulatoryAgenda/my:OtherCommentsOnUpcomingRegluatoryAgenda">
+					<xsf:editWith type="rich" maxLength="1" component="xField"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="LinkToConsultationDocument_176" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures/my:YearOfLastComprehensiveReview/my:Consultations/my:LinkToConsultationDocument" container="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures/my:YearOfLastComprehensiveReview/my:Consultations">
+					<xsf:editWith caption="LinkToConsultationDocument" xd:autogeneration="template" component="xCollection">
+						<xsf:fragmentToInsert>
+							<xsf:chooseFragment innerFragment="my:LinkToConsultationDocument">
+								<my:LinkToConsultationDocument></my:LinkToConsultationDocument>
+							</xsf:chooseFragment>
+						</xsf:fragmentToInsert>
+					</xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="LinkToConsultationDocument_177" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures/my:YearOfLastComprehensiveReview/my:Consultations/my:LinkToConsultationDocument">
+					<xsf:editWith component="xImage"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="Consultations_170" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures/my:YearOfLastComprehensiveReview/my:Consultations" container="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures/my:YearOfLastComprehensiveReview">
+					<xsf:editWith caption="Consultations" xd:autogeneration="template" component="xOptional">
+						<xsf:fragmentToInsert>
+							<xsf:chooseFragment innerFragment="my:Consultations">
+								<my:Consultations>
+									<my:TypeOfConsultations>
+										<my:PublicConsultations>false</my:PublicConsultations>
+										<my:StakeholderConsultations>false</my:StakeholderConsultations>
+										<my:GovernmentConsultations>false</my:GovernmentConsultations>
+										<my:OtherConsultations>false</my:OtherConsultations>
+										<my:OtherConsultationsDescription></my:OtherConsultationsDescription>
+									</my:TypeOfConsultations>
+									<my:MechanismOfConsultation>
+										<my:InPerson>false</my:InPerson>
+										<my:Online>false</my:Online>
+										<my:WrittenSubmission>false</my:WrittenSubmission>
+										<my:OtherConsultationMechanism>false</my:OtherConsultationMechanism>
+										<my:OtherConsulatationMechanismDescription></my:OtherConsulatationMechanismDescription>
+									</my:MechanismOfConsultation>
+									<my:LinkToWhatWeHeardDocument></my:LinkToWhatWeHeardDocument>
+									<my:LinkToConsultationDocument></my:LinkToConsultationDocument>
+									<my:LengthOfTimeForConsultations></my:LengthOfTimeForConsultations>
+								</my:Consultations>
+							</xsf:chooseFragment>
+						</xsf:fragmentToInsert>
+					</xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="DescriptionOfBestPracticesSupportingSMEs_141" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures/my:RegulatoryModernization/my:DescriptionOfBestPracticesSupportingSMEs">
+					<xsf:editWith type="rich" maxLength="1" component="xField"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="OtherRegulationAndOrNonRegulationInstruments_134" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures/my:YearOfLastComprehensiveReview/my:OtherRegulationAndOrNonRegulationInstruments">
+					<xsf:editWith type="rich" maxLength="1" component="xField"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="DescribeCurrentUsesOfRegulatorySandboxUsed_136" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures/my:RegulatoryModernization/my:CurrentUsageOfMethods/my:DescribeCurrentUsesOfRegulatorySandboxUsed">
+					<xsf:editWith type="rich" maxLength="1" component="xField"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="DescriptionOfNatureOfChangeIncludingSystemAndOrTechnicalChanges_150" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures/my:UpComingRegulatoryAgenda/my:Fall2018OmnibusSubmissionForRegulatoryChange/my:DescriptionOfNatureOfChangeIncludingSystemAndOrTechnicalChanges">
+					<xsf:editWith type="rich" maxLength="1" component="xField"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="LinkToWhatWeHeardDocument_175" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures/my:YearOfLastComprehensiveReview/my:Consultations/my:LinkToWhatWeHeardDocument">
+					<xsf:editWith component="xImage"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="DesccribeRegulatorySandboxPlanned_138" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures/my:RegulatoryModernization/my:PlannedUsageOfMethods/my:DesccribeRegulatorySandboxPlanned">
+					<xsf:editWith type="rich" maxLength="1" component="xField"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="LinkToStatementOfRegulatoryBestPractice_194" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures/my:RegulatoryModernization/my:LinkToStatementOfRegulatoryBestPractice">
+					<xsf:editWith component="xImage"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="CurrentUsageOfMethods_196" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures/my:RegulatoryModernization/my:CurrentUsageOfMethods" container="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures/my:RegulatoryModernization">
+					<xsf:editWith caption="CurrentUsageOfMethods" xd:autogeneration="template" component="xOptional">
+						<xsf:fragmentToInsert>
+							<xsf:chooseFragment innerFragment="my:CurrentUsageOfMethods">
+								<my:CurrentUsageOfMethods>
+									<my:IncorporationByReferenceUsed>false</my:IncorporationByReferenceUsed>
+									<my:SystemsBasedUsed>false</my:SystemsBasedUsed>
+									<my:PerformanceBasedUsed>false</my:PerformanceBasedUsed>
+									<my:RecognitionOfThirdPartyPrivateStandardsInRegulationsUsed>false</my:RecognitionOfThirdPartyPrivateStandardsInRegulationsUsed>
+									<my:InternationalRegulatoryCooperationIntegratedInRegulationsUsed>false</my:InternationalRegulatoryCooperationIntegratedInRegulationsUsed>
+									<my:ProvincialTerritorialRegulatoryCooperationIntegratedInRegulationsUsed>false</my:ProvincialTerritorialRegulatoryCooperationIntegratedInRegulationsUsed>
+									<my:RegulatorySandboxUsed>false</my:RegulatorySandboxUsed>
+									<my:DescribeCurrentUsesOfRegulatorySandboxUsed></my:DescribeCurrentUsesOfRegulatorySandboxUsed>
+									<my:OtherMethodsUsed>false</my:OtherMethodsUsed>
+									<my:DescripbeOtherMethodsUsed></my:DescripbeOtherMethodsUsed>
+								</my:CurrentUsageOfMethods>
+							</xsf:chooseFragment>
+						</xsf:fragmentToInsert>
+					</xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="DescriptionOfChallengesOrConstraintsToRegulatoryModernization_143" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures/my:RegulatoryModernization/my:DescriptionOfChallengesOrConstraintsToRegulatoryModernization">
+					<xsf:editWith type="rich" maxLength="1" component="xField"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="DescripbeOtherMethodsUsed_137" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures/my:RegulatoryModernization/my:CurrentUsageOfMethods/my:DescripbeOtherMethodsUsed">
+					<xsf:editWith type="rich" maxLength="1" component="xField"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="TopPrioritiesForRegulatoryModernization_147" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures/my:UpComingRegulatoryAgenda/my:TopPrioritiesForRegulatoryModernization">
+					<xsf:editWith type="rich" maxLength="1" component="xField"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="LinkToCanadaGazette_241" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures/my:YearOfLastModification/my:LinkToCanadaGazette" container="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures/my:YearOfLastModification">
+					<xsf:editWith caption="LinkToCanadaGazette" xd:autogeneration="template" component="xCollection">
+						<xsf:fragmentToInsert>
+							<xsf:chooseFragment innerFragment="my:LinkToCanadaGazette">
+								<my:LinkToCanadaGazette></my:LinkToCanadaGazette>
+							</xsf:chooseFragment>
+						</xsf:fragmentToInsert>
+					</xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="LinkToCanadaGazette_242" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures/my:YearOfLastModification/my:LinkToCanadaGazette">
+					<xsf:editWith component="xImage"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="IndicatorsForEvaluationRegulatoryPerformance_245" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures/my:PerformanceEvaluation/my:IndicatorsForEvaluationRegulatoryPerformance">
+					<xsf:editWith type="rich" maxLength="1" component="xField"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="OtherCommentsOnRegSetPolicyFeatures_248" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures/my:OtherCommentsOnRegSetPolicyFeatures">
+					<xsf:editWith type="rich" maxLength="1" component="xField"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="ComplianceOtherTools_258" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetManagement/my:CompliancePromotionFunction/my:CompliancePromotionActivities/my:ComplianceOtherTools">
+					<xsf:editWith type="rich" maxLength="1" component="xField"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="ComplianceOnlineOrInPersonAssistanceURL_290" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetManagement/my:CompliancePromotionFunction/my:CompliancePromotionActivities/my:ComplianceOnlineOrInPersonAssistance/my:ComplianceOnlineOrInPersonAssistanceURL">
+					<xsf:editWith component="xImage"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="DescribePrimaryRiskManagementTools_253" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetManagement/my:RiskManagementFunction/my:DescribePrimaryRiskManagementTools">
+					<xsf:editWith type="rich" maxLength="1" component="xField"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="ComplianceGuidanceURL_286" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetManagement/my:CompliancePromotionFunction/my:CompliancePromotionActivities/my:ComplianceGuidance/my:ComplianceGuidanceURL">
+					<xsf:editWith component="xImage"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="ComplianceOnlineServiceToolsURL_288" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetManagement/my:CompliancePromotionFunction/my:CompliancePromotionActivities/my:ComplianceOnlineServiceTools/my:ComplianceOnlineServiceToolsURL">
+					<xsf:editWith component="xImage"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="Describethelevelofconfidanceinthepermissionsfunctioninservingthepopulationsubjecttotheregulation_255" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetManagement/my:PermissionFunction/my:Describethelevelofconfidanceinthepermissionsfunctioninservingthepopulationsubjecttotheregulation">
+					<xsf:editWith type="rich" maxLength="1" component="xField"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="OtherPermissionsFunctionsComments_256" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetManagement/my:PermissionFunction/my:OtherPermissionsFunctionsComments">
+					<xsf:editWith type="rich" maxLength="1" component="xField"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="ComplianceInformationURL_284" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetManagement/my:CompliancePromotionFunction/my:CompliancePromotionActivities/my:ComplianceInformation/my:ComplianceInformationURL">
+					<xsf:editWith component="xImage"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="OtherRiskAssessmentDescription_251" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetManagement/my:RiskAssessmentFunction/my:NatureOfTheRiskAssessment/my:OtherRiskAssessmentDescription">
+					<xsf:editWith type="rich" maxLength="1" component="xField"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="RegSetManDataAnalyticsDescription_263" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetManagement/my:RegSetManDataAnalytics/my:RegSetManDataAnalyticsDescription">
+					<xsf:editWith type="rich" maxLength="1" component="xField"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="RegSetContacts_972" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures/my:RegSetContacts" container="/my:myFields">
+					<xsf:editWith caption="RegSetContacts" xd:autogeneration="template" component="xCollection">
+						<xsf:fragmentToInsert>
+							<xsf:chooseFragment innerFragment="my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures/my:RegSetContacts">
+								<my:RegSet>
+									<my:RegSetTitleAndDescription>
+										<my:RegSetPolicyFeatures>
+											<my:RegSetContacts>
+												<my:Name></my:Name>
+												<my:Title></my:Title>
+												<my:Email></my:Email>
+												<my:Role></my:Role>
+											</my:RegSetContacts>
+										</my:RegSetPolicyFeatures>
+									</my:RegSetTitleAndDescription>
+								</my:RegSet>
+							</xsf:chooseFragment>
+						</xsf:fragmentToInsert>
+					</xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="DescriptionOfDatabase_991" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures/my:DataHoldings/my:DatabaseOnRegulatedParties/my:DescriptionOfDatabase">
+					<xsf:editWith type="rich" maxLength="1" component="xField"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="InfosourceLink_993" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures/my:DataHoldings/my:DatabaseOnRegulatedParties/my:Infosource/my:InfosourceLink">
+					<xsf:editWith component="xImage"></xsf:editWith>
+				</xsf:xmlToEdit>
+				<xsf:xmlToEdit name="DBOtherPurposeDescription_983" item="/my:myFields/my:RegSet/my:RegSetTitleAndDescription/my:RegSetPolicyFeatures/my:DataHoldings/my:DatabaseOnRegulatedParties/my:PurposeOfDatabase/my:DBOtherPurposeDescription">
+					<xsf:editWith type="rich" maxLength="1" component="xField"></xsf:editWith>
+				</xsf:xmlToEdit>
+			</xsf:editing>
+			<xsf:menuArea name="msoStructuralEditingContextMenu">
+				<xsf:button action="xCollection::insertBefore" xmlToEdit="ByAuthorityType_45" caption="Insert ByAuthorityType before" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::insertBefore" xmlToEdit="ByRegulatoryFunction_53" caption="Insert ByRegulatoryFunction before" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::insertBefore" xmlToEdit="ByRegFunctionBreakdown_68" caption="Insert ByRegFunctionBreakdown before" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::insertBefore" xmlToEdit="Acts_83" caption="Insert Acts before" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::insertBefore" xmlToEdit="ResponsibleMinister_84" caption="Insert ResponsibleMinister before" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::insertBefore" xmlToEdit="ResponsibleDeputyHead_90" caption="Insert ResponsibleDeputyHead before" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::insertBefore" xmlToEdit="RegulationsUnderAct_103" caption="Insert RegulationsUnderAct before" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::insertBefore" xmlToEdit="DatabaseOnRegulatedParties_152" caption="Insert DatabaseOnRegulatedParties before" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::insertBefore" xmlToEdit="LinkToWhatWeHeardDocument_174" caption="Insert LinkToWhatWeHeardDocument before" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::insertBefore" xmlToEdit="LinkToConsultationDocument_176" caption="Insert LinkToConsultationDocument before" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::insertBefore" xmlToEdit="ListOfIncorporatedDocuments_200" caption="Insert ListOfIncorporatedDocuments before" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::insertBefore" xmlToEdit="LinkToCanadaGazette_241" caption="Insert LinkToCanadaGazette before" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::insertBefore" xmlToEdit="RegSetContacts_972" caption="Insert RegSetContacts before" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::insertAfter" xmlToEdit="ByAuthorityType_45" caption="Insert ByAuthorityType after" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::insertAfter" xmlToEdit="ByRegulatoryFunction_53" caption="Insert ByRegulatoryFunction after" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::insertAfter" xmlToEdit="ByRegFunctionBreakdown_68" caption="Insert ByRegFunctionBreakdown after" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::insertAfter" xmlToEdit="Acts_83" caption="Insert Acts after" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::insertAfter" xmlToEdit="ResponsibleMinister_84" caption="Insert ResponsibleMinister after" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::insertAfter" xmlToEdit="ResponsibleDeputyHead_90" caption="Insert ResponsibleDeputyHead after" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::insertAfter" xmlToEdit="RegulationsUnderAct_103" caption="Insert RegulationsUnderAct after" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::insertAfter" xmlToEdit="DatabaseOnRegulatedParties_152" caption="Insert DatabaseOnRegulatedParties after" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::insertAfter" xmlToEdit="LinkToWhatWeHeardDocument_174" caption="Insert LinkToWhatWeHeardDocument after" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::insertAfter" xmlToEdit="LinkToConsultationDocument_176" caption="Insert LinkToConsultationDocument after" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::insertAfter" xmlToEdit="ListOfIncorporatedDocuments_200" caption="Insert ListOfIncorporatedDocuments after" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::insertAfter" xmlToEdit="LinkToCanadaGazette_241" caption="Insert LinkToCanadaGazette after" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::insertAfter" xmlToEdit="RegSetContacts_972" caption="Insert RegSetContacts after" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::remove" xmlToEdit="ByAuthorityType_45" caption="Remove ByAuthorityType" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::remove" xmlToEdit="ByRegulatoryFunction_53" caption="Remove ByRegulatoryFunction" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::remove" xmlToEdit="ByRegFunctionBreakdown_68" caption="Remove ByRegFunctionBreakdown" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::remove" xmlToEdit="Acts_83" caption="Remove Acts" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::remove" xmlToEdit="ResponsibleMinister_84" caption="Remove ResponsibleMinister" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::remove" xmlToEdit="ResponsibleDeputyHead_90" caption="Remove ResponsibleDeputyHead" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::remove" xmlToEdit="RegulationsUnderAct_103" caption="Remove RegulationsUnderAct" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::remove" xmlToEdit="DatabaseOnRegulatedParties_152" caption="Remove DatabaseOnRegulatedParties" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::remove" xmlToEdit="LinkToWhatWeHeardDocument_174" caption="Remove LinkToWhatWeHeardDocument" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::remove" xmlToEdit="LinkToConsultationDocument_176" caption="Remove LinkToConsultationDocument" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::remove" xmlToEdit="ListOfIncorporatedDocuments_200" caption="Remove ListOfIncorporatedDocuments" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::remove" xmlToEdit="LinkToCanadaGazette_241" caption="Remove LinkToCanadaGazette" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::remove" xmlToEdit="RegSetContacts_972" caption="Remove RegSetContacts" showIf="immediate"></xsf:button>
+				<xsf:button action="xOptional::remove" xmlToEdit="YearOfLastModification_153" caption="Remove YearOfLastModification" showIf="immediate"></xsf:button>
+				<xsf:button action="xOptional::remove" xmlToEdit="YearOfLastComprehensiveReview_154" caption="Remove YearOfLastComprehensiveReview" showIf="immediate"></xsf:button>
+				<xsf:button action="xOptional::remove" xmlToEdit="PerformanceEvaluation_155" caption="Remove PerformanceEvaluation" showIf="immediate"></xsf:button>
+				<xsf:button action="xOptional::remove" xmlToEdit="RegulatoryModernization_156" caption="Remove RegulatoryModernization" showIf="immediate"></xsf:button>
+				<xsf:button action="xOptional::remove" xmlToEdit="DataHoldings_157" caption="Remove DataHoldings" showIf="immediate"></xsf:button>
+				<xsf:button action="xOptional::remove" xmlToEdit="UpComingRegulatoryAgenda_158" caption="Remove UpComingRegulatoryAgenda" showIf="immediate"></xsf:button>
+				<xsf:button action="xOptional::remove" xmlToEdit="Consultations_170" caption="Remove Consultations" showIf="immediate"></xsf:button>
+				<xsf:button action="xOptional::remove" xmlToEdit="ResourcesForReview_171" caption="Remove ResourcesForReview" showIf="immediate"></xsf:button>
+				<xsf:button action="xOptional::remove" xmlToEdit="TypeOfConsultations_172" caption="Remove TypeOfConsultations" showIf="immediate"></xsf:button>
+				<xsf:button action="xOptional::remove" xmlToEdit="MechanismOfConsultation_173" caption="Remove MechanismOfConsultation" showIf="immediate"></xsf:button>
+				<xsf:button action="xOptional::remove" xmlToEdit="CurrentUsageOfMethods_196" caption="Remove CurrentUsageOfMethods" showIf="immediate"></xsf:button>
+				<xsf:button action="xOptional::remove" xmlToEdit="PlannedUsageOfMethods_197" caption="Remove PlannedUsageOfMethods" showIf="immediate"></xsf:button>
+				<xsf:button action="xOptional::remove" xmlToEdit="RepealedRegulation_198" caption="Remove RepealedRegulation" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::insert" xmlToEdit="ByAuthorityType_45" caption="Insert ByAuthorityType" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::insert" xmlToEdit="ByRegulatoryFunction_53" caption="Insert ByRegulatoryFunction" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::insert" xmlToEdit="ByRegFunctionBreakdown_68" caption="Insert ByRegFunctionBreakdown" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::insert" xmlToEdit="Acts_83" caption="Insert Acts" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::insert" xmlToEdit="ResponsibleMinister_84" caption="Insert ResponsibleMinister" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::insert" xmlToEdit="ResponsibleDeputyHead_90" caption="Insert ResponsibleDeputyHead" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::insert" xmlToEdit="RegulationsUnderAct_103" caption="Insert RegulationsUnderAct" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::insert" xmlToEdit="DatabaseOnRegulatedParties_152" caption="Insert DatabaseOnRegulatedParties" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::insert" xmlToEdit="LinkToWhatWeHeardDocument_174" caption="Insert LinkToWhatWeHeardDocument" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::insert" xmlToEdit="LinkToConsultationDocument_176" caption="Insert LinkToConsultationDocument" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::insert" xmlToEdit="ListOfIncorporatedDocuments_200" caption="Insert ListOfIncorporatedDocuments" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::insert" xmlToEdit="LinkToCanadaGazette_241" caption="Insert LinkToCanadaGazette" showIf="immediate"></xsf:button>
+				<xsf:button action="xCollection::insert" xmlToEdit="RegSetContacts_972" caption="Insert RegSetContacts" showIf="immediate"></xsf:button>
+				<xsf:button action="xOptional::insert" xmlToEdit="YearOfLastModification_153" caption="Insert YearOfLastModification" showIf="immediate"></xsf:button>
+				<xsf:button action="xOptional::insert" xmlToEdit="YearOfLastComprehensiveReview_154" caption="Insert YearOfLastComprehensiveReview" showIf="immediate"></xsf:button>
+				<xsf:button action="xOptional::insert" xmlToEdit="PerformanceEvaluation_155" caption="Insert PerformanceEvaluation" showIf="immediate"></xsf:button>
+				<xsf:button action="xOptional::insert" xmlToEdit="RegulatoryModernization_156" caption="Insert RegulatoryModernization" showIf="immediate"></xsf:button>
+				<xsf:button action="xOptional::insert" xmlToEdit="DataHoldings_157" caption="Insert DataHoldings" showIf="immediate"></xsf:button>
+				<xsf:button action="xOptional::insert" xmlToEdit="UpComingRegulatoryAgenda_158" caption="Insert UpComingRegulatoryAgenda" showIf="immediate"></xsf:button>
+				<xsf:button action="xOptional::insert" xmlToEdit="Consultations_170" caption="Insert Consultations" showIf="immediate"></xsf:button>
+				<xsf:button action="xOptional::insert" xmlToEdit="ResourcesForReview_171" caption="Insert ResourcesForReview" showIf="immediate"></xsf:button>
+				<xsf:button action="xOptional::insert" xmlToEdit="TypeOfConsultations_172" caption="Insert TypeOfConsultations" showIf="immediate"></xsf:button>
+				<xsf:button action="xOptional::insert" xmlToEdit="MechanismOfConsultation_173" caption="Insert MechanismOfConsultation" showIf="immediate"></xsf:button>
+				<xsf:button action="xOptional::insert" xmlToEdit="CurrentUsageOfMethods_196" caption="Insert CurrentUsageOfMethods" showIf="immediate"></xsf:button>
+				<xsf:button action="xOptional::insert" xmlToEdit="PlannedUsageOfMethods_197" caption="Insert PlannedUsageOfMethods" showIf="immediate"></xsf:button>
+				<xsf:button action="xOptional::insert" xmlToEdit="RepealedRegulation_198" caption="Insert RepealedRegulation" showIf="immediate"></xsf:button>
+			</xsf:menuArea>
+		</xsf:view>
+	</xsf:views>
+	<xsf:applicationParameters application="InfoPath Design Mode">
+		<xsf:solutionProperties lastOpenView="view1.xsl" fullyEditableNamespace="http://schemas.microsoft.com/office/infopath/2003/myXSD/2018-05-07T13:30:50" lastVersionNeedingTransform="1.0.0.75"></xsf:solutionProperties>
+	</xsf:applicationParameters>
+	<xsf:documentSchemas>
+		<xsf:documentSchema rootSchema="yes" location="http://schemas.microsoft.com/office/infopath/2003/myXSD/2018-05-07T13:30:50 myschema.xsd"></xsf:documentSchema>
+	</xsf:documentSchemas>
+	<xsf:fileNew>
+		<xsf:initialXmlDocument caption="20180510" href="template.xml"></xsf:initialXmlDocument>
+	</xsf:fileNew>
+	<xsf:dataObjects>
+		<xsf:dataObject name="OrgsAlphaSort" schema="OrgsAlphaSort.xsd" initOnLoad="yes">
+			<xsf:query>
+				<xsf:xmlFileAdapter fileUrl="x-soln:///OrgsAlphaSort" name="OrgsAlphaSort"></xsf:xmlFileAdapter>
+			</xsf:query>
+		</xsf:dataObject>
+		<xsf:dataObject name="lkpNAICS-SCIAN" schema="lkpNAICS-SCIAN.xsd" initOnLoad="yes">
+			<xsf:query>
+				<xsf:xmlFileAdapter fileUrl="x-soln:///lkpNAICS-SCIAN" name="lkpNAICS-SCIAN"></xsf:xmlFileAdapter>
+			</xsf:query>
+		</xsf:dataObject>
+		<xsf:dataObject name="tblActs" schema="tblActs.xsd" initOnLoad="yes">
+			<xsf:query>
+				<xsf:xmlFileAdapter fileUrl="x-soln:///tblActs" name="tblActs"></xsf:xmlFileAdapter>
+			</xsf:query>
+		</xsf:dataObject>
+		<xsf:dataObject name="Regs" schema="Regs.xsd" initOnLoad="yes">
+			<xsf:query>
+				<xsf:xmlFileAdapter fileUrl="x-soln:///Regs" name="Regs"></xsf:xmlFileAdapter>
+			</xsf:query>
+		</xsf:dataObject>
+	</xsf:dataObjects>
+</xsf:xDocumentClass>

@@ -1,0 +1,62 @@
+﻿<w:document
+xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas"
+xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"
+xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math"
+xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing"
+xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing"
+xmlns:w10="urn:schemas-microsoft-com:office:word"
+xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml"
+xmlns:w15="http://schemas.microsoft.com/office/word/2012/wordml"
+xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup"
+xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk"
+xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml"
+xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape"
+xmlns:xml="http://www.w3.org/XML/1998/namespace"
+xmlns:xs = "http://www.w3.org/2001/XMLSchema"
+xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+xmlns:fn = "http://www.w3.org/2005/xpath-functions"
+xmlns:local = "http://www.w3.org/2005/xquery-local-functions"
+mc:Ignorable="w14 w15 wp14">
+<w:body>
+    <w:sdt>
+      <w:sdtPr>
+        <w:id w:val="-1075585582"/>
+        <w:placeholder>
+          <w:docPart w:val="0489690E52504E3FBE1F8F3AC3EE06DA"/>
+        </w:placeholder>
+        <w:showingPlcHdr/>
+        <w:dropDownList>
+          {
+          for $x in doc("Regs.xml")/Regulations/Regulation
+          where $x/Language = "eng"
+          order by $x/Title
+          return <listItem w:displayName="{data($x/Title)}" w:value="{data($x/UniqueId)}"/>
+          }
+        </w:dropDownList>
+      </w:sdtPr>
+      <w:sdtContent>
+        <w:p w:rsidR="00E705E8" w:rsidRPr="00525B80" w:rsidRDefault="00525B80" w:rsidP="00525B80">
+          <w:r w:rsidRPr="00E63751">
+            <w:rPr>
+              <w:rStyle w:val="PlaceholderText"/>
+            </w:rPr>
+            <w:t>Choose an item.</w:t>
+          </w:r>
+        </w:p>
+      </w:sdtContent>
+    </w:sdt>
+    <w:bookmarkStart w:id="0" w:name="_GoBack" w:displacedByCustomXml="prev"/>
+    <w:bookmarkEnd w:id="0" w:displacedByCustomXml="prev"/>
+    <w:sectPr w:rsidR="00E705E8" w:rsidRPr="00525B80">
+      <w:headerReference w:type="default" r:id="rId8"/>
+      <w:pgSz w:w="12240" w:h="15840"/>
+      <w:pgMar w:top="1440" w:right="1440" w:bottom="1440" w:left="1440" w:header="708" w:footer="708" w:gutter="0"/>
+      <w:cols w:space="708"/>
+      <w:docGrid w:linePitch="360"/>
+    </w:sectPr>
+  </w:body>
+</w:document>

@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema targetNamespace="http://schemas.microsoft.com/office/infopath/2003/myXSD/2018-03-15T16:29:40" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2018-03-15T16:29:40" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="DRRFields">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:DepartmentalProfile" minOccurs="0"/>
+				<xsd:element ref="my:CoreResponsibility" minOccurs="0" maxOccurs="unbounded"/>
+				<xsd:element ref="my:ProgramInventory" minOccurs="0" maxOccurs="unbounded"/>
+			</xsd:sequence>
+			<xsd:anyAttribute processContents="lax" namespace="http://www.w3.org/XML/1998/namespace"/>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="DepartmentalProfile">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:DepartmentName" minOccurs="0"/>
+				<xsd:element ref="my:DepartmentalType" minOccurs="0"/>
+				<xsd:element ref="my:AppripriateMinister" minOccurs="0" maxOccurs="unbounded"/>
+				<xsd:element ref="my:EnabilingInstruments" minOccurs="0" maxOccurs="unbounded"/>
+				<xsd:element ref="my:Hyperlinks" minOccurs="0" maxOccurs="unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="DepartmentName" type="my:requiredString"/>
+	<xsd:element name="DepartmentalType" type="my:requiredString"/>
+	<xsd:element name="AppripriateMinister">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:AppropriateMinisterTitle" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="AppropriateMinisterTitle" type="xsd:string"/>
+	<xsd:element name="EnabilingInstruments">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:EnablingInstrumentID" minOccurs="0"/>
+				<xsd:element ref="my:EnablingInstrumentEnglish" minOccurs="0"/>
+				<xsd:element ref="my:EnablingInstrumentFrench" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="EnablingInstrumentID" type="xsd:integer"/>
+	<xsd:element name="EnablingInstrumentEnglish">
+		<xsd:complexType mixed="true">
+			<xsd:sequence>
+				<xsd:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/1999/xhtml" processContents="lax"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="EnablingInstrumentFrench">
+		<xsd:complexType mixed="true">
+			<xsd:sequence>
+				<xsd:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/1999/xhtml" processContents="lax"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="Hyperlinks">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:URLDescription" minOccurs="0"/>
+				<xsd:element ref="my:URLEnglish" minOccurs="0"/>
+				<xsd:element ref="my:URLFrench" minOccurs="0"/>
+				<xsd:element ref="my:URLType" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="URLDescription" type="xsd:string"/>
+	<xsd:element name="URLEnglish" type="xsd:anyURI"/>
+	<xsd:element name="URLFrench" type="xsd:anyURI"/>
+	<xsd:element name="URLType" type="xsd:string"/>
+	<xsd:element name="CoreResponsibility">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:CRCode" minOccurs="0"/>
+				<xsd:element ref="my:CRNameEng" minOccurs="0"/>
+				<xsd:element ref="my:CRDescriptionEng" minOccurs="0"/>
+				<xsd:element ref="my:DepartmentalResults" minOccurs="0" maxOccurs="unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="CRCode" type="my:requiredString"/>
+	<xsd:element name="CRNameEng" type="xsd:string"/>
+	<xsd:element name="CRDescriptionEng">
+		<xsd:complexType mixed="true">
+			<xsd:sequence>
+				<xsd:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/1999/xhtml" processContents="lax"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="DepartmentalResults">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:ResultCode" minOccurs="0"/>
+				<xsd:element ref="my:DRNameEng" minOccurs="0"/>
+				<xsd:element ref="my:DRDescriptionEng" minOccurs="0"/>
+				<xsd:element ref="my:DRIndicator" minOccurs="0" maxOccurs="unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="ResultCode" type="my:requiredString"/>
+	<xsd:element name="DRNameEng" type="my:requiredString"/>
+	<xsd:element name="DRDescriptionEng">
+		<xsd:complexType mixed="true">
+			<xsd:sequence>
+				<xsd:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/1999/xhtml" processContents="lax"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="DRIndicator">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:DRIndicatorCode" minOccurs="0"/>
+				<xsd:element ref="my:DRINameEng" minOccurs="0"/>
+				<xsd:element ref="my:DRIDataType" minOccurs="0"/>
+				<xsd:element ref="my:DRIDataSourceEng" minOccurs="0"/>
+				<xsd:element ref="my:DRIDataCollectionFrequency" minOccurs="0"/>
+				<xsd:element ref="my:DataColelctionFreqOtherText" minOccurs="0"/>
+				<xsd:element ref="my:DRIDataOwner" minOccurs="0"/>
+				<xsd:element ref="my:DRITargetsEng" minOccurs="0"/>
+				<xsd:element ref="my:DRItargetDate" minOccurs="0"/>
+				<xsd:element ref="my:DRIMinimumValue" minOccurs="0"/>
+				<xsd:element ref="my:DRIMaximumValue" minOccurs="0"/>
+				<xsd:element ref="my:Methodology" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="DRIndicatorCode" type="my:requiredString"/>
+	<xsd:element name="DRINameEng" type="my:requiredString"/>
+	<xsd:element name="DRIDataType" type="xsd:string"/>
+	<xsd:element name="DRIDataSourceEng" type="my:requiredString"/>
+	<xsd:element name="DRIDataCollectionFrequency" type="my:requiredString"/>
+	<xsd:element name="DataColelctionFreqOtherText" type="xsd:string"/>
+	<xsd:element name="DRIDataOwner" type="my:requiredString"/>
+	<xsd:element name="DRITargetsEng" type="xsd:string"/>
+	<xsd:element name="DRItargetDate" type="xsd:date"/>
+	<xsd:element name="DRIMinimumValue" type="xsd:double"/>
+	<xsd:element name="DRIMaximumValue" nillable="true" type="xsd:double"/>
+	<xsd:element name="Methodology">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:MethodologyEng" minOccurs="0"/>
+				<xsd:element ref="my:MethodologyFrench" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="MethodologyEng">
+		<xsd:complexType mixed="true">
+			<xsd:sequence>
+				<xsd:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/1999/xhtml" processContents="lax"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="MethodologyFrench">
+		<xsd:complexType mixed="true">
+			<xsd:sequence>
+				<xsd:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/1999/xhtml" processContents="lax"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="ProgramInventory">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:ProgramNameEng" minOccurs="0"/>
+				<xsd:element ref="my:ProgramDescriptionEng" minOccurs="0"/>
+				<xsd:element ref="my:ProgramType" minOccurs="0"/>
+				<xsd:element ref="my:CCoFoG" minOccurs="0"/>
+				<xsd:element ref="my:GOCO" minOccurs="0"/>
+				<xsd:element ref="my:HorizontalInitiative" minOccurs="0" maxOccurs="unbounded"/>
+				<xsd:element ref="my:ProgramTargetGroup" minOccurs="0" maxOccurs="unbounded"/>
+				<xsd:element ref="my:MethodOfIntervention" minOccurs="0" maxOccurs="unbounded"/>
+				<xsd:element ref="my:Search" minOccurs="0" maxOccurs="unbounded"/>
+				<xsd:element ref="my:WebLinks" minOccurs="0" maxOccurs="unbounded"/>
+				<xsd:element ref="my:ProgramOutcomes" minOccurs="0" maxOccurs="unbounded"/>
+				<xsd:element ref="my:MandateLetterCommitment" minOccurs="0" maxOccurs="unbounded"/>
+				<xsd:element ref="my:DRAttribution" minOccurs="0" maxOccurs="unbounded"/>
+				<xsd:element ref="my:CRAttribution" minOccurs="0" maxOccurs="unbounded"/>
+				<xsd:element ref="my:ProgramCommentsEng" minOccurs="0"/>
+				<xsd:element ref="my:ProgramCommentsFrench" minOccurs="0"/>
+				<xsd:element ref="my:ProgramOfficial" minOccurs="0" maxOccurs="unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="ProgramNameEng" type="my:requiredString"/>
+	<xsd:element name="ProgramDescriptionEng">
+		<xsd:complexType mixed="true">
+			<xsd:sequence>
+				<xsd:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/1999/xhtml" processContents="lax"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="ProgramType" type="xsd:string"/>
+	<xsd:element name="CCoFoG" type="xsd:string"/>
+	<xsd:element name="GOCO" type="xsd:string"/>
+	<xsd:element name="HorizontalInitiative">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:HorizontalInitiativeEng" minOccurs="0"/>
+				<xsd:element ref="my:PercentageEffortDirectedToHI" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="HorizontalInitiativeEng" type="xsd:string"/>
+	<xsd:element name="PercentageEffortDirectedToHI" nillable="true" type="xsd:integer"/>
+	<xsd:element name="ProgramTargetGroup">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:ProgramTargetGroupEng" minOccurs="0"/>
+				<xsd:element ref="my:TargetGroupPortionOfActivityPercentage" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="ProgramTargetGroupEng" type="xsd:string"/>
+	<xsd:element name="TargetGroupPortionOfActivityPercentage" nillable="true" type="xsd:integer"/>
+	<xsd:element name="MethodOfIntervention">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:MethodOfInterventionEng" minOccurs="0"/>
+				<xsd:element ref="my:MethodOfInterventionPercentage" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="MethodOfInterventionEng" type="xsd:string"/>
+	<xsd:element name="MethodOfInterventionPercentage" type="xsd:integer"/>
+	<xsd:element name="Search">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:SearchTermEng" minOccurs="0"/>
+				<xsd:element ref="my:SearchTermFrench" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="SearchTermEng" type="xsd:string"/>
+	<xsd:element name="SearchTermFrench" type="xsd:string"/>
+	<xsd:element name="WebLinks">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:WebLinkEng" minOccurs="0"/>
+				<xsd:element ref="my:WebLinkFrench" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="WebLinkEng" type="xsd:anyURI"/>
+	<xsd:element name="WebLinkFrench" type="xsd:anyURI"/>
+	<xsd:element name="ProgramOutcomes">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:ProgramOutcomeCode" minOccurs="0"/>
+				<xsd:element ref="my:ProgramOutcomeEng" minOccurs="0"/>
+				<xsd:element ref="my:ProgramOutcomeFra" minOccurs="0"/>
+				<xsd:element ref="my:ProgramOutcomeIndicators" minOccurs="0" maxOccurs="unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="ProgramOutcomeCode" type="xsd:string"/>
+	<xsd:element name="ProgramOutcomeEng" type="xsd:string"/>
+	<xsd:element name="ProgramOutcomeFra" type="xsd:string"/>
+	<xsd:element name="ProgramOutcomeIndicators">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:ProgramOutcomeIndicatorCode" minOccurs="0"/>
+				<xsd:element ref="my:ProgramOutcomeIndicatorEng" minOccurs="0"/>
+				<xsd:element ref="my:ProgramOutcomeIndicatorFra" minOccurs="0"/>
+				<xsd:element ref="my:POIDataType" minOccurs="0"/>
+				<xsd:element ref="my:POISource" minOccurs="0"/>
+				<xsd:element ref="my:POICollectionFrequency" minOccurs="0"/>
+				<xsd:element ref="my:POIDataCollectionFrequencyOtherText" minOccurs="0"/>
+				<xsd:element ref="my:POIDataOwner" minOccurs="0"/>
+				<xsd:element ref="my:POITargetEng" minOccurs="0"/>
+				<xsd:element ref="my:POITargetDate" minOccurs="0"/>
+				<xsd:element ref="my:POITargetMinimumValue" minOccurs="0"/>
+				<xsd:element ref="my:POITargetMaximumValue" minOccurs="0"/>
+				<xsd:element ref="my:POIMethodology" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="ProgramOutcomeIndicatorCode" type="xsd:string"/>
+	<xsd:element name="ProgramOutcomeIndicatorEng" type="xsd:string"/>
+	<xsd:element name="ProgramOutcomeIndicatorFra" type="xsd:string"/>
+	<xsd:element name="POIDataType" type="xsd:string"/>
+	<xsd:element name="POISource" type="xsd:string"/>
+	<xsd:element name="POICollectionFrequency" type="xsd:string"/>
+	<xsd:element name="POIDataCollectionFrequencyOtherText" type="xsd:string"/>
+	<xsd:element name="POIDataOwner" type="xsd:string"/>
+	<xsd:element name="POITargetEng" type="xsd:string"/>
+	<xsd:element name="POITargetDate" nillable="true" type="xsd:date"/>
+	<xsd:element name="POITargetMinimumValue" type="xsd:double"/>
+	<xsd:element name="POITargetMaximumValue" type="xsd:string"/>
+	<xsd:element name="POIMethodology">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:POIMethodologyEng" minOccurs="0"/>
+				<xsd:element ref="my:POIMethodologyFra" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="POIMethodologyEng">
+		<xsd:complexType mixed="true">
+			<xsd:sequence>
+				<xsd:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/1999/xhtml" processContents="lax"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="POIMethodologyFra">
+		<xsd:complexType mixed="true">
+			<xsd:sequence>
+				<xsd:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/1999/xhtml" processContents="lax"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="MandateLetterCommitment">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:CommitmentItem" minOccurs="0"/>
+				<xsd:element ref="my:CommitmentStatus" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="CommitmentItem" type="xsd:string"/>
+	<xsd:element name="CommitmentStatus" type="xsd:string"/>
+	<xsd:element name="DRAttribution">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:AttributionToDR" minOccurs="0"/>
+				<xsd:element ref="my:AttributionToDRPercentage" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="AttributionToDR" type="my:requiredString"/>
+	<xsd:element name="AttributionToDRPercentage" type="xsd:integer"/>
+	<xsd:element name="CRAttribution">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:AttributionToCR" minOccurs="0"/>
+				<xsd:element ref="my:AttributionToCRPercentage" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="AttributionToCR" type="my:requiredString"/>
+	<xsd:element name="AttributionToCRPercentage" type="xsd:integer"/>
+	<xsd:element name="ProgramCommentsEng" type="xsd:string"/>
+	<xsd:element name="ProgramCommentsFrench" type="xsd:string"/>
+	<xsd:element name="ProgramOfficial">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="my:OfficialName" minOccurs="0"/>
+				<xsd:element ref="my:OfficialTitle" minOccurs="0"/>
+				<xsd:element ref="my:OfficialEmail" minOccurs="0"/>
+				<xsd:element ref="my:OfficialTelephone" minOccurs="0"/>
+				<xsd:element ref="my:OfficialRole" minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="OfficialName" type="xsd:string"/>
+	<xsd:element name="OfficialTitle" type="xsd:string"/>
+	<xsd:element name="OfficialEmail" type="xsd:string"/>
+	<xsd:element name="OfficialTelephone" type="xsd:string"/>
+	<xsd:element name="OfficialRole" type="xsd:string"/>
+	<xsd:simpleType name="requiredString">
+		<xsd:restriction base="xsd:string">
+			<xsd:minLength value="1"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="requiredAnyURI">
+		<xsd:restriction base="xsd:anyURI">
+			<xsd:minLength value="1"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:simpleType name="requiredBase64Binary">
+		<xsd:restriction base="xsd:base64Binary">
+			<xsd:minLength value="1"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+</xsd:schema>
