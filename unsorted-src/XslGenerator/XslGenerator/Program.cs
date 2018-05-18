@@ -4,41 +4,32 @@ using System.Xml;
 using System.Xml.Linq;
 using System.Xml.Schema;
 using System.Text.RegularExpressions;
-using XslGenerator.Documents;
+using Prog.Documents;
 
-namespace XslGenerator
+namespace Prog
 {
     class Program
     {
         [STAThread]
         static void Main(string[] args)
         {
-            //must have a .xsd file... do checks
-            if (args.Length < 1)
-            {
-                Console.WriteLine("Must have an XSD file to generate an XSL file");
-                return;
-            }
+            // //must have a .xsd file... do checks
+            // if (args.Length < 1)
+            // {
+            //     Console.WriteLine("Must have an XSD file to generate an XSL file");
+            //     return;
+            // }
 
-            string filePath = args[0];
+            // string filePath = args[0];
 
-            //is not xsd file
-            if (!Regex.Match(filePath, "^.*\.xsd$")) {
-                Console.WriteLine("File submitted is not of type XSD");
-                return;
-            }
+            // //is not xsd file
+            // if (!Regex.Match(filePath, "^.*\.xsd$")) {
+            //     Console.WriteLine("File submitted is not of type XSD");
+            //     return;
+            // }
 
-            DocumentGenerator generator = DocumentGeneratorFacade.XslGenerator();
+            DocumentGenerator generator = DocumentGeneratorFacade.GetGenerator<XslGenerator>();
             
-        }
-
-        static void ValidationCallback(object sender, ValidationEventArgs arg) {
-            if (arg.Severity == XmlSeverityType.Warning) {
-                Console.Write("WARNING: ");
-            } else if (arg.Severity == XmlSeverityType.Error) {
-                Console.Write("ERROR: ");
-            }
-            Console.WriteLine(arg.Message);
         }
     }
 }

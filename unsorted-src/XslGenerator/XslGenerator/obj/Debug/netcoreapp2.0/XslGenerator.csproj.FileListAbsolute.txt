@@ -1,0 +1,11 @@
+C:\Users\Thomas L'Anglais\Desktop\master-repo\unsorted-src\XslGenerator\XslGenerator\obj\Debug\netcoreapp2.0\XslGenerator.csprojResolveAssemblyReference.cache
+C:\Users\Thomas L'Anglais\Desktop\master-repo\unsorted-src\XslGenerator\XslGenerator\obj\Debug\netcoreapp2.0\XslGenerator.csproj.CoreCompileInputs.cache
+C:\Users\Thomas L'Anglais\Desktop\master-repo\unsorted-src\XslGenerator\XslGenerator\obj\Debug\netcoreapp2.0\XslGenerator.AssemblyInfoInputs.cache
+C:\Users\Thomas L'Anglais\Desktop\master-repo\unsorted-src\XslGenerator\XslGenerator\obj\Debug\netcoreapp2.0\XslGenerator.AssemblyInfo.cs
+C:\Users\Thomas L'Anglais\Desktop\master-repo\unsorted-src\XslGenerator\XslGenerator\bin\Debug\netcoreapp2.0\XslGenerator.deps.json
+C:\Users\Thomas L'Anglais\Desktop\master-repo\unsorted-src\XslGenerator\XslGenerator\bin\Debug\netcoreapp2.0\XslGenerator.runtimeconfig.json
+C:\Users\Thomas L'Anglais\Desktop\master-repo\unsorted-src\XslGenerator\XslGenerator\bin\Debug\netcoreapp2.0\XslGenerator.runtimeconfig.dev.json
+C:\Users\Thomas L'Anglais\Desktop\master-repo\unsorted-src\XslGenerator\XslGenerator\bin\Debug\netcoreapp2.0\XslGenerator.dll
+C:\Users\Thomas L'Anglais\Desktop\master-repo\unsorted-src\XslGenerator\XslGenerator\bin\Debug\netcoreapp2.0\XslGenerator.pdb
+C:\Users\Thomas L'Anglais\Desktop\master-repo\unsorted-src\XslGenerator\XslGenerator\obj\Debug\netcoreapp2.0\XslGenerator.dll
+C:\Users\Thomas L'Anglais\Desktop\master-repo\unsorted-src\XslGenerator\XslGenerator\obj\Debug\netcoreapp2.0\XslGenerator.pdb

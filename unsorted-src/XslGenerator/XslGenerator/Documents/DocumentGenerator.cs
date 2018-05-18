@@ -1,7 +1,9 @@
-namespace XslGenerator.Documents
+namespace Prog.Documents
 {
     public abstract class DocumentGenerator {
-        
+
+        public DocumentGenerator() { }
+
         /*
          * Generates a type of document defined in its subclasses.
          * Uses the file name given and returns the full path file name generated
@@ -18,8 +20,8 @@ namespace XslGenerator.Documents
          */
         private string GenerateFileName(string fileName, string path = null) {
 
-            string fullPathRegex = "^(?:[\w]:|\\)(\\[a-zA-Z_-\s0-9][\\[a-zA-Z_-\s0-9.]+)+$";
-            string localPathRegex = "^[a-zA-Z][a-zA-Z]$";
+            //string fullPathRegex = "^(?:[\w]:|\\)(\\[a-zA-Z_-\s0-9][\\[a-zA-Z_-\s0-9.]+)+$";
+            //string localPathRegex = "^[a-zA-Z][a-zA-Z]$";
             return null;
         }
     }
