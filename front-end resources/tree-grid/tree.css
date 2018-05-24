@@ -1,0 +1,53 @@
+.treeview {
+    padding: 5px 15px 10px 15px;
+    display: table;
+    border: 1px solid black;
+}
+
+.treeview ul,
+.treeview li {
+    min-width: 80px;
+    margin: 0;
+    padding: 5px 0 5px 5px;
+    list-style-type: none;
+}
+
+.treeview > li:first-child {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(209, 209, 209);
+}
+
+.treeview > li {
+    border-width: 0 1px 1px 1px;
+    border-style: solid;
+    border-color: rgb(209, 209, 209);
+}
+
+.treeview ul li {
+    margin: 0 0 0 10px;
+}
+
+/* finds all inner lists */
+.treeview li ul.closed {
+    display: none;
+}
+
+/* General stylings */
+p, div, label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.light-blue {
+    background-color: rgb(206, 233, 241);
+    border-width: 1px 0 0 1px;
+    border-style: solid;
+    border-color: rgb(209, 209, 209);
+}
+
+.light-grey {
+    background-color: rgb(241, 241, 241);
+    border-width: 1px 0 0 1px;
+    border-style: solid;
+    border-color: rgb(209, 209, 209);
+}

@@ -31,56 +31,57 @@ function buildDropDownItem(displayName,value) {
 }
 
 var args = argparser.parseArgs();
-// fs.readFile(__dirname + '\\' + args.f, function(err, data) {
-//     if (err) {
-//         console.log(err);
-//     } else {
-//         getJson(data).then(function(json) {
+fs.readFile(__dirname + '\\' + args.f, function(err, data) {
+    if (err) {
+        console.log(err);
+    } else {
+        getJson(data).then(function(json) {
 
-//             console.log(json);
+            console.log(json);
 
-//             let databuff = "";
-//             json.Query1.forEach((reg,i) => {
-//                 console.log(i);
-//                 if (reg.Language && reg.Language[0] === 'eng') {
-//                     databuff += buildDropDownItem(reg.Title ? reg.Title[0].replace(/\"/g, "'") : '', reg.$.id);
-//                 }
-//             });
+            let databuff = "";
+            json.dataroot['lkpNAICS-SCIAN'].forEach((naics,i) => {
+                console.log(i);
+                if (naics.NAICSSCIANCode[0].trim().length <= 4) {
+                    databuff += buildDropDownItem(naics.NAICSSCIANCode[0] + " - " + naics.TitresDeClasses[0], naics.NAICSSCIANCode[0]);
+                }
+            });
 
-//             fs.writeFile(__dirname + '\\results\\' + args.f + '-resFra', databuff, function(err) {
-//                 if (err) {
-//                     console.log(err);
-//                 } else {
-//                     console.log('file saved');
-//                 }
-//             });
-//         }).catch(function(err) {
-//             console.log(err);
-//         })
-//     }
-// })
-fs.readFile(args.f, function(err, data) {
-    if (err) throw err;
-    else {
-        csv.parse(data, {
-            cast: false,
-            columns: ['OrgID','OrgLegalNameEng','OrgLegalNameFra','OrgAppliedNameEng','OrgAppliedNameFra','OrgAbbvrEng','OrgAbbvrFra','ProgUID','ProgNameEng','ProgNameFra'],
-            ltrim: true
-        }, function(err, csvData) {
-            if (err) throw err;
-            else {
-                console.log(csvData);
-                var dataBuff = '';
-                csvData.forEach((row,i) => {
-                    if (i !== 0) {
-                        dataBuff += buildDropDownItem(row.OrgLegalNameFra.trim(), row.OrgID);
-                    }
-                });
-                fs.writeFile(__dirname + '\\results\\orgs-fra', dataBuff, function(err) {
-                    if (err) throw err;
-                    else console.log('saved');
-                });
-            }
-        });
+            fs.writeFile(__dirname + '\\results\\' + args.f + '-resFra', databuff, function(err) {
+                if (err) {
+                    console.log(err);
+                } else {
+                    console.log('file saved');
+                }
+            });
+        }).catch(function(err) {
+            console.log(err);
+        })
     }
 });
+
+// fs.readFile(args.f, function(err, data) {
+//     if (err) throw err;
+//     else {
+//         csv.parse(data, {
+//             cast: false,
+//             columns: ['OrgID','OrgLegalNameEng','OrgLegalNameFra','OrgAppliedNameEng','OrgAppliedNameFra','OrgAbbvrEng','OrgAbbvrFra','ProgUID','ProgNameEng','ProgNameFra'],
+//             ltrim: true
+//         }, function(err, csvData) {
+//             if (err) throw err;
+//             else {
+//                 console.log(csvData);
+//                 var dataBuff = '';
+//                 csvData.forEach((row,i) => {
+//                     if (i !== 0) {
+//                         dataBuff += buildDropDownItem(row.OrgLegalNameFra.trim(), row.OrgID);
+//                     }
+//                 });
+//                 fs.writeFile(__dirname + '\\results\\orgs-fra', dataBuff, function(err) {
+//                     if (err) throw err;
+//                     else console.log('saved');
+//                 });
+//             }
+//         });
+//     }
+// });

@@ -1,0 +1,45 @@
+﻿@using System.Data.SqlClient;
+@{
+    //connection string
+    string connectionString = @"Data Source=(localdb)\MSSQLLocalDB;" +
+                              @"AttachDBFilename=C:\Users\Thomas L'Anglais\AppData\Local\Microsoft\Microsoft SQL Server Local DB\Instances\MSSQLLocalDB\MyDatabase.mdf;" +
+                              "Integrated Security=True;" +
+                              "Connect Timeout=30;" +
+                              "User Instance=False";
+
+    string queryString = "SELECT SP.UID, SP.TitleEng, SP.TitleFra FROM dbo.lkpSuperListPIT AS SP";
+
+    using (SqlConnection cnn = new SqlConnection(connectionString))
+    {
+        using (SqlCommand cmd = new SqlCommand(queryString, cnn))
+        {
+            try
+            {
+                cnn.Open();
+                using (SqlDataReader reader = cmd.ExecuteReader())
+                {
+                    reader.
+                        }
+
+
+
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                ViewBag.Result = "Connection Failed";
+            }
+            finally
+            {
+                cnn.Close();
+            }
+        }
+    }
+
+    ViewBag.Title = "MasterDataView";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>MasterDataView</h2>
+<h3>@ViewBag.Result</h3>
+
