@@ -15,6 +15,18 @@
             "request": "launch",
             "name": "test",
             "program": "${workspaceFolder}\\src\\debugFacade.js"
+        },
+        {
+            "request": "launch",
+            "type": "node",
+            // Name of configuration; appears in the launch configuration drop down menu.
+            "name": "Mocha (Test single file)",
+            // Notice, we bypass the launcher and start the test runner directly
+            "program": "${workspaceFolder}\\node_modules\\mocha/bin\\_mocha",
+            // run the tests in the test folder
+            "args": ["test"],
+            "runtimeExecutable": null,
+            "env": { }
         }
     ]
 }

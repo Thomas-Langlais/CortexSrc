@@ -84,15 +84,17 @@
 // console.log(promise);
 
 const xml = require('xml2js');
+const Provider = require('./generators/Providers/TableProvider');
 
-var builder = new xml.Builder();
+var builder = new xml.Builder({
+    renderOpts: {
+        pretty: false,
+        indent: '',
+        newline: ''
+    },
+    headless: true
+});
 
-
-var tableObj = {
-    "w:tbl": {
-        "w:tblPr": {
-        }
-    }
-};
-
+let tableObj = new Provider().buildTbl();
+// let tableObj = docx.buildTable(2,2);
 console.log(builder.buildObject(tableObj));

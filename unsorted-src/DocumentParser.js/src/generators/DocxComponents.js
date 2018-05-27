@@ -1,32 +1,77 @@
 
-const maxTblSize = 9350;
+const defaultTblSize = 9350;
+
+let borderAttr = {
+    $: {
+        'w:val': null,
+        'w:sz': null,
+        'w:space': null,
+        'w:color': null
+    }
+};
+
+let border = {
+    'w:top': null,
+    'w:left': null,
+    'w:right': null,
+    'w:bottom': null,
+    'w:insideH': null,
+    'w:insideV': null
+};
+
+let tableAlign = {
+    $: {
+        'w:val': null
+    }
+};
+
+let tableAlignVal = {
+    start: 'start',
+    end: 'end',
+    center: 'center'
+}
+
+function buildDataBinding() {
+
+}
 
 /**
  * Builds the xml2js object of a docx table
  * @param {number} row the number of rows to build
  * @param {number} col the number of columns to build
  */
-exports.buildTable = function buildTable(rows, cols) {
-    let grid = {
-        "w:gridCol": []
-    };
-
+function buildTable(rows, cols, width = defaultTblSize) {
+    //error handling for garbo data
+    if (rows < 1) {
+        return;
+    }
+    if (cols < 1) {
+        return;
+    }
 
     for (let i = 0; i < cols; i++) {
-        grid['w:gridCol'].push({
-            $: {
-                "w:w": Math.floor(maxTblSize / cols)
-            }
-        });
+        let obj = Object.assign({}, gridAttrWidth);
+        let myGrid = Object.assign({}, grid);
+        obj.$['w:w'] = Math.floor(width / cols);
+        myGrid['w:gridCol'].push(obj);
     }
 
     //build the template
     let tableTpl = {
         "w:tbl": {
             "w:tblPr": {
+                "w:jc": {
+
+                },
+                "w:tblW": {
+                    $: {
+                        "w:type": "dxa",
+                        "w:w": width
+                    }
+                },
+                'w:tblBorders': tableBorder
             },
-            "w:tblGrid": {
-            },
+            "w:tblGrid": myGrid,
             "w:tr": []
         }
     };
@@ -47,44 +92,56 @@ exports.buildTable = function buildTable(rows, cols) {
             cells.push(tableCellTpl);
         }
 
-        tableCellTpl['w:tbl']['w:tr'].push(cells);
+        tableTpl['w:tbl']['w:tr'].push(cells);
     }
 
     return tableTpl;
 }
 
-exports.buildText = function buildText() {
+function buildText() {
 
 }
 
-exports.buildCheckBox = function buildCheckBox() {
+function buildCheckBox() {
 
 }
 
-exports.buildDropDownList = function buildDropDownList() {
+function buildDropDownList() {
 
 }
 
-exports.buildComboBox = function buildComboBox() {
+function buildComboBox() {
 
 }
 
-exports.buildRepeatingList = function buildRepeatingList() {
+function buildRepeatingList() {
 
 }
 
-exports.buildHeader = function buildHeader() {
+function buildHeader() {
 
 }
 
-exports.buildFooter = function buildFooter() {
+function buildFooter() {
 
 }
 
-exports.buildImage = function buildImage() {
+function buildImage() {
     
 }
 
-exports.buildWatermark = function buildWatermark() {
+function buildWatermark() {
 
 }
+
+exports.buildDataBinding = buildDataBinding;
+exports.buildTable = buildTable;
+exports.buildText = buildText;
+exports.buildCheckBox = buildCheckBox;
+exports.buildDropDownList = buildDropDownList;
+exports.buildComboBox = buildComboBox;
+exports.buildRepeatingList = buildRepeatingList;
+exports.buildHeader = buildHeader;
+exports.buildFooter = buildFooter;
+exports.buildImage = buildImage;
+exports.buildWatermark = buildWatermark;

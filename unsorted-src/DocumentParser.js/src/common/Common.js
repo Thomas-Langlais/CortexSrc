@@ -1,4 +1,4 @@
-export function shallowEquals(a, b) {
+exports.shallowEquals = function shallowEquals(a, b) {
     // Create arrays of property names
     var aProps = Object.getOwnPropertyNames(a);
     var bProps = Object.getOwnPropertyNames(b);
