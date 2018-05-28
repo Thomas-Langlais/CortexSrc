@@ -84,7 +84,6 @@
 // console.log(promise);
 
 const xml = require('xml2js');
-const Provider = require('./generators/Providers/TableProvider');
 
 var builder = new xml.Builder({
     renderOpts: {
@@ -95,6 +94,10 @@ var builder = new xml.Builder({
     headless: true
 });
 
-let tableObj = new Provider().buildTbl();
+let tableObj = {
+    'w:trPr': {
+        'w:hidden': ''
+    }
+}
 // let tableObj = docx.buildTable(2,2);
-console.log(builder.buildObject(tableObj));
+console.log(['single','dashDotStroked','dashed','dashSmallGap','dotDash','dotDotDash','dotted','double','doubleWave','inset','nil','none','outset','thick','thickThinLargeGap','thickThinMediumGap','thickThinSmallGap','thinThickLargeGap','thinThickMediumGap','thinThickSmallGap','thinThickThinLargeGap','thinThickThinMediumGap','thinThickThinSmallGap','threeDEmboss','threeDEngrave','triple','wave'].join('|'));

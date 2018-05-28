@@ -2,13 +2,9 @@
 var TableProvider = (function () {
     function TableProvider() {
         
-        this.tblAlignVal = Object.freeze({
-            start: 'start',
-            end: 'end',
-            center: 'center'
-        });
-        
-        this.tblBorderVal = Object.freeze(['single','dashDotStroked','dashed','dashSmallGap','dotDash','dotDotDash','dotted','double','doubleWave','inset','nil','none','outset','thick','thickThinLargeGap','thickThinMediumGap','thickThinSmallGap','thinThickLargeGap','thinThickMediumGap','thinThickSmallGap','thinThickThinLargeGap','thinThickThinMediumGap','thinThickThinSmallGap','threeDEmboss','threeDEngrave','triple','wave']);
+        this.tblAlignVal = /start|end|center/;
+        this.tblBorderVal = /single|dashDotStroked|dashed|dashSmallGap|dotDash|dotDotDash|dotted|double|doubleWave|inset|nil|none|outset|thick|thickThinLargeGap|thickThinMediumGap|thickThinSmallGap|thinThickLargeGap|thinThickMediumGap|thinThickSmallGap|thinThickThinLargeGap|thinThickThinMediumGap|thinThickThinSmallGap|threeDEmboss|threeDEngrave|triple|wave/;
+        this.tblRowHeightRules = /atLeast|exact|auto/;
     };
 
     /**
@@ -148,16 +144,16 @@ var TableProvider = (function () {
      * @param {boolean} includeRoot - whetherto include the root node or not
      * @return {object} - the jc object
      */
-    TableProvider.prototype.buildTblPrJc = function(val, includeRoot = true) {
+    TableProvider.prototype.buildJc = function(val, includeRoot = true) {
 
         if (typeof val !== 'string') {
             return;
         }
 
         let jc;
-        let align = this.tblAlignVal[val];
+        let align = val.match(this.tblAlignVal);
 
-        if (!align) align = this.tblAlignVal.start;
+        if (!align) align = 'start';
 
         if (includeRoot) {
             jc = {
@@ -232,7 +228,7 @@ var TableProvider = (function () {
             return;
         }
 
-        if (this.tblBorderVal.includes(val)) {
+        if (this.tblBorderVal.test(val)) {
             return {
                 $: {
                     'w:color': color,
@@ -248,7 +244,7 @@ var TableProvider = (function () {
                 'w:color': color,
                 'w:space': space,
                 'w:sz': sz,
-                'w:val': this.tblBorderVal[0]
+                'w:val': 'single'
             }
         }
     }
@@ -299,6 +295,8 @@ var TableProvider = (function () {
     }
 
     TableProvider.prototype.buildTblRowPr = function(includeRoot = true) {
+        // make rule when cleaning the table object to excempt tblHeader and hidden to be wiped
+        // when they are null (if  they are ANY val, just null it and use, BUT if null wipe)
         if (includeRoot) {
             return {
                 'w:trPr': {
@@ -318,6 +316,40 @@ var TableProvider = (function () {
         }
     };
 
+    TableProvider.prototype.buildTrHeight = function(rule, val, includeRoot = true) {
+
+        if (typeof rule !== 'string') {
+            return;
+        }
+        if (typeof val !== 'number' || val < 0) {
+            return;
+        }
+
+        if (!rule.match(this.tblRowHeightRules)) rule = 'auto';
+
+        if (includeRoot) {
+            return {
+                'w:trHeight': {
+                    $: {
+                        'w:hRule': rule,
+                        'w:val': val
+                    }
+                }
+            }
+        } else {
+            return {
+                $: {
+                    'w:hRule': rule,
+                    'w:val': val
+                }
+            }
+        }
+    }
+
+    TableProvider.prototype.buildTblRowCell = function() {
+
+    };
+    
     return TableProvider;
 })();
 
