@@ -98,6 +98,12 @@ let tableObj = {
     'w:trPr': {
         'w:hidden': ''
     }
-}
+};
+
+let TableProvider = require('./generators/providers/DocxProvider').TableProvider;
+let tblProvider = new TableProvider(); 
+
+let val = 'single', color = 'fffff', sz = 3, space = 0;
+let attrs = tblProvider.buildTblBordersAttr(val, color, sz, space);
+                
 // let tableObj = docx.buildTable(2,2);
-console.log(['single','dashDotStroked','dashed','dashSmallGap','dotDash','dotDotDash','dotted','double','doubleWave','inset','nil','none','outset','thick','thickThinLargeGap','thickThinMediumGap','thickThinSmallGap','thinThickLargeGap','thinThickMediumGap','thinThickSmallGap','thinThickThinLargeGap','thinThickThinMediumGap','thinThickThinSmallGap','threeDEmboss','threeDEngrave','triple','wave'].join('|'));

@@ -1,5 +1,5 @@
 const docxGeneratorTests = require('./generators/DocxTests');
-const docxProviderTests = require('./generators/providers/docx/TableProviderTest');
+const docxProviderTests = require('./generators/providers/DocxProviderTest');
 
 docxGeneratorTests();
 docxProviderTests();

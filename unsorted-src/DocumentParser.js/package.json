@@ -7,10 +7,12 @@
     "name": "Thomas L'Anglais"
   },
   "directories": {
-    "start": "src"
+    "start": "src",
+    "test": "test"
   },
   "scripts": {
-    "start": "node app.js -f=myfile.xsd -t=xsl"
+    "start": "node app.js -f=myfile.xsd -t=xsl",
+    "test": "mocha"
   },
   "dependencies": {
     "argparse": "^1.0.10",

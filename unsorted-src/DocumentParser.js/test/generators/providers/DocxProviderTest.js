@@ -8,7 +8,7 @@ const builder = new (require('xml2js').Builder)({
     },
     headless: true
 });
-const tblProvider = new (require('../../../../src/generators/providers/docx/TableProvider'));
+const tblProvider = new (require('../../../src/generators/providers/DocxProvider').TableProvider);
 
 module.exports = function() {
     describe('TableProvider', function() {
@@ -250,11 +250,11 @@ module.exports = function() {
         });
 
         //buildTblPrJc tests
-        describe('#buildTblPrJc()', function() {
+        describe('#buildJc()', function() {
             it('should build an alignment obj with root node', function(done) {
                 let val = 'start';
                 
-                let jc = tblProvider.buildTblPrJc(val);
+                let jc = tblProvider.buildJc(val);
 
                 if (!jc) {
                     done("didn't build");
@@ -278,7 +278,7 @@ module.exports = function() {
             it('should build an alignment obj without root node (includeRoot = false)', function(done) {
                 let val = 'start';
                 
-                let jc = tblProvider.buildTblPrJc(val, false);
+                let jc = tblProvider.buildJc(val, false);
 
                 if (!jc) {
                     done("didn't build");
@@ -300,7 +300,7 @@ module.exports = function() {
             it('should build an alignment obj from unknown value', function(done) {
                 let val = 'idk';
                 
-                let jc = tblProvider.buildTblPrJc(val, false);
+                let jc = tblProvider.buildJc(val, false);
 
                 if (!jc) {
                     done("didn't build");
@@ -322,7 +322,7 @@ module.exports = function() {
             it('should fail when not string val', function(done) {
                 let val = 0;
                 
-                let jc = tblProvider.buildTblPrJc(val, false);
+                let jc = tblProvider.buildJc(val, false);
                 if (!jc) {
                     done();
                 }
@@ -334,7 +334,7 @@ module.exports = function() {
 
             it('should build the tblBorder obj with root node', function(done) {
                 let borders = tblProvider.buildTblBorders();
-                expected = {
+                let expected = {
                     'w:tblBorders': {
                         'w:top': null,
                         'w:start': null,
@@ -353,7 +353,7 @@ module.exports = function() {
 
             it('should build the tblBorder obj without root node', function(done) {
                 let borders = tblProvider.buildTblBorders(false);
-                expected = {
+                let expected = {
                     'w:top': null,
                     'w:start': null,
                     'w:bottom': null,
@@ -375,10 +375,10 @@ module.exports = function() {
                 let val = 'single', color = 'ffffff', sz = 3, space = 0;
                 expected = {
                     $: {
-                        'w:val': 'single',
                         'w:color': 'ffffff',
+                        'w:space': 0,
                         'w:sz': 3,
-                        'w:space': 0
+                        'w:val': 'single'
                     }
                 }
                 let attrs = tblProvider.buildTblBordersAttr(val, color, sz, space);
@@ -396,12 +396,19 @@ module.exports = function() {
             it('should build the tblBorder attributes with unknown val defaulted', function(done) {
                 let val = 'idk', color = 'ffffff', sz = 3, space = 0;
                 let attrs = tblProvider.buildTblBordersAttr(val, color, sz, space);
-                
-                if (!attrs) {
-                    done();
-                } else {
-                    done('should have failed');
+                let expected = {
+                    $: {
+                        'w:color': color,
+                        'w:space': space,
+                        'w:sz': sz,
+                        'w:val': 'single'
+                    }
                 }
+                
+                expect(attrs).to.deep.equals(expected);
+                expect(builder.buildObject(attrs)).equals(builder.buildObject(expected));
+
+                done();
             });
 
             it('should not build the tblBorder attributes (color = fffff)', function(done) {
@@ -480,6 +487,84 @@ module.exports = function() {
                     done('should have failed');
                 }
             });
+        });
+
+        //buildTblPrCellMar tests
+        describe('#buildTblPrCellMar()', function() {
+
+            it('should build the tbl cell margin with parent node', function(done) {
+
+                let cellMar = tblProvider.buildTblPrCellMar();
+                let expected = {
+                    'w:tblCellMar': {
+                        'w:top': null,
+                        'w:start': null,
+                        'w:end': null,
+                        'w:bottom': null
+                    }
+                };
+                
+                expect(cellMar).to.deep.equals(expected);
+                expect(builder.buildObject(cellMar)).equals(builder.buildObject(expected));
+
+                done();
+            });
+
+            it('should build the tbl cell margin without parent node', function(done) {
+                let cellMar = tblProvider.buildTblPrCellMar(false);
+                let expected = {
+                    'w:top': null,
+                    'w:start': null,
+                    'w:end': null,
+                    'w:bottom': null
+                };
+                
+                expect(cellMar).to.deep.equals(expected);
+                expect(builder.buildObject(cellMar)).equals(builder.buildObject(expected));
+
+                done();
+            });
+        });
+
+        //buildTblPrMarAttr tests
+        describe('#buildTblPrMarAttr()', function() {
+
+            it('should')
+        });
+
+        //buildTblRowPr tests
+        describe('#buildTblRowPr()', function() {
+
+        });
+
+        //buildTrHeight tests
+        describe('#buildTrHeight()', function() {
+
+        });
+
+        //buildTblRowCell tests
+        describe('#buildTblRowCell()', function() {
+
+        });
+
+        //buildTblRowCellPr tests
+        describe('#buildTblRowCellPr()', function() {
+
+        });
+
+        //buildTblRowCellBorders tests
+        describe('#buildTblRowCellBorders()', function() {
+
+        });
+
+        //buildTcW tests
+        describe('#buildTcW()', function() {
+
+        });
+
+        //buildTblRowCellVAlign tests
+        describe('#buildTblRowCellVAlign()', function() {
+
         });
     });
 };

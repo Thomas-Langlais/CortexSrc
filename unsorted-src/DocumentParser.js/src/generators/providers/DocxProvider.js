@@ -5,6 +5,8 @@ var TableProvider = (function () {
         this.tblAlignVal = /start|end|center/;
         this.tblBorderVal = /single|dashDotStroked|dashed|dashSmallGap|dotDash|dotDotDash|dotted|double|doubleWave|inset|nil|none|outset|thick|thickThinLargeGap|thickThinMediumGap|thickThinSmallGap|thinThickLargeGap|thinThickMediumGap|thinThickSmallGap|thinThickThinLargeGap|thinThickThinMediumGap|thinThickThinSmallGap|threeDEmboss|threeDEngrave|triple|wave/;
         this.tblRowHeightRules = /atLeast|exact|auto/;
+        this.tblRowCellTcWType = /auto|dxa|nil|pct/;
+        this.tblRowCellVAlign = /bottom|center|top/;
     };
 
     /**
@@ -151,22 +153,21 @@ var TableProvider = (function () {
         }
 
         let jc;
-        let align = val.match(this.tblAlignVal);
 
-        if (!align) align = 'start';
+        if (!val.match(this.tblAlignVal)) val = 'start';
 
         if (includeRoot) {
             jc = {
                 'w:jc': {
                     $: {
-                        'w:val': align
+                        'w:val': val
                     }
                 }
             }
         } else {
             jc = {
                 $: {
-                    'w:val': align
+                    'w:val': val
                 }
             };
         }
@@ -179,12 +180,10 @@ var TableProvider = (function () {
      * @param {boolean} includeRoot - whether to include the root node or not
      * @returns {object} - the tblBorder object
      */
-    TableProvider.prototype.buildTblPrBorders = function(includeRoot = true) {
-
-        let borders;
+    TableProvider.prototype.buildTblBorders = function(includeRoot = true) {
 
         if (includeRoot) {
-            borders = {
+            return {
                 'w:tblBorders': {
                     'w:top': null,
                     'w:start': null,
@@ -195,7 +194,7 @@ var TableProvider = (function () {
                 }
             };
         } else {
-            borders = {
+            return {
                 'w:top': null,
                 'w:start': null,
                 'w:bottom': null,
@@ -204,8 +203,6 @@ var TableProvider = (function () {
                 'w:insideV': null
             };
         }
-
-        return borders;
     };
 
     /**
@@ -216,7 +213,7 @@ var TableProvider = (function () {
      * @param {number} space - the space between borders
      * @returns {object} - the border attributes property object
      */
-    TableProvider.prototype.buildTblPrBordersAttr = function(val, color = '000000', sz = 2, space = 0) {
+    TableProvider.prototype.buildTblBordersAttr = function(val, color = '000000', sz = 2, space = 0) {
         
         if (typeof color !== 'string' || !/[0-9a-fA-F]{6}/.test(color)) {
             return;
@@ -225,6 +222,9 @@ var TableProvider = (function () {
             return;
         }
         if (typeof space !== 'number' || space < 0) {
+            return;
+        }
+        if (typeof val !== 'string') {
             return;
         }
 
@@ -250,11 +250,11 @@ var TableProvider = (function () {
     }
 
     /**
-     * builds the tbl margin object
+     * builds the tbl cell margin object
      * @param {boolean} includeRoot - whether or not to include the root node or not
      * @returns {object} - returns the tblCellMar object
      */
-    TableProvider.prototype.buildTblPrCellMar = function(includeRoot = false) {
+    TableProvider.prototype.buildTblPrCellMar = function(includeRoot = true) {
 
         if (includeRoot) {
             return {
@@ -294,6 +294,11 @@ var TableProvider = (function () {
         }
     }
 
+    /**
+     * builds the w:trPr object
+     * @param {boolean} includeRoot - whether to include the parent node or not
+     * @returns {object} - the w:trPr object
+     */
     TableProvider.prototype.buildTblRowPr = function(includeRoot = true) {
         // make rule when cleaning the table object to excempt tblHeader and hidden to be wiped
         // when they are null (if  they are ANY val, just null it and use, BUT if null wipe)
@@ -316,6 +321,13 @@ var TableProvider = (function () {
         }
     };
 
+    /**
+     * builds the w:trHeight object
+     * @param {string} rule - the rule attribute
+     * @param {number} val - the height of the row
+     * @param {boolean} includeRoot - whether or not to include the parent node or not
+     * @returns {object} - the w:trHeight object
+     */
     TableProvider.prototype.buildTrHeight = function(rule, val, includeRoot = true) {
 
         if (typeof rule !== 'string') {
@@ -346,11 +358,165 @@ var TableProvider = (function () {
         }
     }
 
-    TableProvider.prototype.buildTblRowCell = function() {
+    /**
+     * builds w:tc object
+     * @param {boolean} includeRoot - whether to include the parent node or not
+     * @returns {object} - the w:tc object
+     */
+    TableProvider.prototype.buildTblRowCell = function(includeRoot = true) {
 
+        if (includeRoot) {
+            return {
+                'w:tc': {
+                    'w:tcPr': null,
+                    'w:p': null,
+                    'w:tbl': null
+                }
+            };
+        } else {
+            return {
+                'w:tcPr': null,
+                'w:p': null,
+                'w:tbl': null
+            };
+        }
     };
     
+    /**
+     * builds w:tcPr object
+     * @param {boolean} includeRoot - whether to include the parent node or not
+     * @returns {object} - the w:tcPr object
+     */
+    TableProvider.prototype.buildTblRowCellPr = function(includeRoot = true) {
+        // w:noWrap is null natural in anything but null -> keep
+        if (includeRoot) {
+            return {
+                'w:tcPr': {
+                    'w:gridSpan': null,
+                    'w:noWrap': null,
+                    'w:tcBorders': null,
+                    'w:tcMar': null,
+                    'w:tcW': null,
+                    'w:vAlign': null
+                }
+            };
+        } else {
+            return {
+                'w:gridSpan': null,
+                'w:noWrap': null,
+                'w:tcBorders': null,
+                'w:tcMar': null,
+                'w:tcW': null,
+                'w:vAlign': null
+            };
+        }
+    };
+
+    /**
+     * builds w:tcBorders object
+     * @param {boolean} includeRoot - whether to include the parent node or not
+     * @returns {object} - the w:tcBorders object
+     */
+    TableProvider.prototype.buildTblRowCellBorders = function(includeRoot = true) {
+        
+        if (includeRoot) {
+            return {
+                'w:tcBorders': {
+                    'w:top': null,
+                    'w:start': null,
+                    'w:bottom': null,
+                    'w:end': null,
+                    'w:insideH': null,
+                    'w:insideV': null,
+                    'w:tl2br': null,
+                    'w:tr2bl': null
+                }
+            };
+        } else {
+            return{
+                'w:top': null,
+                'w:start': null,
+                'w:bottom': null,
+                'w:end': null,
+                'w:insideH': null,
+                'w:insideV': null,
+                'w:tl2br': null,
+                'w:tr2bl': null
+            };
+        }
+    };
+
+    /**
+     * builds the w:tcW object
+     * @param {number} width - the width of the table cell
+     * @param {string} type - the type of the width table cell
+     * @param {boolean} includeRoot - whether to include the parent node or not
+     * @returns {object} - the w:tcW object
+     */
+    TableProvider.prototype.buildTcW = function(width, type, includeRoot = true) {
+
+        if (typeof width !== 'string') {
+            return;
+        }
+        if (typeof type !== 'number' || width < 0) {
+            return;
+        }
+
+        let match = type.match(this.tblRowCellTcWType);
+        if (!match) match = 'auto';
+
+        if (includeRoot) {
+            return {
+                'w:tcW': {
+                    $: {
+                        'w:w': width,
+                        'w:type': match
+                    }
+                }
+            };
+        } else {
+            return {
+                $: {
+                    'w:w': width,
+                    'w:type': match
+                }
+            };
+        }
+    };
+
+    /**
+     * builds the w:vAlign object
+     * @param {string} val - where the cell is centered vertically top|center|bottom
+     * @param {boolean} includeRoot - whether to include the parent node or not
+     * @returns {object} - the w:vAlign object
+     */
+    TableProvider.prototype.buildTblRowCellVAlign = function(val, includeRoot = true) {
+
+        if (typeof val !== 'string') {
+            return;
+        }
+
+        let match = val.match(this.tblRowCellVAlign);
+        if (!match) match = 'top';
+
+        if (includeRoot) {
+            return {
+                'w:vAlign': {
+                    $: {
+                        'w:val': match
+                    }
+                }
+            };
+        } else {
+            return {
+                $: {
+                    'w:val': match
+                }
+            };
+        }
+    };
+
     return TableProvider;
 })();
 
-module.exports = TableProvider;
+exports.TableProvider = TableProvider;
