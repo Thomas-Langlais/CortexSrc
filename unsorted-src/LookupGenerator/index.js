@@ -40,20 +40,29 @@ fs.readFile(__dirname + '\\' + args.f, function(err, data) {
             console.log(json);
 
             let databuff = "";
-            json.dataroot['lkpNAICS-SCIAN'].forEach((naics,i) => {
-                console.log(i);
-                if (naics.NAICSSCIANCode[0].trim().length <= 4) {
-                    databuff += buildDropDownItem(naics.NAICSSCIANCode[0] + " - " + naics.TitresDeClasses[0], naics.NAICSSCIANCode[0]);
+            let acts = json.ActsRegsList.Acts[0].Act, regs = json.ActsRegsList.Regulations[0].Regulation
+
+            acts.forEach(act => {
+                if (act.Language[0] === 'eng') {
+                    if (act.RegsMadeUnderAct && typeof act.RegsMadeUnderAct[0] === "object") {
+                        let regIds = act.RegsMadeUnderAct[0].Reg.map(reg => reg.$.idRef);
+                        console.log(regIds);
+                        let results = regs.filter(function(reg) {
+                            if (regIds.find(reg.$.id)) {
+                                console.log(reg);
+                            }
+                        });
+                    }
                 }
             });
 
-            fs.writeFile(__dirname + '\\results\\' + args.f + '-resFra', databuff, function(err) {
-                if (err) {
-                    console.log(err);
-                } else {
-                    console.log('file saved');
-                }
-            });
+            // fs.writeFile(__dirname + '\\results\\' + args.f + '-resFra', databuff, function(err) {
+            //     if (err) {
+            //         console.log(err);
+            //     } else {
+            //         console.log('file saved');
+            //     }
+            // });
         }).catch(function(err) {
             console.log(err);
         })

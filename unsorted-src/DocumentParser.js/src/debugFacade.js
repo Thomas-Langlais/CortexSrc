@@ -83,27 +83,10 @@
 
 // console.log(promise);
 
-const xml = require('xml2js');
-
-var builder = new xml.Builder({
-    renderOpts: {
-        pretty: false,
-        indent: '',
-        newline: ''
-    },
-    headless: true
-});
-
-let tableObj = {
-    'w:trPr': {
-        'w:hidden': ''
-    }
-};
-
 let TableProvider = require('./generators/providers/DocxProvider').TableProvider;
 let tblProvider = new TableProvider(); 
 
-let val = 'single', color = 'fffff', sz = 3, space = 0;
-let attrs = tblProvider.buildTblBordersAttr(val, color, sz, space);
+let attrs = tblProvider.buildTblGrid(2, 3000);
+console.log(attrs.end())
                 
 // let tableObj = docx.buildTable(2,2);

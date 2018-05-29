@@ -1,7 +1,22 @@
 
-var TableProvider = (function () {
+const TableProvider = (function () {
+
+    const TableConverter = (function() {
+        function TableConverter() {
+            this.eleName = function(elementName) {
+                return 'w:' + elementName;
+            };
+            this.attName = function(attributeName) {
+                return 'w:' + attributeName;
+            }
+        }
+        
+        return TableConverter;
+    })();
+
     function TableProvider() {
         
+        this.xmlBuilder = require('xmlbuilder');
         this.tblAlignVal = /start|end|center/;
         this.tblBorderVal = /single|dashDotStroked|dashed|dashSmallGap|dotDash|dotDotDash|dotted|double|doubleWave|inset|nil|none|outset|thick|thickThinLargeGap|thickThinMediumGap|thickThinSmallGap|thinThickLargeGap|thinThickMediumGap|thinThickSmallGap|thinThickThinLargeGap|thinThickThinMediumGap|thinThickThinSmallGap|threeDEmboss|threeDEngrave|triple|wave/;
         this.tblRowHeightRules = /atLeast|exact|auto/;
@@ -10,61 +25,30 @@ var TableProvider = (function () {
     };
 
     /**
-     * @param {boolean} includeRoot - whether we include the root node or not
      * @returns {object} - returns the ooxml table obj with depth 1 children
      */
-    TableProvider.prototype.buildTbl = function(includeRoot = true) {
-        
-        let tbl;
+    TableProvider.prototype.buildTbl = function() {
 
-        if (includeRoot) {
-            tbl = {
-                'w:tbl': {
-                    'w:tblPr': null,
-                    'w:tblGrid': null,
-                    'w:tr': []
-                }
-            };
-        } else {
-            tbl = {
-                'w:tblPr': null,
-                'w:tblGrid': null,
-                'w:tr': []
-            };
-        }
-        
-        return tbl;
+        return this.xmlBuilder.begin({
+            tbl: {
+                tblPr: null,
+                tblGrid: null,
+                tr: null
+            }
+        }, {
+            headless: true,
+            stringify: new TableConverter()
+        });
+
     };
 
     /**
-     * @param {boolean} includeRoot - whether we include the root node or not
      * @returns {object} - returns the ooxml table property obj with depth 1 children
      */
-    TableProvider.prototype.buildTblPr = function(includeRoot = true) {
+    TableProvider.prototype.buildTblPr = function() {
         
-        let tablePr;
-        if (includeRoot) {
-            tablePr = {
-                'w:tblPr': {
-                    'w:js': null,
-                    'w:shd': null,
-                    'w:tblBorders': null,
-                    'w:tblCaption': null,
-                    'w:tblCellMar': null,
-                    'w:tblCellSpacing': null,
-                    'w:tblInd': null,
-                    'w:tblLayout': null,
-                    'w:tblLook': null,
-                    'w:tblOverlay': null,
-                    'w:tblpPr': null,
-                    'w:tblStyle': null,
-                    'w:tblStyleColBandSize': null,
-                    'w:tblStyleRowBandSize': null,
-                    'w:tblW': null
-                }
-            };
-        } else {
-            tablePr = {
+        return this.xmlBuilder.begin({
+            'w:tblPr': {
                 'w:js': null,
                 'w:shd': null,
                 'w:tblBorders': null,
@@ -80,20 +64,20 @@ var TableProvider = (function () {
                 'w:tblStyleColBandSize': null,
                 'w:tblStyleRowBandSize': null,
                 'w:tblW': null
-            };
-        }
-
-        return tablePr;
+            }
+        }, {
+            headless: true,
+            stringify: new TableConverter()
+        });
     };
 
     /**
      * Builds the grid element with data
      * @param {number} cols - the number of columns
      * @param {number} width - the width of the table
-     * @param {boolean} includeRoot - whether to include the root node or not
      * @returns {object} - the tableGrid
      */
-    TableProvider.prototype.buildTblGrid = function(cols, width, includeRoot = true) {
+    TableProvider.prototype.buildTblGrid = function(cols, width) {
         
         if (typeof cols !== 'number' || cols <= 0) {
             return;
@@ -102,28 +86,15 @@ var TableProvider = (function () {
             return;
         }
 
-        let grid, manNode;
-        
-        if (includeRoot) {
-            grid = {
-                'w:tblGrid': {
-                    "w:gridCol": []
-                }
-            }
-            manNode = grid['w:tblGrid']['w:gridCol'];
-        } else {
-            grid = {
-                "w:gridCol": []
-            };
-            manNode = grid['w:gridCol'];
-        }
+        let grid = this.xmlBuilder.begin('tblGrid', {
+            headless: true,
+            stringify: new TableConverter()
+        });
 
         for (let i = 0; i < cols; i++) {
-            manNode.push({
-                $: {
-                    "w:w": Math.floor(width / cols)
-                }
-            });
+            grid
+                .ele('gridCol').att('w', Math.floor(width / cols))
+                .up();
         }
         
         return grid;
@@ -133,76 +104,60 @@ var TableProvider = (function () {
      * Builds the tbl row obj with root
      */
     TableProvider.prototype.buildTblRow = function() {
-        return {
-            'w:trPr': null,
-            'w:tblPrEx': null,
-            'w:tc': null
-        }
+        return this.xmlBuilder.begin({
+            tr: {
+                trPr: null,
+                tblPrEx: null,
+                tc: null
+            }
+        }, {
+            headless: true,
+            stringify: new TableConverter()
+        });
     };
 
     /**
      * Build the jc object
      * @param {string} val - an enum to insert into the property
-     * @param {boolean} includeRoot - whetherto include the root node or not
      * @return {object} - the jc object
      */
-    TableProvider.prototype.buildJc = function(val, includeRoot = true) {
+    TableProvider.prototype.buildJc = function(val) {
 
         if (typeof val !== 'string') {
             return;
         }
 
-        let jc;
-
         if (!val.match(this.tblAlignVal)) val = 'start';
 
-        if (includeRoot) {
-            jc = {
-                'w:jc': {
-                    $: {
-                        'w:val': val
-                    }
-                }
+        return this.xmlBuilder.begin({
+            jc: {
+                '@val': val
             }
-        } else {
-            jc = {
-                $: {
-                    'w:val': val
-                }
-            };
-        }
-
-        return jc;
+        }, {
+            headless: true,
+            stringify: new TableConverter()
+        });
     };
 
     /**
      * build the base tblBorders obj
-     * @param {boolean} includeRoot - whether to include the root node or not
      * @returns {object} - the tblBorder object
      */
-    TableProvider.prototype.buildTblBorders = function(includeRoot = true) {
+    TableProvider.prototype.buildTblBorders = function() {
 
-        if (includeRoot) {
-            return {
-                'w:tblBorders': {
-                    'w:top': null,
-                    'w:start': null,
-                    'w:bottom': null,
-                    'w:end': null,
-                    'w:insideH': null,
-                    'w:insideV': null
-                }
-            };
-        } else {
-            return {
-                'w:top': null,
-                'w:start': null,
-                'w:bottom': null,
-                'w:end': null,
-                'w:insideH': null,
-                'w:insideV': null
-            };
-        }
+        return this.xmlBuilder.begin({
+            tblBorders: {
+                top: null,
+                start: null,
+                bottom: null,
+                end: null,
+                insideH: null,
+                insideV: null
+            }
+        }, {
+            headless: true,
+            stringify: new TableConverter()
+        });
     };
 
     /**
@@ -229,50 +184,45 @@ var TableProvider = (function () {
         }
 
         if (this.tblBorderVal.test(val)) {
-            return {
-                $: {
-                    'w:color': color,
-                    'w:space': space,
-                    'w:sz': sz,
-                    'w:val': val
-                }
-            }
+            return this.xmlBuilder.begin({
+                    '@color': color,
+                    '@space': space,
+                    '@sz': sz,
+                    '@val': val
+                }, {
+                    headless: true,
+                    stringify: new TableConverter()
+                });
         }
         
-        return {
-            $: {
-                'w:color': color,
-                'w:space': space,
-                'w:sz': sz,
-                'w:val': 'single'
-            }
-        }
+        return this.xmlBuilder.begin({
+                '@color': color,
+                '@space': space,
+                '@sz': sz,
+                '@val': 'single'
+            }, {
+                headless: true,
+                stringify: new TableConverter()
+            });
     }
 
     /**
      * builds the tbl cell margin object
-     * @param {boolean} includeRoot - whether or not to include the root node or not
      * @returns {object} - returns the tblCellMar object
      */
-    TableProvider.prototype.buildTblPrCellMar = function(includeRoot = true) {
+    TableProvider.prototype.buildTblPrCellMar = function() {
 
-        if (includeRoot) {
-            return {
-                'w:tblCellMar': {
-                    'w:top': null,
-                    'w:start': null,
-                    'w:end': null,
-                    'w:bottom': null
-                }
+        return this.xmlBuilder.begin({
+            tblCellMar: {
+                top: null,
+                start: null,
+                end: null,
+                bottom: null
             }
-        } else {
-            return {
-                'w:top': null,
-                'w:start': null,
-                'w:end': null,
-                'w:bottom': null
-            };
-        }
+        }, {
+            headless: true,
+            stringify: new TableConverter()
+        });
     };
 
     /**
@@ -286,12 +236,13 @@ var TableProvider = (function () {
             return;
         }
 
-        return {
-            $: {
-                'w:w': width,
-                'w:type': 'dxa'
-            }
-        }
+        return this.xmlBuilder.begin({
+            '@w': width,
+            '@type': 'dxa'
+        }, {
+            headless: true,
+            stringify: new TableConverter()
+        });
     }
 
     /**
@@ -455,22 +406,21 @@ var TableProvider = (function () {
      */
     TableProvider.prototype.buildTcW = function(width, type, includeRoot = true) {
 
-        if (typeof width !== 'string') {
+        if (typeof width !== 'number' || width < 0) {
             return;
         }
-        if (typeof type !== 'number' || width < 0) {
+        if (typeof type !== 'string') {
             return;
         }
 
-        let match = type.match(this.tblRowCellTcWType);
-        if (!match) match = 'auto';
+        if (!type.match(this.tblRowCellTcWType)) type = 'auto';
 
         if (includeRoot) {
             return {
                 'w:tcW': {
                     $: {
                         'w:w': width,
-                        'w:type': match
+                        'w:type': type
                     }
                 }
             };
@@ -478,7 +428,7 @@ var TableProvider = (function () {
             return {
                 $: {
                     'w:w': width,
-                    'w:type': match
+                    'w:type': type
                 }
             };
         }
@@ -496,27 +446,99 @@ var TableProvider = (function () {
             return;
         }
 
-        let match = val.match(this.tblRowCellVAlign);
-        if (!match) match = 'top';
+        if (!val.match(this.tblRowCellVAlign)) val = 'top';
 
         if (includeRoot) {
             return {
                 'w:vAlign': {
                     $: {
-                        'w:val': match
+                        'w:val': val
                     }
                 }
             };
         } else {
             return {
                 $: {
-                    'w:val': match
+                    'w:val': val
                 }
             };
         }
     };
 
     return TableProvider;
+})();
+
+const ParagraphProvider = (function () {
+    function ParagraphProvider() {
+
+    }
+
+    /**
+     * builds the paragraph node obj
+     * @param {boolean} includeRoot - whether or not to include the parent node or not
+     * @returns {object} - the w:p node obj
+     */
+    ParagraphProvider.prototype.buildP = function(includeRoot = true) {
+
+        if (includeRoot) {
+            return {
+                'w:p': {
+                    'w:pPr': null,
+                    'w:r': null,
+                    'w:hyperlink': null
+                }
+            }
+        } else {
+            return {
+                'w:pPr': null,
+                'w:r': null,
+                'w:hyperlink': null
+            };
+        }
+    };
+
+    /**
+     * builds the paragraph object 
+     * @param {boolean} includeRoot - whether or not to include the parent node
+     * @returns {object} - the w:p object
+     */
+    ParagraphProvider.prototype.buildPPr = function(includeRoot = true) {
+        
+        if (includeRoot) {
+            return {
+                'w:pPr': {
+                    'w:ind': null,
+                    'w:jc': null,
+                    'w:pBdr': null,
+                    'w:pStyle': null,
+                    'w:rPr': null,
+                    'w:spacing': null,
+                    'w:tabs': null,
+                    'w:textAlignment': null
+                }
+            };
+        } else {
+            return {
+                'w:ind': null,
+                'w:jc': null,
+                'w:pBdr': null,
+                'w:pStyle': null,
+                'w:rPr': null,
+                'w:spacing': null,
+                'w:tabs': null,
+                'w:textAlignment': null
+            };
+        }
+    };
+    return ParagraphProvider;
+})();
+
+const TextProvider = (function() {
+
+})();
+
+const ContentCtlProvider = (function() {
+
 })();
 
 exports.TableProvider = TableProvider;
