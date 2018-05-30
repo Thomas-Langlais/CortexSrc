@@ -1,35 +1,4 @@
 
-const defaultTblSize = 9350;
-
-let borderAttr = {
-    $: {
-        'w:val': null,
-        'w:sz': null,
-        'w:space': null,
-        'w:color': null
-    }
-};
-
-let border = {
-    'w:top': null,
-    'w:left': null,
-    'w:right': null,
-    'w:bottom': null,
-    'w:insideH': null,
-    'w:insideV': null
-};
-
-let tableAlign = {
-    $: {
-        'w:val': null
-    }
-};
-
-let tableAlignVal = {
-    start: 'start',
-    end: 'end',
-    center: 'center'
-}
 
 function buildDataBinding() {
 
@@ -134,6 +103,10 @@ function buildWatermark() {
 
 }
 
+function buildHyperlink() {
+
+}
+
 exports.buildDataBinding = buildDataBinding;
 exports.buildTable = buildTable;
 exports.buildText = buildText;
@@ -145,3 +118,4 @@ exports.buildHeader = buildHeader;
 exports.buildFooter = buildFooter;
 exports.buildImage = buildImage;
 exports.buildWatermark = buildWatermark;
+exports.buildHyperlink = buildHyperlink;

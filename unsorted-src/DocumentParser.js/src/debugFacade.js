@@ -85,8 +85,24 @@
 
 let TableProvider = require('./generators/providers/DocxProvider').TableProvider;
 let tblProvider = new TableProvider(); 
+let xmlBuilder = tblProvider.xmlBuilder;
 
-let attrs = tblProvider.buildTblGrid(2, 3000);
+let tblPr = xmlBuilder.create('tblPr', {
+    headless: true,
+    stringify: {
+        eleName: function(name) {
+            return 'w:' + name;
+        },
+        attName: function(name) {
+            return 'w:' + name;
+        }
+    }
+});
+
+let attrs = tblProvider.buildTbl(tblPr);
+    
+
 console.log(attrs.end())
+
                 
 // let tableObj = docx.buildTable(2,2);
