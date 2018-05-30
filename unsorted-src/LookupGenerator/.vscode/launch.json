@@ -10,7 +10,7 @@
             "name": "Launch Program",
             "program": "${workspaceFolder}\\index.js",
             "args": [
-                "-f=Legis.xml"
+                "-f=Structures by CR-PI-uft8.csv", "-t=eng"
             ]
         }
     ]
