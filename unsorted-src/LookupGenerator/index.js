@@ -89,7 +89,7 @@ function buildLookupEn(file) {
                             
                             if (regIds.find(id => reg.$.id === id && reg.Language[0] === 'en')) {
                                 let displayName = statute.ShortTitle[0] + ' -- ' + reg.ShortTitle[0];
-                                let value = statute.$.id + ' -- ' + reg.$.id;
+                                let value = reg.$.id;
                                 console.log(displayName);
 
                                 databuff += buildDropDownItem(displayName,value);
@@ -101,7 +101,7 @@ function buildLookupEn(file) {
 
             return writeData(databuff, __dirname + '\\results\\' + args.f + '-resEng');
         })
-        .then(result => console(result))
+        .then(result => console.log(result))
         .catch(err => console.log(err));
 }
 function buildLookupFr(file) {
@@ -128,7 +128,7 @@ function buildLookupFr(file) {
                             
                             if (regIds.find(id => reg.$.id === id && reg.Language[0] === 'fr')) {
                                 let displayName = statute.ShortTitle[0] + ' -- ' + reg.ShortTitle[0];
-                                let value = statute.$.id + ' -- ' + reg.$.id;
+                                let value = reg.$.id;
                                 console.log(displayName);
 
                                 databuff += buildDropDownItem(displayName,value);
@@ -146,7 +146,7 @@ function buildLookupFr(file) {
 function buildProgsEn(file) {
 
     getData(file)
-        .then(data => getCsv(data, ["DepartmentNameEN","DepartmentNameFN","CRorIS","Program","ActivityCode","NameEN","NameFR","DescriptionEN","DescriptionFR"]))
+        .then(data => getCsv(data, ["DepartmentNameEN","DepartmentNameFN","CRorIS","Program","ActivityCode","NameEN","NameFR","DescriptionEN","DescriptionFR","AccEN","AccFR"]))
         .then(csvData => {
             console.log(csvData);
             let databuff = [];
@@ -156,58 +156,68 @@ function buildProgsEn(file) {
             let cr = [];
 
             csvData.forEach((row, i) => {
-                if (i !== 0) {
-                    if (/^CR/.test(row.CRorIS.trim())) {
-                        if (row.Program.trim() === '-') {
-                            
-                            if (cr.length > 0) {
+                if (i !== 0 && /^CR/.test(row.CRorIS.trim())) {
 
-                                cr = cr.sort((a,b) => {
-                                    
-                                    if (a.name < b.name) {
-                                        return -1;
-                                    }
-                                    if (a.name > b.name) {
-                                        return 1;
-                                    }
-
-                                    return 0;
-                                });
-
-                                databuff.push({
-                                    cr: currentCR,
-                                    data: cr
-                                });
-
-                                currentCR = row.NameEN.trim();
-                                CRCode = row.CRorIS.trim();
-                                cr = [];
-                            } else {
-                                currentCR = row.NameEN.trim();
-                                CRCode = row.CRorIS.trim();
-                            }
-
-                        } else {
-                            if (/^P/.test(row.Program)) {
-                                let displayName = currentCR + ' -- ' + row.NameEN.trim();
-                                console.log(displayName);
-
-                                cr.push({
-                                    name: row.NameEN.trim(),
-                                    prog: row.ActivityCode.trim()
-                                });
-
-                            }
-                        }
+                    if (row.Program.trim() !== '-') {
+                        databuff.push({
+                            dept: row.DepartmentNameEN.trim(),
+                            prog: row.NameEN.trim(),
+                            code: row.ActivityCode.trim()
+                        });
                     }
+                    // if (row.Program.trim() === '-') {
+                        
+                    //     if (cr.length > 0) {
+
+                    //         cr = cr.sort((a,b) => {
+                                
+                    //             if (a.name < b.name) {
+                    //                 return -1;
+                    //             }
+                    //             if (a.name > b.name) {
+                    //                 return 1;
+                    //             }
+
+                    //             return 0;
+                    //         });
+
+                    //         databuff.push({
+                    //             cr: currentCR,
+                    //             data: cr
+                    //         });
+
+                    //         currentCR = row.NameEN.trim();
+                    //         CRCode = row.CRorIS.trim();
+                    //         cr = [];
+                    //     } else {
+                    //         currentCR = row.NameEN.trim();
+                    //         CRCode = row.CRorIS.trim();
+                    //     }
+
+                    // } else {
+                    //     if (/^P/.test(row.Program)) {
+                    //         let displayName = currentCR + ' -- ' + row.NameEN.trim();
+                    //         console.log(displayName);
+
+                    //         cr.push({
+                    //             name: row.NameEN.trim(),
+                    //             prog: row.ActivityCode.trim()
+                    //         });
+
+                    //     }
+                    // }
+
                 }
             });
 
             databuff.sort((a,b) => {
-                if (a.cr < b.cr) {
+                let aName = a.dept + a.prog;
+                let bName = b.dept + b.prog;
+
+                if (aName < bName) {
                     return -1;
                 }
-                if (a.cr > b.cr) {
+                if (aName > bName) {
                     return 1;
                 }
 
@@ -215,13 +225,28 @@ function buildProgsEn(file) {
             });
 
             let res = '';
-            databuff.forEach(node => {
-                node.data.forEach(element => {
-                    res += buildDropDownItem(node.cr + ' -- ' + element.name, element.prog);
-                });
-            });
 
-            return writeData(res, __dirname + '\\results\\orgs-eng');
+            databuff.forEach(obj => res += buildDropDownItem(obj.dept + ' -- ' + obj.prog, obj.code));
+
+            // databuff.sort((a,b) => {
+            //     if (a.cr < b.cr) {
+            //         return -1;
+            //     }
+            //     if (a.cr > b.cr) {
+            //         return 1;
+            //     }
+
+            //     return 0;
+            // });
+
+            // let res = '';
+            // databuff.forEach(node => {
+            //     node.data.forEach(element => {
+            //         res += buildDropDownItem(node.cr + ' -- ' + element.name, element.prog);
+            //     });
+            // });
+
+            return writeData(res, __dirname + '\\results\\progs-eng');
         })
         .then(result => console.log(result))
         .catch(err => console.error(err));
@@ -229,7 +254,7 @@ function buildProgsEn(file) {
 function buildProgsFr(file) {
 
     getData(file)
-        .then(data => getCsv(data, ["DepartmentNameEN","DepartmentNameFN","CRorIS","Program","ActivityCode","NameEN","NameFR","DescriptionEN","DescriptionFR"]))
+        .then(data => getCsv(data, ["DepartmentNameEN","DepartmentNameFN","CRorIS","Program","ActivityCode","NameEN","NameFR","DescriptionEN","DescriptionFR","AccEN","AccFR"]))
         .then(csvData => {
             console.log(csvData);
             let databuff = [];
@@ -239,70 +264,94 @@ function buildProgsFr(file) {
             let cr = [];
 
             csvData.forEach((row, i) => {
-                if (i !== 0 || /^CR/.test(row.CRorIS.trim())) {
-                    if (row.Program.trim() === '-') {
-                        
-                        if (cr.length > 0) {
+                if (i !== 0 && /^CR/.test(row.CRorIS.trim())) {
 
-                            cr = cr.sort((a,b) => {
-                                
-                                if (a.name < b.name) {
-                                    return -1;
-                                }
-                                if (a.name > b.name) {
-                                    return 1;
-                                }
-
-                                return 0;
-                            });
-
-                            databuff.push({
-                                cr: currentCR,
-                                data: cr
-                            });
-
-                            currentCR = row.NameFR.trim();
-                            CRCode = row.CRorIS.trim();
-                            cr = [];
-                        } else {
-                            currentCR = row.NameFR.trim();
-                            CRCode = row.CRorIS.trim();
-                        }
-
-                    } else {
-                        if (/^P/.test(row.Program)) {
-                            let displayName = currentCR + ' -- ' + row.NameFR.trim();
-                            console.log(displayName);
-
-                            cr.push({
-                                name: row.NameFR.trim(),
-                                prog: row.ActivityCode.trim()
-                            });
-
-                        }
+                    if (row.Program.trim() !== '-') {
+                        databuff.push({
+                            dept: row.DepartmentNameFN.trim(),
+                            prog: row.NameFR.trim(),
+                            code: row.ActivityCode.trim()
+                        });
                     }
+                    // if (row.Program.trim() === '-') {
+                        
+                    //     if (cr.length > 0) {
+
+                    //         cr = cr.sort((a,b) => {
+                                
+                    //             if (a.name < b.name) {
+                    //                 return -1;
+                    //             }
+                    //             if (a.name > b.name) {
+                    //                 return 1;
+                    //             }
+
+                    //             return 0;
+                    //         });
+
+                    //         databuff.push({
+                    //             cr: currentCR,
+                    //             data: cr
+                    //         });
+
+                    //         currentCR = row.NameFR.trim();
+                    //         CRCode = row.CRorIS.trim();
+                    //         cr = [];
+                    //     } else {
+                    //         currentCR = row.NameFR.trim();
+                    //         CRCode = row.CRorIS.trim();
+                    //     }
+
+                    // } else {
+                    //     if (/^P/.test(row.Program)) {
+                    //         let displayName = currentCR + ' -- ' + row.NameFR.trim();
+                    //         console.log(displayName);
+
+                    //         cr.push({
+                    //             name: row.NameFR.trim(),
+                    //             prog: row.ActivityCode.trim()
+                    //         });
+
+                    //     }
+                    // }
                 }
             });
 
+            let res = '';
+
             databuff.sort((a,b) => {
-                if (a.cr < b.cr) {
+                let aName = a.dept + a.prog;
+                let bName = b.dept + b.prog;
+
+                if (aName < bName) {
                     return -1;
                 }
-                if (a.cr > b.cr) {
+                if (aName > bName) {
                     return 1;
                 }
 
                 return 0;
             });
 
-            let res = '';
-            databuff.forEach(node => {
-                node.data.forEach(element => {
-                    res += buildDropDownItem(node.cr + ' -- ' + element.name, element.prog);
-                });
-            });
+            databuff.forEach(obj => res += buildDropDownItem(obj.dept + ' -- ' + obj.prog, obj.code));
+            // databuff.sort((a,b) => {
+            //     if (a.cr < b.cr) {
+            //         return -1;
+            //     }
+            //     if (a.cr > b.cr) {
+            //         return 1;
+            //     }
 
-            return writeData(res, __dirname + '\\results\\orgs-fra');
+            //     return 0;
+            // });
+
+            // databuff.forEach(node => {
+            //     node.data.forEach(element => {
+            //         res += buildDropDownItem(node.cr + ' -- ' + element.name, element.prog);
+            //     });
+            // });
+
+            return writeData(res, __dirname + '\\results\\progs-fra');
         })
         .then(result => console.log(result))
         .catch(err => console.error(err));
@@ -316,4 +365,6 @@ if (args.f === 'lookup.xml') {
 } else if (args.f === 'Structures by CR-PI-uft8.csv') {
     if (args.t === 'eng') buildProgsEn(args.f);
     if (args.t === 'fra') buildProgsFr(args.f);
+} else {
+    console.error('no file selected');
 }
