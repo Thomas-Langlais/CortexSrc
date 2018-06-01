@@ -83,26 +83,52 @@
 
 // console.log(promise);
 
-let TableProvider = require('./generators/providers/DocxProvider').TableProvider;
-let tblProvider = new TableProvider(); 
-let xmlBuilder = tblProvider.xmlBuilder;
+// let TableProvider = require('./generators/providers/DocxProvider').TableProvider;
+// let tblProvider = new TableProvider(); 
+// let xmlBuilder = tblProvider.xmlBuilder;
 
-let tblPr = xmlBuilder.create('tblPr', {
-    headless: true,
-    stringify: {
-        eleName: function(name) {
-            return 'w:' + name;
-        },
-        attName: function(name) {
-            return 'w:' + name;
-        }
-    }
-});
+// let tblPr = xmlBuilder.create('tblPr', {
+//     headless: true,
+//     stringify: {
+//         eleName: function(name) {
+//             return 'w:' + name;
+//         },
+//         attName: function(name) {
+//             return 'w:' + name;
+//         }
+//     }
+// });
 
-let attrs = tblProvider.buildTbl(tblPr);
+// let attrs = tblProvider.buildTbl(tblPr);
     
 
-console.log(attrs.end())
+// console.log(attrs.end())
 
-                
+function TableConverter() {
+    this.eleName = function(elementName) {
+        return 'w:' + elementName;
+    };
+    this.attName = function(attributeName) {
+        return 'w:' + attributeName;
+    }
+}
+function commonSettings() {
+    return {
+        headless: true,
+        stringify: new TableConverter()
+    };
+}
+
+const buildComponent = require('./generators/DocxSelector').buildComponent;
+const select = require('./generators/DocxSelector').selector;
+const xmlbuilder = require('xmlbuilder');
+
+let tblPr = xmlbuilder.begin(commonSettings());
+tblPr.ele('tblPr');
+
+let thing = buildComponent(select.tbl, {
+    tblPr: tblPr
+});
+
+console.log(thing.end());
 // let tableObj = docx.buildTable(2,2);
