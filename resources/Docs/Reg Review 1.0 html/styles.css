@@ -1,0 +1,202 @@
+.bold, .insert-button {
+    font-weight: 700
+}
+
+.mainContainer {
+    text-align: center;
+    font-family: Calibri, sans-serif
+}
+
+.formContainer {
+    width: 755px;
+    display: inline-block
+}
+
+.title {
+    font-size: 18px
+}
+
+.underline {
+    text-decoration: underline
+}
+
+.contentContainer {
+    font-size: 11px;
+    text-align: left
+}
+
+.contentContainer h3 {
+    padding: 0;
+    margin: 0
+}
+
+.section-description {
+    background-color: #AAAAAA;
+    padding: 5px;
+    margin-bottom: 5px
+}
+
+.small-indent {
+    margin-left: 25px
+}
+
+.medium-indent {
+    margin-left: 50px
+}
+
+.large-indent {
+    margin-left: 100px
+}
+
+.input-container {
+    padding-bottom: 3px;
+    margin-bottom: 3px
+}
+
+.checkbox-container {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.light-card {
+    padding: 3px;
+    margin: 3px;
+    border: 0.5px solid #DDDDDD;
+    border-radius: 4px;
+}
+
+.insert-button-container {
+    text-align: right;
+    margin-bottom: 10px
+}
+
+.insert-button {
+    background-color: #f5f5f5;
+    background-image: -webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
+    background-image: -moz-linear-gradient(top, #f5f5f5, #f1f1f1);
+    background-image: -ms-linear-gradient(top, #f5f5f5, #f1f1f1);
+    background-image: -o-linear-gradient(top, #f5f5f5, #f1f1f1);
+    background-image: linear-gradient(top, #f5f5f5, #f1f1f1);
+    color: #444;
+    border: 1px solid #dcdcdc;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    cursor: default;
+    font-size: 11px;
+    text-align: center;
+    height: 27px;
+    line-height: 27px;
+    min-width: 54px;
+    padding: 0 8px;
+    text-decoration: none
+}
+
+.insert-button:hover {
+    cursor: pointer;
+    background-color: #F8F8F8;
+    background-image: -webkit-linear-gradient(top, #f8f8f8, #f1f1f1);
+    background-image: -moz-linear-gradient(top, #f8f8f8, #f1f1f1);
+    background-image: -ms-linear-gradient(top, #f8f8f8, #f1f1f1);
+    background-image: -o-linear-gradient(top, #f8f8f8, #f1f1f1);
+    background-image: linear-gradient(top, #f8f8f8, #f1f1f1);
+    border: 1px solid #C6C6C6;
+    color: #333;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1)
+}
+
+.insert-button:focus {
+    outline: 0
+}
+
+label > select, label > input {
+    max-width: 600px;
+}
+
+label > input[type=text], label > select {
+    margin-top: 3px;
+    display: block;
+}
+
+label > input[type=checkbox] {
+    margin: 0 2px 0 2px;
+    vertical-align: bottom;
+}
+
+select {
+    opacity: .6
+}
+
+select:hover {
+    opacity: .3;
+    cursor: pointer
+}
+
+input::-webkit-input-placeholder {
+    font-size: 10px
+}
+
+input::-moz-placeholder {
+    font-size: 10px
+}
+
+input:-moz-placeholder {
+    font-size: 10px
+}
+
+input:-ms-input-placeholder {
+    font-size: 10px
+}
+
+.delete-reg:hover {
+    cursor: pointer;
+    opacity: .6
+}
+
+.delete-reg {
+    float: right;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    overflow: hidden;
+    outline: 0
+}
+
+/* .help-block {
+    opacity: .6
+} */
+
+
+div.repeating-regulation-information ol {
+    -webkit-padding-start: 0;
+}
+
+.part-one div.repeating-regulation-information {
+    width: 80%
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0
+}
+
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    counter-reset: step-counter;
+}
+ol li:before {
+    content: counter(step-counter);
+    counter-increment: step-counter;
+    margin-right: 1px;
+    font-size: 100%;
+    color: rgb(7, 197, 255);
+    padding: 3px 4px 3px 8px;
+}

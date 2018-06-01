@@ -92,14 +92,14 @@ function buildLookupEn(file) {
                                 let value = reg.$.id;
                                 console.log(displayName);
 
-                                databuff += buildDropDownItem(displayName,value);
+                                databuff += buildDropDownItem(displayName,value,'html');
                             }
                         });
                     }
                 }
             });
 
-            return writeData(databuff, __dirname + '\\results\\' + args.f + '-resEng');
+            return writeData(databuff, __dirname + '\\results\\' + args.f + '-resEnghtml');
         })
         .then(result => console.log(result))
         .catch(err => console.log(err));
@@ -160,7 +160,7 @@ function buildProgsEn(file) {
 
                     if (row.Program.trim() !== '-') {
                         databuff.push({
-                            dept: row.DepartmentNameEN.trim(),
+                            dept: row.AccEN.trim(),
                             prog: row.NameEN.trim(),
                             code: row.ActivityCode.trim()
                         });
@@ -211,8 +211,8 @@ function buildProgsEn(file) {
             });
 
             databuff.sort((a,b) => {
-                let aName = a.dept + a.prog;
-                let bName = b.dept + b.prog;
+                let aName = a.dept.toUpperCase() + a.prog.toUpperCase();
+                let bName = b.dept.toUpperCase() + b.prog.toUpperCase();
 
                 if (aName < bName) {
                     return -1;
@@ -226,7 +226,7 @@ function buildProgsEn(file) {
 
             let res = '';
 
-            databuff.forEach(obj => res += buildDropDownItem(obj.dept + ' -- ' + obj.prog, obj.code));
+            databuff.forEach(obj => res += buildDropDownItem(obj.dept + ' -- ' + obj.prog, obj.code, 'html'));
 
             // databuff.sort((a,b) => {
             //     if (a.cr < b.cr) {
@@ -246,7 +246,7 @@ function buildProgsEn(file) {
             //     });
             // });
 
-            return writeData(res, __dirname + '\\results\\progs-eng');
+            return writeData(res, __dirname + '\\results\\progs-enghtml');
         })
         .then(result => console.log(result))
         .catch(err => console.error(err));
@@ -320,8 +320,8 @@ function buildProgsFr(file) {
             let res = '';
 
             databuff.sort((a,b) => {
-                let aName = a.dept + a.prog;
-                let bName = b.dept + b.prog;
+                let aName = a.dept.toUpperCase() + a.prog.toUpperCase();
+                let bName = b.dept.toUpperCase() + b.prog.toUpperCase();
 
                 if (aName < bName) {
                     return -1;
@@ -362,7 +362,7 @@ var args = argparser.parseArgs();
 if (args.f === 'lookup.xml') {
     if (args.t === 'eng') buildLookupEn(args.f);
     if (args.t === 'fra') buildLookupFr(args.f);
-} else if (args.f === 'Structures by CR-PI-uft8.csv') {
+} else if (args.f === 'Structures by CR-PI-utf8.csv') {
     if (args.t === 'eng') buildProgsEn(args.f);
     if (args.t === 'fra') buildProgsFr(args.f);
 } else {
