@@ -1,5 +1,5 @@
 
-const selector = Object.freeze({
+exports.selector = selector = Object.freeze({
     tbl: 1,
     tblPr: 2,
     tblGrid: 3,
@@ -44,16 +44,47 @@ function commonSettings() {
     };
 }
 
-const xmlbuilder = require('xmlbuilder');
+function optionHandler(option) {
+    if (option instanceof XMLDocument) {
+        return option;
+    }
+    else if (option instanceof XMLElement) 
+    {
+        return option.doc();
+    }
+    else if (Array.isArray(option)) {
 
-function buildComponent(type, options) {
+    } 
+    else {
+        return xmlbuilder.begin(commonSettings()).ele(option).doc();
+    }
+}
+
+const xmlbuilder = require('xmlbuilder');
+const XMLDocument = require('xmlbuilder/lib/XMLDocument'), XMLElement = require('xmlbuilder/lib/XMLElement');
+
+exports.buildComponent = function buildComponent(type, options) {
 
     let result;
 
     switch(type) {
         case selector.tbl:
             result = xmlbuilder.begin(commonSettings());
-            result.ele('tbl');
+            let node = result.ele('tbl');
+
+            if (options.tblPr) {
+                let doc = optionHandler(options.tblPr);
+                node.importDocument(doc);
+            }
+            if (options.tblGrid) {
+                let doc = optionHandler(options.tblGrid);
+                node.importDocument(options.tblGrid);
+            }
+            if (options.tr) {
+                let doc = optionHandler(options.tr);
+                node.importDocument(options.tr);
+            }
+
             break;
 
         case selector.tblPr:
