@@ -104,31 +104,49 @@
 
 // console.log(attrs.end())
 
-function TableConverter() {
-    this.eleName = function(elementName) {
-        return 'w:' + elementName;
-    };
-    this.attName = function(attributeName) {
-        return 'w:' + attributeName;
+
+
+
+// function TableConverter() {
+//     this.eleName = function(elementName) {
+//         return 'w:' + elementName;
+//     };
+//     this.attName = function(attributeName) {
+//         return 'w:' + attributeName;
+//     }
+// }
+// function commonSettings() {
+//     return {
+//         headless: true,
+//         stringify: new TableConverter()
+//     };
+// }
+
+// const buildComponent = require('./generators/DocxSelector').buildComponent;
+// const select = require('./generators/DocxSelector').selector;
+// const xmlbuilder = require('xmlbuilder');
+
+// let tblPr = xmlbuilder.begin(commonSettings());
+// tblPr.ele('tblPr');
+
+// let thing = buildComponent(select.tbl, {
+//     tblPr: tblPr
+// });
+
+// console.log(thing.end());
+
+const Thing = (function() {
+    function Thing() {
+
     }
+
+    Thing.prototype.thing = function() {}
+    Thing.prototype.ala = function() {}
+
+    return Thing;
+})();
+
+var ting = new Thing();
+for (let o in ting) {
+    console.log(typeof ting[o] === 'function');
 }
-function commonSettings() {
-    return {
-        headless: true,
-        stringify: new TableConverter()
-    };
-}
-
-const buildComponent = require('./generators/DocxSelector').buildComponent;
-const select = require('./generators/DocxSelector').selector;
-const xmlbuilder = require('xmlbuilder');
-
-let tblPr = xmlbuilder.begin(commonSettings());
-tblPr.ele('tblPr');
-
-let thing = buildComponent(select.tbl, {
-    tblPr: tblPr
-});
-
-console.log(thing.end());
-// let tableObj = docx.buildTable(2,2);
