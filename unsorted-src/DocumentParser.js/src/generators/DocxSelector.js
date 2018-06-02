@@ -53,7 +53,8 @@ function optionHandler(option) {
         return option.doc();
     }
     else if (Array.isArray(option)) {
-
+        let res = [];
+        option.forEach(doc => res.push(optionHandler(doc)));
     } 
     else {
         return xmlbuilder.begin(commonSettings()).ele(option).doc();
