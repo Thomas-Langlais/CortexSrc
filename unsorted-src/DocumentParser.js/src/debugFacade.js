@@ -135,18 +135,10 @@
 
 // console.log(thing.end());
 
-const Thing = (function() {
-    function Thing() {
+const Selector = require('./generators/Selector').Selector;
+const TableBuilder = require('./generators/DocxSelector');
 
-    }
+let control = new Selector(new TableBuilder());
+let selector = control.selector;
 
-    Thing.prototype.thing = function() {}
-    Thing.prototype.ala = function() {}
-
-    return Thing;
-})();
-
-var ting = new Thing();
-for (let o in ting) {
-    console.log(typeof ting[o] === 'function');
-}
+console.log(control.buildComponent(selector.tbl).end());
