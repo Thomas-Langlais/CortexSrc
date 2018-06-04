@@ -14,7 +14,7 @@
             "type": "node",
             "request": "launch",
             "name": "test",
-            "program": "${workspaceFolder}\\src\\debugFacade.js"
+            "program": "${workspaceFolder}/src/debugFacade.js"
         },
         {
             "request": "launch",

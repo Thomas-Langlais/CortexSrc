@@ -1,132 +1,238 @@
 
-exports.selector = selector = Object.freeze({
-    tbl: 1,
-    tblPr: 2,
-    tblGrid: 3,
-    jc: 4,
-    tblBorders: 5,
-    tblCellMar: 6,
-    tblInd: 7,
-    tblLayout: 8,
-    tblpPr: 9,
-    tblStyle: 10,
-    tblW: 11,
-    tr: 12,
-    trPr: 13,
-    trPrEx: 14,
-    tc: 15,
-    tblHeader: 16,
-    trHeight: 17,
-    hidden: 18,
-    tcPr: 19,
-    p: 20,
-    gridSpan: 21,
-    noWrap: 22,
-    tcBorders: 23,
-    tcMar: 24,
-    tcW: 25,
-    vAlign: 26
-});
+const TableBuilder = (function() {
 
-function TableConverter() {
-    this.eleName = function(elementName) {
-        return 'w:' + elementName;
+    const xmlbuilder = require('xmlbuilder');
+    const XMLDocument = require('xmlbuilder/lib/XMLDocument'), XMLElement = require('xmlbuilder/lib/XMLElement');
+
+    function TableConverter() {
+        this.eleName = function(elementName) {
+            return 'w:' + elementName;
+        };
+        this.attName = function(attributeName) {
+            return 'w:' + attributeName;
+        }
+    }
+    function commonSettings() {
+        return {
+            headless: true,
+            stringify: new TableConverter()
+        };
+    }
+    function optionHandler(option) {
+        if (option instanceof XMLDocument) {
+            return option;
+        }
+        else if (option instanceof XMLElement) 
+        {
+            return option.doc();
+        }
+        else if (Array.isArray(option)) {
+            let res = xmlbuilder.begin(commonSettings());
+            option.forEach(doc => res.importDocument(optionHandler(doc)));
+            return res;
+        } 
+        else {
+            return xmlbuilder.begin(commonSettings()).ele(option).doc();
+        }
+    }
+
+    function TableBuilder() {
+
     };
-    this.attName = function(attributeName) {
-        return 'w:' + attributeName;
-    }
-}
 
-function commonSettings() {
-    return {
-        headless: true,
-        stringify: new TableConverter()
-    };
-}
-
-function optionHandler(option) {
-    if (option instanceof XMLDocument) {
-        return option;
-    }
-    else if (option instanceof XMLElement) 
-    {
-        return option.doc();
-    }
-    else if (Array.isArray(option)) {
-
-    } 
-    else {
-        return xmlbuilder.begin(commonSettings()).ele(option).doc();
-    }
-}
-
-const xmlbuilder = require('xmlbuilder');
-const XMLDocument = require('xmlbuilder/lib/XMLDocument'), XMLElement = require('xmlbuilder/lib/XMLElement');
-
-exports.buildComponent = function buildComponent(type, options) {
-
-    let result;
-
-    switch(type) {
-        case selector.tbl:
-            result = xmlbuilder.begin(commonSettings());
-            let node = result.ele('tbl');
-
-            if (options.tblPr) {
-                let doc = optionHandler(options.tblPr);
-                node.importDocument(doc);
-            }
-            if (options.tblGrid) {
-                let doc = optionHandler(options.tblGrid);
-                node.importDocument(options.tblGrid);
-            }
-            if (options.tr) {
-                let doc = optionHandler(options.tr);
-                node.importDocument(options.tr);
-            }
-
-            break;
-
-        case selector.tblPr:
-            result = xmlbuilder.begin(commonSettings());
-            result.ele('tblPr');
-            break;
-
-        case selector.tblGrid:
-            result = xmlbuilder.begin(commonSettings());
-            result.ele('tblGrid');
-            break;
-
-        case selector.jc:
+    TableBuilder.prototype.tbl = function(options = {}) {
         
-        case selector.tblBorders:
-        case selector.tblCellMar:
-        case selector.tblInd:
-        case selector.tblLayout:
-        case selector.tblpPr:
-        case selector.tblStyle:
-        case selector.tblW:
-        case selector.tr:
-        case selector.trPr:
-        case selector.trPrEx:
-        case selector.tc:
-        case selector.tblHeader:
-        case selector.trHeight:
-        case selector.hidden:
-        case selector.tcPr:
-        case selector.p:
-        case selector.gridSpan:
-        case selector.noWrap:
-        case selector.tcBorders:
-        case selector.tcMar:
-        case selector.tcW:
-        case selector.vAlign:
-        default:
-    }
+        let result = xmlbuilder.begin(commonSettings());
+        let node = result.ele('tbl');
 
-    return result;
-}
+        if (options.tblPr) {
+            let doc = optionHandler(options.tblPr);
+            node.importDocument(doc);
+        }
+        if (options.tblGrid) {
+            let doc = optionHandler(options.tblGrid);
+            node.importDocument(doc);
+        }
+        if (options.tr) {
+            let doc = optionHandler(options.tr);
+            node.importDocument(doc);
+        }
 
-function addComponent(type, object, options) {
+        return result;
+    };
 
-}
+    TableBuilder.prototype.tblPr = function(options) {
+
+        let result = xmlbuilder.begin(commonSettings());
+        let node = result.ele('tblPr');
+
+        if (options.jc) {
+            let doc = optionHandler(options.jc);
+            node.importDocument(doc);
+        }
+        if (options.shd) {
+            let doc = optionHandler(options.shd);
+            node.importDocument(doc);
+        }
+        if (options.tblBorders) {
+            let doc = optionHandler(options.tblBorders);
+            node.importDocument(doc);
+        }
+        if (options.tblCaption) {
+            let doc = optionHandler(options.tblCaption);
+            node.importDocument(doc);
+        }
+        if (options.tblCellMar) {
+            let doc = optionHandler(options.tblCellMar);
+            node.importDocument(doc);
+        }
+        if (options.tblCellSpacing) {
+            let doc = optionHandler(options.tblCellSpacing);
+            node.importDocument(doc);
+        }
+        if (options.tblInd) {
+            let doc = optionHandler(options.tblInd);
+            node.importDocument(doc);
+        }
+        if (options.tblLayout) {
+            let doc = optionHandler(options.tblLayout);
+            node.importDocument(doc);
+        }
+        if (options.tblLook) {
+            let doc = optionHandler(options.tblLook);
+            node.importDocument(doc);
+        }
+        if (options.tblOverlap) {
+            let doc = optionHandler(options.tblOverlap);
+            node.importDocument(doc);
+        }
+        if (options.tblpPr) {
+            let doc = optionHandler(options.tblpPr);
+            node.importDocument(doc);
+        }
+        if (options.tblStyle) {
+            let doc = optionHandler(options.tblStyle);
+            node.importDocument(doc);
+        }
+        if (options.tblStyleColBandSize) {
+            let doc = optionHandler(options.tblStyleColBandSize);
+            node.importDocument(doc);
+        }
+        if (options.tblStyleRowBandSize) {
+            let doc = optionHandler(options.tblStyleRowBandSize);
+            node.importDocument(doc);
+        }
+        if (options.tblW) {
+            let doc = optionHandler(options.tblW);
+            node.importDocument(doc);
+        }
+
+        return result;
+    };
+
+    TableBuilder.prototype.tblGrid = function(options) {
+        result = xmlbuilder.begin(commonSettings());
+        let node = result.ele('tblGrid');
+
+        if (options.gridCol) {
+            let doc = optionHandler(options.gridCol);
+            node.importDocument(doc);
+        }
+    };
+
+    TableBuilder.prototype.jc = function(options) {
+
+    };
+
+    TableBuilder.prototype.tblBorders = function(options) {
+
+    };
+
+    TableBuilder.prototype.tblCellMar = function(options) {
+
+    };
+
+    TableBuilder.prototype.tblInd = function(options) {
+
+    };
+
+    TableBuilder.prototype.tblLayout = function(options) {
+
+    };
+
+    TableBuilder.prototype.tblpPr = function(options) {
+
+    };
+
+    TableBuilder.prototype.tblStyle = function(options) {
+
+    };
+
+    TableBuilder.prototype.tblW = function(options) {
+
+    };
+
+    TableBuilder.prototype.tr = function(options) {
+
+    };
+
+    TableBuilder.prototype.trPr = function(options) {
+
+    };
+    
+    TableBuilder.prototype.trPrEx = function(options) {
+
+    };
+
+    TableBuilder.prototype.tc = function(options) {
+
+    };
+
+    TableBuilder.prototype.tblHeader = function(options) {
+
+    };
+
+    TableBuilder.prototype.trHeight = function(options) {
+
+    };
+    
+    TableBuilder.prototype.hidden = function(options) {
+
+    };
+
+    TableBuilder.prototype.tcPr = function(options) {
+
+    };
+
+    TableBuilder.prototype.p = function(options) {
+
+    };
+
+    TableBuilder.prototype.gridSpan = function(options) {
+
+    };
+
+    TableBuilder.prototype.noWrap = function(options) {
+
+    };
+
+    TableBuilder.prototype.tcBorders = function(options) {
+
+    };
+
+    TableBuilder.prototype.tcMar = function(options) {
+
+    };
+
+    TableBuilder.prototype.tcW = function(options) {
+
+    };
+
+    TableBuilder.prototype.vAlign = function(options) {
+
+    };
+    
+    return TableBuilder;
+})();
+
+module.exports = TableBuilder;
