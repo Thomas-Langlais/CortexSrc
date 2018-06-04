@@ -53,10 +53,6 @@
     margin-bottom: 3px
 }
 
-.checkbox-container {
-    display: inline-block;
-    vertical-align: middle;
-}
 
 .light-card {
     padding: 3px;
@@ -150,12 +146,12 @@ input:-ms-input-placeholder {
     font-size: 10px
 }
 
-.delete-reg:hover {
+.delete:hover {
     cursor: pointer;
     opacity: .6
 }
 
-.delete-reg {
+.delete {
     float: right;
     background-color: Transparent;
     background-repeat: no-repeat;
@@ -164,6 +160,9 @@ input:-ms-input-placeholder {
     outline: 0
 }
 
+.content {
+    margin-top: 5px;
+}
 /* .help-block {
     opacity: .6
 } */
@@ -186,11 +185,14 @@ hr {
     padding: 0
 }
 
+body { 
+    counter-reset: step-counter;
+}
+
 ol {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    counter-reset: step-counter;
 }
 ol li:before {
     content: counter(step-counter);
@@ -199,4 +201,17 @@ ol li:before {
     font-size: 100%;
     color: rgb(7, 197, 255);
     padding: 3px 4px 3px 8px;
+}
+
+div.input-container > label:before, div.input-container > span:before {
+    content: counter(step-counter);
+    counter-increment: step-counter;
+    margin-right: 1px;
+    font-size: 100%;
+    color: rgb(7, 197, 255);
+    padding: 3px 4px 3px 8px;
+}
+
+.input-container > select {
+    display: block;
 }

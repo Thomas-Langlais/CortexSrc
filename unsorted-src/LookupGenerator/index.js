@@ -53,14 +53,21 @@ function getCsv(fileData, columns) {
         })
     });
 }
+function escape(val) {
+    return val.replace(/&/g,'&amp;')
+        .replace(/</g,'&lt;')
+        .replace(/>/g,'&gt;')
+        .replace(/"/g,'&quot;')
+        .replace(/'/g,'&apos;');
+}
 
 function buildDropDownItem(displayName,value,type = 'docx') {
     switch(type) {
         case 'docx':
-            if (displayName && displayName !== '') return '<w:listItem w:displayText="' + displayName + '" w:value="' + value + '"/>';
-            else return '<w:listItem w:value="' + value + '"/>';
+            if (displayName && displayName !== '') return '<w:listItem w:displayText="' + escape(displayName) + '" w:value="' + escape(value) + '"/>';
+            else return '<w:listItem w:value="' + escape(value) + '"/>';
         default:
-            return '<option value="' + value + '">' + displayName + '</option>';
+            return '<option value="' + escape(value) + '">' + escape(displayName) + '</option>';
     }
     
 }
@@ -165,47 +172,6 @@ function buildProgsEn(file) {
                             code: row.ActivityCode.trim()
                         });
                     }
-                    // if (row.Program.trim() === '-') {
-                        
-                    //     if (cr.length > 0) {
-
-                    //         cr = cr.sort((a,b) => {
-                                
-                    //             if (a.name < b.name) {
-                    //                 return -1;
-                    //             }
-                    //             if (a.name > b.name) {
-                    //                 return 1;
-                    //             }
-
-                    //             return 0;
-                    //         });
-
-                    //         databuff.push({
-                    //             cr: currentCR,
-                    //             data: cr
-                    //         });
-
-                    //         currentCR = row.NameEN.trim();
-                    //         CRCode = row.CRorIS.trim();
-                    //         cr = [];
-                    //     } else {
-                    //         currentCR = row.NameEN.trim();
-                    //         CRCode = row.CRorIS.trim();
-                    //     }
-
-                    // } else {
-                    //     if (/^P/.test(row.Program)) {
-                    //         let displayName = currentCR + ' -- ' + row.NameEN.trim();
-                    //         console.log(displayName);
-
-                    //         cr.push({
-                    //             name: row.NameEN.trim(),
-                    //             prog: row.ActivityCode.trim()
-                    //         });
-
-                    //     }
-                    // }
 
                 }
             });
@@ -227,24 +193,6 @@ function buildProgsEn(file) {
             let res = '';
 
             databuff.forEach(obj => res += buildDropDownItem(obj.dept + ' -- ' + obj.prog, obj.code, 'html'));
-
-            // databuff.sort((a,b) => {
-            //     if (a.cr < b.cr) {
-            //         return -1;
-            //     }
-            //     if (a.cr > b.cr) {
-            //         return 1;
-            //     }
-
-            //     return 0;
-            // });
-
-            // let res = '';
-            // databuff.forEach(node => {
-            //     node.data.forEach(element => {
-            //         res += buildDropDownItem(node.cr + ' -- ' + element.name, element.prog);
-            //     });
-            // });
 
             return writeData(res, __dirname + '\\results\\progs-enghtml');
         })
@@ -273,47 +221,6 @@ function buildProgsFr(file) {
                             code: row.ActivityCode.trim()
                         });
                     }
-                    // if (row.Program.trim() === '-') {
-                        
-                    //     if (cr.length > 0) {
-
-                    //         cr = cr.sort((a,b) => {
-                                
-                    //             if (a.name < b.name) {
-                    //                 return -1;
-                    //             }
-                    //             if (a.name > b.name) {
-                    //                 return 1;
-                    //             }
-
-                    //             return 0;
-                    //         });
-
-                    //         databuff.push({
-                    //             cr: currentCR,
-                    //             data: cr
-                    //         });
-
-                    //         currentCR = row.NameFR.trim();
-                    //         CRCode = row.CRorIS.trim();
-                    //         cr = [];
-                    //     } else {
-                    //         currentCR = row.NameFR.trim();
-                    //         CRCode = row.CRorIS.trim();
-                    //     }
-
-                    // } else {
-                    //     if (/^P/.test(row.Program)) {
-                    //         let displayName = currentCR + ' -- ' + row.NameFR.trim();
-                    //         console.log(displayName);
-
-                    //         cr.push({
-                    //             name: row.NameFR.trim(),
-                    //             prog: row.ActivityCode.trim()
-                    //         });
-
-                    //     }
-                    // }
                 }
             });
 
@@ -334,26 +241,52 @@ function buildProgsFr(file) {
             });
 
             databuff.forEach(obj => res += buildDropDownItem(obj.dept + ' -- ' + obj.prog, obj.code));
-            // databuff.sort((a,b) => {
-            //     if (a.cr < b.cr) {
-            //         return -1;
-            //     }
-            //     if (a.cr > b.cr) {
-            //         return 1;
-            //     }
-
-            //     return 0;
-            // });
-
-            // databuff.forEach(node => {
-            //     node.data.forEach(element => {
-            //         res += buildDropDownItem(node.cr + ' -- ' + element.name, element.prog);
-            //     });
-            // });
 
             return writeData(res, __dirname + '\\results\\progs-fra');
         })
         .then(result => console.log(result))
+        .catch(err => console.error(err));
+}
+function buildNAICSEn(file) {
+
+    getData(file)
+        .then(data => getJson(data))
+        .then(json => {
+            console.log(json);
+
+            let databuff = '';
+
+            json.dataroot['lkpNAICS-SCIAN'].forEach(naics => {
+                
+                if (naics.NAICSSCIANCode[0].length > 2 && naics.NAICSSCIANCode[0].length <= 4) {
+                    databuff += buildDropDownItem(naics.NAICSSCIANCode[0] + ' - ' + naics.ClassTitle[0], naics.NAICSSCIANCode[0]);
+                }
+            });
+
+            return writeData(databuff, __dirname + '\\results\\' + file + '-resEng');
+        })
+        .then(res => console.log(res))
+        .catch(err => console.error(err));
+}
+function buildNAICSFr(file) {
+
+    getData(file)
+        .then(data => getJson(data))
+        .then(json => {
+            console.log(json);
+
+            let databuff = '';
+
+            json.dataroot['lkpNAICS-SCIAN'].forEach(naics => {
+                
+                if (naics.NAICSSCIANCode[0].length > 2 && naics.NAICSSCIANCode[0].length <= 4) {
+                    databuff += buildDropDownItem(naics.NAICSSCIANCode[0] + ' - ' + naics.TitresDeClasses[0], naics.NAICSSCIANCode[0], 'html');
+                }
+            });
+
+            return writeData(databuff, __dirname + '\\results\\' + file + '-resFrahtml');
+        })
+        .then(res => console.log(res))
         .catch(err => console.error(err));
 }
 
@@ -365,6 +298,9 @@ if (args.f === 'lookup.xml') {
 } else if (args.f === 'Structures by CR-PI-utf8.csv') {
     if (args.t === 'eng') buildProgsEn(args.f);
     if (args.t === 'fra') buildProgsFr(args.f);
+} else if (args.f === 'lkpNAICS-SCIAN') {
+    if (args.t === 'eng') buildNAICSEn(args.f);
+    if (args.t === 'fra') buildNAICSFr(args.f);
 } else {
     console.error('no file selected');
 }

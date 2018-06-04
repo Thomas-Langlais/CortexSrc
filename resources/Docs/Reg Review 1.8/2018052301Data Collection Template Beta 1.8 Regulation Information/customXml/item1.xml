@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?><?mso-infoPathSolution name="urn:schemas-microsoft-com:office:infopath:20180510:-myXSD-2018-05-07T13-30-50" href="manifest.xsf" solutionVersion="1.0.0.77" productVersion="15.0.0" PIVersion="1.0.0.0" ?><?mso-application progid="InfoPath.Document" versionProgid="InfoPath.Document.4"?><my:myFields xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2018-05-07T13:30:50" xmlns:xd="http://schemas.microsoft.com/office/infopath/2003">
+	<my:OrganizationID></my:OrganizationID>
+	<my:DoYouAdministerAnActOrRegulation></my:DoYouAdministerAnActOrRegulation>
+	<my:RegSet>
+		<my:RegSetTitleAndDescription>
+			<my:IndividualRegOrSet></my:IndividualRegOrSet>
+			<my:TitleOfRegulationSetOrIndividualReg></my:TitleOfRegulationSetOrIndividualReg>
+			<my:SubjectMatterDomain></my:SubjectMatterDomain>
+			<my:NAICSCode></my:NAICSCode>
+			<my:Description></my:Description>
+			<my:Rationale></my:Rationale>
+			<my:Importance></my:Importance>
+			<my:CompositionOfRegulatuionSet>
+				<my:Acts xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2018-05-07T13:30:50">
+					<my:ActID></my:ActID>
+					<my:YearEnacted></my:YearEnacted>
+					<my:ResponsibleMinister xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2018-05-07T13:30:50">
+						<my:TitleOfMinister></my:TitleOfMinister>
+						<my:LeadMinister></my:LeadMinister>
+						<my:field1></my:field1>
+					</my:ResponsibleMinister>
+					<my:ResponsibleDeputyHead>
+						<my:NameOfDeputyHead></my:NameOfDeputyHead>
+						<my:TitleOfDeputyHead></my:TitleOfDeputyHead>
+						<my:LeadDeputyHead></my:LeadDeputyHead>
+					</my:ResponsibleDeputyHead>
+					
+				<my:RegulationsUnderAct xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2018-05-07T13:30:50"><my:RegulationId></my:RegulationId><my:ProportionOfRegsetAttribution></my:ProportionOfRegsetAttribution><my:AutomaticlegislativeOrRegulatoryReviewClause><my:AutomaticRegReviewCaluseIndicator></my:AutomaticRegReviewCaluseIndicator><my:Frequency></my:Frequency><my:StatutoryProvision></my:StatutoryProvision><my:TitleOfStatutoryProvision></my:TitleOfStatutoryProvision></my:AutomaticlegislativeOrRegulatoryReviewClause></my:RegulationsUnderAct></my:Acts>
+			</my:CompositionOfRegulatuionSet>
+			<my:RegSetPolicyFeatures>
+				<my:YearOfLastModification>
+					<my:YearOfLastModificationYYYY xsi:nil="true"></my:YearOfLastModificationYYYY>
+					<my:NatureOfModificationREFERENCE></my:NatureOfModificationREFERENCE>
+					<my:LinkToCanadaGazette></my:LinkToCanadaGazette>
+				</my:YearOfLastModification>
+				<my:YearOfLastComprehensiveReview>
+					<my:YearOfLAstComprehensiveReviewYYY>2018-01-01T00:00:00</my:YearOfLAstComprehensiveReviewYYY>
+					<my:ObjectOfReview></my:ObjectOfReview>
+					<my:PartOfStatutoryReview>false</my:PartOfStatutoryReview>
+					<my:OtherRegulationAndOrNonRegulationInstruments></my:OtherRegulationAndOrNonRegulationInstruments>
+					<my:Consultations>
+						<my:TypeOfConsultations>
+							<my:PublicConsultations>false</my:PublicConsultations>
+							<my:StakeholderConsultations>false</my:StakeholderConsultations>
+							<my:GovernmentConsultations>false</my:GovernmentConsultations>
+							<my:OtherConsultations>false</my:OtherConsultations>
+							<my:OtherConsultationsDescription></my:OtherConsultationsDescription>
+						</my:TypeOfConsultations>
+						<my:MechanismOfConsultation>
+							<my:InPerson>false</my:InPerson>
+							<my:Online>false</my:Online>
+							<my:WrittenSubmission>false</my:WrittenSubmission>
+							<my:OtherConsultationMechanism>false</my:OtherConsultationMechanism>
+							<my:OtherConsulatationMechanismDescription></my:OtherConsulatationMechanismDescription>
+						</my:MechanismOfConsultation>
+						<my:LinkToWhatWeHeardDocument></my:LinkToWhatWeHeardDocument>
+						<my:LinkToConsultationDocument></my:LinkToConsultationDocument>
+						<my:LengthOfTimeForConsultations></my:LengthOfTimeForConsultations>
+					</my:Consultations>
+					<my:ResourcesForReview>
+						<my:LengthOfTImeForComprehensiveChanges></my:LengthOfTImeForComprehensiveChanges>
+						<my:LengthOfTImeForSpecificChanges></my:LengthOfTImeForSpecificChanges>
+						<my:LengthOfTImeForTechnicalChanges></my:LengthOfTImeForTechnicalChanges>
+						<my:NumberOfFTEYears></my:NumberOfFTEYears>
+					</my:ResourcesForReview>
+				</my:YearOfLastComprehensiveReview>
+				<my:PerformanceEvaluation>
+					<my:IndicatorsForEvaluationRegulatoryPerformance></my:IndicatorsForEvaluationRegulatoryPerformance>
+					<my:LinkToEvaluationPlan></my:LinkToEvaluationPlan>
+				</my:PerformanceEvaluation>
+				<my:RegulatoryModernization>
+					<my:StatementOfRegulatoryBestPractice>false</my:StatementOfRegulatoryBestPractice>
+					<my:LinkToStatementOfRegulatoryBestPractice></my:LinkToStatementOfRegulatoryBestPractice>
+					<my:IncorporationByReference>
+						<my:IncorporatedReferenceUsedIndicator>false</my:IncorporatedReferenceUsedIndicator>
+						<my:TypeOfIncorporatedReferenceUsed>Yes</my:TypeOfIncorporatedReferenceUsed>
+						<my:DescribeTheExtentToWhichIncorporationOfStandardsOrDocumentsAreNotAccredited></my:DescribeTheExtentToWhichIncorporationOfStandardsOrDocumentsAreNotAccredited>
+						<my:ListOfIncorporatedDocuments>
+							<my:ResponsibleOfficialName></my:ResponsibleOfficialName>
+							<my:ResponsibleOfficialEmail></my:ResponsibleOfficialEmail>
+							<my:IncorporatedDocumentLink></my:IncorporatedDocumentLink>
+						</my:ListOfIncorporatedDocuments>
+					</my:IncorporationByReference>
+					<my:CurrentUsageOfMethods>
+						<my:IncorporationByReferenceUsed>false</my:IncorporationByReferenceUsed>
+						<my:SystemsBasedUsed>false</my:SystemsBasedUsed>
+						<my:PerformanceBasedUsed>false</my:PerformanceBasedUsed>
+						<my:RecognitionOfThirdPartyPrivateStandardsInRegulationsUsed>false</my:RecognitionOfThirdPartyPrivateStandardsInRegulationsUsed>
+						<my:InternationalRegulatoryCooperationIntegratedInRegulationsUsed>false</my:InternationalRegulatoryCooperationIntegratedInRegulationsUsed>
+						<my:ProvincialTerritorialRegulatoryCooperationIntegratedInRegulationsUsed>false</my:ProvincialTerritorialRegulatoryCooperationIntegratedInRegulationsUsed>
+						<my:RegulatorySandboxUsed>false</my:RegulatorySandboxUsed>
+						<my:DescribeCurrentUsesOfRegulatorySandboxUsed></my:DescribeCurrentUsesOfRegulatorySandboxUsed>
+						<my:OtherMethodsUsed>false</my:OtherMethodsUsed>
+						<my:DescripbeOtherMethodsUsed></my:DescripbeOtherMethodsUsed>
+					</my:CurrentUsageOfMethods>
+					<my:PlannedUsageOfMethods>
+						<my:IncorporationByReferencePlanned>false</my:IncorporationByReferencePlanned>
+						<my:SystemsBasedPlanned>false</my:SystemsBasedPlanned>
+						<my:PerformanceBasedPlanned>false</my:PerformanceBasedPlanned>
+						<my:RecognitionOfThirdPartyPrivateStandardsInRegulationsPlanned>false</my:RecognitionOfThirdPartyPrivateStandardsInRegulationsPlanned>
+						<my:InternationalRegulatoryCooperationIntegratedInRegulationsPlanned>false</my:InternationalRegulatoryCooperationIntegratedInRegulationsPlanned>
+						<my:ProvincialTerritorialRegulatoryCooperationIntegratedInRegulationsPlanned>false</my:ProvincialTerritorialRegulatoryCooperationIntegratedInRegulationsPlanned>
+						<my:RegulatorySandboxPlanned>false</my:RegulatorySandboxPlanned>
+						<my:DesccribeRegulatorySandboxPlanned></my:DesccribeRegulatorySandboxPlanned>
+						<my:OtherMethodsPlanned>false</my:OtherMethodsPlanned>
+						<my:DesccribeOtherRegulatoryMethodsPlanned></my:DesccribeOtherRegulatoryMethodsPlanned>
+					</my:PlannedUsageOfMethods>
+					<my:RepealedRegulation>
+						<my:RegulationHasBeenRepealedAndNotReplaced>false</my:RegulationHasBeenRepealedAndNotReplaced>
+						<my:RepealedNotReplacedRationale></my:RepealedNotReplacedRationale>
+					</my:RepealedRegulation>
+					<my:DescriptionOfBestPracticesSupportingSMEs></my:DescriptionOfBestPracticesSupportingSMEs>
+					<my:DescriptionOfAnyOtherBestPracticesSupportingInnovation></my:DescriptionOfAnyOtherBestPracticesSupportingInnovation>
+					<my:DescriptionOfChallengesOrConstraintsToRegulatoryModernization></my:DescriptionOfChallengesOrConstraintsToRegulatoryModernization>
+					<my:DescribeHowAlignmentToConsiderationWIthOtherJurisdictionsAreUndertakenWhenDevelopingRegulations></my:DescribeHowAlignmentToConsiderationWIthOtherJurisdictionsAreUndertakenWhenDevelopingRegulations>
+					<my:OtherModernizationConsiderations></my:OtherModernizationConsiderations>
+				</my:RegulatoryModernization>
+				<my:DataHoldings>
+					<my:DatabaseOnRegulatedParties xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2018-05-07T13:30:50"><my:NameOfDatabase></my:NameOfDatabase><my:DescriptionOfDatabase></my:DescriptionOfDatabase><my:NameOfDatabaseOfficial></my:NameOfDatabaseOfficial><my:TitleOfDatabaseOfficial></my:TitleOfDatabaseOfficial><my:EmailOfDatabaseOfficial></my:EmailOfDatabaseOfficial><my:PurposeOfDatabase><my:DBForRiskAssessment></my:DBForRiskAssessment><my:DBForPermissions></my:DBForPermissions><my:DBForComplianceVerification></my:DBForComplianceVerification><my:DBForEnforcement></my:DBForEnforcement><my:DBForPublicReporting></my:DBForPublicReporting><my:DBForOtherPurposes></my:DBForOtherPurposes><my:DBOtherPurposeDescription></my:DBOtherPurposeDescription></my:PurposeOfDatabase><my:DBRelatedToBusiness><my:DBHoldsInformationRelatedToBusiness></my:DBHoldsInformationRelatedToBusiness><my:DBUsesBusinessRegistrationNumbers></my:DBUsesBusinessRegistrationNumbers><my:DBUsesNAICSCodes></my:DBUsesNAICSCodes></my:DBRelatedToBusiness><my:DBHoldsInformationRelatedToIndividuals></my:DBHoldsInformationRelatedToIndividuals><my:Infosource><my:InfosourceIndicator>false</my:InfosourceIndicator><my:InfosourceLink></my:InfosourceLink></my:Infosource></my:DatabaseOnRegulatedParties>
+				</my:DataHoldings>
+				<my:UpComingRegulatoryAgenda>
+					<my:TopPrioritiesForRegulatoryModernization></my:TopPrioritiesForRegulatoryModernization>
+					<my:DescribeAnyCurrentAndOrForeseeableResourcePressuresOnTheOrganizationToDeliverOnTopPrioritiesPlansAndOrForRegulatoryMod></my:DescribeAnyCurrentAndOrForeseeableResourcePressuresOnTheOrganizationToDeliverOnTopPrioritiesPlansAndOrForRegulatoryMod>
+					<my:DescribePlansForRegulatoryModernizationIfUnconstrainedByTimeaaResourcesOrProcesses></my:DescribePlansForRegulatoryModernizationIfUnconstrainedByTimeaaResourcesOrProcesses>
+					<my:Fall2018OmnibusSubmissionForRegulatoryChange>
+						<my:InterestedInFall2018OmnibusSubmission>false</my:InterestedInFall2018OmnibusSubmission>
+						<my:DescriptionOfNatureOfChangeIncludingSystemAndOrTechnicalChanges></my:DescriptionOfNatureOfChangeIncludingSystemAndOrTechnicalChanges>
+					</my:Fall2018OmnibusSubmissionForRegulatoryChange>
+					<my:OtherCommentsOnUpcomingRegluatoryAgenda></my:OtherCommentsOnUpcomingRegluatoryAgenda>
+				</my:UpComingRegulatoryAgenda>
+				<my:OtherCommentsOnRegSetPolicyFeatures></my:OtherCommentsOnRegSetPolicyFeatures>
+				<my:RegSetContacts>
+					<my:Name></my:Name>
+					<my:Title></my:Title>
+					<my:Email></my:Email>
+					<my:Role></my:Role>
+				</my:RegSetContacts>
+			</my:RegSetPolicyFeatures>
+			<my:RegSetManagement>
+				<my:RiskAssessmentFunction>
+					<my:FormalRiskAssessmantFunction>false</my:FormalRiskAssessmantFunction>
+					<my:FormalRiskAssessmentProcess>false</my:FormalRiskAssessmentProcess>
+					<my:NatureOfTheRiskAssessment>
+						<my:InternalRiskAssessment>false</my:InternalRiskAssessment>
+						<my:QuantitativeMeasure>false</my:QuantitativeMeasure>
+						<my:InformedByExternalRiskManagementExperts>false</my:InformedByExternalRiskManagementExperts>
+						<my:PeerReviewedByRegulatoryCommunity>false</my:PeerReviewedByRegulatoryCommunity>
+						<my:OtherRiskAssessmentFeature>false</my:OtherRiskAssessmentFeature>
+						<my:OtherRiskAssessmentDescription></my:OtherRiskAssessmentDescription>
+					</my:NatureOfTheRiskAssessment>
+				</my:RiskAssessmentFunction>
+				<my:RiskManagementFunction>
+					<my:ThereIsAnExplicitRiskManagmentFunction>false</my:ThereIsAnExplicitRiskManagmentFunction>
+					<my:TheRiskManagmentFunctionIsSeparateFromOtherFunctions>false</my:TheRiskManagmentFunctionIsSeparateFromOtherFunctions>
+					<my:DescribePrimaryRiskManagementTools></my:DescribePrimaryRiskManagementTools>
+				</my:RiskManagementFunction>
+				<my:PermissionFunction>
+					<my:ThereIsAPermissionsFunction>false</my:ThereIsAPermissionsFunction>
+					<my:AnnualVolumeOfPermissions></my:AnnualVolumeOfPermissions>
+					<my:ExAntePermissionsFunction>false</my:ExAntePermissionsFunction>
+					<my:Describethelevelofconfidanceinthepermissionsfunctioninservingthepopulationsubjecttotheregulation></my:Describethelevelofconfidanceinthepermissionsfunctioninservingthepopulationsubjecttotheregulation>
+					<my:OtherPermissionsFunctionsComments></my:OtherPermissionsFunctionsComments>
+				</my:PermissionFunction>
+				<my:CompliancePromotionFunction>
+					<my:CompliancePromotionFunctionIndicator>false</my:CompliancePromotionFunctionIndicator>
+					<my:CompliancePromotionActivities>
+						<my:ComplianceInformation>
+							<my:ComplianceInformationIndicator>false</my:ComplianceInformationIndicator>
+							<my:ComplianceInformationURL></my:ComplianceInformationURL>
+						</my:ComplianceInformation>
+						<my:ComplianceGuidance>
+							<my:ComplianceGuidanceIndicator>false</my:ComplianceGuidanceIndicator>
+							<my:ComplianceGuidanceURL></my:ComplianceGuidanceURL>
+						</my:ComplianceGuidance>
+						<my:ComplianceOnlineServiceTools>
+							<my:ComplianceOnlineServiceToolsIndicator>false</my:ComplianceOnlineServiceToolsIndicator>
+							<my:ComplianceOnlineServiceToolsURL></my:ComplianceOnlineServiceToolsURL>
+						</my:ComplianceOnlineServiceTools>
+						<my:ComplianceOnlineOrInPersonAssistance>
+							<my:ComplianceOnlineOrInPersonAssistanceIndicator>false</my:ComplianceOnlineOrInPersonAssistanceIndicator>
+							<my:ComplianceOnlineOrInPersonAssistanceURL></my:ComplianceOnlineOrInPersonAssistanceURL>
+						</my:ComplianceOnlineOrInPersonAssistance>
+						<my:ComplianceOtherTools></my:ComplianceOtherTools>
+					</my:CompliancePromotionActivities>
+				</my:CompliancePromotionFunction>
+				<my:ComplianceVerificationFunction>
+					<my:ComplianceVerificationIndicator>false</my:ComplianceVerificationIndicator>
+					<my:ComplianceVerificationNameOfAdministrativeOrganization></my:ComplianceVerificationNameOfAdministrativeOrganization>
+					<my:ComplianceVerificationNameOfOfficial></my:ComplianceVerificationNameOfOfficial>
+					<my:ComplianceVerificationEmailOfOfficial></my:ComplianceVerificationEmailOfOfficial>
+					<my:ComplianceVerificationLevelOfDelegation></my:ComplianceVerificationLevelOfDelegation>
+					<my:ComplianceVerificationCrossDesignation>
+						<my:ComplianceVerificationCrossDesignationIndicator>false</my:ComplianceVerificationCrossDesignationIndicator>
+						<my:ComplianceVerificationCrossDesignationOrganizationType></my:ComplianceVerificationCrossDesignationOrganizationType>
+					</my:ComplianceVerificationCrossDesignation>
+				</my:ComplianceVerificationFunction>
+				<my:EnforcementFunction>
+					<my:EnforcementFunctionIndicator>false</my:EnforcementFunctionIndicator>
+					<my:EnforcementFunctionDisclosure>
+						<my:EnforcementFunctionDisclosureIndicator>false</my:EnforcementFunctionDisclosureIndicator>
+						<my:EnforcementFunctionDisclosureFrequencyOfUse></my:EnforcementFunctionDisclosureFrequencyOfUse>
+					</my:EnforcementFunctionDisclosure>
+					<my:EnforcementFunctionAdminMonetaryPenalty>
+						<my:EnforcementFunctionAdminMonetaryPenaltyIndicator>false</my:EnforcementFunctionAdminMonetaryPenaltyIndicator>
+						<my:EnforcementFunctionAdminMonetaryPenaltyFrequencyOfUse></my:EnforcementFunctionAdminMonetaryPenaltyFrequencyOfUse>
+					</my:EnforcementFunctionAdminMonetaryPenalty>
+					<my:EnforcementFunctionCriminalProsecution>
+						<my:EnforcementFunctionCriminalProsecutionIndicator>false</my:EnforcementFunctionCriminalProsecutionIndicator>
+						<my:EnforcementFunctionCriminalProsecutionFrequencyOfUse></my:EnforcementFunctionCriminalProsecutionFrequencyOfUse>
+					</my:EnforcementFunctionCriminalProsecution>
+					<my:EnforcementFunctionOther>
+						<my:EnforcementFunctionOtherIndicator>false</my:EnforcementFunctionOtherIndicator>
+						<my:EnforcementFunctionOtherDescription></my:EnforcementFunctionOtherDescription>
+						<my:EnforcementFunctionOtherFrequencyOfUse></my:EnforcementFunctionOtherFrequencyOfUse>
+					</my:EnforcementFunctionOther>
+				</my:EnforcementFunction>
+				<my:AppealsFunction>
+					<my:AppealsFunctionIndicator>false</my:AppealsFunctionIndicator>
+					<my:AppealsFunctionFreequencyOfUse>Use 4 pt Licard scale</my:AppealsFunctionFreequencyOfUse>
+					<my:AppealsFunctionOfficialName></my:AppealsFunctionOfficialName>
+					<my:AppealsFunctionOfficialTitle></my:AppealsFunctionOfficialTitle>
+					<my:AppealsFunctionOfficialEmail></my:AppealsFunctionOfficialEmail>
+					<my:AppealsFunctionNatureOfAppeals>
+						<my:AppealsFunctionNatureOfAppealsBinding>false</my:AppealsFunctionNatureOfAppealsBinding>
+						<my:AppealsFunctionNatureOfAppealsNonBinding>false</my:AppealsFunctionNatureOfAppealsNonBinding>
+					</my:AppealsFunctionNatureOfAppeals>
+				</my:AppealsFunction>
+				<my:RegSetManDataAnalytics>
+					<my:RegSetManDataAnalyticsIndicator>false</my:RegSetManDataAnalyticsIndicator>
+					<my:RegSetManDataAnalyticsDescription></my:RegSetManDataAnalyticsDescription>
+				</my:RegSetManDataAnalytics>
+				<my:RegSetManagementOtherComments></my:RegSetManagementOtherComments>
+			</my:RegSetManagement>
+			<my:RegSetFinancialInformation>
+				<my:TotalOrganizationalExpenditures5Years>
+					<my:ByAuthorityType>
+						<my:AuthorityType></my:AuthorityType>
+						<my:Dollars201213 xsi:nil="true"></my:Dollars201213>
+						<my:Dollars201314 xsi:nil="true"></my:Dollars201314>
+						<my:Dollars201415 xsi:nil="true"></my:Dollars201415>
+						<my:Dollars201516 xsi:nil="true"></my:Dollars201516>
+						<my:Dollars201617 xsi:nil="true"></my:Dollars201617>
+					</my:ByAuthorityType>
+				</my:TotalOrganizationalExpenditures5Years>
+				<my:TotalOrganizationalFTEs>
+					<my:FTE201213 xsi:nil="true"></my:FTE201213>
+					<my:FTE201314 xsi:nil="true"></my:FTE201314>
+					<my:FTE201415 xsi:nil="true"></my:FTE201415>
+					<my:FTE201516 xsi:nil="true"></my:FTE201516>
+					<my:FTE201617 xsi:nil="true"></my:FTE201617>
+				</my:TotalOrganizationalFTEs>
+				<my:TotalExpendituresOnEachRegulatoryFunction5Years>
+					<my:ByRegulatoryFunction>
+						<my:RegulatoryFunction></my:RegulatoryFunction>
+						<my:RegFunDollars201213 xsi:nil="true"></my:RegFunDollars201213>
+						<my:RegFunDollars201314 xsi:nil="true"></my:RegFunDollars201314>
+						<my:RegFunDollars201415 xsi:nil="true"></my:RegFunDollars201415>
+						<my:RegFunDollars201516 xsi:nil="true"></my:RegFunDollars201516>
+						<my:RegFunDollars201617 xsi:nil="true"></my:RegFunDollars201617>
+					</my:ByRegulatoryFunction>
+				</my:TotalExpendituresOnEachRegulatoryFunction5Years>
+				<my:TotalFTEsByRegFunction>
+					<my:ByRegFunctionBreakdown>
+						<my:RegFunFTEGroup></my:RegFunFTEGroup>
+						<my:RegFunFTE201213 xsi:nil="true"></my:RegFunFTE201213>
+						<my:RegFunFTE201314 xsi:nil="true"></my:RegFunFTE201314>
+						<my:RegFunFTE201415 xsi:nil="true"></my:RegFunFTE201415>
+						<my:RegFunFTE201516 xsi:nil="true"></my:RegFunFTE201516>
+						<my:RegFunFTE201617 xsi:nil="true"></my:RegFunFTE201617>
+					</my:ByRegFunctionBreakdown>
+				</my:TotalFTEsByRegFunction>
+			</my:RegSetFinancialInformation>
+		</my:RegSetTitleAndDescription>
+	</my:RegSet>
+	<my:Signatures>
+		<my:CFOAttestationIndicator>false</my:CFOAttestationIndicator>
+		<my:CFOAttestationName/>
+		<my:CFOAttestationTitle/>
+		<my:CFOAttestationDate/>
+		<my:ExecutiveAttestationindicator>false</my:ExecutiveAttestationindicator>
+		<my:ExecutiveAttestationName></my:ExecutiveAttestationName>
+		<my:ExecutiveAttestationTitle></my:ExecutiveAttestationTitle>
+		<my:ExecutiveAttestationDate xsi:nil="true"></my:ExecutiveAttestationDate>
+	</my:Signatures>
+</my:myFields>
