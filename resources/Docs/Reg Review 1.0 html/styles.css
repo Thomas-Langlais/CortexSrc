@@ -48,19 +48,6 @@
     margin-left: 100px
 }
 
-.input-container {
-    padding-bottom: 3px;
-    margin-bottom: 3px
-}
-
-
-.light-card {
-    padding: 3px;
-    margin: 3px;
-    border: 0.5px solid #DDDDDD;
-    border-radius: 4px;
-}
-
 .insert-button-container {
     text-align: right;
     margin-bottom: 10px
@@ -181,7 +168,53 @@ body {
     counter-reset: step-counter;
 }
 
-div.input-container > label:before, div.input-container > span:before {
+table {
+    width: 80%;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #f5f5f5;
+    color: black;
+    font-size: 15px;
+}
+
+th, td {
+    border: 1px solid #000;
+    padding: 5px 3px;
+}
+
+td, td select {
+    max-width: 500px;;
+}
+
+table .invisible {
+    border: none;
+}
+
+#links {
+    display: block;
+    position: relative;
+}
+
+#links > div > button {
+    clear: both;
+}
+
+#links > button {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.no-float {
+    float: none;
+}
+
+.numbered:before {
     content: counter(step-counter);
     counter-increment: step-counter;
     margin-right: 1px;
@@ -194,26 +227,23 @@ div.input-container > label:before, div.input-container > span:before {
     display: block;
 }
 
-.table {
-    display: table;
-    width: 100%;
+.input-container {
+    padding-bottom: 3px;
+    margin-bottom: 3px
 }
 
-.table .heading {
-    background-color: #AAAAAA;
-    border-color: rgb(0, 0, 0);
-    border-style: solid;
-    border-width: 3px;
+.input-container label {
+    display: block;
+}
+/* 
+.input-container > * {
+    margin-left: 25px;
+} */
+
+.checkbox-container > * {
+    margin-left: 50px;
 }
 
-.row {
-    display: table-row;
-    width: auto;
-    clear: both;
-}
-
-.cell {
-    width: 50%;
-    display: table-column;
-    float: left;
+.checkbox-container > * > input[type=text] {
+    margin-left: 20px;
 }
