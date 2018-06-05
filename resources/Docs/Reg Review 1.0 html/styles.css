@@ -163,14 +163,6 @@ input:-ms-input-placeholder {
 .content {
     margin-top: 5px;
 }
-/* .help-block {
-    opacity: .6
-} */
-
-
-div.repeating-regulation-information ol {
-    -webkit-padding-start: 0;
-}
 
 .part-one div.repeating-regulation-information {
     width: 80%
@@ -189,20 +181,6 @@ body {
     counter-reset: step-counter;
 }
 
-ol {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-ol li:before {
-    content: counter(step-counter);
-    counter-increment: step-counter;
-    margin-right: 1px;
-    font-size: 100%;
-    color: rgb(7, 197, 255);
-    padding: 3px 4px 3px 8px;
-}
-
 div.input-container > label:before, div.input-container > span:before {
     content: counter(step-counter);
     counter-increment: step-counter;
@@ -214,4 +192,28 @@ div.input-container > label:before, div.input-container > span:before {
 
 .input-container > select {
     display: block;
+}
+
+.table {
+    display: table;
+    width: 100%;
+}
+
+.table .heading {
+    background-color: #AAAAAA;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 3px;
+}
+
+.row {
+    display: table-row;
+    width: auto;
+    clear: both;
+}
+
+.cell {
+    width: 50%;
+    display: table-column;
+    float: left;
 }
